@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VY4gFEPpb6tMIRuwNyhhCKW8BPaycED+BWkqpkqBk/xZecZihBKKdWpI/djgyl+2xFaKFolislqjR51i0Rc3bw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Web\\OnMyPlate.Web.Infrastructure\\OnMyPlate.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vladi\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.205\\stylecop.analyzers.1.2.0-beta.205.nupkg.sha512",
+    "C:\\Users\\Vladi\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.205\\stylecop.analyzers.unstable.1.2.0.205.nupkg.sha512"
+  ],
+  "logs": []
+}

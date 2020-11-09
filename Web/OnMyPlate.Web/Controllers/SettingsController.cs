@@ -14,9 +14,9 @@
     {
         private readonly ISettingsService settingsService;
 
-        private readonly IDeletableEntityRepository<Setting> repository;
+        private readonly IDeletableEntityRepository<City> repository;
 
-        public SettingsController(ISettingsService settingsService, IDeletableEntityRepository<Setting> repository)
+        public SettingsController(ISettingsService settingsService, IDeletableEntityRepository<City> repository)
         {
             this.settingsService = settingsService;
             this.repository = repository;
@@ -32,7 +32,7 @@
         public async Task<IActionResult> InsertSetting()
         {
             var random = new Random();
-            var setting = new Setting { Name = $"Name_{random.Next()}", Value = $"Value_{random.Next()}" };
+            var setting = new City { Name = $"Name_{random.Next()}", Value = $"Value_{random.Next()}" };
 
             await this.repository.AddAsync(setting);
             await this.repository.SaveChangesAsync();

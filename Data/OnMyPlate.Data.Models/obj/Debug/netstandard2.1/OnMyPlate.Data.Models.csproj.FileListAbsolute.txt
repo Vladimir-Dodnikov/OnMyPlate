@@ -1,0 +1,12 @@
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\bin\Debug\netstandard2.1\OnMyPlate.Data.Models.deps.json
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\bin\Debug\netstandard2.1\OnMyPlate.Data.Models.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\bin\Debug\netstandard2.1\OnMyPlate.Data.Models.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\bin\Debug\netstandard2.1\OnMyPlate.Data.Common.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\bin\Debug\netstandard2.1\OnMyPlate.Data.Common.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.csprojAssemblyReference.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.AssemblyInfo.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.csproj.CopyComplete
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data.Models\obj\Debug\netstandard2.1\OnMyPlate.Data.Models.pdb
