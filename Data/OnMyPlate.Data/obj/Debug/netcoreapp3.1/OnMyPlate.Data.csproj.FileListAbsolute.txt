@@ -1,3 +1,7 @@
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.csprojAssemblyReference.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.AssemblyInfoInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.AssemblyInfo.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.csproj.CoreCompileInputs.cache
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Data.deps.json
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Data.runtimeconfig.json
@@ -10,10 +14,6 @@ C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnM
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Common.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Common.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Models.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.csprojAssemblyReference.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.AssemblyInfoInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.AssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.csproj.CoreCompileInputs.cache
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.csproj.CopyComplete
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.dll
 C:\Users\Vladi\Desktop\OnMyPlate\Data\OnMyPlate.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Data.pdb

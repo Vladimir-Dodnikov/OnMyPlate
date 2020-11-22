@@ -6,11 +6,12 @@
     using System.Threading;
     using System.Threading.Tasks;
 
-    using OnMyPlate.Data.Common.Models;
-    using OnMyPlate.Data.Models;
-
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using OnMyPlate.Data.Common.Models;
+    using OnMyPlate.Data.Models;
+    using OnMyPlate.Data.Models.Comments;
+    using OnMyPlate.Data.Models.Places;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
@@ -24,7 +25,39 @@
         {
         }
 
-        public DbSet<City> Settings { get; set; }
+        // Places
+        public DbSet<Cuisine> Cuisines { get; set; }
+
+        public DbSet<Music> Musics { get; set; }
+
+        public DbSet<Payment> Payments { get; set; }
+
+        public DbSet<Seat> Seats { get; set; }
+
+        public DbSet<Place> Places { get; set; }
+
+        // Comments
+        public DbSet<Message> Messages { get; set; }
+
+        public DbSet<Post> Posts { get; set; }
+
+        public DbSet<PostReaction> PostReactions { get; set; }
+
+        public DbSet<PostReport> PostReports { get; set; }
+
+        public DbSet<PostTag> PostsTags { get; set; }
+
+        public DbSet<Reply> Replies { get; set; }
+
+        public DbSet<ReplyReaction> ReplyReactions { get; set; }
+
+        public DbSet<ReplyReport> ReplyReports { get; set; }
+
+        public DbSet<Tag> Tags { get; set; }
+
+        public DbSet<UserFollower> UsersFollowers { get; set; }
+
+        public DbSet<Setting> Settings { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 

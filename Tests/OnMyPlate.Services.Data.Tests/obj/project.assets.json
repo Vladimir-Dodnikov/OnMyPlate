@@ -2635,7 +2635,7 @@
       },
       "OnMyPlate.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/OnMyPlate.Common.dll": {}
         },
@@ -2663,7 +2663,7 @@
       },
       "OnMyPlate.Data.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.7.0"
         },
@@ -2676,7 +2676,7 @@
       },
       "OnMyPlate.Data.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
           "OnMyPlate.Data.Common": "1.0.0"
@@ -2690,7 +2690,7 @@
       },
       "OnMyPlate.Services.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "OnMyPlate.Data.Common": "1.0.0",
           "OnMyPlate.Data.Models": "1.0.0",
@@ -2705,7 +2705,7 @@
       },
       "OnMyPlate.Services.Mapping/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper": "10.1.1"
         },

@@ -3,9 +3,8 @@
     using System;
     using System.Threading.Tasks;
 
-    using OnMyPlate.Data.Common;
-
     using Microsoft.EntityFrameworkCore;
+    using OnMyPlate.Data.Common;
 
     public class DbQueryRunner : IDbQueryRunner
     {

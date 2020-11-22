@@ -1,9 +1,0 @@
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\bin\Debug\netstandard2.1\OnMyPlate.Services.Messaging.deps.json
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\bin\Debug\netstandard2.1\OnMyPlate.Services.Messaging.dll
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\bin\Debug\netstandard2.1\OnMyPlate.Services.Messaging.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.csprojAssemblyReference.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.AssemblyInfoInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.AssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.csproj.CoreCompileInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.dll
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Messaging\obj\Debug\netstandard2.1\OnMyPlate.Services.Messaging.pdb

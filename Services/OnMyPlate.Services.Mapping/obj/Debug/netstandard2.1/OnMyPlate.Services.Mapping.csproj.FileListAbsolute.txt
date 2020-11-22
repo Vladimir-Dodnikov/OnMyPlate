@@ -1,9 +1,0 @@
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\bin\Debug\netstandard2.1\OnMyPlate.Services.Mapping.deps.json
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\bin\Debug\netstandard2.1\OnMyPlate.Services.Mapping.dll
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\bin\Debug\netstandard2.1\OnMyPlate.Services.Mapping.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.csprojAssemblyReference.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.AssemblyInfoInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.AssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.csproj.CoreCompileInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.dll
-C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Mapping\obj\Debug\netstandard2.1\OnMyPlate.Services.Mapping.pdb

@@ -3,9 +3,8 @@ namespace OnMyPlate.Data.Models
 {
     using System;
 
-    using OnMyPlate.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using OnMyPlate.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {

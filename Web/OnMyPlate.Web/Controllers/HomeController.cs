@@ -2,9 +2,8 @@
 {
     using System.Diagnostics;
 
-    using OnMyPlate.Web.ViewModels;
-
     using Microsoft.AspNetCore.Mvc;
+    using OnMyPlate.Web.ViewModels;
 
     public class HomeController : BaseController
     {

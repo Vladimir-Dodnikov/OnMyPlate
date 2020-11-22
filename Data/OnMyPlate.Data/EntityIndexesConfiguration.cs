@@ -2,9 +2,8 @@
 {
     using System.Linq;
 
-    using OnMyPlate.Data.Common.Models;
-
     using Microsoft.EntityFrameworkCore;
+    using OnMyPlate.Data.Common.Models;
 
     internal static class EntityIndexesConfiguration
     {

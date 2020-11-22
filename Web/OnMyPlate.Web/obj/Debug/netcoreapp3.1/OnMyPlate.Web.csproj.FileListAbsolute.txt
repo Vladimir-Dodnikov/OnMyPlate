@@ -1,3 +1,10 @@
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.csprojAssemblyReference.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.AssemblyInfoInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.AssemblyInfo.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.csproj.CoreCompileInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.RazorAssemblyInfo.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.RazorAssemblyInfo.cs
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\bundleconfig.json
@@ -423,14 +430,6 @@ C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\OnMyP
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\OnMyPlate.Web.Infrastructure.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Common.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.csprojAssemblyReference.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.AssemblyInfoInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.AssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.csproj.CoreCompileInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.RazorAssemblyInfo.cache
-C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.RazorAssemblyInfo.cs
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.TagHelpers.input.cache
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.TagHelpers.output.cache
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.RazorCoreGenerate.cache

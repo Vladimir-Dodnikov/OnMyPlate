@@ -5,6 +5,11 @@
     using System.IO;
     using System.Threading.Tasks;
 
+    using CommandLine;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
     using OnMyPlate.Data;
     using OnMyPlate.Data.Common;
     using OnMyPlate.Data.Common.Repositories;
@@ -13,13 +18,6 @@
     using OnMyPlate.Data.Seeding;
     using OnMyPlate.Services.Data;
     using OnMyPlate.Services.Messaging;
-
-    using CommandLine;
-
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Logging;
 
     public static class Program
     {

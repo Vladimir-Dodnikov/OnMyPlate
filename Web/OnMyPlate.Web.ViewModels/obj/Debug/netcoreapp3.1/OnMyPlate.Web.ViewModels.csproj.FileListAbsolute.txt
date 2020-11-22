@@ -1,0 +1,16 @@
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.csprojAssemblyReference.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.AssemblyInfo.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.deps.json
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Common.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Models.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Services.Mapping.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Models.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Services.Mapping.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Data.Common.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.csproj.CopyComplete
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.pdb

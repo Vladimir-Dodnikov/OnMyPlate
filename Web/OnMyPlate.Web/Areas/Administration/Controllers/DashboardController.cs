@@ -1,9 +1,8 @@
 ﻿namespace OnMyPlate.Web.Areas.Administration.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
     using OnMyPlate.Services.Data;
     using OnMyPlate.Web.ViewModels.Administration.Dashboard;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class DashboardController : AdministrationController
     {

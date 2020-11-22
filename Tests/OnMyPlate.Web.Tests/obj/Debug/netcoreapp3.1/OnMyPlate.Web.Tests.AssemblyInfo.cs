@@ -12,8 +12,20 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Data", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data", "OnMyPlate.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Web", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Web\\OnMyPlate.Web", "OnMyPlate.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\OnMyPlate.Common", "OnMyPlate.Common.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Common", "OnMyPlate.Data.Common.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data", "OnMyPlate.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Models", "OnMyPlate.Data.Models.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Services\\OnMyPlate.Services.Data", "OnMyPlate.Services.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Services\\OnMyPlate.Services", "OnMyPlate.Services.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
+    "", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Services\\OnMyPlate.Services.Mapping", "OnMyPlate.Services.Mapping.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
+    "ll", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Services\\OnMyPlate.Services.Messaging", "OnMyPlate.Services.Messaging.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Web\\OnMyPlate.Web", "OnMyPlate.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
+    "ll", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Web\\OnMyPlate.Web.Infrastructure", "OnMyPlate.Web.Infrastructure.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OnMyPlate.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Web\\OnMyPlate.Web.ViewModels", "OnMyPlate.Web.ViewModels.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnMyPlate.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
