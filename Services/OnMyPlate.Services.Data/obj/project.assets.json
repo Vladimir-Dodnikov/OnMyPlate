@@ -330,6 +330,16 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "OnMyPlate.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OnMyPlate.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnMyPlate.Common.dll": {}
+        }
+      },
       "OnMyPlate.Data.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -348,6 +358,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
+          "OnMyPlate.Common": "1.0.0",
           "OnMyPlate.Data.Common": "1.0.0"
         },
         "compile": {
@@ -1062,6 +1073,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "OnMyPlate.Common/1.0.0": {
+      "type": "project",
+      "path": "../../OnMyPlate.Common/OnMyPlate.Common.csproj",
+      "msbuildProject": "../../OnMyPlate.Common/OnMyPlate.Common.csproj"
     },
     "OnMyPlate.Data.Common/1.0.0": {
       "type": "project",

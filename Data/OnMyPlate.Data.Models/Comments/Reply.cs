@@ -1,7 +1,10 @@
 ﻿namespace OnMyPlate.Data.Models.Comments
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
+    using OnMyPlate.Common;
     using OnMyPlate.Data.Common.Models;
 
     public class Reply : BaseDeletableModel<int>
@@ -12,18 +15,25 @@
             this.Reactions = new HashSet<ReplyReaction>();
         }
 
+        [Required]
+        [MaxLength(GlobalConstants.ReplyDescriptionMaxLength)]
         public string Description { get; set; }
 
         public bool IsBestAnswer { get; set; }
 
+        [ForeignKey(nameof(Reply))]
         public int? ParentId { get; set; }
 
         public Reply Parent { get; set; }
 
+        [Required]
+        [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
 
         public Post Post { get; set; }
 
+        [Required]
+        [ForeignKey(nameof(Author))]
         public string AuthorId { get; set; }
 
         public ApplicationUser Author { get; set; }

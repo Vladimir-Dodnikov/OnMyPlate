@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\OnMyPlate.Common\OnMyPlate.Common.csproj" />
     <ProjectReference Include="..\OnMyPlate.Data.Common\OnMyPlate.Data.Common.csproj" />
   </ItemGroup>
   

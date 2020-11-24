@@ -8,6 +8,8 @@
     {
         public void Configure(EntityTypeBuilder<ApplicationUser> appUser)
         {
+            appUser.HasIndex(e => e.IsDeleted);
+
             appUser
                 .HasMany(e => e.Claims)
                 .WithOne()

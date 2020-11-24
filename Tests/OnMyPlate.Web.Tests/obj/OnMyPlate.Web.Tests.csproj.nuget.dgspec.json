@@ -93,6 +93,9 @@
             "projectReferences": {
               "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Common\\OnMyPlate.Data.Common.csproj": {
                 "projectPath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Common\\OnMyPlate.Data.Common.csproj"
+              },
+              "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\OnMyPlate.Common\\OnMyPlate.Common.csproj": {
+                "projectPath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\OnMyPlate.Common\\OnMyPlate.Common.csproj"
               }
             }
           }

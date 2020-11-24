@@ -1,18 +1,19 @@
 ﻿namespace OnMyPlate.Data.Models.Places
 {
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     using OnMyPlate.Data.Common.Models;
     using OnMyPlate.Data.Models.Places.PlaceEnums;
-    using System.Collections.Generic;
 
     public class Payment : BaseDeletableModel<int>
     {
-        public Payment()
-        {
-            this.Places = new HashSet<Place>();
-        }
-
         public PaymentType PaymentType { get; set; }
 
-        public virtual ICollection<Place> Places { get; set; }
+        [Required]
+        [ForeignKey(nameof(Place))]
+        public int PlaceId { get; set; }
+
+        public Place Place { get; set; }
     }
 }

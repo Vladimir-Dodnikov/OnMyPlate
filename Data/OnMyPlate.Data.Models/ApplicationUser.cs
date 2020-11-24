@@ -3,8 +3,10 @@ namespace OnMyPlate.Data.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     using Microsoft.AspNetCore.Identity;
+    using OnMyPlate.Common;
     using OnMyPlate.Data.Common.Models;
     using OnMyPlate.Data.Models.Comments;
     using OnMyPlate.Data.Models.Comments.Enums;
@@ -38,8 +40,11 @@ namespace OnMyPlate.Data.Models
 
         public int Points { get; set; }
 
+        [Required]
+        [MaxLength(GlobalConstants.UserBiographyMaxLength)]
         public string Biography { get; set; }
 
+        [Required]
         public string ProfilePicture { get; set; }
 
         // Audit info

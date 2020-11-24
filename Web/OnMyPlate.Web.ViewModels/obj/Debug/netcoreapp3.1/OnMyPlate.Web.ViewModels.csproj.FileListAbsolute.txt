@@ -14,3 +14,5 @@ C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcorea
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.csproj.CopyComplete
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.dll
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\obj\Debug\netcoreapp3.1\OnMyPlate.Web.ViewModels.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Common.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web.ViewModels\bin\Debug\netcoreapp3.1\OnMyPlate.Common.pdb

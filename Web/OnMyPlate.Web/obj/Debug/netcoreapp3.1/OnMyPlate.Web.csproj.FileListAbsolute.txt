@@ -455,3 +455,4 @@ C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\stati
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.dll
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.genruntimeconfig.cache
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.MvcApplicationPartsAssemblyInfo.cs

@@ -1184,6 +1184,7 @@
       "OnMyPlate.Data.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
+          "OnMyPlate.Common": "1.0.0",
           "OnMyPlate.Data.Common": "1.0.0"
         },
         "runtime": {

@@ -14,3 +14,5 @@ C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\bin\Debug\netc
 C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Services.Data.csproj.CopyComplete
 C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Services.Data.dll
 C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\obj\Debug\netcoreapp3.1\OnMyPlate.Services.Data.pdb
+C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Common.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Services\OnMyPlate.Services.Data\bin\Debug\netcoreapp3.1\OnMyPlate.Common.pdb

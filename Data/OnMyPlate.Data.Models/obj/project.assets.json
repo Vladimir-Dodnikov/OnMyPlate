@@ -299,6 +299,16 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "OnMyPlate.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OnMyPlate.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnMyPlate.Common.dll": {}
+        }
+      },
       "OnMyPlate.Data.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -866,6 +876,11 @@
         "version.txt"
       ]
     },
+    "OnMyPlate.Common/1.0.0": {
+      "type": "project",
+      "path": "../../OnMyPlate.Common/OnMyPlate.Common.csproj",
+      "msbuildProject": "../../OnMyPlate.Common/OnMyPlate.Common.csproj"
+    },
     "OnMyPlate.Data.Common/1.0.0": {
       "type": "project",
       "path": "../OnMyPlate.Data.Common/OnMyPlate.Data.Common.csproj",
@@ -875,6 +890,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.9",
+      "OnMyPlate.Common >= 1.0.0",
       "OnMyPlate.Data.Common >= 1.0.0",
       "StyleCop.Analyzers >= 1.2.0-beta.205"
     ]
@@ -907,6 +923,9 @@
           "projectReferences": {
             "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Common\\OnMyPlate.Data.Common.csproj": {
               "projectPath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Common\\OnMyPlate.Data.Common.csproj"
+            },
+            "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\OnMyPlate.Common\\OnMyPlate.Common.csproj": {
+              "projectPath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\OnMyPlate.Common\\OnMyPlate.Common.csproj"
             }
           }
         }

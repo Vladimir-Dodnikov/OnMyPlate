@@ -1,21 +1,19 @@
 ﻿namespace OnMyPlate.Data.Models
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     using OnMyPlate.Data.Common.Models;
     using OnMyPlate.Data.Models.Places.PlaceEnums;
 
     public class Cuisine : BaseDeletableModel<int>
     {
-        public Cuisine()
-        {
-            this.Places = new HashSet<Place>();
-        }
-
         public CuisineType CuisineType { get; set; }
 
-        public virtual ICollection<Place> Places { get; set; }
+        [Required]
+        [ForeignKey(nameof(Place))]
+        public int PlaceId { get; set; }
+
+        public Place Place { get; set; }
     }
 }
