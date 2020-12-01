@@ -10,14 +10,10 @@
     {
         public ReactionType ReactionType { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Reply))]
         public int ReplyId { get; set; }
 
         public virtual Reply Reply { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(ApplicationUser))]
         public string AuthorId { get; set; }
 
         public virtual ApplicationUser Author { get; set; }

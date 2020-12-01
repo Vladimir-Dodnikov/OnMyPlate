@@ -9,7 +9,7 @@
     {
         [Required]
         [MaxLength(GlobalConstants.MessageContentMaxLength)]
-        public string Content { get; set; }
+        public string Description { get; set; }
 
         public string AuthorId { get; set; }
 

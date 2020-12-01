@@ -9,12 +9,10 @@
     {
         public ReactionType ReactionType { get; set; }
 
-        [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
 
         public virtual Post Post { get; set; }
 
-        [ForeignKey(nameof(Author))]
         public string AuthorId { get; set; }
 
         public virtual ApplicationUser Author { get; set; }

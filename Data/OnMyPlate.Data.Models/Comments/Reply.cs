@@ -26,14 +26,10 @@
 
         public Reply Parent { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
 
         public Post Post { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Author))]
         public string AuthorId { get; set; }
 
         public ApplicationUser Author { get; set; }

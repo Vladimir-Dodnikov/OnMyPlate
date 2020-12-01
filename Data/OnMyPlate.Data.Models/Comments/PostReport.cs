@@ -12,14 +12,10 @@
         [MaxLength(GlobalConstants.PostReportDescriptionMaxLength)]
         public string Description { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
 
         public virtual Post Post { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Author))]
         public string AuthorId { get; set; }
 
         public virtual ApplicationUser Author { get; set; }
