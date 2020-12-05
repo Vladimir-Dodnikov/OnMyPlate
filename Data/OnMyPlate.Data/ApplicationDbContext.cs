@@ -38,28 +38,16 @@
 
         public DbSet<Payment> Payments { get; set; }
 
+        public DbSet<WorkTime> WorkTimes { get; set; }
+
+        public DbSet<Image> Images { get; set; }
+
         public DbSet<Place> Places { get; set; }
 
         // Comments
-        public DbSet<Message> Messages { get; set; }
-
         public DbSet<Post> Posts { get; set; }
 
-        public DbSet<PostReaction> PostReactions { get; set; }
-
-        public DbSet<PostReport> PostReports { get; set; }
-
-        public DbSet<PostTag> PostsTags { get; set; }
-
         public DbSet<Reply> Replies { get; set; }
-
-        public DbSet<ReplyReaction> ReplyReactions { get; set; }
-
-        public DbSet<ReplyReport> ReplyReports { get; set; }
-
-        public DbSet<Tag> Tags { get; set; }
-
-        public DbSet<UserFollower> UsersFollowers { get; set; }
 
         public DbSet<Setting> Settings { get; set; }
 
