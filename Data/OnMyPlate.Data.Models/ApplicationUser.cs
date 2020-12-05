@@ -9,7 +9,6 @@ namespace OnMyPlate.Data.Models
     using OnMyPlate.Common;
     using OnMyPlate.Data.Common.Models;
     using OnMyPlate.Data.Models.Comments;
-    using OnMyPlate.Data.Models.Comments.Enums;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -17,24 +16,22 @@ namespace OnMyPlate.Data.Models
         {
             this.Id = Guid.NewGuid().ToString();
 
-            this.SentMessages = new HashSet<Message>();
-            this.ReceivedMessages = new HashSet<Message>();
             this.Posts = new HashSet<Post>();
             this.Replies = new HashSet<Reply>();
-
-            this.PostReactions = new HashSet<PostReaction>();
-            this.PostReports = new HashSet<PostReport>();
-            this.ReplyReactions = new HashSet<ReplyReaction>();
-            this.ReplyReports = new HashSet<ReplyReport>();
-
-            this.Followers = new HashSet<UserFollower>();
 
             this.Roles = new HashSet<IdentityUserRole<string>>();
             this.Claims = new HashSet<IdentityUserClaim<string>>();
             this.Logins = new HashSet<IdentityUserLogin<string>>();
         }
 
-        public GenderType Gender { get; set; }
+        [Required]
+        public string FirstName { get; set; }
+
+        [Required]
+        public string LastName { get; set; }
+
+        [Required]
+        public string City { get; set; }
 
         public DateTime BirthDate { get; set; }
 
@@ -57,23 +54,9 @@ namespace OnMyPlate.Data.Models
 
         public DateTime? DeletedOn { get; set; }
 
-        public virtual ICollection<Message> SentMessages { get; set; }
-
-        public virtual ICollection<Message> ReceivedMessages { get; set; }
-
         public virtual ICollection<Post> Posts { get; set; }
 
         public virtual ICollection<Reply> Replies { get; set; }
-
-        public virtual ICollection<PostReaction> PostReactions { get; set; }
-
-        public virtual ICollection<PostReport> PostReports { get; set; }
-
-        public virtual ICollection<ReplyReaction> ReplyReactions { get; set; }
-
-        public virtual ICollection<ReplyReport> ReplyReports { get; set; }
-
-        public virtual ICollection<UserFollower> Followers { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
