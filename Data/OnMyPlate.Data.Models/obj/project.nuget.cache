@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ximFzoMwLNI9SYRvxuQIYewUthmmzeysuNatTxVbCOgkCYJONsAnvgtF2YpcsFccET8Bu05ia9Oq/eDZ5L4BLg==",
+  "dgSpecHash": "1Oun5MiMyntSTR8NcPMa0D7TjeNJYBj7v16AtcERNk1bWQeSRjAIRHPZmCe1B2K3tRNjhdLxH4/8Ds5RVrfdxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Models\\OnMyPlate.Data.Models.csproj",
   "expectedPackageFiles": [
@@ -26,11 +26,13 @@
     "C:\\Users\\Vladi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\Vladi\\.nuget\\packages\\nettopologysuite\\2.1.0\\nettopologysuite.2.1.0.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.205\\stylecop.analyzers.1.2.0-beta.205.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.205\\stylecop.analyzers.unstable.1.2.0.205.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Vladi\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\Vladi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\Vladi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Vladi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

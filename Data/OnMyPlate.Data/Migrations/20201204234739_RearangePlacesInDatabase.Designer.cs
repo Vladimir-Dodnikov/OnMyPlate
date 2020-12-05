@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnMyPlate.Data;
 
 namespace OnMyPlate.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201204234739_RearangePlacesInDatabase")]
+    partial class RearangePlacesInDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -728,7 +730,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("WebUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -736,51 +737,6 @@ namespace OnMyPlate.Data.Migrations
                     b.HasIndex("IsDeleted");
 
                     b.ToTable("Places");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Address", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Neibhourhood")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PlaceId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StreetId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("PlaceId")
-                        .IsUnique();
-
-                    b.HasIndex("StreetId");
-
-                    b.ToTable("Addresses");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Amentity", b =>
@@ -830,9 +786,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("GoogleAddress")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -892,44 +845,6 @@ namespace OnMyPlate.Data.Migrations
                     b.HasIndex("PlaceId");
 
                     b.ToTable("Payments");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Street", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Number")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.ToTable("Streets");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Setting", b =>
@@ -1156,21 +1071,6 @@ namespace OnMyPlate.Data.Migrations
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
                         .WithMany("Cuisines")
                         .HasForeignKey("PlaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Address", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithOne("Address")
-                        .HasForeignKey("OnMyPlate.Data.Models.Places.Address", "PlaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Places.Street", "Street")
-                        .WithMany()
-                        .HasForeignKey("StreetId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });

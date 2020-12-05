@@ -4,10 +4,16 @@
 
     using OnMyPlate.Data.Common.Models;
 
-    public class Payment : BaseDeletableModel<int>
+    public class Address : BaseDeletableModel<int>
     {
         [Required]
-        public string Name { get; set; }
+        public string City { get; set; }
+        
+        [Required]
+        public Street Street { get; set; }
+
+        [Required]
+        public string Neibhourhood { get; set; }
 
         public int PlaceId { get; set; }
 

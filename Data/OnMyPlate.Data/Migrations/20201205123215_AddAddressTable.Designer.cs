@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnMyPlate.Data;
 
 namespace OnMyPlate.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201205123215_AddAddressTable")]
+    partial class AddAddressTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -780,7 +782,7 @@ namespace OnMyPlate.Data.Migrations
 
                     b.HasIndex("StreetId");
 
-                    b.ToTable("Addresses");
+                    b.ToTable("Address");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Amentity", b =>
@@ -830,9 +832,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("GoogleAddress")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -929,7 +928,7 @@ namespace OnMyPlate.Data.Migrations
 
                     b.HasIndex("IsDeleted");
 
-                    b.ToTable("Streets");
+                    b.ToTable("Street");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Setting", b =>

@@ -1,14 +1,13 @@
 ﻿namespace OnMyPlate.Data.Models.Places
 {
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
     using OnMyPlate.Data.Common.Models;
-    using OnMyPlate.Data.Models.Places.PlaceEnums;
 
-    public class PlaceCategory : BaseDeletableModel<int>
+    public class Amentity : BaseDeletableModel<int>
     {
-        public PlaceType PlaceType { get; set; }
+        [Required]
+        public string Name { get; set; }
 
         public int PlaceId { get; set; }
 

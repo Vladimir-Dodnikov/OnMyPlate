@@ -9,6 +9,7 @@
       "OnMyPlate.Data.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
+          "NetTopologySuite": "2.1.0",
           "OnMyPlate.Common": "1.0.0",
           "OnMyPlate.Data.Common": "1.0.0",
           "StyleCop.Analyzers": "1.2.0-beta.205"
@@ -249,6 +250,17 @@
           }
         }
       },
+      "NetTopologySuite/2.1.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetTopologySuite.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "StyleCop.Analyzers/1.2.0-beta.205": {
         "dependencies": {
           "StyleCop.Analyzers.Unstable": "1.2.0.205"
@@ -272,6 +284,7 @@
           }
         }
       },
+      "System.Memory/4.5.3": {},
       "OnMyPlate.Common/1.0.0": {
         "runtime": {
           "OnMyPlate.Common.dll": {}
@@ -447,6 +460,13 @@
       "path": "microsoft.extensions.primitives/3.1.9",
       "hashPath": "microsoft.extensions.primitives.3.1.9.nupkg.sha512"
     },
+    "NetTopologySuite/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v/eGXaJbPMy9kg6OK30mSuF0Ln6TXmWzPS8ojUMr/ecRiNpiZlEDXKq0CWIaE2Tc1uV2RZHLVPfF1QcoGs4ZYg==",
+      "path": "nettopologysuite/2.1.0",
+      "hashPath": "nettopologysuite.2.1.0.nupkg.sha512"
+    },
     "StyleCop.Analyzers/1.2.0-beta.205": {
       "type": "package",
       "serviceable": true,
@@ -481,6 +501,13 @@
       "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "path": "system.diagnostics.diagnosticsource/4.7.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "OnMyPlate.Common/1.0.0": {
       "type": "project",

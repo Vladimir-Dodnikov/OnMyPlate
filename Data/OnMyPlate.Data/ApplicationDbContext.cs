@@ -26,13 +26,17 @@
         }
 
         // Places
+        public DbSet<Amentity> Amentities { get; set; }
+
         public DbSet<Cuisine> Cuisines { get; set; }
 
-        public DbSet<Music> Musics { get; set; }
+        public DbSet<Location> Locations { get; set; }
+
+        public DbSet<Address> Addresses { get; set; }
+
+        public DbSet<Street> Streets { get; set; }
 
         public DbSet<Payment> Payments { get; set; }
-
-        public DbSet<Seat> Seats { get; set; }
 
         public DbSet<Place> Places { get; set; }
 
