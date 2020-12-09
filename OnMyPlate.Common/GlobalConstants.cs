@@ -6,25 +6,28 @@
 
         public const string AdministratorRoleName = "Administrator";
 
-        public const int MessageContentMaxLength = 300;
+        public const int AmentityMaxLength = 30;
 
-        public const int UserBiographyMaxLength = 200;
+        public const int CuisineMaxLength = 25;
 
-        public const int PostTitleMaxLength = 50;
+        public const int CityNameMaxLength = 30;
 
-        public const int PostDescriptionMaxLength = 3000;
+        public const int MessageContentMaxLength = 3000;
 
-        public const int PostReportDescriptionMaxLength = 3000;
+        public const int LocationMaxLength = 20;
 
-        public const int ReplyDescriptionMaxLength = 3000;
-
-        public const int ReplyReportDescriptionMaxLength = 3000;
-
-        public const int TagNameMaxLength = 10;
+        public const int NeighbourhoodMaxLength = 20;
 
         public const int PlaceNameMaxLength = 30;
-        public const int PlaceDescriptionMaxLength = 1000;
+        public const int PlaceDescriptionMaxLength = 2000;
 
-        public const int SeatCapacity = 500;
+        public const int PaymentNameMaxLength = 10;
+
+        public const int StreetNumberMaxLength = 6;
+        public const int StreetNameMaxLength = 20;
+        public const int StreetTypeMaxLength = 8;
+
+        public const int UserFirtNameMaxLength = 10;
+        public const int UserLastNameMaxLength = 8;
     }
 }
