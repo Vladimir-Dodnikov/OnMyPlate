@@ -456,3 +456,8 @@ C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyP
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.pdb
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.genruntimeconfig.cache
 C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\OnMyPlate.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\NetTopologySuite.dll
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\obj\Debug\netcoreapp3.1\Razor\Views\GatherPlaces\Index.cshtml.g.cs
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\Views\GatherPlaces\Index.cshtml
+C:\Users\Vladi\Desktop\OnMyPlate\Web\OnMyPlate.Web\bin\Debug\netcoreapp3.1\ImportRezzoIds.txt

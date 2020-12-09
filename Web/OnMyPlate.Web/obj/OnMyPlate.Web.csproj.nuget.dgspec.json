@@ -113,6 +113,10 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "NetTopologySuite": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
@@ -513,7 +517,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Models\\OnMyPlate.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Vladi\\Desktop\\OnMyPlate\\Data\\OnMyPlate.Data.Models\\OnMyPlate.Data.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -525,6 +533,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",

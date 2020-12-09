@@ -16,6 +16,7 @@
     using OnMyPlate.Data.Models;
     using OnMyPlate.Data.Repositories;
     using OnMyPlate.Data.Seeding;
+    using OnMyPlate.Services;
     using OnMyPlate.Services.Data;
     using OnMyPlate.Services.Mapping;
     using OnMyPlate.Services.Messaging;
@@ -64,6 +65,7 @@
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
+            services.AddTransient<IRezzoScraperService, RezzoScraperService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
