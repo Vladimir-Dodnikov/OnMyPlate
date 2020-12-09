@@ -12,23 +12,22 @@
     {
         public Place()
         {
-            this.WorkTime = new HashSet<WorkTime>();
             this.Cuisines = new HashSet<Cuisine>();
             this.Posts = new HashSet<Post>();
             this.Images = new HashSet<Image>();
+            this.MusicTypes = new HashSet<Music>();
         }
 
-        [Required]
-        [MaxLength(GlobalConstants.PlaceNameMaxLength)]
+        // [Required]
+        // [MaxLength(GlobalConstants.PlaceNameMaxLength)]
         public string Name { get; set; }
 
-        [Required]
-        [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
+        // [Required]
+        // [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
         public string Description { get; set; }
 
+        ////[Required]
         public string LogoImage { get; set; }
-
-        public int MyProperty { get; set; }
 
         public int Rating { get; set; }
 
@@ -38,24 +37,27 @@
 
         public int Dislikes { get; set; }
 
-        [Required]
+        // [Required]
         public string WebUrl { get; set; }
 
-        [Required]
+        // [Required]
         public Location Location { get; set; }
 
-        [Required]
+        // [Required]
         public Address Address { get; set; }
 
-        public virtual ICollection<Image> Images { get; set; }
+        // [Required]
+        public WorkTime WorkTime { get; set; }
 
-        public virtual ICollection<WorkTime> WorkTime { get; set; }
+        public virtual ICollection<Image> Images { get; set; }
 
         public virtual ICollection<Amentity> Amentities { get; set; }
 
         public virtual ICollection<Cuisine> Cuisines { get; set; }
 
         public virtual ICollection<Payment> PaymentTypes { get; set; }
+
+        public virtual ICollection<Music> MusicTypes { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
     }

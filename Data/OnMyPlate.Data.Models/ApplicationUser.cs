@@ -24,25 +24,21 @@ namespace OnMyPlate.Data.Models
             this.Logins = new HashSet<IdentityUserLogin<string>>();
         }
 
-        [Required]
+        //[Required]
+        //[MaxLength(GlobalConstants.UserFirtNameMaxLength)]
         public string FirstName { get; set; }
 
-        [Required]
+        //[Required]
+        //[MaxLength(GlobalConstants.UserLastNameMaxLength)]
         public string LastName { get; set; }
 
-        [Required]
+        //[Required]
+        //[MaxLength(GlobalConstants.CityNameMaxLength)]
         public string City { get; set; }
 
         public DateTime BirthDate { get; set; }
 
         public int Points { get; set; }
-
-        [Required]
-        [MaxLength(GlobalConstants.UserBiographyMaxLength)]
-        public string Biography { get; set; }
-
-        [Required]
-        public string ProfilePicture { get; set; }
 
         // Audit info
         public DateTime CreatedOn { get; set; }
