@@ -34,11 +34,9 @@
 
         public DbSet<Address> Addresses { get; set; }
 
-        public DbSet<Street> Streets { get; set; }
-
         public DbSet<Payment> Payments { get; set; }
 
-        public DbSet<WorkTime> WorkTimes { get; set; }
+        public DbSet<Music> Music { get; set; }
 
         public DbSet<Image> Images { get; set; }
 

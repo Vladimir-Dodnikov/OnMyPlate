@@ -10,7 +10,7 @@ using OnMyPlate.Data;
 namespace OnMyPlate.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201124210903_InitialCreate")]
+    [Migration("20201208234526_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -174,13 +174,11 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("Biography")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
-
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -199,11 +197,14 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -234,10 +235,6 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("Points")
                         .HasColumnType("int");
 
-                    b.Property<string>("ProfilePicture")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -263,49 +260,6 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Message", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AuthorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(300)")
-                        .HasMaxLength(300);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ReceiverId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("ReceiverId");
-
-                    b.ToTable("Messages");
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Post", b =>
                 {
                     b.Property<int>("Id")
@@ -314,24 +268,18 @@ namespace OnMyPlate.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("AuthorId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
-
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsPinned")
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("ModifiedOn")
@@ -340,16 +288,8 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Views")
-                        .HasColumnType("int");
+                    b.Property<string>("PostDescription")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -362,103 +302,6 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Posts");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostReaction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AuthorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PostId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ReactionType")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("PostId");
-
-                    b.ToTable("PostReactions");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostReport", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AuthorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PostId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("PostId");
-
-                    b.ToTable("PostReports");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostTag", b =>
-                {
-                    b.Property<int>("PostId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TagId")
-                        .HasColumnType("int");
-
-                    b.HasKey("PostId", "TagId");
-
-                    b.HasIndex("TagId");
-
-                    b.ToTable("PostsTags");
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Reply", b =>
                 {
                     b.Property<int>("Id")
@@ -467,7 +310,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("AuthorId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CreatedOn")
@@ -475,11 +317,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
 
                     b.Property<bool>("IsBestAnswer")
                         .HasColumnType("bit");
@@ -496,6 +333,9 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("PostId")
                         .HasColumnType("int");
 
+                    b.Property<string>("ReplyDescription")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AuthorId");
@@ -509,89 +349,7 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Replies");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.ReplyReaction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AuthorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ReactionType")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ReplyId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("ReplyId");
-
-                    b.ToTable("ReplyReactions");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.ReplyReport", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AuthorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ReplyId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("ReplyId");
-
-                    b.ToTable("ReplyReports");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Tag", b =>
+            modelBuilder.Entity("OnMyPlate.Data.Models.Cuisine", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -611,70 +369,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(10)")
-                        .HasMaxLength(10);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.ToTable("Tags");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.UserFollower", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("FollowerId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("UserId", "FollowerId");
-
-                    b.HasIndex("FollowerId");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.ToTable("UsersFollowers");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Cuisine", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CuisineType")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -688,50 +383,12 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Cuisines");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Music", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("MusicType")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PlaceId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("PlaceId");
-
-                    b.ToTable("Musics");
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Place", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
@@ -740,9 +397,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1000)")
-                        .HasMaxLength(1000);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Dislikes")
                         .HasColumnType("int");
@@ -753,15 +408,13 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("Likes")
                         .HasColumnType("int");
 
+                    b.Property<string>("LogoImage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(30)")
-                        .HasMaxLength(30);
-
-                    b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Rating")
@@ -778,6 +431,188 @@ namespace OnMyPlate.Data.Migrations
                     b.HasIndex("IsDeleted");
 
                     b.ToTable("Places");
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Neighbourhood")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Street")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PlaceId")
+                        .IsUnique();
+
+                    b.ToTable("Addresses");
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Amentity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PlaceId");
+
+                    b.ToTable("Amentities");
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Image", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AddedByUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Extension")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RemoteImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddedByUserId");
+
+                    b.HasIndex("PlaceId");
+
+                    b.ToTable("Images");
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("GoogleAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Lattitude")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Longtitude")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PlaceId")
+                        .IsUnique();
+
+                    b.ToTable("Locations");
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Music", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PlaceId");
+
+                    b.ToTable("Music");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Payment", b =>
@@ -799,8 +634,8 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PaymentType")
-                        .HasColumnType("int");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -814,12 +649,15 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Payments");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.PlaceCategory", b =>
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<TimeSpan>("CloseTime")
+                        .HasColumnType("time");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
@@ -833,47 +671,8 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PlaceId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PlaceType")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.HasIndex("PlaceId");
-
-                    b.ToTable("PlaceCategory");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Seat", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Indoor")
-                        .HasColumnType("int")
-                        .HasMaxLength(500);
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Outdoor")
-                        .HasColumnType("int")
-                        .HasMaxLength(500);
+                    b.Property<TimeSpan>("OpenTime")
+                        .HasColumnType("time");
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -882,9 +681,10 @@ namespace OnMyPlate.Data.Migrations
 
                     b.HasIndex("IsDeleted");
 
-                    b.HasIndex("PlaceId");
+                    b.HasIndex("PlaceId")
+                        .IsUnique();
 
-                    b.ToTable("Seats");
+                    b.ToTable("WorkTime");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Setting", b =>
@@ -970,77 +770,16 @@ namespace OnMyPlate.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Message", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
-                        .WithMany("SentMessages")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Receiver")
-                        .WithMany("ReceivedMessages")
-                        .HasForeignKey("ReceiverId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Comments.Post", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
                         .WithMany("Posts")
                         .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
                         .WithMany("Posts")
                         .HasForeignKey("PlaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostReaction", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
-                        .WithMany("PostReactions")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Post", "Post")
-                        .WithMany("Reactions")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostReport", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
-                        .WithMany("PostReports")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Post", "Post")
-                        .WithMany("Reports")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.PostTag", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Post", "Post")
-                        .WithMany("Tags")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Tag", "Tag")
-                        .WithMany("Posts")
-                        .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
@@ -1050,8 +789,7 @@ namespace OnMyPlate.Data.Migrations
                     b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
                         .WithMany("Replies")
                         .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("OnMyPlate.Data.Models.Comments.Reply", "Parent")
                         .WithMany()
@@ -1065,51 +803,6 @@ namespace OnMyPlate.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.ReplyReaction", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
-                        .WithMany("ReplyReactions")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Reply", "Reply")
-                        .WithMany("Reactions")
-                        .HasForeignKey("ReplyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.ReplyReport", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Author")
-                        .WithMany("ReplyReports")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Comments.Reply", "Reply")
-                        .WithMany("Reports")
-                        .HasForeignKey("ReplyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Comments.UserFollower", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "Follower")
-                        .WithMany()
-                        .HasForeignKey("FollowerId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "User")
-                        .WithMany("Followers")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Cuisine", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
@@ -1119,10 +812,50 @@ namespace OnMyPlate.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Music", b =>
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Address", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithMany("MusicGenres")
+                        .WithOne("Address")
+                        .HasForeignKey("OnMyPlate.Data.Models.Places.Address", "PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Amentity", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithMany("Amentities")
+                        .HasForeignKey("PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Image", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "AddedByUser")
+                        .WithMany()
+                        .HasForeignKey("AddedByUserId");
+
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithMany("Images")
+                        .HasForeignKey("PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Location", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithOne("Location")
+                        .HasForeignKey("OnMyPlate.Data.Models.Places.Location", "PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Music", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithMany("MusicTypes")
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -1137,20 +870,11 @@ namespace OnMyPlate.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.PlaceCategory", b =>
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithMany("PlaceTypes")
-                        .HasForeignKey("PlaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Seat", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithMany("Seats")
-                        .HasForeignKey("PlaceId")
+                        .WithOne("WorkTime")
+                        .HasForeignKey("OnMyPlate.Data.Models.Places.WorkTime", "PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });

@@ -44,15 +44,15 @@ namespace OnMyPlate.Data.Migrations
                     LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
-                    Gender = table.Column<int>(nullable: false),
+                    FirstName = table.Column<string>(nullable: true),
+                    LastName = table.Column<string>(nullable: true),
+                    City = table.Column<string>(nullable: true),
                     BirthDate = table.Column<DateTime>(nullable: false),
                     Points = table.Column<int>(nullable: false),
-                    Biography = table.Column<string>(maxLength: 200, nullable: false),
-                    ProfilePicture = table.Column<string>(nullable: false),
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
+                    DeletedOn = table.Column<DateTime>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -69,15 +69,14 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    Name = table.Column<string>(maxLength: 30, nullable: false),
+                    Name = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true),
+                    LogoImage = table.Column<string>(nullable: true),
                     Rating = table.Column<int>(nullable: false),
                     VisitsCount = table.Column<int>(nullable: false),
                     Likes = table.Column<int>(nullable: false),
                     Dislikes = table.Column<int>(nullable: false),
-                    PhoneNumber = table.Column<string>(nullable: true),
-                    WebUrl = table.Column<string>(nullable: true),
-                    Address = table.Column<string>(nullable: false),
-                    Description = table.Column<string>(maxLength: 1000, nullable: false)
+                    WebUrl = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -100,23 +99,6 @@ namespace OnMyPlate.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Settings", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Tags",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    Name = table.Column<string>(maxLength: 10, nullable: false),
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Tags", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -226,7 +208,7 @@ namespace OnMyPlate.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Messages",
+                name: "Addresses",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -235,52 +217,42 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    Content = table.Column<string>(maxLength: 300, nullable: false),
-                    AuthorId = table.Column<string>(nullable: false),
-                    ReceiverId = table.Column<string>(nullable: false)
+                    City = table.Column<string>(nullable: true),
+                    Street = table.Column<string>(nullable: true),
+                    Neighbourhood = table.Column<string>(nullable: true),
+                    PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Messages", x => x.Id);
+                    table.PrimaryKey("PK_Addresses", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Messages_AspNetUsers_AuthorId",
-                        column: x => x.AuthorId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Messages_AspNetUsers_ReceiverId",
-                        column: x => x.ReceiverId,
-                        principalTable: "AspNetUsers",
+                        name: "FK_Addresses_Places_PlaceId",
+                        column: x => x.PlaceId,
+                        principalTable: "Places",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "UsersFollowers",
+                name: "Amentities",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(nullable: false),
-                    FollowerId = table.Column<string>(nullable: false),
-                    Id = table.Column<int>(nullable: false),
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true)
+                    DeletedOn = table.Column<DateTime>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UsersFollowers", x => new { x.UserId, x.FollowerId });
+                    table.PrimaryKey("PK_Amentities", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_UsersFollowers_AspNetUsers_FollowerId",
-                        column: x => x.FollowerId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_UsersFollowers_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        name: "FK_Amentities_Places_PlaceId",
+                        column: x => x.PlaceId,
+                        principalTable: "Places",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -295,7 +267,7 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    CuisineType = table.Column<int>(nullable: false),
+                    Name = table.Column<string>(nullable: true),
                     PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -310,7 +282,36 @@ namespace OnMyPlate.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Musics",
+                name: "Images",
+                columns: table => new
+                {
+                    Id = table.Column<string>(nullable: false),
+                    CreatedOn = table.Column<DateTime>(nullable: false),
+                    ModifiedOn = table.Column<DateTime>(nullable: true),
+                    PlaceId = table.Column<int>(nullable: false),
+                    Extension = table.Column<string>(nullable: true),
+                    RemoteImageUrl = table.Column<string>(nullable: true),
+                    AddedByUserId = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Images", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Images_AspNetUsers_AddedByUserId",
+                        column: x => x.AddedByUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Images_Places_PlaceId",
+                        column: x => x.PlaceId,
+                        principalTable: "Places",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Locations",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -319,14 +320,40 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    MusicType = table.Column<int>(nullable: false),
+                    Lattitude = table.Column<string>(nullable: true),
+                    Longtitude = table.Column<string>(nullable: true),
+                    GoogleAddress = table.Column<string>(nullable: true),
                     PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Musics", x => x.Id);
+                    table.PrimaryKey("PK_Locations", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Musics_Places_PlaceId",
+                        name: "FK_Locations_Places_PlaceId",
+                        column: x => x.PlaceId,
+                        principalTable: "Places",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Music",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CreatedOn = table.Column<DateTime>(nullable: false),
+                    ModifiedOn = table.Column<DateTime>(nullable: true),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    DeletedOn = table.Column<DateTime>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    PlaceId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Music", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Music_Places_PlaceId",
                         column: x => x.PlaceId,
                         principalTable: "Places",
                         principalColumn: "Id",
@@ -343,7 +370,7 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    PaymentType = table.Column<int>(nullable: false),
+                    Name = table.Column<string>(nullable: true),
                     PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -351,30 +378,6 @@ namespace OnMyPlate.Data.Migrations
                     table.PrimaryKey("PK_Payments", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Payments_Places_PlaceId",
-                        column: x => x.PlaceId,
-                        principalTable: "Places",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "PlaceCategory",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    PlaceType = table.Column<int>(nullable: false),
-                    PlaceId = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_PlaceCategory", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_PlaceCategory_Places_PlaceId",
                         column: x => x.PlaceId,
                         principalTable: "Places",
                         principalColumn: "Id",
@@ -391,12 +394,9 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    Title = table.Column<string>(maxLength: 50, nullable: false),
-                    Type = table.Column<int>(nullable: false),
-                    Description = table.Column<string>(maxLength: 3000, nullable: false),
-                    Views = table.Column<int>(nullable: false),
-                    IsPinned = table.Column<bool>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false),
+                    PostDescription = table.Column<string>(nullable: true),
+                    Date = table.Column<DateTime>(nullable: false),
+                    AuthorId = table.Column<string>(nullable: true),
                     PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -417,7 +417,7 @@ namespace OnMyPlate.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Seats",
+                name: "WorkTime",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -426,103 +426,17 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    Indoor = table.Column<int>(maxLength: 500, nullable: false),
-                    Outdoor = table.Column<int>(maxLength: 500, nullable: false),
+                    OpenTime = table.Column<TimeSpan>(nullable: false),
+                    CloseTime = table.Column<TimeSpan>(nullable: false),
                     PlaceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Seats", x => x.Id);
+                    table.PrimaryKey("PK_WorkTime", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Seats_Places_PlaceId",
+                        name: "FK_WorkTime_Places_PlaceId",
                         column: x => x.PlaceId,
                         principalTable: "Places",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "PostReactions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    ReactionType = table.Column<int>(nullable: false),
-                    PostId = table.Column<int>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_PostReactions", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_PostReactions_AspNetUsers_AuthorId",
-                        column: x => x.AuthorId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_PostReactions_Posts_PostId",
-                        column: x => x.PostId,
-                        principalTable: "Posts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "PostReports",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    Description = table.Column<string>(maxLength: 3000, nullable: false),
-                    PostId = table.Column<int>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_PostReports", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_PostReports_AspNetUsers_AuthorId",
-                        column: x => x.AuthorId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_PostReports_Posts_PostId",
-                        column: x => x.PostId,
-                        principalTable: "Posts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "PostsTags",
-                columns: table => new
-                {
-                    PostId = table.Column<int>(nullable: false),
-                    TagId = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_PostsTags", x => new { x.PostId, x.TagId });
-                    table.ForeignKey(
-                        name: "FK_PostsTags_Posts_PostId",
-                        column: x => x.PostId,
-                        principalTable: "Posts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_PostsTags_Tags_TagId",
-                        column: x => x.TagId,
-                        principalTable: "Tags",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -537,11 +451,11 @@ namespace OnMyPlate.Data.Migrations
                     ModifiedOn = table.Column<DateTime>(nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false),
                     DeletedOn = table.Column<DateTime>(nullable: true),
-                    Description = table.Column<string>(maxLength: 3000, nullable: false),
+                    ReplyDescription = table.Column<string>(nullable: true),
                     IsBestAnswer = table.Column<bool>(nullable: false),
                     ParentId = table.Column<int>(nullable: true),
                     PostId = table.Column<int>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false)
+                    AuthorId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -566,67 +480,26 @@ namespace OnMyPlate.Data.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "ReplyReactions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    ReactionType = table.Column<int>(nullable: false),
-                    ReplyId = table.Column<int>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ReplyReactions", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ReplyReactions_AspNetUsers_AuthorId",
-                        column: x => x.AuthorId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_ReplyReactions_Replies_ReplyId",
-                        column: x => x.ReplyId,
-                        principalTable: "Replies",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_Addresses_IsDeleted",
+                table: "Addresses",
+                column: "IsDeleted");
 
-            migrationBuilder.CreateTable(
-                name: "ReplyReports",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
-                    ModifiedOn = table.Column<DateTime>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    DeletedOn = table.Column<DateTime>(nullable: true),
-                    Description = table.Column<string>(maxLength: 3000, nullable: false),
-                    ReplyId = table.Column<int>(nullable: false),
-                    AuthorId = table.Column<string>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ReplyReports", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ReplyReports_AspNetUsers_AuthorId",
-                        column: x => x.AuthorId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_ReplyReports_Replies_ReplyId",
-                        column: x => x.ReplyId,
-                        principalTable: "Replies",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_Addresses_PlaceId",
+                table: "Addresses",
+                column: "PlaceId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Amentities_IsDeleted",
+                table: "Amentities",
+                column: "IsDeleted");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Amentities_PlaceId",
+                table: "Amentities",
+                column: "PlaceId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -688,28 +561,34 @@ namespace OnMyPlate.Data.Migrations
                 column: "PlaceId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Messages_AuthorId",
-                table: "Messages",
-                column: "AuthorId");
+                name: "IX_Images_AddedByUserId",
+                table: "Images",
+                column: "AddedByUserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Messages_IsDeleted",
-                table: "Messages",
+                name: "IX_Images_PlaceId",
+                table: "Images",
+                column: "PlaceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Locations_IsDeleted",
+                table: "Locations",
                 column: "IsDeleted");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Messages_ReceiverId",
-                table: "Messages",
-                column: "ReceiverId");
+                name: "IX_Locations_PlaceId",
+                table: "Locations",
+                column: "PlaceId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Musics_IsDeleted",
-                table: "Musics",
+                name: "IX_Music_IsDeleted",
+                table: "Music",
                 column: "IsDeleted");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Musics_PlaceId",
-                table: "Musics",
+                name: "IX_Music_PlaceId",
+                table: "Music",
                 column: "PlaceId");
 
             migrationBuilder.CreateIndex(
@@ -723,49 +602,9 @@ namespace OnMyPlate.Data.Migrations
                 column: "PlaceId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_PlaceCategory_IsDeleted",
-                table: "PlaceCategory",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PlaceCategory_PlaceId",
-                table: "PlaceCategory",
-                column: "PlaceId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Places_IsDeleted",
                 table: "Places",
                 column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReactions_AuthorId",
-                table: "PostReactions",
-                column: "AuthorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReactions_IsDeleted",
-                table: "PostReactions",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReactions_PostId",
-                table: "PostReactions",
-                column: "PostId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReports_AuthorId",
-                table: "PostReports",
-                column: "AuthorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReports_IsDeleted",
-                table: "PostReports",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostReports_PostId",
-                table: "PostReports",
-                column: "PostId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Posts_AuthorId",
@@ -781,11 +620,6 @@ namespace OnMyPlate.Data.Migrations
                 name: "IX_Posts_PlaceId",
                 table: "Posts",
                 column: "PlaceId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PostsTags_TagId",
-                table: "PostsTags",
-                column: "TagId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Replies_AuthorId",
@@ -808,68 +642,30 @@ namespace OnMyPlate.Data.Migrations
                 column: "PostId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ReplyReactions_AuthorId",
-                table: "ReplyReactions",
-                column: "AuthorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ReplyReactions_IsDeleted",
-                table: "ReplyReactions",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ReplyReactions_ReplyId",
-                table: "ReplyReactions",
-                column: "ReplyId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ReplyReports_AuthorId",
-                table: "ReplyReports",
-                column: "AuthorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ReplyReports_IsDeleted",
-                table: "ReplyReports",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ReplyReports_ReplyId",
-                table: "ReplyReports",
-                column: "ReplyId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Seats_IsDeleted",
-                table: "Seats",
-                column: "IsDeleted");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Seats_PlaceId",
-                table: "Seats",
-                column: "PlaceId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Settings_IsDeleted",
                 table: "Settings",
                 column: "IsDeleted");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tags_IsDeleted",
-                table: "Tags",
+                name: "IX_WorkTime_IsDeleted",
+                table: "WorkTime",
                 column: "IsDeleted");
 
             migrationBuilder.CreateIndex(
-                name: "IX_UsersFollowers_FollowerId",
-                table: "UsersFollowers",
-                column: "FollowerId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UsersFollowers_IsDeleted",
-                table: "UsersFollowers",
-                column: "IsDeleted");
+                name: "IX_WorkTime_PlaceId",
+                table: "WorkTime",
+                column: "PlaceId",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Addresses");
+
+            migrationBuilder.DropTable(
+                name: "Amentities");
+
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -889,49 +685,28 @@ namespace OnMyPlate.Data.Migrations
                 name: "Cuisines");
 
             migrationBuilder.DropTable(
-                name: "Messages");
+                name: "Images");
 
             migrationBuilder.DropTable(
-                name: "Musics");
+                name: "Locations");
+
+            migrationBuilder.DropTable(
+                name: "Music");
 
             migrationBuilder.DropTable(
                 name: "Payments");
 
             migrationBuilder.DropTable(
-                name: "PlaceCategory");
-
-            migrationBuilder.DropTable(
-                name: "PostReactions");
-
-            migrationBuilder.DropTable(
-                name: "PostReports");
-
-            migrationBuilder.DropTable(
-                name: "PostsTags");
-
-            migrationBuilder.DropTable(
-                name: "ReplyReactions");
-
-            migrationBuilder.DropTable(
-                name: "ReplyReports");
-
-            migrationBuilder.DropTable(
-                name: "Seats");
+                name: "Replies");
 
             migrationBuilder.DropTable(
                 name: "Settings");
 
             migrationBuilder.DropTable(
-                name: "UsersFollowers");
+                name: "WorkTime");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
-
-            migrationBuilder.DropTable(
-                name: "Tags");
-
-            migrationBuilder.DropTable(
-                name: "Replies");
 
             migrationBuilder.DropTable(
                 name: "Posts");

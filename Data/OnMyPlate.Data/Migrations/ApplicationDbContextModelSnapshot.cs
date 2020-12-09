@@ -172,16 +172,10 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("Biography")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
-
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("City")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -202,14 +196,12 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -240,10 +232,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.Property<int>("Points")
                         .HasColumnType("int");
-
-                    b.Property<string>("ProfilePicture")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -299,9 +287,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("PostDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -346,9 +332,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ReplyDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(3000)")
-                        .HasMaxLength(3000);
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -383,7 +367,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
@@ -412,9 +395,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1000)")
-                        .HasMaxLength(1000);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Dislikes")
                         .HasColumnType("int");
@@ -431,13 +412,8 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("MyProperty")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(30)")
-                        .HasMaxLength(30);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Rating")
                         .HasColumnType("int");
@@ -446,7 +422,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("WebUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -464,7 +439,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("City")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedOn")
@@ -479,15 +453,14 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Neibhourhood")
-                        .IsRequired()
+                    b.Property<string>("Neighbourhood")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
 
-                    b.Property<int>("StreetId")
-                        .HasColumnType("int");
+                    b.Property<string>("Street")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -495,8 +468,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.HasIndex("PlaceId")
                         .IsUnique();
-
-                    b.HasIndex("StreetId");
 
                     b.ToTable("Addresses");
                 });
@@ -521,7 +492,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
@@ -609,6 +579,40 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Locations");
                 });
 
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Music", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PlaceId");
+
+                    b.ToTable("Music");
+                });
+
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Payment", b =>
                 {
                     b.Property<int>("Id")
@@ -629,7 +633,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
@@ -644,44 +647,6 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Payments");
                 });
 
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Street", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Number")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IsDeleted");
-
-                    b.ToTable("Streets");
-                });
-
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>
                 {
                     b.Property<int>("Id")
@@ -694,9 +659,6 @@ namespace OnMyPlate.Data.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Day")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
@@ -717,9 +679,10 @@ namespace OnMyPlate.Data.Migrations
 
                     b.HasIndex("IsDeleted");
 
-                    b.HasIndex("PlaceId");
+                    b.HasIndex("PlaceId")
+                        .IsUnique();
 
-                    b.ToTable("WorkTimes");
+                    b.ToTable("WorkTime");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Setting", b =>
@@ -854,12 +817,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasForeignKey("OnMyPlate.Data.Models.Places.Address", "PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("OnMyPlate.Data.Models.Places.Street", "Street")
-                        .WithMany()
-                        .HasForeignKey("StreetId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Amentity", b =>
@@ -893,6 +850,15 @@ namespace OnMyPlate.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Music", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithMany("MusicTypes")
+                        .HasForeignKey("PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Payment", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
@@ -905,8 +871,8 @@ namespace OnMyPlate.Data.Migrations
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithMany("WorkTime")
-                        .HasForeignKey("PlaceId")
+                        .WithOne("WorkTime")
+                        .HasForeignKey("OnMyPlate.Data.Models.Places.WorkTime", "PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
