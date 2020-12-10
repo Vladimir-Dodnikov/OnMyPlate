@@ -8,6 +8,7 @@
     using System.Linq;
     using System.Net;
     using System.Text;
+    using System.Text.RegularExpressions;
     using System.Threading.Tasks;
 
     using AngleSharp;
@@ -109,7 +110,12 @@
                 workTime.OpenTime = place.WorkTime.OpenTime;
                 workTime.CloseTime = place.WorkTime.CloseTime;
                 workTime.PlaceId = newPlace.Id;
-                await this.workTimesRepository.AddAsync(workTime);
+
+                if (!this.workTimesRepository.AllAsNoTracking().Any(x => x.PlaceId == workTime.PlaceId))
+                {
+                    await this.workTimesRepository.AddAsync(workTime);
+                }
+
                 await this.workTimesRepository.SaveChangesAsync();
 
                 var amentities = place.Amentities;
@@ -134,7 +140,10 @@
                 foreach (var payment in payments)
                 {
                     payment.PlaceId = newPlace.Id;
-                    await this.paymentsRepository.AddAsync(payment);
+                    if (!this.paymentsRepository.AllAsNoTracking().Any(x => x.PlaceId == payment.PlaceId))
+                    {
+                        await this.paymentsRepository.AddAsync(payment);
+                    }
                 }
 
                 await this.paymentsRepository.SaveChangesAsync();
@@ -155,7 +164,7 @@
                     await this.postsRepository.AddAsync(post);
                 }
 
-                await this.cuisinesRepository.SaveChangesAsync();
+                await this.postsRepository.SaveChangesAsync();
 
                 if (++addedCount % 10 == 0)
                 {
@@ -204,18 +213,19 @@
                     resultList.AddRange(numbers);
                 });
 
-            Parallel.ForEach(resultList, i =>
+            foreach (var i in resultList)
             {
                 try
                 {
                     var place = this.GetPlace(i);
                     concurrentBag.Add(place);
                 }
-                catch
+                catch (Exception ex)
                 {
-                    // ignored
+                    Console.WriteLine(ex.Message);
+                    continue;
                 }
-            });
+            }
 
             return concurrentBag;
         }
@@ -229,53 +239,55 @@
                 .GetAwaiter()
                 .GetResult();
 
-            if (document.StatusCode == HttpStatusCode.NotFound)
-            {
-                throw new InvalidOperationException();
-            }
-
             var place = new PlaceDto();
 
             // Get PlaceName
             place.PlaceName = document.QuerySelector(".upper_right_part > h1").TextContent;
 
             // Get PlaceAddress
-            var placeAddress = document.QuerySelector(".upper_right_part > span").TextContent.Split(", ");
+            var placeAddress = document.QuerySelector(".upper_right_part > span").TextContent;
+            var c = placeAddress;
 
-            // if (placeAddress == null)
-            // {
-            //    throw new InvalidOperationException();
-            // }
-
-            place.Address.Street = placeAddress[0];
-            place.Address.City = placeAddress[1];
+            place.Address.Street = c.Substring(0, placeAddress.LastIndexOf(","));
+            place.Address.City = placeAddress.Substring(placeAddress.LastIndexOf(",") + 1).TrimStart().TrimEnd();
 
             // Get CuisinesPlace
-            // if (document.QuerySelector(".middle > .food_type") == null)
-            // {
-            //     throw new InvalidOperationException();
-            // }
+            if (document.QuerySelector(".middle > .food_type") == null)
+            {
+                var cuisine = new Cuisine();
+                cuisine.Name = string.Empty;
 
-            var cuisinesPlace = document.QuerySelector(".middle > .food_type").TextContent
+                place.Cuisines.Add(cuisine);
+            }
+            else
+            {
+                var cuisinesPlace = document.QuerySelector(".middle > .food_type").TextContent
                 .Remove(0, 9)
                 .Replace(" and ", ", ")
                 .Split(", ");
 
-            foreach (var cuisineType in cuisinesPlace)
-            {
-                var cuisine = new Cuisine();
-                cuisine.Name = cuisineType;
+                foreach (var cuisineType in cuisinesPlace)
+                {
+                    var cuisine = new Cuisine();
+                    cuisine.Name = cuisineType;
 
-                place.Cuisines.Add(cuisine);
+                    place.Cuisines.Add(cuisine);
+                }
             }
 
             // Get MusicType
-            var musicTag = document.QuerySelector(".middle > .music_type");
-            if (musicTag != null)
+            if (document.QuerySelector(".middle > .music_type") == null)
+            {
+                var music = new Music();
+                music.Name = string.Empty;
+
+                place.MusicTypes.Add(music);
+            }
+            else
             {
                 var musicTypesPlace = document.QuerySelector(".middle > .music_type").TextContent
                 .Remove(0, 7)
-                .Replace(" and ", ", ")?
+                .Replace(" and ", ", ")
                 .Split(", ");
 
                 foreach (var musicType in musicTypesPlace)
@@ -297,7 +309,14 @@
             place.Location.Longtitude = location[1];
 
             // Get PlaceDescription
-            place.PlaceDescription = document.QuerySelector(".upper > p").TextContent;
+            if (document.QuerySelector(".upper > p") == null)
+            {
+                place.PlaceDescription = string.Empty;
+            }
+            else
+            {
+                place.PlaceDescription = document.QuerySelector(".upper > p").TextContent;
+            }
 
             // Get Amentities
             var additionalInfo = document.QuerySelectorAll(".additional_info > table > tbody > tr > td");
@@ -325,11 +344,41 @@
             }
 
             // Get WorkTime
-            var workTimes = additionalInfo[7].TextContent.Trim().Split(" - ");
-
             var workTime = new WorkTime();
-            workTime.OpenTime = TimeSpan.Parse(workTimes[0].TrimEnd());
-            workTime.CloseTime = TimeSpan.Parse(workTimes[1].TrimEnd() == "24:00" ? "00:00" : workTimes[1].TrimEnd());
+
+            if (additionalInfo.Length == 7)
+            {
+                var workTimes = additionalInfo[6].TextContent.Split(" - ");
+
+                var open = Regex.Match(workTimes[0], @"\d+:\d+").ToString();
+                var close = Regex.Match(workTimes[1], @"\d+:\d+").ToString();
+
+                workTime.OpenTime = TimeSpan.Parse(open);
+                workTime.CloseTime = TimeSpan.Parse(close == "24:00" ? "00:00" : close);
+            }
+            else if (additionalInfo.Length == 6)
+            {
+                var workTimes = additionalInfo[5].TextContent.Split(" - ");
+
+                var open = Regex.Match(workTimes[0], @"\d+:\d+").ToString();
+                var close = Regex.Match(workTimes[1], @"\d+:\d+").ToString();
+
+                workTime.OpenTime = TimeSpan.Parse(open);
+                workTime.CloseTime = TimeSpan.Parse(close == "24:00" ? "00:00" : close);
+            }
+            else
+            {
+                var workTimes = additionalInfo[7].TextContent.Split(" - ");
+                var regMatch = Regex.Match(workTimes.ToString(), @"\d+:\d+");
+                if (regMatch != null)
+                {
+                    var open = Regex.Match(workTimes[0], @"\d+:\d+").ToString();
+                    var close = Regex.Match(workTimes[1], @"\d+:\d+").ToString();
+
+                    workTime.OpenTime = TimeSpan.Parse(open);
+                    workTime.CloseTime = TimeSpan.Parse(close == "24:00" ? "00:00" : close);
+                }
+            }
 
             place.WorkTime = workTime;
 
@@ -346,14 +395,23 @@
                     var post = new Post();
                     post.Author = new ApplicationUser();
                     var name = tag.QuerySelector(".author > div").TextContent.Trim().Split(" ");
-                    post.Author.FirstName = name[0];
-                    post.Author.LastName = name[1];
+
+                    if (name.Length > 1)
+                    {
+                        post.Author.FirstName = name[0];
+                        post.Author.LastName = name[1];
+                    }
+                    else
+                    {
+                        post.Author.FirstName = name[0];
+                        post.Author.LastName = string.Empty;
+                    }
 
                     var data = tag.QuerySelector(".author > span").TextContent.Trim().Split(" / ");
                     var cityPost = data[0];
                     post.Author.City = cityPost;
 
-                    var dayAndMonth = DateTime.ParseExact($"{data[1]}, 2019", "dd MMMM, yyyy", CultureInfo.InvariantCulture);
+                    var dayAndMonth = DateTime.ParseExact($"{data[1]} 2020", "dd MMMM yyyy", CultureInfo.InvariantCulture);
                     var hoursAndMinutes = data[2].Split(" ")[0];
                     post.Date = new DateTime();
                     post.Date = dayAndMonth.Add(TimeSpan.Parse(hoursAndMinutes, CultureInfo.InvariantCulture));
