@@ -18,15 +18,15 @@
             this.MusicTypes = new HashSet<Music>();
         }
 
-        // [Required]
-        // [MaxLength(GlobalConstants.PlaceNameMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.PlaceNameMaxLength)]
         public string Name { get; set; }
 
-        // [Required]
-        // [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
         public string Description { get; set; }
 
-        ////[Required]
+        [Required]
         public string LogoImage { get; set; }
 
         public int Rating { get; set; }
@@ -37,16 +37,16 @@
 
         public int Dislikes { get; set; }
 
-        // [Required]
+        [Required]
         public string WebUrl { get; set; }
 
-        // [Required]
+        [Required]
         public Location Location { get; set; }
 
-        // [Required]
+        [Required]
         public Address Address { get; set; }
 
-        // [Required]
+        [Required]
         public WorkTime WorkTime { get; set; }
 
         public virtual ICollection<Image> Images { get; set; }

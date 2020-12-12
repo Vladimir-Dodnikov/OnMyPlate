@@ -7,8 +7,8 @@
 
     public class Amentity : BaseDeletableModel<int>
     {
-        // [Required]
-        // [MaxLength(GlobalConstants.AmentityMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.AmentityMaxLength)]
         public string Name { get; set; }
 
         public int PlaceId { get; set; }

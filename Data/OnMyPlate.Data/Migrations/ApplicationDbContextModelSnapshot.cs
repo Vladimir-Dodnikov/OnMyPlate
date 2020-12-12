@@ -287,7 +287,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("PostDescription")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(13000);
 
                     b.HasKey("Id");
 
@@ -332,7 +334,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ReplyDescription")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(13000);
 
                     b.HasKey("Id");
 
@@ -367,7 +371,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(40)")
+                        .HasMaxLength(40);
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -395,7 +401,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(4000)")
+                        .HasMaxLength(4000);
 
                     b.Property<int>("Dislikes")
                         .HasColumnType("int");
@@ -407,13 +415,16 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("LogoImage")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<int>("Rating")
                         .HasColumnType("int");
@@ -422,6 +433,7 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("WebUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -439,7 +451,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
@@ -453,13 +467,11 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Neighbourhood")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
 
                     b.Property<string>("Street")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -492,7 +504,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -558,10 +572,14 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Lattitude")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("Longtitude")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
@@ -633,7 +651,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(35)")
+                        .HasMaxLength(35);
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");

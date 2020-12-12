@@ -7,8 +7,8 @@
 
     public class Cuisine : BaseDeletableModel<int>
     {
-        // [Required]
-        // [MaxLength(GlobalConstants.CuisineMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.CuisineMaxLength)]
         public string Name { get; set; }
 
         public int PlaceId { get; set; }

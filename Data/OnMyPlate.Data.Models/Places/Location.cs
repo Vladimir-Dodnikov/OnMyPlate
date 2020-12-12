@@ -7,12 +7,12 @@
 
     public class Location : BaseDeletableModel<int>
     {
-        // [Required]
-        // [MaxLength(GlobalConstants.LocationMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.LocationMaxLength)]
         public string Lattitude { get; set; }
 
-        // [Required]
-        // [MaxLength(GlobalConstants.LocationMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.LocationMaxLength)]
         public string Longtitude { get; set; }
 
         public string GoogleAddress { get; set; }

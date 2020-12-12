@@ -8,8 +8,8 @@
 
     public class Reply : BaseDeletableModel<int>
     {
-        // [Required]
-        // [MaxLength(GlobalConstants.MessageContentMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.MessageContentMaxLength)]
         public string ReplyDescription { get; set; }
 
         public bool IsBestAnswer { get; set; }

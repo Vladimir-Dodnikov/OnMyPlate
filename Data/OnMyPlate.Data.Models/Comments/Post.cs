@@ -14,8 +14,8 @@
             this.Replies = new HashSet<Reply>();
         }
 
-        // [Required]
-        // [MaxLength(GlobalConstants.MessageContentMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.MessageContentMaxLength)]
         public string PostDescription { get; set; }
 
         public DateTime Date { get; set; }

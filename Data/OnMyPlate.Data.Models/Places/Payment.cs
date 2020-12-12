@@ -7,8 +7,8 @@
 
     public class Payment : BaseDeletableModel<int>
     {
-        // [Required]
-        // [MaxLength(GlobalConstants.PaymentNameMaxLength)]
+        [Required]
+        [MaxLength(GlobalConstants.PaymentNameMaxLength)]
         public string Name { get; set; }
 
         public int PlaceId { get; set; }
