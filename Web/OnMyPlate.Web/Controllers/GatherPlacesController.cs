@@ -2,9 +2,13 @@
 {
     using System.Threading.Tasks;
 
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
+    using OnMyPlate.Common;
     using OnMyPlate.Services;
 
+    [Authorize]
+    [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
     public class GatherPlacesController : BaseController
     {
         private readonly IRezzoScraperService rezzoScraperService;
