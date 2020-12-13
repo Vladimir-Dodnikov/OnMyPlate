@@ -18,8 +18,8 @@
                 .WithMany(p => p.Posts)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            post
-                .HasIndex(p => p.IsDeleted);
+            // post
+            //    .HasIndex(p => p.IsDeleted);
         }
     }
 }

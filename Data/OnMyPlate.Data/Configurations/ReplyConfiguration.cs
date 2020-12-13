@@ -24,8 +24,8 @@
                 .IsRequired(false)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            reply
-                .HasIndex(r => r.IsDeleted);
+            // reply
+            //    .HasIndex(r => r.IsDeleted);
         }
     }
 }

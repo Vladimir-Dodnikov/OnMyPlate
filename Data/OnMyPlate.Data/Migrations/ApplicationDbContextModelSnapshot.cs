@@ -176,7 +176,9 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -196,13 +198,17 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(40)")
+                        .HasMaxLength(40);
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -702,7 +708,7 @@ namespace OnMyPlate.Data.Migrations
                     b.HasIndex("PlaceId")
                         .IsUnique();
 
-                    b.ToTable("WorkTime");
+                    b.ToTable("WorkTimes");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Setting", b =>

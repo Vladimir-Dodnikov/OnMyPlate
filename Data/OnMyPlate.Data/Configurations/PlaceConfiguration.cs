@@ -9,8 +9,8 @@
     {
         public void Configure(EntityTypeBuilder<Place> place)
         {
-            place
-                .HasIndex(p => p.IsDeleted);
+            // place
+            //    .HasIndex(p => p.IsDeleted);
         }
     }
 }

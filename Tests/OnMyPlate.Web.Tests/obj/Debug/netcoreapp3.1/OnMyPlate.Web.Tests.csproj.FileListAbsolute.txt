@@ -530,3 +530,12 @@ C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3
 C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\NetTopologySuite.dll
 C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Views\GatherPlaces\Index.cshtml
 C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\ImportRezzoIds.txt
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\WorkTimes.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Addresses.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Amentities.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Cuisines.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Images.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Locations.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Payments.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Places.json
+C:\Users\Vladi\Desktop\OnMyPlate\Tests\OnMyPlate.Web.Tests\bin\Debug\netcoreapp3.1\Users.json

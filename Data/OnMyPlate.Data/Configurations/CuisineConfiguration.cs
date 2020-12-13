@@ -12,8 +12,9 @@
                 .HasOne(c => c.Place)
                 .WithMany(p => p.Cuisines)
                 .OnDelete(DeleteBehavior.Restrict);
-            cuisine
-                .HasIndex(x => x.IsDeleted);
+
+            // cuisine
+            //    .HasIndex(x => x.IsDeleted);
         }
     }
 }

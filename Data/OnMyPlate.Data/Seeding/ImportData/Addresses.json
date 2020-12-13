@@ -1,0 +1,2792 @@
+﻿[
+  {
+    "Id": "1",
+    "CreatedOn": "2020-12-10 00:54:12.1019688",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "12-14 Pentcho Slaveykov blvd.",
+    "PlaceId": "1"
+  },
+  {
+    "Id": "2",
+    "CreatedOn": "2020-12-10 00:54:15.0517197",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "53 Todor Kableshkov blvd.",
+    "PlaceId": "2"
+  },
+  {
+    "Id": "3",
+    "CreatedOn": "2020-12-10 00:54:17.3029306",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11 \"11 Avgust\" str.",
+    "PlaceId": "3"
+  },
+  {
+    "Id": "4",
+    "CreatedOn": "2020-12-10 00:54:19.0886633",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 Kotel str.",
+    "PlaceId": "4"
+  },
+  {
+    "Id": "5",
+    "CreatedOn": "2020-12-10 00:54:20.6956277",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3А Nikolay Haytov str.",
+    "PlaceId": "5"
+  },
+  {
+    "Id": "6",
+    "CreatedOn": "2020-12-10 00:54:22.2100876",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Sofia Park living quarters, building 16B",
+    "PlaceId": "6"
+  },
+  {
+    "Id": "7",
+    "CreatedOn": "2020-12-10 00:54:23.7213465",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Mladost 1A, 502 block of flats",
+    "PlaceId": "7"
+  },
+  {
+    "Id": "8",
+    "CreatedOn": "2020-12-10 00:54:25.1669230",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 Budapeshta str.",
+    "PlaceId": "8"
+  },
+  {
+    "Id": "9",
+    "CreatedOn": "2020-12-10 00:54:26.6030107",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1 Gurko str., Grand Hotel Sofia",
+    "PlaceId": "9"
+  },
+  {
+    "Id": "10",
+    "CreatedOn": "2020-12-10 00:54:28.0445949",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "20 Praga blvd.",
+    "PlaceId": "10"
+  },
+  {
+    "Id": "11",
+    "CreatedOn": "2020-12-10 00:54:29.7111525",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "69 Geo Milev str.",
+    "PlaceId": "11"
+  },
+  {
+    "Id": "12",
+    "CreatedOn": "2020-12-10 00:54:31.4057719",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1 Bulgaria blvd., NDK - Pronoto",
+    "PlaceId": "12"
+  },
+  {
+    "Id": "13",
+    "CreatedOn": "2020-12-10 00:54:32.9705998",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Druzhba 2, in front of block 311",
+    "PlaceId": "13"
+  },
+  {
+    "Id": "14",
+    "CreatedOn": "2020-12-10 00:54:34.5567851",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "33 Petar Parchevich str.",
+    "PlaceId": "14"
+  },
+  {
+    "Id": "15",
+    "CreatedOn": "2020-12-10 00:54:36.4881277",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "34 Yurii Venelin str.",
+    "PlaceId": "15"
+  },
+  {
+    "Id": "16",
+    "CreatedOn": "2020-12-10 00:54:38.3272024",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "On the corner of Petko Todorov blvd. and Byala Cherkva str.",
+    "PlaceId": "16"
+  },
+  {
+    "Id": "17",
+    "CreatedOn": "2020-12-10 00:54:40.3436619",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "75 Kozloduy str.",
+    "PlaceId": "17"
+  },
+  {
+    "Id": "18",
+    "CreatedOn": "2020-12-10 00:54:42.2429974",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "18 Hristo Belchev str.",
+    "PlaceId": "18"
+  },
+  {
+    "Id": "19",
+    "CreatedOn": "2020-12-10 00:54:44.1892505",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "106 Vitosha blvd.",
+    "PlaceId": "19"
+  },
+  {
+    "Id": "20",
+    "CreatedOn": "2020-12-10 00:54:46.0459014",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Syborni str.",
+    "PlaceId": "20"
+  },
+  {
+    "Id": "21",
+    "CreatedOn": "2020-12-10 00:54:48.3714082",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11, Shipka str.",
+    "PlaceId": "21"
+  },
+  {
+    "Id": "22",
+    "CreatedOn": "2020-12-10 00:54:50.6605019",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "8, Akademik Petyr Dinekov str., Dragalevtsi",
+    "PlaceId": "22"
+  },
+  {
+    "Id": "23",
+    "CreatedOn": "2020-12-10 00:54:52.7758116",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "13, Budapeshta str. ",
+    "PlaceId": "23"
+  },
+  {
+    "Id": "24",
+    "CreatedOn": "2020-12-10 00:54:54.9600642",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "67, Han Asparuh str.",
+    "PlaceId": "24"
+  },
+  {
+    "Id": "25",
+    "CreatedOn": "2020-12-10 00:54:57.1354061",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Mladost 4, 443 block",
+    "PlaceId": "25"
+  },
+  {
+    "Id": "26",
+    "CreatedOn": "2020-12-10 00:54:59.1947606",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "150, Vurtopo str.",
+    "PlaceId": "26"
+  },
+  {
+    "Id": "27",
+    "CreatedOn": "2020-12-10 00:55:01.4577551",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "18, Tvyrdishki prohod str.",
+    "PlaceId": "27"
+  },
+  {
+    "Id": "28",
+    "CreatedOn": "2020-12-10 00:55:03.6705306",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "92, Rakovski str.",
+    "PlaceId": "28"
+  },
+  {
+    "Id": "29",
+    "CreatedOn": "2020-12-10 00:55:06.0090820",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "75 Vasil Levski blvd.",
+    "PlaceId": "29"
+  },
+  {
+    "Id": "30",
+    "CreatedOn": "2020-12-10 00:55:08.6601759",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "60 Teodosii Turnovski str.",
+    "PlaceId": "30"
+  },
+  {
+    "Id": "31",
+    "CreatedOn": "2020-12-10 00:55:11.3805882",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "214 Okolovrysten pyt str., Sofia Ring Mall ",
+    "PlaceId": "31"
+  },
+  {
+    "Id": "32",
+    "CreatedOn": "2020-12-10 00:55:13.6534052",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "68 Bulgaria blvd., Bulgaria Mall",
+    "PlaceId": "32"
+  },
+  {
+    "Id": "33",
+    "CreatedOn": "2020-12-10 00:55:15.8947026",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 Arsenalski blvd, City Center Sofia",
+    "PlaceId": "33"
+  },
+  {
+    "Id": "34",
+    "CreatedOn": "2020-12-10 00:55:18.1247641",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "101 Aleksandyr Stamboliiski blvd., Mall of Sofia",
+    "PlaceId": "34"
+  },
+  {
+    "Id": "35",
+    "CreatedOn": "2020-12-10 00:55:20.4592749",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 Cherni vryh blvd., Paradise Center",
+    "PlaceId": "35"
+  },
+  {
+    "Id": "36",
+    "CreatedOn": "2020-12-10 00:55:22.8604056",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "48 Sitniyakovo blvd., Serdika Center",
+    "PlaceId": "36"
+  },
+  {
+    "Id": "37",
+    "CreatedOn": "2020-12-10 00:55:25.1174187",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "115 I Tsarigradsko shose blvd., The Mall",
+    "PlaceId": "37"
+  },
+  {
+    "Id": "38",
+    "CreatedOn": "2020-12-10 00:55:27.3380823",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "23 A Yanko Sakuzov str. ",
+    "PlaceId": "38"
+  },
+  {
+    "Id": "39",
+    "CreatedOn": "2020-12-10 00:55:29.9647637",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Obikolna str. (near to Praktiker)",
+    "PlaceId": "39"
+  },
+  {
+    "Id": "40",
+    "CreatedOn": "2020-12-10 00:55:32.4185502",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "140, Tsar Simeon str.",
+    "PlaceId": "40"
+  },
+  {
+    "Id": "41",
+    "CreatedOn": "2020-12-10 00:55:35.1445310",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 Doiran str.",
+    "PlaceId": "41"
+  },
+  {
+    "Id": "42",
+    "CreatedOn": "2020-12-10 00:55:37.8520107",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "214 Okolovrysten pyt str., Sofia Ring Mall ",
+    "PlaceId": "42"
+  },
+  {
+    "Id": "43",
+    "CreatedOn": "2020-12-10 00:55:40.6040696",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "36 Pirinski prohod str.",
+    "PlaceId": "43"
+  },
+  {
+    "Id": "44",
+    "CreatedOn": "2020-12-10 00:55:43.1982274",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "49 Tsarigradsko shose blvd.",
+    "PlaceId": "44"
+  },
+  {
+    "Id": "45",
+    "CreatedOn": "2020-12-10 00:55:45.8798837",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "34 Angel Kynchev str.",
+    "PlaceId": "45"
+  },
+  {
+    "Id": "46",
+    "CreatedOn": "2020-12-10 00:55:48.4336979",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "32 Petar Parchevich str.",
+    "PlaceId": "46"
+  },
+  {
+    "Id": "47",
+    "CreatedOn": "2020-12-10 00:55:51.2551138",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "81 Tsar Asen I str.",
+    "PlaceId": "47"
+  },
+  {
+    "Id": "48",
+    "CreatedOn": "2020-12-10 00:55:53.9201360",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "92 President Linkln blvd., Hotel Fantasia",
+    "PlaceId": "48"
+  },
+  {
+    "Id": "49",
+    "CreatedOn": "2020-12-10 00:55:56.5419747",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6 Karnigradska str.",
+    "PlaceId": "49"
+  },
+  {
+    "Id": "50",
+    "CreatedOn": "2020-12-10 00:55:59.3536374",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 Han Krum str.",
+    "PlaceId": "50"
+  },
+  {
+    "Id": "51",
+    "CreatedOn": "2020-12-10 00:56:02.3663096",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "68 Neofit Rilski str.",
+    "PlaceId": "51"
+  },
+  {
+    "Id": "52",
+    "CreatedOn": "2020-12-10 00:56:05.0961876",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "214 Okolovrasten pat str., Ring Mall, floor 2",
+    "PlaceId": "52"
+  },
+  {
+    "Id": "53",
+    "CreatedOn": "2020-12-10 00:56:07.8050810",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "bul. Nikola Y. Vaptsarov 35, floor 8",
+    "PlaceId": "53"
+  },
+  {
+    "Id": "54",
+    "CreatedOn": "2020-12-10 00:56:10.5221890",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21, Tzar Osvoboditel blvd.",
+    "PlaceId": "54"
+  },
+  {
+    "Id": "55",
+    "CreatedOn": "2020-12-10 00:56:13.3498977",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "7 Pirotska str. ",
+    "PlaceId": "55"
+  },
+  {
+    "Id": "56",
+    "CreatedOn": "2020-12-10 00:56:16.4779711",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "12 Tsar Osvoboditel bul.",
+    "PlaceId": "56"
+  },
+  {
+    "Id": "57",
+    "CreatedOn": "2020-12-10 00:56:19.3975976",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "50, Solunska str.",
+    "PlaceId": "57"
+  },
+  {
+    "Id": "58",
+    "CreatedOn": "2020-12-10 00:56:22.2193480",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "26, Akademik Metodi Popov str.",
+    "PlaceId": "58"
+  },
+  {
+    "Id": "59",
+    "CreatedOn": "2020-12-10 00:56:25.1024792",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "27, Angel Kunchev str.",
+    "PlaceId": "59"
+  },
+  {
+    "Id": "60",
+    "CreatedOn": "2020-12-10 00:56:28.0512089",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "36, Han Asparuh, str.",
+    "PlaceId": "60"
+  },
+  {
+    "Id": "61",
+    "CreatedOn": "2020-12-10 00:56:31.3624080",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "50, Chervena roza str.",
+    "PlaceId": "61"
+  },
+  {
+    "Id": "62",
+    "CreatedOn": "2020-12-10 00:56:34.2885872",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "27, Okolovrasten pat Str.",
+    "PlaceId": "62"
+  },
+  {
+    "Id": "63",
+    "CreatedOn": "2020-12-10 00:56:37.2657725",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6, Boris Hristov, str.",
+    "PlaceId": "63"
+  },
+  {
+    "Id": "64",
+    "CreatedOn": "2020-12-10 00:56:40.3664074",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11, Karnegi str.",
+    "PlaceId": "64"
+  },
+  {
+    "Id": "65",
+    "CreatedOn": "2020-12-10 00:56:43.3310542",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "14 Saborna str.",
+    "PlaceId": "65"
+  },
+  {
+    "Id": "66",
+    "CreatedOn": "2020-12-10 00:56:46.2035959",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "22, Ivan Borimechkata str.",
+    "PlaceId": "66"
+  },
+  {
+    "Id": "67",
+    "CreatedOn": "2020-12-10 00:56:49.1422415",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "35 A, Aleksandar Von Humboldt str.",
+    "PlaceId": "67"
+  },
+  {
+    "Id": "68",
+    "CreatedOn": "2020-12-10 00:56:52.3565702",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "85, Ralevitsa str.",
+    "PlaceId": "68"
+  },
+  {
+    "Id": "69",
+    "CreatedOn": "2020-12-10 00:56:55.3286551",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "19, Gurko str.",
+    "PlaceId": "69"
+  },
+  {
+    "Id": "70",
+    "CreatedOn": "2020-12-10 00:56:58.4586931",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "44, Pancho Vladigerov bul., Lylin 3",
+    "PlaceId": "70"
+  },
+  {
+    "Id": "71",
+    "CreatedOn": "2020-12-10 00:57:01.7632036",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "29, Kraishte str.",
+    "PlaceId": "71"
+  },
+  {
+    "Id": "72",
+    "CreatedOn": "2020-12-10 00:57:04.8214539",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4, Sborishte sqr.",
+    "PlaceId": "72"
+  },
+  {
+    "Id": "73",
+    "CreatedOn": "2020-12-10 00:57:07.8537694",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "27, Ivanitsa Danchev str.",
+    "PlaceId": "73"
+  },
+  {
+    "Id": "74",
+    "CreatedOn": "2020-12-10 00:57:10.8744218",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 James Baucher blvd., in the garden with the lake of Marinela hotel",
+    "PlaceId": "74"
+  },
+  {
+    "Id": "75",
+    "CreatedOn": "2020-12-10 00:57:14.0525512",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "85, Pirin str.",
+    "PlaceId": "75"
+  },
+  {
+    "Id": "76",
+    "CreatedOn": "2020-12-10 00:57:17.1233896",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10, Bratya Peshevi str.",
+    "PlaceId": "76"
+  },
+  {
+    "Id": "77",
+    "CreatedOn": "2020-12-10 00:57:20.4451099",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "29 A, President Lincoln bul.",
+    "PlaceId": "77"
+  },
+  {
+    "Id": "78",
+    "CreatedOn": "2020-12-10 00:57:23.8411543",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "84, Krum Popov str.",
+    "PlaceId": "78"
+  },
+  {
+    "Id": "79",
+    "CreatedOn": "2020-12-10 00:57:26.9452725",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Musagenitsa, bl.89",
+    "PlaceId": "79"
+  },
+  {
+    "Id": "80",
+    "CreatedOn": "2020-12-10 00:57:30.1155903",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5, prof. Georgi Zlatarski",
+    "PlaceId": "80"
+  },
+  {
+    "Id": "81",
+    "CreatedOn": "2020-12-10 00:57:33.6010296",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "120-122, Tintyava str.",
+    "PlaceId": "81"
+  },
+  {
+    "Id": "82",
+    "CreatedOn": "2020-12-10 00:57:36.6516562",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 Chenri Vrah Blvd., Paradise Center, 3 floor",
+    "PlaceId": "82"
+  },
+  {
+    "Id": "83",
+    "CreatedOn": "2020-12-10 00:57:39.8485187",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Boyana Residency, 18, Vitoshko lale str.",
+    "PlaceId": "83"
+  },
+  {
+    "Id": "84",
+    "CreatedOn": "2020-12-10 00:57:43.0079219",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1A, Gen. Stefan Toshev",
+    "PlaceId": "84"
+  },
+  {
+    "Id": "85",
+    "CreatedOn": "2020-12-10 00:57:46.1828436",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11, Parensov str.",
+    "PlaceId": "85"
+  },
+  {
+    "Id": "86",
+    "CreatedOn": "2020-12-10 00:57:49.6147719",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "32, Cherni vruh blvd.",
+    "PlaceId": "86"
+  },
+  {
+    "Id": "87",
+    "CreatedOn": "2020-12-10 00:57:53.1464590",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "24, Slavyanska str.",
+    "PlaceId": "87"
+  },
+  {
+    "Id": "88",
+    "CreatedOn": "2020-12-10 00:57:56.5356608",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "67, Cherni vryh blvd.",
+    "PlaceId": "88"
+  },
+  {
+    "Id": "89",
+    "CreatedOn": "2020-12-10 00:57:59.8733276",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "91, Aleksandar Malinov blvd.",
+    "PlaceId": "89"
+  },
+  {
+    "Id": "90",
+    "CreatedOn": "2020-12-10 00:58:03.1897799",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "28, Krayrechna str",
+    "PlaceId": "90"
+  },
+  {
+    "Id": "91",
+    "CreatedOn": "2020-12-10 00:58:06.8293002",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Filip Avramov blvd. (Park Bobby & Kelly)",
+    "PlaceId": "91"
+  },
+  {
+    "Id": "92",
+    "CreatedOn": "2020-12-10 00:58:10.1458553",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "150, Vitosha blvd.",
+    "PlaceId": "92"
+  },
+  {
+    "Id": "93",
+    "CreatedOn": "2020-12-10 00:58:13.4965114",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "63, Oborishte str.",
+    "PlaceId": "93"
+  },
+  {
+    "Id": "94",
+    "CreatedOn": "2020-12-10 00:58:16.8402735",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6, Shipka, str.",
+    "PlaceId": "94"
+  },
+  {
+    "Id": "95",
+    "CreatedOn": "2020-12-10 00:58:20.1738353",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Borisova gradina (Sofia sport hall)",
+    "PlaceId": "95"
+  },
+  {
+    "Id": "96",
+    "CreatedOn": "2020-12-10 00:58:23.6740721",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "65, Trayanovi vrata str.",
+    "PlaceId": "96"
+  },
+  {
+    "Id": "97",
+    "CreatedOn": "2020-12-10 00:58:27.5870164",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "bl.60",
+    "PlaceId": "97"
+  },
+  {
+    "Id": "98",
+    "CreatedOn": "2020-12-10 00:58:31.0283706",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "bl.57",
+    "PlaceId": "98"
+  },
+  {
+    "Id": "99",
+    "CreatedOn": "2020-12-10 00:58:34.4687822",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "24, Byala cherkva str.",
+    "PlaceId": "99"
+  },
+  {
+    "Id": "100",
+    "CreatedOn": "2020-12-10 00:58:37.8575529",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "47, Geo Milev str.",
+    "PlaceId": "100"
+  },
+  {
+    "Id": "101",
+    "CreatedOn": "2020-12-10 00:58:41.5486083",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Vardar blvd., bl.65",
+    "PlaceId": "101"
+  },
+  {
+    "Id": "102",
+    "CreatedOn": "2020-12-10 00:58:44.9581107",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "9, Petar Beron str.",
+    "PlaceId": "102"
+  },
+  {
+    "Id": "103",
+    "CreatedOn": "2020-12-10 00:58:48.3456696",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "№2, 19 str.",
+    "PlaceId": "103"
+  },
+  {
+    "Id": "104",
+    "CreatedOn": "2020-12-10 00:58:51.7553015",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "13, Uzundzovska str.",
+    "PlaceId": "104"
+  },
+  {
+    "Id": "105",
+    "CreatedOn": "2020-12-10 00:58:55.2516450",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100, Cherni Vryh, blvd",
+    "PlaceId": "105"
+  },
+  {
+    "Id": "106",
+    "CreatedOn": "2020-12-10 00:58:58.6860814",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Architect Hrabar Popov str.",
+    "PlaceId": "106"
+  },
+  {
+    "Id": "107",
+    "CreatedOn": "2020-12-10 00:59:02.1096928",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "24, Belimel str.",
+    "PlaceId": "107"
+  },
+  {
+    "Id": "108",
+    "CreatedOn": "2020-12-10 00:59:05.5753615",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11, Iskar str.",
+    "PlaceId": "108"
+  },
+  {
+    "Id": "109",
+    "CreatedOn": "2020-12-10 00:59:09.0309187",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5, Prof. Ivan Stranski str., bl.59",
+    "PlaceId": "109"
+  },
+  {
+    "Id": "110",
+    "CreatedOn": "2020-12-10 00:59:12.4935524",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4, Zlatovrah str.",
+    "PlaceId": "110"
+  },
+  {
+    "Id": "111",
+    "CreatedOn": "2020-12-10 00:59:16.3224508",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21, Vitosha blvd.",
+    "PlaceId": "111"
+  },
+  {
+    "Id": "112",
+    "CreatedOn": "2020-12-10 00:59:19.7875946",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "60A, Alexander Dondukov blvd.",
+    "PlaceId": "112"
+  },
+  {
+    "Id": "113",
+    "CreatedOn": "2020-12-10 00:59:23.3301769",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "83A, Bulgaria blvd.",
+    "PlaceId": "113"
+  },
+  {
+    "Id": "114",
+    "CreatedOn": "2020-12-10 00:59:26.8666449",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "13, Prof. Tsvetan Lazarov str.",
+    "PlaceId": "114"
+  },
+  {
+    "Id": "115",
+    "CreatedOn": "2020-12-10 00:59:30.6156006",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "16, Vitosha blvd.",
+    "PlaceId": "115"
+  },
+  {
+    "Id": "116",
+    "CreatedOn": "2020-12-10 00:59:34.6474182",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "121, G. S. Rakovski str.",
+    "PlaceId": "116"
+  },
+  {
+    "Id": "117",
+    "CreatedOn": "2020-12-10 00:59:38.2261952",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "43, Solun str.",
+    "PlaceId": "117"
+  },
+  {
+    "Id": "118",
+    "CreatedOn": "2020-12-10 00:59:41.7928223",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "42A, Orehova gora str.",
+    "PlaceId": "118"
+  },
+  {
+    "Id": "119",
+    "CreatedOn": "2020-12-10 00:59:45.3676965",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100, Djames Baucher blvd",
+    "PlaceId": "119"
+  },
+  {
+    "Id": "120",
+    "CreatedOn": "2020-12-10 00:59:48.9153713",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "51 Chehov, str",
+    "PlaceId": "120"
+  },
+  {
+    "Id": "121",
+    "CreatedOn": "2020-12-10 00:59:52.8692400",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "23, Ivanitsa Danchev str.",
+    "PlaceId": "121"
+  },
+  {
+    "Id": "122",
+    "CreatedOn": "2020-12-10 00:59:56.4582727",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2B, Marinkovica",
+    "PlaceId": "122"
+  },
+  {
+    "Id": "123",
+    "CreatedOn": "2020-12-10 01:00:00.0495296",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21, Tsar Osvoboditel blvd.",
+    "PlaceId": "123"
+  },
+  {
+    "Id": "124",
+    "CreatedOn": "2020-12-10 01:00:03.6229620",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "37, Oborishte str.",
+    "PlaceId": "124"
+  },
+  {
+    "Id": "125",
+    "CreatedOn": "2020-12-10 01:00:07.2498263",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "52, Petar Parchevich",
+    "PlaceId": "125"
+  },
+  {
+    "Id": "126",
+    "CreatedOn": "2020-12-10 01:00:10.9225643",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "228, Slivnitсa, blv",
+    "PlaceId": "126"
+  },
+  {
+    "Id": "127",
+    "CreatedOn": "2020-12-10 01:00:14.6086578",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "228, Slivnitca, blvd",
+    "PlaceId": "127"
+  },
+  {
+    "Id": "128",
+    "CreatedOn": "2020-12-10 01:00:18.2612230",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "143, Nikola Petkov blvd.",
+    "PlaceId": "128"
+  },
+  {
+    "Id": "129",
+    "CreatedOn": "2020-12-10 01:00:21.8647872",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 Chenri Vrah Blvd., Paradise Center, 3 floor",
+    "PlaceId": "129"
+  },
+  {
+    "Id": "130",
+    "CreatedOn": "2020-12-10 01:00:25.5338783",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "46, Okolovrasten pat blvd.",
+    "PlaceId": "130"
+  },
+  {
+    "Id": "131",
+    "CreatedOn": "2020-12-10 01:00:29.5500783",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "26, Krayrechna str.",
+    "PlaceId": "131"
+  },
+  {
+    "Id": "132",
+    "CreatedOn": "2020-12-10 01:00:33.1986683",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "25, 197 str., Vitosha park",
+    "PlaceId": "132"
+  },
+  {
+    "Id": "133",
+    "CreatedOn": "2020-12-10 01:00:37.1348946",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Sofia Ring Mall",
+    "PlaceId": "133"
+  },
+  {
+    "Id": "134",
+    "CreatedOn": "2020-12-10 01:00:41.1768943",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Okolovrysten pat str.",
+    "PlaceId": "134"
+  },
+  {
+    "Id": "135",
+    "CreatedOn": "2020-12-10 01:00:45.1684136",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Han Asparuh str.",
+    "PlaceId": "135"
+  },
+  {
+    "Id": "136",
+    "CreatedOn": "2020-12-10 01:00:48.9668222",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4, Narodno subranie sqr.",
+    "PlaceId": "136"
+  },
+  {
+    "Id": "137",
+    "CreatedOn": "2020-12-10 01:00:52.7061931",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "12, Nikolai Haitov str.",
+    "PlaceId": "137"
+  },
+  {
+    "Id": "138",
+    "CreatedOn": "2020-12-10 01:00:56.6279225",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6, Milin kamak str.",
+    "PlaceId": "138"
+  },
+  {
+    "Id": "139",
+    "CreatedOn": "2020-12-10 01:01:00.4352952",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2-4, Golo Bardo str.",
+    "PlaceId": "139"
+  },
+  {
+    "Id": "140",
+    "CreatedOn": "2020-12-10 01:01:04.3467483",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4, Arsenalski blvd.",
+    "PlaceId": "140"
+  },
+  {
+    "Id": "141",
+    "CreatedOn": "2020-12-10 01:01:08.5393600",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "64, Krum Popov str.",
+    "PlaceId": "141"
+  },
+  {
+    "Id": "142",
+    "CreatedOn": "2020-12-10 01:01:12.2916240",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "87, Cherkovna str.",
+    "PlaceId": "142"
+  },
+  {
+    "Id": "143",
+    "CreatedOn": "2020-12-10 01:01:16.0039751",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "ул. Митр. Серафим Сливенски, бл.144",
+    "PlaceId": "143"
+  },
+  {
+    "Id": "144",
+    "CreatedOn": "2020-12-10 01:01:19.9223634",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1B, Emilian Stanev  str.",
+    "PlaceId": "144"
+  },
+  {
+    "Id": "145",
+    "CreatedOn": "2020-12-10 01:01:23.8237607",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10,Liulin building №112",
+    "PlaceId": "145"
+  },
+  {
+    "Id": "146",
+    "CreatedOn": "2020-12-10 01:01:27.8078039",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "32B, Hristo Belchev str.",
+    "PlaceId": "146"
+  },
+  {
+    "Id": "147",
+    "CreatedOn": "2020-12-10 01:01:31.7274331",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "35, Angel Kunchev str.",
+    "PlaceId": "147"
+  },
+  {
+    "Id": "148",
+    "CreatedOn": "2020-12-10 01:01:35.6015809",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5, Hristo Smirnenski blvd",
+    "PlaceId": "148"
+  },
+  {
+    "Id": "149",
+    "CreatedOn": "2020-12-10 01:01:39.5985112",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11 Krikor Azaryan str., Studentski grad, next to 60th bl.",
+    "PlaceId": "149"
+  },
+  {
+    "Id": "150",
+    "CreatedOn": "2020-12-10 01:01:43.9498200",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5, Prof. dr. Ivan Stranski  blvd",
+    "PlaceId": "150"
+  },
+  {
+    "Id": "151",
+    "CreatedOn": "2020-12-10 01:01:48.2842385",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "32, St. Georgi Sofiiski str.",
+    "PlaceId": "151"
+  },
+  {
+    "Id": "152",
+    "CreatedOn": "2020-12-10 01:01:52.1733499",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Ariana lake",
+    "PlaceId": "152"
+  },
+  {
+    "Id": "153",
+    "CreatedOn": "2020-12-10 01:01:56.0749867",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Ul. Panoramic road 24 ",
+    "PlaceId": "153"
+  },
+  {
+    "Id": "154",
+    "CreatedOn": "2020-12-10 01:01:59.9129354",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "58, Chervena stena str.",
+    "PlaceId": "154"
+  },
+  {
+    "Id": "155",
+    "CreatedOn": "2020-12-10 01:02:03.8299445",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10, G. Bradistilov str.",
+    "PlaceId": "155"
+  },
+  {
+    "Id": "156",
+    "CreatedOn": "2020-12-10 01:02:07.7350928",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "53, Vasil Levski blvd.",
+    "PlaceId": "156"
+  },
+  {
+    "Id": "157",
+    "CreatedOn": "2020-12-10 01:02:11.6185615",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4  Mladost, bl. 425 A",
+    "PlaceId": "157"
+  },
+  {
+    "Id": "158",
+    "CreatedOn": "2020-12-10 01:02:15.5074673",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "45, Tsar Samuil str.",
+    "PlaceId": "158"
+  },
+  {
+    "Id": "159",
+    "CreatedOn": "2020-12-10 01:02:19.4136700",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5A, Taras Shevchenko str.",
+    "PlaceId": "159"
+  },
+  {
+    "Id": "160",
+    "CreatedOn": "2020-12-10 01:02:23.3248053",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "18, Oborishte str.",
+    "PlaceId": "160"
+  },
+  {
+    "Id": "161",
+    "CreatedOn": "2020-12-10 01:02:27.5778016",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "34, Shipka str.",
+    "PlaceId": "161"
+  },
+  {
+    "Id": "162",
+    "CreatedOn": "2020-12-10 01:02:31.4787454",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "39, Tsar Shishman str.",
+    "PlaceId": "162"
+  },
+  {
+    "Id": "163",
+    "CreatedOn": "2020-12-10 01:02:35.4606683",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "24, Elisaveta Bagryana str",
+    "PlaceId": "163"
+  },
+  {
+    "Id": "164",
+    "CreatedOn": "2020-12-10 01:02:39.4369852",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "38B, Gen. Gurko str.",
+    "PlaceId": "164"
+  },
+  {
+    "Id": "165",
+    "CreatedOn": "2020-12-10 01:02:43.3863477",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "28, Solunska str.",
+    "PlaceId": "165"
+  },
+  {
+    "Id": "166",
+    "CreatedOn": "2020-12-10 01:02:47.5771412",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1-7 arh. Nikola Lazarov str.",
+    "PlaceId": "166"
+  },
+  {
+    "Id": "167",
+    "CreatedOn": "2020-12-10 01:02:51.9095637",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "№45, Vasil Levski bul.",
+    "PlaceId": "167"
+  },
+  {
+    "Id": "168",
+    "CreatedOn": "2020-12-10 01:02:55.9227006",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "15, Moskovska str.",
+    "PlaceId": "168"
+  },
+  {
+    "Id": "169",
+    "CreatedOn": "2020-12-10 01:02:59.9077191",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "24, Vasil Levski blvd.",
+    "PlaceId": "169"
+  },
+  {
+    "Id": "170",
+    "CreatedOn": "2020-12-10 01:03:03.9085499",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "46, Sveta Marina str.",
+    "PlaceId": "170"
+  },
+  {
+    "Id": "171",
+    "CreatedOn": "2020-12-10 01:03:08.2915616",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Budapeshta St 2",
+    "PlaceId": "171"
+  },
+  {
+    "Id": "172",
+    "CreatedOn": "2020-12-10 01:03:12.3100639",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Str. Rezbarska 31",
+    "PlaceId": "172"
+  },
+  {
+    "Id": "173",
+    "CreatedOn": "2020-12-10 01:03:16.3089914",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " ul.Okolovrasten pat №437",
+    "PlaceId": "173"
+  },
+  {
+    "Id": "174",
+    "CreatedOn": "2020-12-10 01:03:20.3749124",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 31, ulitsa \"Professor Atanas Ishirkov\" ",
+    "PlaceId": "174"
+  },
+  {
+    "Id": "175",
+    "CreatedOn": "2020-12-10 01:03:24.4173188",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 68 Tsar Ivan Asen II Str",
+    "PlaceId": "175"
+  },
+  {
+    "Id": "176",
+    "CreatedOn": "2020-12-10 01:03:28.4012100",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "31, Han Asparuh str.",
+    "PlaceId": "176"
+  },
+  {
+    "Id": "177",
+    "CreatedOn": "2020-12-10 01:03:32.4467718",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "18, Knyaz Al. Dondukov str.",
+    "PlaceId": "177"
+  },
+  {
+    "Id": "178",
+    "CreatedOn": "2020-12-10 01:03:36.4902597",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "109 Oborishte Str",
+    "PlaceId": "178"
+  },
+  {
+    "Id": "179",
+    "CreatedOn": "2020-12-10 01:03:40.5591594",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "58, Gladston str.",
+    "PlaceId": "179"
+  },
+  {
+    "Id": "180",
+    "CreatedOn": "2020-12-10 01:03:44.5967169",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "191, Cherni vrah blvd.",
+    "PlaceId": "180"
+  },
+  {
+    "Id": "181",
+    "CreatedOn": "2020-12-10 01:03:49.0465229",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "23, Oborishte str.",
+    "PlaceId": "181"
+  },
+  {
+    "Id": "182",
+    "CreatedOn": "2020-12-10 01:03:53.2771794",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "5, Dragan Tsankov blvd., park Borisova gradina",
+    "PlaceId": "182"
+  },
+  {
+    "Id": "183",
+    "CreatedOn": "2020-12-10 01:03:57.6902060",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "80, Akademik Stefan Mladenov str.",
+    "PlaceId": "183"
+  },
+  {
+    "Id": "184",
+    "CreatedOn": "2020-12-10 01:04:01.7912226",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " Square Transformation 4",
+    "PlaceId": "184"
+  },
+  {
+    "Id": "185",
+    "CreatedOn": "2020-12-10 01:04:05.8543208",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "231 Tsar Simeon Street",
+    "PlaceId": "185"
+  },
+  {
+    "Id": "186",
+    "CreatedOn": "2020-12-10 01:04:09.9563429",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Hisar Street and Tsar Simeon Street",
+    "PlaceId": "186"
+  },
+  {
+    "Id": "187",
+    "CreatedOn": "2020-12-10 01:04:14.0566452",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10 Atanas Manchev Street",
+    "PlaceId": "187"
+  },
+  {
+    "Id": "188",
+    "CreatedOn": "2020-12-10 01:04:18.1146055",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Serdika Center, 1-st Floor",
+    "PlaceId": "188"
+  },
+  {
+    "Id": "189",
+    "CreatedOn": "2020-12-10 01:04:22.2562782",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "ul. Dospat №66",
+    "PlaceId": "189"
+  },
+  {
+    "Id": "190",
+    "CreatedOn": "2020-12-10 01:04:26.3358754",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "8, Georgi Benkovski str.",
+    "PlaceId": "190"
+  },
+  {
+    "Id": "191",
+    "CreatedOn": "2020-12-10 01:04:30.8579931",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Blvd. Lomsko Shose №171",
+    "PlaceId": "191"
+  },
+  {
+    "Id": "192",
+    "CreatedOn": "2020-12-10 01:04:34.9598844",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 8 ,,Knyaz Boris I\" str.",
+    "PlaceId": "192"
+  },
+  {
+    "Id": "193",
+    "CreatedOn": "2020-12-10 01:04:39.1162660",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Tsarigradsko shose blvd.",
+    "PlaceId": "193"
+  },
+  {
+    "Id": "194",
+    "CreatedOn": "2020-12-10 01:04:43.2666523",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " Mladost 3, bl. 314",
+    "PlaceId": "194"
+  },
+  {
+    "Id": "195",
+    "CreatedOn": "2020-12-10 01:04:47.4362290",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " Academician Jacques Nathan Street 11",
+    "PlaceId": "195"
+  },
+  {
+    "Id": "196",
+    "CreatedOn": "2020-12-10 01:04:51.5820062",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " ul. \"Professor Georgi Bradistilov\" 1,",
+    "PlaceId": "196"
+  },
+  {
+    "Id": "197",
+    "CreatedOn": "2020-12-10 01:04:55.9746471",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 6 September Street №4",
+    "PlaceId": "197"
+  },
+  {
+    "Id": "198",
+    "CreatedOn": "2020-12-10 01:05:00.5853998",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 2 Ivan Turgenev Street",
+    "PlaceId": "198"
+  },
+  {
+    "Id": "199",
+    "CreatedOn": "2020-12-10 01:05:05.0031631",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "ul. \"Hristo Silyanov\" 148 1229",
+    "PlaceId": "199"
+  },
+  {
+    "Id": "200",
+    "CreatedOn": "2020-12-10 01:05:09.1692503",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "111, Aleksandar Malinov blvd, Business park",
+    "PlaceId": "200"
+  },
+  {
+    "Id": "201",
+    "CreatedOn": "2020-12-10 01:05:13.7836683",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "58, Arch. Hrabar Popov str.",
+    "PlaceId": "201"
+  },
+  {
+    "Id": "202",
+    "CreatedOn": "2020-12-10 01:05:17.9529498",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "15, Stefan Sarafov str.",
+    "PlaceId": "202"
+  },
+  {
+    "Id": "203",
+    "CreatedOn": "2020-12-10 01:05:22.2523143",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "bulevard Knyaginya Maria Luiza 62",
+    "PlaceId": "203"
+  },
+  {
+    "Id": "204",
+    "CreatedOn": "2020-12-10 01:05:26.4355197",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "325, Dr. Atanas Moskov str.",
+    "PlaceId": "204"
+  },
+  {
+    "Id": "205",
+    "CreatedOn": "2020-12-10 01:05:30.6139174",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "81, Arsenalski blvd.",
+    "PlaceId": "205"
+  },
+  {
+    "Id": "206",
+    "CreatedOn": "2020-12-10 01:05:34.8611995",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Corner of Geshov blvd. / Han Presiyan str.",
+    "PlaceId": "206"
+  },
+  {
+    "Id": "207",
+    "CreatedOn": "2020-12-10 01:05:39.0154051",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1-3, Sofiysko pole str.",
+    "PlaceId": "207"
+  },
+  {
+    "Id": "208",
+    "CreatedOn": "2020-12-10 01:05:43.2645478",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Str. Damian Gruev 4",
+    "PlaceId": "208"
+  },
+  {
+    "Id": "209",
+    "CreatedOn": "2020-12-10 01:05:47.4748410",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "73 Lomsko Shose Blvd.",
+    "PlaceId": "209"
+  },
+  {
+    "Id": "210",
+    "CreatedOn": "2020-12-10 01:05:51.6769414",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "9, 6-th September str.",
+    "PlaceId": "210"
+  },
+  {
+    "Id": "211",
+    "CreatedOn": "2020-12-10 01:05:56.3282644",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "123 G.S.Rakovski str.",
+    "PlaceId": "211"
+  },
+  {
+    "Id": "212",
+    "CreatedOn": "2020-12-10 01:06:00.5419461",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Blvd. Cherni Vrah 38 A",
+    "PlaceId": "212"
+  },
+  {
+    "Id": "213",
+    "CreatedOn": "2020-12-10 01:06:05.3527591",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "27 Zahari Stoyanov Blvd.",
+    "PlaceId": "213"
+  },
+  {
+    "Id": "214",
+    "CreatedOn": "2020-12-10 01:06:09.8522916",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4, Rayko Zhinzifov, str.",
+    "PlaceId": "214"
+  },
+  {
+    "Id": "215",
+    "CreatedOn": "2020-12-10 01:06:14.1506966",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1, Bulgaria blvd.",
+    "PlaceId": "215"
+  },
+  {
+    "Id": "216",
+    "CreatedOn": "2020-12-10 01:06:18.4095020",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "46, Kakapo str.",
+    "PlaceId": "216"
+  },
+  {
+    "Id": "217",
+    "CreatedOn": "2020-12-10 01:06:22.6758918",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Prof. Atanas Ishirkov Street 9",
+    "PlaceId": "217"
+  },
+  {
+    "Id": "218",
+    "CreatedOn": "2020-12-10 01:06:27.0091778",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21 street Krim",
+    "PlaceId": "218"
+  },
+  {
+    "Id": "219",
+    "CreatedOn": "2020-12-10 01:06:31.2477905",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2 str. Ralitsa",
+    "PlaceId": "219"
+  },
+  {
+    "Id": "220",
+    "CreatedOn": "2020-12-10 01:06:35.5154853",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 153 Pirotska street",
+    "PlaceId": "220"
+  },
+  {
+    "Id": "221",
+    "CreatedOn": "2020-12-10 01:06:40.2308241",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21, Rumen Voyvoda str.",
+    "PlaceId": "221"
+  },
+  {
+    "Id": "222",
+    "CreatedOn": "2020-12-10 01:06:44.5624841",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "15, Yordan Yovkov str.",
+    "PlaceId": "222"
+  },
+  {
+    "Id": "223",
+    "CreatedOn": "2020-12-10 01:06:48.8690374",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Sveta Troitsa, bl. 16, vh V",
+    "PlaceId": "223"
+  },
+  {
+    "Id": "224",
+    "CreatedOn": "2020-12-10 01:06:53.2711543",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3 ulitsa Loven Park",
+    "PlaceId": "224"
+  },
+  {
+    "Id": "225",
+    "CreatedOn": "2020-12-10 01:06:57.8493938",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "79G Alexander Malinov Blvd.",
+    "PlaceId": "225"
+  },
+  {
+    "Id": "226",
+    "CreatedOn": "2020-12-10 01:07:02.2263521",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "180, Vitosha blvd.",
+    "PlaceId": "226"
+  },
+  {
+    "Id": "227",
+    "CreatedOn": "2020-12-10 01:07:06.5799818",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "76,Patriarh Evtimii blvd.",
+    "PlaceId": "227"
+  },
+  {
+    "Id": "228",
+    "CreatedOn": "2020-12-10 01:07:11.2147545",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "14 Shipka str.",
+    "PlaceId": "228"
+  },
+  {
+    "Id": "229",
+    "CreatedOn": "2020-12-10 01:07:15.6624222",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 49 Neofit Rilski Street",
+    "PlaceId": "229"
+  },
+  {
+    "Id": "230",
+    "CreatedOn": "2020-12-10 01:07:20.0231290",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Velchova zavera sqr.",
+    "PlaceId": "230"
+  },
+  {
+    "Id": "231",
+    "CreatedOn": "2020-12-10 01:07:24.8075621",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10, Byala str.",
+    "PlaceId": "231"
+  },
+  {
+    "Id": "232",
+    "CreatedOn": "2020-12-10 01:07:29.1355843",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2,Papa Yoan Pavel II sqr.",
+    "PlaceId": "232"
+  },
+  {
+    "Id": "233",
+    "CreatedOn": "2020-12-10 01:07:33.4932899",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Student complex bl. 34B",
+    "PlaceId": "233"
+  },
+  {
+    "Id": "234",
+    "CreatedOn": "2020-12-10 01:07:37.8821201",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "26, Petar Parchevich str.",
+    "PlaceId": "234"
+  },
+  {
+    "Id": "235",
+    "CreatedOn": "2020-12-10 01:07:42.2442757",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1, Angel Kanchev str., Second Floor",
+    "PlaceId": "235"
+  },
+  {
+    "Id": "236",
+    "CreatedOn": "2020-12-10 01:07:46.5879952",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "21, 8-mi Dekemvri str.",
+    "PlaceId": "236"
+  },
+  {
+    "Id": "237",
+    "CreatedOn": "2020-12-10 01:07:50.9095357",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "90, Ralevitsa str.",
+    "PlaceId": "237"
+  },
+  {
+    "Id": "238",
+    "CreatedOn": "2020-12-10 01:07:55.4044645",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Nikloai Rakitin str.",
+    "PlaceId": "238"
+  },
+  {
+    "Id": "239",
+    "CreatedOn": "2020-12-10 01:07:59.7966427",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1, Byala Cherkva str.",
+    "PlaceId": "239"
+  },
+  {
+    "Id": "240",
+    "CreatedOn": "2020-12-10 01:08:04.1818471",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Knyaginya Maria Luiza str.",
+    "PlaceId": "240"
+  },
+  {
+    "Id": "241",
+    "CreatedOn": "2020-12-10 01:08:09.0131059",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "1, Slatinska str.",
+    "PlaceId": "241"
+  },
+  {
+    "Id": "242",
+    "CreatedOn": "2020-12-10 01:08:13.4136236",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "16, Neofit Rilski str.",
+    "PlaceId": "242"
+  },
+  {
+    "Id": "243",
+    "CreatedOn": "2020-12-10 01:08:18.3113317",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "8, Tri ushi str.",
+    "PlaceId": "243"
+  },
+  {
+    "Id": "244",
+    "CreatedOn": "2020-12-10 01:08:22.7454264",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "13, Hristo Botev blvd.",
+    "PlaceId": "244"
+  },
+  {
+    "Id": "245",
+    "CreatedOn": "2020-12-10 01:08:27.1569592",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "226, Cherni Vrah blvd.",
+    "PlaceId": "245"
+  },
+  {
+    "Id": "246",
+    "CreatedOn": "2020-12-10 01:08:31.5802664",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "11, Angel Kanchev str.",
+    "PlaceId": "246"
+  },
+  {
+    "Id": "247",
+    "CreatedOn": "2020-12-10 01:08:36.0260924",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "19, Angel Kanchev str.",
+    "PlaceId": "247"
+  },
+  {
+    "Id": "248",
+    "CreatedOn": "2020-12-10 01:08:40.3911499",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "96, Kotlenski prohod str.",
+    "PlaceId": "248"
+  },
+  {
+    "Id": "249",
+    "CreatedOn": "2020-12-10 01:08:44.8761351",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "7, Atanas Ishirkov str.",
+    "PlaceId": "249"
+  },
+  {
+    "Id": "250",
+    "CreatedOn": "2020-12-10 01:08:49.3067806",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "12, Ekzarh Stefan str.",
+    "PlaceId": "250"
+  },
+  {
+    "Id": "251",
+    "CreatedOn": "2020-12-10 01:08:54.1498337",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Verila str.",
+    "PlaceId": "251"
+  },
+  {
+    "Id": "252",
+    "CreatedOn": "2020-12-10 01:08:58.5748920",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "174, Rakovski str.",
+    "PlaceId": "252"
+  },
+  {
+    "Id": "253",
+    "CreatedOn": "2020-12-10 01:09:02.9643749",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Aleksander Malinov blvd. 35-37 (BILLA)",
+    "PlaceId": "253"
+  },
+  {
+    "Id": "254",
+    "CreatedOn": "2020-12-10 01:09:08.4183280",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "145 G.S.Rakovski str.",
+    "PlaceId": "254"
+  },
+  {
+    "Id": "255",
+    "CreatedOn": "2020-12-10 01:09:14.3094885",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 Cherni Vrah blvd.",
+    "PlaceId": "255"
+  },
+  {
+    "Id": "256",
+    "CreatedOn": "2020-12-10 01:09:20.3411009",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "22, Bratia Bukston blvd.",
+    "PlaceId": "256"
+  },
+  {
+    "Id": "257",
+    "CreatedOn": "2020-12-10 01:09:26.2761015",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4 Zlatovrah str. ",
+    "PlaceId": "257"
+  },
+  {
+    "Id": "258",
+    "CreatedOn": "2020-12-10 01:09:31.6977711",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100, Djames Baucher blvd",
+    "PlaceId": "258"
+  },
+  {
+    "Id": "259",
+    "CreatedOn": "2020-12-10 01:09:37.1331884",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Paradise Center, 1-st floor",
+    "PlaceId": "259"
+  },
+  {
+    "Id": "260",
+    "CreatedOn": "2020-12-10 01:09:42.6468047",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "22, Yerusalim blvd.",
+    "PlaceId": "260"
+  },
+  {
+    "Id": "261",
+    "CreatedOn": "2020-12-10 01:09:48.7855104",
+     
+    
+     
+    "City": "Sofia",
+    "Street": " 111B Tsarigradsko Shose Blvd.",
+    "PlaceId": "261"
+  },
+  {
+    "Id": "262",
+    "CreatedOn": "2020-12-10 01:09:54.2544958",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "3, Sveta Nedelya sqr.",
+    "PlaceId": "262"
+  },
+  {
+    "Id": "263",
+    "CreatedOn": "2020-12-10 01:09:59.7964266",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6 Tsar Asen I str.",
+    "PlaceId": "263"
+  },
+  {
+    "Id": "264",
+    "CreatedOn": "2020-12-10 01:10:05.3003943",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "10, Tsar Osvoboditel str.",
+    "PlaceId": "264"
+  },
+  {
+    "Id": "265",
+    "CreatedOn": "2020-12-10 01:10:11.0377181",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "49B, Bulgaria blvd.",
+    "PlaceId": "265"
+  },
+  {
+    "Id": "266",
+    "CreatedOn": "2020-12-10 01:10:16.6332359",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "4 Sv. Nedelya square",
+    "PlaceId": "266"
+  },
+  {
+    "Id": "267",
+    "CreatedOn": "2020-12-10 01:10:23.0392418",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Georgi Rusev str",
+    "PlaceId": "267"
+  },
+  {
+    "Id": "268",
+    "CreatedOn": "2020-12-10 01:10:29.3652247",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6, Vaptsarov blvd.",
+    "PlaceId": "268"
+  },
+  {
+    "Id": "269",
+    "CreatedOn": "2020-12-10 01:10:35.3301409",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "Boyana district, 85 Pushkin Boulevard",
+    "PlaceId": "269"
+  },
+  {
+    "Id": "270",
+    "CreatedOn": "2020-12-10 01:10:41.1995609",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "48, St. Naum bul.",
+    "PlaceId": "270"
+  },
+  {
+    "Id": "271",
+    "CreatedOn": "2020-12-10 01:10:47.6725000",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "8A, Tsar Osvoboditel blvd.",
+    "PlaceId": "271"
+  },
+  {
+    "Id": "272",
+    "CreatedOn": "2020-12-10 01:10:53.5334543",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "56A, Bulgaria, blvd",
+    "PlaceId": "272"
+  },
+  {
+    "Id": "273",
+    "CreatedOn": "2020-12-10 01:10:59.4206136",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "2, Bitolya, str.",
+    "PlaceId": "273"
+  },
+  {
+    "Id": "274",
+    "CreatedOn": "2020-12-10 01:11:05.4933454",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "19, Yakubica str.",
+    "PlaceId": "274"
+  },
+  {
+    "Id": "275",
+    "CreatedOn": "2020-12-10 01:11:12.0441960",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "6 Dzhavaharlal Neru blvd.",
+    "PlaceId": "275"
+  },
+  {
+    "Id": "276",
+    "CreatedOn": "2020-12-10 01:11:20.0632083",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "101 Al. Stamboliiski blvd., Mall Sofia, 2nd floor",
+    "PlaceId": "276"
+  },
+  {
+    "Id": "277",
+    "CreatedOn": "2020-12-10 01:11:27.6713289",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 Cherni Vrah Blvd.",
+    "PlaceId": "277"
+  },
+  {
+    "Id": "278",
+    "CreatedOn": "2020-12-10 01:11:38.0388566",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "36 Bogatitsa str.",
+    "PlaceId": "278"
+  },
+  {
+    "Id": "279",
+    "CreatedOn": "2020-12-10 01:11:46.9010954",
+     
+    
+     
+    "City": "Sofia",
+    "Street": "100 James Baucher blvd., Marinela Hotel",
+    "PlaceId": "279"
+  }
+]

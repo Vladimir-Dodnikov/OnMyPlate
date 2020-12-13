@@ -1,0 +1,3071 @@
+﻿[
+  {
+    "Id": "1",
+    "CreatedOn": "2020-12-10 00:54:12.0822374",
+    
+    
+    
+    "Lattitude": "42.688599",
+    "Longtitude": "23.308045",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.688599,23.308045",
+    "PlaceId": "1"
+  },
+  {
+    "Id": "2",
+    "CreatedOn": "2020-12-10 00:54:14.9154326",
+    
+    
+    
+    "Lattitude": "42.667186",
+    "Longtitude": "23.281536",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.667186,23.281536",
+    "PlaceId": "2"
+  },
+  {
+    "Id": "3",
+    "CreatedOn": "2020-12-10 00:54:17.1759567",
+    
+    
+    
+    "Lattitude": "42.698144",
+    "Longtitude": "23.332148",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.698144,23.332148",
+    "PlaceId": "3"
+  },
+  {
+    "Id": "4",
+    "CreatedOn": "2020-12-10 00:54:18.9496169",
+    
+    
+    
+    "Lattitude": "42.673152",
+    "Longtitude": "23.311026",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.673152,23.311026",
+    "PlaceId": "4"
+  },
+  {
+    "Id": "5",
+    "CreatedOn": "2020-12-10 00:54:20.5538184",
+    
+    
+    
+    "Lattitude": "42.670537",
+    "Longtitude": "23.353178",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.670537,23.353178",
+    "PlaceId": "5"
+  },
+  {
+    "Id": "6",
+    "CreatedOn": "2020-12-10 00:54:22.0700427",
+    
+    
+    
+    "Lattitude": "42.620734",
+    "Longtitude": "23.369435",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.620734,23.369435",
+    "PlaceId": "6"
+  },
+  {
+    "Id": "7",
+    "CreatedOn": "2020-12-10 00:54:23.5763181",
+    
+    
+    
+    "Lattitude": "42.651934",
+    "Longtitude": "23.381632",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.651934,23.381632",
+    "PlaceId": "7"
+  },
+  {
+    "Id": "8",
+    "CreatedOn": "2020-12-10 00:54:25.0244722",
+    
+    
+    
+    "Lattitude": "42.697412",
+    "Longtitude": "23.328214",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.697412,23.328214",
+    "PlaceId": "8"
+  },
+  {
+    "Id": "9",
+    "CreatedOn": "2020-12-10 00:54:26.4685383",
+    
+    
+    
+    "Lattitude": "42.694298",
+    "Longtitude": "23.324815",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.694298,23.324815",
+    "PlaceId": "9"
+  },
+  {
+    "Id": "10",
+    "CreatedOn": "2020-12-10 00:54:27.8957060",
+    
+    
+    
+    "Lattitude": "42.688324",
+    "Longtitude": "23.312052",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.688324,23.312052",
+    "PlaceId": "10"
+  },
+  {
+    "Id": "11",
+    "CreatedOn": "2020-12-10 00:54:29.5637713",
+    
+    
+    
+    "Lattitude": "42.6825751",
+    "Longtitude": "23.3669106",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6825751,23.3669106",
+    "PlaceId": "11"
+  },
+  {
+    "Id": "12",
+    "CreatedOn": "2020-12-10 00:54:31.2583359",
+    
+    
+    
+    "Lattitude": "42.682982",
+    "Longtitude": "23.316132",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.682982,23.316132",
+    "PlaceId": "12"
+  },
+  {
+    "Id": "13",
+    "CreatedOn": "2020-12-10 00:54:32.8197754",
+    
+    
+    
+    "Lattitude": "42.647138",
+    "Longtitude": "23.405655",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.647138,23.405655",
+    "PlaceId": "13"
+  },
+  {
+    "Id": "14",
+    "CreatedOn": "2020-12-10 00:54:34.4009780",
+    
+    
+    
+    "Lattitude": "42.691046",
+    "Longtitude": "23.318555",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691046,23.318555",
+    "PlaceId": "14"
+  },
+  {
+    "Id": "15",
+    "CreatedOn": "2020-12-10 00:54:36.3208309",
+    
+    
+    
+    "Lattitude": "42.688417",
+    "Longtitude": "23.331856",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.688417,23.331856",
+    "PlaceId": "15"
+  },
+  {
+    "Id": "16",
+    "CreatedOn": "2020-12-10 00:54:38.1656224",
+    
+    
+    
+    "Lattitude": "42.674645",
+    "Longtitude": "23.303728",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.674645,23.303728",
+    "PlaceId": "16"
+  },
+  {
+    "Id": "17",
+    "CreatedOn": "2020-12-10 00:54:40.1612579",
+    
+    
+    
+    "Lattitude": "42.706604",
+    "Longtitude": "23.322704",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.706604,23.322704",
+    "PlaceId": "17"
+  },
+  {
+    "Id": "18",
+    "CreatedOn": "2020-12-10 00:54:42.0533806",
+    
+    
+    
+    "Lattitude": "42.692946",
+    "Longtitude": "23.321165",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.692946,23.321165",
+    "PlaceId": "18"
+  },
+  {
+    "Id": "19",
+    "CreatedOn": "2020-12-10 00:54:44.0045187",
+    
+    
+    
+    "Lattitude": "42.685688",
+    "Longtitude": "23.317117",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.685688,23.317117",
+    "PlaceId": "19"
+  },
+  {
+    "Id": "20",
+    "CreatedOn": "2020-12-10 00:54:45.8642209",
+    
+    
+    
+    "Lattitude": "42.696166",
+    "Longtitude": "23.324357",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.696166,23.324357",
+    "PlaceId": "20"
+  },
+  {
+    "Id": "21",
+    "CreatedOn": "2020-12-10 00:54:48.1398118",
+    
+    
+    
+    "Lattitude": "42.6935062",
+    "Longtitude": "23.3404147",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6935062,23.3404147",
+    "PlaceId": "21"
+  },
+  {
+    "Id": "22",
+    "CreatedOn": "2020-12-10 00:54:50.4554248",
+    
+    
+    
+    "Lattitude": "42.640323",
+    "Longtitude": "23.308623",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.640323,23.308623",
+    "PlaceId": "22"
+  },
+  {
+    "Id": "23",
+    "CreatedOn": "2020-12-10 00:54:52.5770040",
+    
+    
+    
+    "Lattitude": "42.69918",
+    "Longtitude": "23.327634",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.699180,23.327634",
+    "PlaceId": "23"
+  },
+  {
+    "Id": "24",
+    "CreatedOn": "2020-12-10 00:54:54.7540139",
+    
+    
+    
+    "Lattitude": "42.689345",
+    "Longtitude": "23.32456",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.689345,23.324560",
+    "PlaceId": "24"
+  },
+  {
+    "Id": "25",
+    "CreatedOn": "2020-12-10 00:54:56.9016128",
+    
+    
+    
+    "Lattitude": "42.629703",
+    "Longtitude": "23.378133",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.629703,23.378133",
+    "PlaceId": "25"
+  },
+  {
+    "Id": "26",
+    "CreatedOn": "2020-12-10 00:54:58.9820880",
+    
+    
+    
+    "Lattitude": "42.666336",
+    "Longtitude": "23.367554",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.666336,23.367554",
+    "PlaceId": "26"
+  },
+  {
+    "Id": "27",
+    "CreatedOn": "2020-12-10 00:55:01.2424826",
+    
+    
+    
+    "Lattitude": "42.674341",
+    "Longtitude": "23.2977",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.674341,23.297700",
+    "PlaceId": "27"
+  },
+  {
+    "Id": "28",
+    "CreatedOn": "2020-12-10 00:55:03.4627941",
+    
+    
+    
+    "Lattitude": "42.6962375",
+    "Longtitude": "23.3295552",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6962375,23.3295552",
+    "PlaceId": "28"
+  },
+  {
+    "Id": "29",
+    "CreatedOn": "2020-12-10 00:55:05.7935524",
+    
+    
+    
+    "Lattitude": "42.690478",
+    "Longtitude": "23.331374",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.690478,23.331374",
+    "PlaceId": "29"
+  },
+  {
+    "Id": "30",
+    "CreatedOn": "2020-12-10 00:55:08.4324308",
+    
+    
+    
+    "Lattitude": "42.672356",
+    "Longtitude": "23.326028",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.672356,23.326028",
+    "PlaceId": "30"
+  },
+  {
+    "Id": "31",
+    "CreatedOn": "2020-12-10 00:55:11.1381539",
+    
+    
+    
+    "Lattitude": "42.62434",
+    "Longtitude": "23.352395",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.624340,23.352395",
+    "PlaceId": "31"
+  },
+  {
+    "Id": "32",
+    "CreatedOn": "2020-12-10 00:55:13.4375819",
+    
+    
+    
+    "Lattitude": "42.664073",
+    "Longtitude": "23.288511",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.664073,23.288511",
+    "PlaceId": "32"
+  },
+  {
+    "Id": "33",
+    "CreatedOn": "2020-12-10 00:55:15.6754064",
+    
+    
+    
+    "Lattitude": "42.678212",
+    "Longtitude": "23.319547",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.678212,23.319547",
+    "PlaceId": "33"
+  },
+  {
+    "Id": "34",
+    "CreatedOn": "2020-12-10 00:55:17.8945708",
+    
+    
+    
+    "Lattitude": "42.698165",
+    "Longtitude": "23.308671",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.698165,23.308671",
+    "PlaceId": "34"
+  },
+  {
+    "Id": "35",
+    "CreatedOn": "2020-12-10 00:55:20.2121335",
+    
+    
+    
+    "Lattitude": "42.65771",
+    "Longtitude": "23.314948",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.657710,23.314948",
+    "PlaceId": "35"
+  },
+  {
+    "Id": "36",
+    "CreatedOn": "2020-12-10 00:55:22.6432981",
+    
+    
+    
+    "Lattitude": "42.691915",
+    "Longtitude": "23.354471",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691915,23.354471",
+    "PlaceId": "36"
+  },
+  {
+    "Id": "37",
+    "CreatedOn": "2020-12-10 00:55:24.8968522",
+    
+    
+    
+    "Lattitude": "42.660518",
+    "Longtitude": "23.383132",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.660518,23.383132",
+    "PlaceId": "37"
+  },
+  {
+    "Id": "38",
+    "CreatedOn": "2020-12-10 00:55:27.1073706",
+    
+    
+    
+    "Lattitude": "42.697076",
+    "Longtitude": "23.345305",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.697076,23.345305",
+    "PlaceId": "38"
+  },
+  {
+    "Id": "39",
+    "CreatedOn": "2020-12-10 00:55:29.7263319",
+    
+    
+    
+    "Lattitude": "42.642124",
+    "Longtitude": "23.407638",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.642124,23.407638",
+    "PlaceId": "39"
+  },
+  {
+    "Id": "40",
+    "CreatedOn": "2020-12-10 00:55:32.1826548",
+    
+    
+    
+    "Lattitude": "42.702443",
+    "Longtitude": "23.316063",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.702443,23.316063",
+    "PlaceId": "40"
+  },
+  {
+    "Id": "41",
+    "CreatedOn": "2020-12-10 00:55:34.8816436",
+    
+    
+    
+    "Lattitude": "42.678733",
+    "Longtitude": "23.291064",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.678733,23.291064",
+    "PlaceId": "41"
+  },
+  {
+    "Id": "42",
+    "CreatedOn": "2020-12-10 00:55:37.5967076",
+    
+    
+    
+    "Lattitude": "42.624316",
+    "Longtitude": "23.352406",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.624316,23.352406",
+    "PlaceId": "42"
+  },
+  {
+    "Id": "43",
+    "CreatedOn": "2020-12-10 00:55:40.3509180",
+    
+    
+    
+    "Lattitude": "42.673355",
+    "Longtitude": "23.287926",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.673355,23.287926",
+    "PlaceId": "43"
+  },
+  {
+    "Id": "44",
+    "CreatedOn": "2020-12-10 00:55:42.9570954",
+    
+    
+    
+    "Lattitude": "42.685946",
+    "Longtitude": "23.345102",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.685946,23.345102",
+    "PlaceId": "44"
+  },
+  {
+    "Id": "45",
+    "CreatedOn": "2020-12-10 00:55:45.6298891",
+    
+    
+    
+    "Lattitude": "42.689062",
+    "Longtitude": "23.321467",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.689062,23.321467",
+    "PlaceId": "45"
+  },
+  {
+    "Id": "46",
+    "CreatedOn": "2020-12-10 00:55:48.1876446",
+    
+    
+    
+    "Lattitude": "42.690838",
+    "Longtitude": "23.318485",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.690838,23.318485",
+    "PlaceId": "46"
+  },
+  {
+    "Id": "47",
+    "CreatedOn": "2020-12-10 00:55:50.9917365",
+    
+    
+    
+    "Lattitude": "42.686734",
+    "Longtitude": "23.316817",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.686734,23.316817",
+    "PlaceId": "47"
+  },
+  {
+    "Id": "48",
+    "CreatedOn": "2020-12-10 00:55:53.6630291",
+    
+    
+    
+    "Lattitude": "42.686786",
+    "Longtitude": "23.238818",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.686786,23.238818",
+    "PlaceId": "48"
+  },
+  {
+    "Id": "49",
+    "CreatedOn": "2020-12-10 00:55:56.2859530",
+    
+    
+    
+    "Lattitude": "42.693556",
+    "Longtitude": "23.31853",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.693556,23.318530",
+    "PlaceId": "49"
+  },
+  {
+    "Id": "50",
+    "CreatedOn": "2020-12-10 00:55:59.0752932",
+    
+    
+    
+    "Lattitude": "42.691444",
+    "Longtitude": "23.323648",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691444,23.323648",
+    "PlaceId": "50"
+  },
+  {
+    "Id": "51",
+    "CreatedOn": "2020-12-10 00:56:02.0974290",
+    
+    
+    
+    "Lattitude": "42.689744",
+    "Longtitude": "23.324471",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.689744,23.324471",
+    "PlaceId": "51"
+  },
+  {
+    "Id": "52",
+    "CreatedOn": "2020-12-10 00:56:04.8348619",
+    
+    
+    
+    "Lattitude": "42.624552",
+    "Longtitude": "23.351444",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.624552,23.351444",
+    "PlaceId": "52"
+  },
+  {
+    "Id": "53",
+    "CreatedOn": "2020-12-10 00:56:07.5410180",
+    
+    
+    
+    "Lattitude": "42.664762",
+    "Longtitude": "23.317106",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.664762,23.317106",
+    "PlaceId": "53"
+  },
+  {
+    "Id": "54",
+    "CreatedOn": "2020-12-10 00:56:10.2541812",
+    
+    
+    
+    "Lattitude": "42.691981",
+    "Longtitude": "23.336323",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691981,23.336323",
+    "PlaceId": "54"
+  },
+  {
+    "Id": "55",
+    "CreatedOn": "2020-12-10 00:56:13.0736374",
+    
+    
+    
+    "Lattitude": "42.699322",
+    "Longtitude": "23.320783",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.699322,23.320783",
+    "PlaceId": "55"
+  },
+  {
+    "Id": "56",
+    "CreatedOn": "2020-12-10 00:56:16.1518388",
+    
+    
+    
+    "Lattitude": "42.6944032",
+    "Longtitude": "23.330878",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6944032,23.330878",
+    "PlaceId": "56"
+  },
+  {
+    "Id": "57",
+    "CreatedOn": "2020-12-10 00:56:19.1013651",
+    
+    
+    
+    "Lattitude": "42.693397",
+    "Longtitude": "23.3143393",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.693397,23.3143393",
+    "PlaceId": "57"
+  },
+  {
+    "Id": "58",
+    "CreatedOn": "2020-12-10 00:56:21.9327186",
+    
+    
+    
+    "Lattitude": "42.6729599",
+    "Longtitude": "23.3471103",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6729599,23.3471103",
+    "PlaceId": "58"
+  },
+  {
+    "Id": "59",
+    "CreatedOn": "2020-12-10 00:56:24.7896862",
+    
+    
+    
+    "Lattitude": "42.6903444",
+    "Longtitude": "23.3220542",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6903444,23.3220542",
+    "PlaceId": "59"
+  },
+  {
+    "Id": "60",
+    "CreatedOn": "2020-12-10 00:56:27.7397348",
+    
+    
+    
+    "Lattitude": "42.68912",
+    "Longtitude": "23.32149",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.68912,23.32149",
+    "PlaceId": "60"
+  },
+  {
+    "Id": "61",
+    "CreatedOn": "2020-12-10 00:56:31.0758931",
+    
+    
+    
+    "Lattitude": "42.669903",
+    "Longtitude": "23.295329",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.669903,23.295329",
+    "PlaceId": "61"
+  },
+  {
+    "Id": "62",
+    "CreatedOn": "2020-12-10 00:56:33.9842020",
+    
+    
+    
+    "Lattitude": "42.65186",
+    "Longtitude": "23.287763",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.651860,23.287763",
+    "PlaceId": "62"
+  },
+  {
+    "Id": "63",
+    "CreatedOn": "2020-12-10 00:56:36.9658765",
+    
+    
+    
+    "Lattitude": "42.6843854",
+    "Longtitude": "23.3534358",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6843854,23.3534358",
+    "PlaceId": "63"
+  },
+  {
+    "Id": "64",
+    "CreatedOn": "2020-12-10 00:56:40.0407494",
+    
+    
+    
+    "Lattitude": "42.68449",
+    "Longtitude": "23.32241",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.68449,23.32241",
+    "PlaceId": "64"
+  },
+  {
+    "Id": "65",
+    "CreatedOn": "2020-12-10 00:56:43.0502865",
+    
+    
+    
+    "Lattitude": "42.696673",
+    "Longtitude": "23.322607",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.696673,23.322607",
+    "PlaceId": "65"
+  },
+  {
+    "Id": "66",
+    "CreatedOn": "2020-12-10 00:56:45.9131825",
+    
+    
+    
+    "Lattitude": "42.6562164",
+    "Longtitude": "23.3530762",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6562164,23.3530762",
+    "PlaceId": "66"
+  },
+  {
+    "Id": "67",
+    "CreatedOn": "2020-12-10 00:56:48.8266250",
+    
+    
+    
+    "Lattitude": "42.6768869",
+    "Longtitude": "23.3623985",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6768869,23.3623985",
+    "PlaceId": "67"
+  },
+  {
+    "Id": "68",
+    "CreatedOn": "2020-12-10 00:56:52.0584272",
+    
+    
+    
+    "Lattitude": "42.6603592",
+    "Longtitude": "23.2823786",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6603592,23.2823786",
+    "PlaceId": "68"
+  },
+  {
+    "Id": "69",
+    "CreatedOn": "2020-12-10 00:56:55.0389686",
+    
+    
+    
+    "Lattitude": "42.69234",
+    "Longtitude": "23.3274",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.69234,23.3274",
+    "PlaceId": "69"
+  },
+  {
+    "Id": "70",
+    "CreatedOn": "2020-12-10 00:56:58.1388825",
+    
+    
+    
+    "Lattitude": "42.7172605",
+    "Longtitude": "23.2520758",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7172605,23.2520758",
+    "PlaceId": "70"
+  },
+  {
+    "Id": "71",
+    "CreatedOn": "2020-12-10 00:57:01.4780704",
+    
+    
+    
+    "Lattitude": "42.6765691",
+    "Longtitude": "23.305534",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6765691,23.305534",
+    "PlaceId": "71"
+  },
+  {
+    "Id": "72",
+    "CreatedOn": "2020-12-10 00:57:04.5263391",
+    
+    
+    
+    "Lattitude": "42.6465816",
+    "Longtitude": "23.2665636",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6465816,23.2665636",
+    "PlaceId": "72"
+  },
+  {
+    "Id": "73",
+    "CreatedOn": "2020-12-10 00:57:07.5496260",
+    
+    
+    
+    "Lattitude": "42.6495713",
+    "Longtitude": "23.2617125",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6495713,23.2617125",
+    "PlaceId": "73"
+  },
+  {
+    "Id": "74",
+    "CreatedOn": "2020-12-10 00:57:10.5885713",
+    
+    
+    
+    "Lattitude": "42.671961",
+    "Longtitude": "23.317955",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.671961,23.317955",
+    "PlaceId": "74"
+  },
+  {
+    "Id": "75",
+    "CreatedOn": "2020-12-10 00:57:13.7541227",
+    
+    
+    
+    "Lattitude": "42.6637576",
+    "Longtitude": "23.2847422",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6637576,23.2847422",
+    "PlaceId": "75"
+  },
+  {
+    "Id": "76",
+    "CreatedOn": "2020-12-10 00:57:16.7989690",
+    
+    
+    
+    "Lattitude": "42.6894066",
+    "Longtitude": "23.3634735",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6894066,23.3634735",
+    "PlaceId": "76"
+  },
+  {
+    "Id": "77",
+    "CreatedOn": "2020-12-10 00:57:20.1352042",
+    
+    
+    
+    "Lattitude": "42.6838782",
+    "Longtitude": "23.2686943",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6838782,23.2686943",
+    "PlaceId": "77"
+  },
+  {
+    "Id": "78",
+    "CreatedOn": "2020-12-10 00:57:23.5553645",
+    
+    
+    
+    "Lattitude": "42.6785225",
+    "Longtitude": "23.322761",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6785225,23.322761",
+    "PlaceId": "78"
+  },
+  {
+    "Id": "79",
+    "CreatedOn": "2020-12-10 00:57:26.6080562",
+    
+    
+    
+    "Lattitude": "42.66673038",
+    "Longtitude": "23.36568832",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.666730380373,23.365688323975",
+    "PlaceId": "79"
+  },
+  {
+    "Id": "80",
+    "CreatedOn": "2020-12-10 00:57:29.8125466",
+    
+    
+    
+    "Lattitude": "42.657064",
+    "Longtitude": "23.3373027",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.657064,23.3373027",
+    "PlaceId": "80"
+  },
+  {
+    "Id": "81",
+    "CreatedOn": "2020-12-10 00:57:33.3017532",
+    
+    
+    
+    "Lattitude": "42.6579507",
+    "Longtitude": "23.3383969",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6579507,23.3383969",
+    "PlaceId": "81"
+  },
+  {
+    "Id": "82",
+    "CreatedOn": "2020-12-10 00:57:36.3466570",
+    
+    
+    
+    "Lattitude": "42.6571667",
+    "Longtitude": "23.3133253",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6571667,23.3133253",
+    "PlaceId": "82"
+  },
+  {
+    "Id": "83",
+    "CreatedOn": "2020-12-10 00:57:39.5407742",
+    
+    
+    
+    "Lattitude": "42.6524177",
+    "Longtitude": "23.2720714",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6524177,23.2720714",
+    "PlaceId": "83"
+  },
+  {
+    "Id": "84",
+    "CreatedOn": "2020-12-10 00:57:42.6842377",
+    
+    
+    
+    "Lattitude": "42.67311",
+    "Longtitude": "23.2853",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.67311,23.2853",
+    "PlaceId": "84"
+  },
+  {
+    "Id": "85",
+    "CreatedOn": "2020-12-10 00:57:45.8779775",
+    
+    
+    
+    "Lattitude": "42.6903548",
+    "Longtitude": "23.3279488",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6903548,23.3279488",
+    "PlaceId": "85"
+  },
+  {
+    "Id": "86",
+    "CreatedOn": "2020-12-10 00:57:49.2972259",
+    
+    
+    
+    "Lattitude": "42.6705303",
+    "Longtitude": "23.3195808",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6705303,23.3195808",
+    "PlaceId": "86"
+  },
+  {
+    "Id": "87",
+    "CreatedOn": "2020-12-10 00:57:52.8000065",
+    
+    
+    
+    "Lattitude": "42.6921012",
+    "Longtitude": "23.3304354",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6921012,23.3304354",
+    "PlaceId": "87"
+  },
+  {
+    "Id": "88",
+    "CreatedOn": "2020-12-10 00:57:56.2094555",
+    
+    
+    
+    "Lattitude": "42.650207",
+    "Longtitude": "23.318598",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.650207,23.318598",
+    "PlaceId": "88"
+  },
+  {
+    "Id": "89",
+    "CreatedOn": "2020-12-10 00:57:59.5393551",
+    
+    
+    
+    "Lattitude": "42.6309682",
+    "Longtitude": "23.3735607",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6309682,23.3735607",
+    "PlaceId": "89"
+  },
+  {
+    "Id": "90",
+    "CreatedOn": "2020-12-10 00:58:02.8638373",
+    
+    
+    
+    "Lattitude": "42.629577",
+    "Longtitude": "23.3087622",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.629577,23.3087622",
+    "PlaceId": "90"
+  },
+  {
+    "Id": "91",
+    "CreatedOn": "2020-12-10 00:58:06.4957646",
+    
+    
+    
+    "Lattitude": "42.642422",
+    "Longtitude": "23.379421",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.642422,23.379421",
+    "PlaceId": "91"
+  },
+  {
+    "Id": "92",
+    "CreatedOn": "2020-12-10 00:58:09.8174002",
+    
+    
+    
+    "Lattitude": "42.680288",
+    "Longtitude": "23.3091963",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.680288,23.3091963",
+    "PlaceId": "92"
+  },
+  {
+    "Id": "93",
+    "CreatedOn": "2020-12-10 00:58:13.1610962",
+    
+    
+    
+    "Lattitude": "42.694565",
+    "Longtitude": "23.345549",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.694565,23.345549",
+    "PlaceId": "93"
+  },
+  {
+    "Id": "94",
+    "CreatedOn": "2020-12-10 00:58:16.5002238",
+    
+    
+    
+    "Lattitude": "42.694003",
+    "Longtitude": "23.3363859",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.694003,23.3363859",
+    "PlaceId": "94"
+  },
+  {
+    "Id": "95",
+    "CreatedOn": "2020-12-10 00:58:19.8415747",
+    
+    
+    
+    "Lattitude": "42.676125",
+    "Longtitude": "23.3469786",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.676125,23.3469786",
+    "PlaceId": "95"
+  },
+  {
+    "Id": "96",
+    "CreatedOn": "2020-12-10 00:58:23.3141824",
+    
+    
+    
+    "Lattitude": "42.6736843",
+    "Longtitude": "23.3025768",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6736843,23.3025768",
+    "PlaceId": "96"
+  },
+  {
+    "Id": "97",
+    "CreatedOn": "2020-12-10 00:58:27.1592362",
+    
+    
+    
+    "Lattitude": "42.6428187",
+    "Longtitude": "23.3402224",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6428187,23.3402224",
+    "PlaceId": "97"
+  },
+  {
+    "Id": "98",
+    "CreatedOn": "2020-12-10 00:58:30.6927768",
+    
+    
+    
+    "Lattitude": "42.6432973",
+    "Longtitude": "23.3404202",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6432973,23.3404202",
+    "PlaceId": "98"
+  },
+  {
+    "Id": "99",
+    "CreatedOn": "2020-12-10 00:58:34.1244246",
+    
+    
+    
+    "Lattitude": "42.6748248",
+    "Longtitude": "23.3040929",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6748248,23.3040929",
+    "PlaceId": "99"
+  },
+  {
+    "Id": "100",
+    "CreatedOn": "2020-12-10 00:58:37.5192548",
+    
+    
+    
+    "Lattitude": "42.6836852",
+    "Longtitude": "23.3625106",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6836852,23.3625106",
+    "PlaceId": "100"
+  },
+  {
+    "Id": "101",
+    "CreatedOn": "2020-12-10 00:58:41.2078730",
+    
+    
+    
+    "Lattitude": "42.703939",
+    "Longtitude": "23.285726",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.703939,23.285726",
+    "PlaceId": "101"
+  },
+  {
+    "Id": "102",
+    "CreatedOn": "2020-12-10 00:58:44.6192603",
+    
+    
+    
+    "Lattitude": "42.685349",
+    "Longtitude": "23.321627",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.685349,23.321627",
+    "PlaceId": "102"
+  },
+  {
+    "Id": "103",
+    "CreatedOn": "2020-12-10 00:58:48.0013100",
+    
+    
+    
+    "Lattitude": "42.6225349",
+    "Longtitude": "23.3307705",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6225349,23.3307705",
+    "PlaceId": "103"
+  },
+  {
+    "Id": "104",
+    "CreatedOn": "2020-12-10 00:58:51.4092681",
+    
+    
+    
+    "Lattitude": "42.6921036",
+    "Longtitude": "23.3196389",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6921036,23.3196389",
+    "PlaceId": "104"
+  },
+  {
+    "Id": "105",
+    "CreatedOn": "2020-12-10 00:58:54.9172292",
+    
+    
+    
+    "Lattitude": "42.658706",
+    "Longtitude": "23.3160809",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.658706,23.3160809",
+    "PlaceId": "105"
+  },
+  {
+    "Id": "106",
+    "CreatedOn": "2020-12-10 00:58:58.3480421",
+    
+    
+    
+    "Lattitude": "42.6445304",
+    "Longtitude": "23.3397236",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6445304,23.3397236",
+    "PlaceId": "106"
+  },
+  {
+    "Id": "107",
+    "CreatedOn": "2020-12-10 00:59:01.7643364",
+    
+    
+    
+    "Lattitude": "42.6520666",
+    "Longtitude": "23.3610952",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6520666,23.3610952",
+    "PlaceId": "107"
+  },
+  {
+    "Id": "108",
+    "CreatedOn": "2020-12-10 00:59:05.2394900",
+    
+    
+    
+    "Lattitude": "42.699604",
+    "Longtitude": "23.3262899",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.699604,23.3262899",
+    "PlaceId": "108"
+  },
+  {
+    "Id": "109",
+    "CreatedOn": "2020-12-10 00:59:08.6923649",
+    
+    
+    
+    "Lattitude": "42.64303",
+    "Longtitude": "23.338121",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.64303,23.338121",
+    "PlaceId": "109"
+  },
+  {
+    "Id": "110",
+    "CreatedOn": "2020-12-10 00:59:12.1436512",
+    
+    
+    
+    "Lattitude": "42.674027",
+    "Longtitude": "23.3330867",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.674027,23.3330867",
+    "PlaceId": "110"
+  },
+  {
+    "Id": "111",
+    "CreatedOn": "2020-12-10 00:59:15.9735647",
+    
+    
+    
+    "Lattitude": "42.6935518",
+    "Longtitude": "23.3207342",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6935518,23.3207342",
+    "PlaceId": "111"
+  },
+  {
+    "Id": "112",
+    "CreatedOn": "2020-12-10 00:59:19.4492222",
+    
+    
+    
+    "Lattitude": "42.6988389",
+    "Longtitude": "23.3382269",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6988389,23.3382269",
+    "PlaceId": "112"
+  },
+  {
+    "Id": "113",
+    "CreatedOn": "2020-12-10 00:59:22.9857320",
+    
+    
+    
+    "Lattitude": "42.6597905",
+    "Longtitude": "23.2869979",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6597905,23.2869979",
+    "PlaceId": "113"
+  },
+  {
+    "Id": "114",
+    "CreatedOn": "2020-12-10 00:59:26.5147170",
+    
+    
+    
+    "Lattitude": "42.676389",
+    "Longtitude": "23.382477",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.676389,23.382477",
+    "PlaceId": "114"
+  },
+  {
+    "Id": "115",
+    "CreatedOn": "2020-12-10 00:59:30.2400601",
+    
+    
+    
+    "Lattitude": "42.6934215",
+    "Longtitude": "23.3202013",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6934215,23.3202013",
+    "PlaceId": "115"
+  },
+  {
+    "Id": "116",
+    "CreatedOn": "2020-12-10 00:59:34.2908730",
+    
+    
+    
+    "Lattitude": "42.6969797",
+    "Longtitude": "23.3303522",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6969797,23.3303522",
+    "PlaceId": "116"
+  },
+  {
+    "Id": "117",
+    "CreatedOn": "2020-12-10 00:59:37.8780989",
+    
+    
+    
+    "Lattitude": "42.6716077",
+    "Longtitude": "23.2894446",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6716077,23.2894446",
+    "PlaceId": "117"
+  },
+  {
+    "Id": "118",
+    "CreatedOn": "2020-12-10 00:59:41.4312350",
+    
+    
+    
+    "Lattitude": "42.6702373",
+    "Longtitude": "23.2995419",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6702373,23.2995419",
+    "PlaceId": "118"
+  },
+  {
+    "Id": "119",
+    "CreatedOn": "2020-12-10 00:59:45.0011044",
+    
+    
+    
+    "Lattitude": "42.6723148",
+    "Longtitude": "23.3186889",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6723148,23.3186889",
+    "PlaceId": "119"
+  },
+  {
+    "Id": "120",
+    "CreatedOn": "2020-12-10 00:59:48.5559537",
+    
+    
+    
+    "Lattitude": "42.6694266",
+    "Longtitude": "23.3606863",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6694266,23.3606863",
+    "PlaceId": "120"
+  },
+  {
+    "Id": "121",
+    "CreatedOn": "2020-12-10 00:59:52.5106971",
+    
+    
+    
+    "Lattitude": "42.649391",
+    "Longtitude": "23.26231",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.649391,23.26231",
+    "PlaceId": "121"
+  },
+  {
+    "Id": "122",
+    "CreatedOn": "2020-12-10 00:59:56.1064374",
+    
+    
+    
+    "Lattitude": "42.6886146",
+    "Longtitude": "23.2517937",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6886146,23.2517937",
+    "PlaceId": "122"
+  },
+  {
+    "Id": "123",
+    "CreatedOn": "2020-12-10 00:59:59.6862043",
+    
+    
+    
+    "Lattitude": "42.6918828",
+    "Longtitude": "23.3363808",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6918828,23.3363808",
+    "PlaceId": "123"
+  },
+  {
+    "Id": "124",
+    "CreatedOn": "2020-12-10 01:00:03.2640648",
+    
+    
+    
+    "Lattitude": "42.6947579",
+    "Longtitude": "23.3422485",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6947579,23.3422485",
+    "PlaceId": "124"
+  },
+  {
+    "Id": "125",
+    "CreatedOn": "2020-12-10 01:00:06.8905684",
+    
+    
+    
+    "Lattitude": "42.6904992",
+    "Longtitude": "23.3212902",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6904992,23.3212902",
+    "PlaceId": "125"
+  },
+  {
+    "Id": "126",
+    "CreatedOn": "2020-12-10 01:00:10.5512530",
+    
+    
+    
+    "Lattitude": "42.707874",
+    "Longtitude": "23.29904",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.707874,23.29904",
+    "PlaceId": "126"
+  },
+  {
+    "Id": "127",
+    "CreatedOn": "2020-12-10 01:00:14.2495022",
+    
+    
+    
+    "Lattitude": "42.707836",
+    "Longtitude": "23.298976",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.707836,23.298976",
+    "PlaceId": "127"
+  },
+  {
+    "Id": "128",
+    "CreatedOn": "2020-12-10 01:00:17.9071968",
+    
+    
+    
+    "Lattitude": "42.672202",
+    "Longtitude": "23.2471401",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.672202,23.2471401",
+    "PlaceId": "128"
+  },
+  {
+    "Id": "129",
+    "CreatedOn": "2020-12-10 01:00:21.5010187",
+    
+    
+    
+    "Lattitude": "42.6571667",
+    "Longtitude": "23.3133253",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6571667,23.3133253",
+    "PlaceId": "129"
+  },
+  {
+    "Id": "130",
+    "CreatedOn": "2020-12-10 01:00:25.1676875",
+    
+    
+    
+    "Lattitude": "42.64154",
+    "Longtitude": "23.31155",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.64154,23.31155",
+    "PlaceId": "130"
+  },
+  {
+    "Id": "131",
+    "CreatedOn": "2020-12-10 01:00:29.1877328",
+    
+    
+    
+    "Lattitude": "42.62981",
+    "Longtitude": "23.30874",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.62981,23.30874",
+    "PlaceId": "131"
+  },
+  {
+    "Id": "132",
+    "CreatedOn": "2020-12-10 01:00:32.8393619",
+    
+    
+    
+    "Lattitude": "42.6167179",
+    "Longtitude": "23.3494208",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6167179,23.3494208",
+    "PlaceId": "132"
+  },
+  {
+    "Id": "133",
+    "CreatedOn": "2020-12-10 01:00:36.7502376",
+    
+    
+    
+    "Lattitude": "42.6243222",
+    "Longtitude": "23.3513211",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6243222,23.3513211",
+    "PlaceId": "133"
+  },
+  {
+    "Id": "134",
+    "CreatedOn": "2020-12-10 01:00:40.7773060",
+    
+    
+    
+    "Lattitude": "42.6569939",
+    "Longtitude": "23.2744903",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6569939,23.2744903",
+    "PlaceId": "134"
+  },
+  {
+    "Id": "135",
+    "CreatedOn": "2020-12-10 01:00:44.7663542",
+    
+    
+    
+    "Lattitude": "42.69029",
+    "Longtitude": "23.31462",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.69029,23.31462",
+    "PlaceId": "135"
+  },
+  {
+    "Id": "136",
+    "CreatedOn": "2020-12-10 01:00:48.6007734",
+    
+    
+    
+    "Lattitude": "42.6932927",
+    "Longtitude": "23.3320737",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6932927,23.3320737",
+    "PlaceId": "136"
+  },
+  {
+    "Id": "137",
+    "CreatedOn": "2020-12-10 01:00:52.3096020",
+    
+    
+    
+    "Lattitude": "42.66996",
+    "Longtitude": "23.35279",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.66996,23.35279",
+    "PlaceId": "137"
+  },
+  {
+    "Id": "138",
+    "CreatedOn": "2020-12-10 01:00:56.2287891",
+    
+    
+    
+    "Lattitude": "42.683192",
+    "Longtitude": "23.327354",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.683192,23.327354",
+    "PlaceId": "138"
+  },
+  {
+    "Id": "139",
+    "CreatedOn": "2020-12-10 01:01:00.0388004",
+    
+    
+    
+    "Lattitude": "42.6701945",
+    "Longtitude": "23.3150841",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6701945,23.3150841",
+    "PlaceId": "139"
+  },
+  {
+    "Id": "140",
+    "CreatedOn": "2020-12-10 01:01:03.9698600",
+    
+    
+    
+    "Lattitude": "42.6744937",
+    "Longtitude": "23.3125617",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6744937,23.3125617",
+    "PlaceId": "140"
+  },
+  {
+    "Id": "141",
+    "CreatedOn": "2020-12-10 01:01:08.1693987",
+    
+    
+    
+    "Lattitude": "42.67979",
+    "Longtitude": "23.324448",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.67979,23.324448",
+    "PlaceId": "141"
+  },
+  {
+    "Id": "142",
+    "CreatedOn": "2020-12-10 01:01:11.9214113",
+    
+    
+    
+    "Lattitude": "42.6899742",
+    "Longtitude": "23.3518233",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6899742,23.3518233",
+    "PlaceId": "142"
+  },
+  {
+    "Id": "143",
+    "CreatedOn": "2020-12-10 01:01:15.6255604",
+    
+    
+    
+    "Lattitude": "42.6572244",
+    "Longtitude": "23.3746452",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6572244,23.3746452",
+    "PlaceId": "143"
+  },
+  {
+    "Id": "144",
+    "CreatedOn": "2020-12-10 01:01:19.5013392",
+    
+    
+    
+    "Lattitude": "42.6564853",
+    "Longtitude": "23.3132096",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6564853,23.3132096",
+    "PlaceId": "144"
+  },
+  {
+    "Id": "145",
+    "CreatedOn": "2020-12-10 01:01:23.4352634",
+    
+    
+    
+    "Lattitude": "42.7141245",
+    "Longtitude": "23.2717356",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7141245,23.2717356",
+    "PlaceId": "145"
+  },
+  {
+    "Id": "146",
+    "CreatedOn": "2020-12-10 01:01:27.4134593",
+    
+    
+    
+    "Lattitude": "42.6919385",
+    "Longtitude": "23.3211019",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6919385,23.3211019",
+    "PlaceId": "146"
+  },
+  {
+    "Id": "147",
+    "CreatedOn": "2020-12-10 01:01:31.3476866",
+    
+    
+    
+    "Lattitude": "42.6894892",
+    "Longtitude": "23.3219141",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6894892,23.3219141",
+    "PlaceId": "147"
+  },
+  {
+    "Id": "148",
+    "CreatedOn": "2020-12-10 01:01:35.2072565",
+    
+    
+    
+    "Lattitude": "42.6818501",
+    "Longtitude": "23.3316483",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6818501,23.3316483",
+    "PlaceId": "148"
+  },
+  {
+    "Id": "149",
+    "CreatedOn": "2020-12-10 01:01:39.2192190",
+    
+    
+    
+    "Lattitude": "42.642387",
+    "Longtitude": "23.339853",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.642387,23.339853",
+    "PlaceId": "149"
+  },
+  {
+    "Id": "150",
+    "CreatedOn": "2020-12-10 01:01:43.4547461",
+    
+    
+    
+    "Lattitude": "42.6436164",
+    "Longtitude": "23.3362601",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6436164,23.3362601",
+    "PlaceId": "150"
+  },
+  {
+    "Id": "151",
+    "CreatedOn": "2020-12-10 01:01:47.9058907",
+    
+    
+    
+    "Lattitude": "42.68596",
+    "Longtitude": "23.30635",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.68596,23.30635",
+    "PlaceId": "151"
+  },
+  {
+    "Id": "152",
+    "CreatedOn": "2020-12-10 01:01:51.7844254",
+    
+    
+    
+    "Lattitude": "42.6895506",
+    "Longtitude": "23.3368695",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6895506,23.3368695",
+    "PlaceId": "152"
+  },
+  {
+    "Id": "153",
+    "CreatedOn": "2020-12-10 01:01:55.6986240",
+    
+    
+    
+    "Lattitude": "42.6544576",
+    "Longtitude": "23.2507228",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6544576,23.2507228",
+    "PlaceId": "153"
+  },
+  {
+    "Id": "154",
+    "CreatedOn": "2020-12-10 01:01:59.5365483",
+    
+    
+    
+    "Lattitude": "42.6703762",
+    "Longtitude": "23.3162189",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6703762,23.3162189",
+    "PlaceId": "154"
+  },
+  {
+    "Id": "155",
+    "CreatedOn": "2020-12-10 01:02:03.4380917",
+    
+    
+    
+    "Lattitude": "42.6571559",
+    "Longtitude": "23.3546381",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6571559,23.3546381",
+    "PlaceId": "155"
+  },
+  {
+    "Id": "156",
+    "CreatedOn": "2020-12-10 01:02:07.3425073",
+    
+    
+    
+    "Lattitude": "42.6887755",
+    "Longtitude": "23.3290185",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6887755,23.3290185",
+    "PlaceId": "156"
+  },
+  {
+    "Id": "157",
+    "CreatedOn": "2020-12-10 01:02:11.2326158",
+    
+    
+    
+    "Lattitude": "42.6350718",
+    "Longtitude": "23.3787638",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6350718,23.3787638",
+    "PlaceId": "157"
+  },
+  {
+    "Id": "158",
+    "CreatedOn": "2020-12-10 01:02:15.1221756",
+    
+    
+    
+    "Lattitude": "42.6938649",
+    "Longtitude": "23.3166266",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6938649,23.3166266",
+    "PlaceId": "158"
+  },
+  {
+    "Id": "159",
+    "CreatedOn": "2020-12-10 01:02:19.0217178",
+    
+    
+    
+    "Lattitude": "42.6712756",
+    "Longtitude": "23.3599585",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6712756,23.3599585",
+    "PlaceId": "159"
+  },
+  {
+    "Id": "160",
+    "CreatedOn": "2020-12-10 01:02:22.9366099",
+    
+    
+    
+    "Lattitude": "42.6945809",
+    "Longtitude": "23.3401875",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6945809,23.3401875",
+    "PlaceId": "160"
+  },
+  {
+    "Id": "161",
+    "CreatedOn": "2020-12-10 01:02:27.1971587",
+    
+    
+    
+    "Lattitude": "42.6931608",
+    "Longtitude": "23.3405828",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6931608,23.3405828",
+    "PlaceId": "161"
+  },
+  {
+    "Id": "162",
+    "CreatedOn": "2020-12-10 01:02:31.0953721",
+    
+    
+    
+    "Lattitude": "42.68956",
+    "Longtitude": "23.32788",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.68956,23.32788",
+    "PlaceId": "162"
+  },
+  {
+    "Id": "163",
+    "CreatedOn": "2020-12-10 01:02:35.0694049",
+    
+    
+    
+    "Lattitude": "42.6805156",
+    "Longtitude": "23.3606078",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6805156,23.3606078",
+    "PlaceId": "163"
+  },
+  {
+    "Id": "164",
+    "CreatedOn": "2020-12-10 01:02:39.0340407",
+    
+    
+    
+    "Lattitude": "42.691057",
+    "Longtitude": "23.3293424",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691057,23.3293424",
+    "PlaceId": "164"
+  },
+  {
+    "Id": "165",
+    "CreatedOn": "2020-12-10 01:02:42.9900997",
+    
+    
+    
+    "Lattitude": "42.6930276",
+    "Longtitude": "23.3188013",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6930276,23.3188013",
+    "PlaceId": "165"
+  },
+  {
+    "Id": "166",
+    "CreatedOn": "2020-12-10 01:02:47.1574977",
+    
+    
+    
+    "Lattitude": "42.615221",
+    "Longtitude": "23.348564",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.615221, 23.348564",
+    "PlaceId": "166"
+  },
+  {
+    "Id": "167",
+    "CreatedOn": "2020-12-10 01:02:51.5093914",
+    
+    
+    
+    "Lattitude": "42.6875408",
+    "Longtitude": "23.3274383",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6875408,23.3274383",
+    "PlaceId": "167"
+  },
+  {
+    "Id": "168",
+    "CreatedOn": "2020-12-10 01:02:55.5254477",
+    
+    
+    
+    "Lattitude": "42.697007",
+    "Longtitude": "23.328288",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.697007,23.328288",
+    "PlaceId": "168"
+  },
+  {
+    "Id": "169",
+    "CreatedOn": "2020-12-10 01:02:59.5249014",
+    
+    
+    
+    "Lattitude": "42.6862558",
+    "Longtitude": "23.3237382",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6862558,23.3237382",
+    "PlaceId": "169"
+  },
+  {
+    "Id": "170",
+    "CreatedOn": "2020-12-10 01:03:03.5075994",
+    
+    
+    
+    "Lattitude": "42.6690972",
+    "Longtitude": "23.2818789",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6690972,23.2818789",
+    "PlaceId": "170"
+  },
+  {
+    "Id": "171",
+    "CreatedOn": "2020-12-10 01:03:07.8885477",
+    
+    
+    
+    "Lattitude": "42.6974877",
+    "Longtitude": "23.3283172",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6974877,23.3283172",
+    "PlaceId": "171"
+  },
+  {
+    "Id": "172",
+    "CreatedOn": "2020-12-10 01:03:11.9106250",
+    
+    
+    
+    "Lattitude": "42.711948",
+    "Longtitude": "23.3593557",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.711948,23.3593557",
+    "PlaceId": "172"
+  },
+  {
+    "Id": "173",
+    "CreatedOn": "2020-12-10 01:03:15.8883432",
+    
+    
+    
+    "Lattitude": "42.6659335",
+    "Longtitude": "23.4542897",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6659335,23.4542897",
+    "PlaceId": "173"
+  },
+  {
+    "Id": "174",
+    "CreatedOn": "2020-12-10 01:03:19.9688576",
+    
+    
+    
+    "Lattitude": "42.6472585",
+    "Longtitude": "23.3448368",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6472585,23.3448368",
+    "PlaceId": "174"
+  },
+  {
+    "Id": "175",
+    "CreatedOn": "2020-12-10 01:03:24.0180470",
+    
+    
+    
+    "Lattitude": "42.6880029",
+    "Longtitude": "23.3458041",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6880029,23.3458041",
+    "PlaceId": "175"
+  },
+  {
+    "Id": "176",
+    "CreatedOn": "2020-12-10 01:03:28.0074659",
+    
+    
+    
+    "Lattitude": "42.689871",
+    "Longtitude": "23.318418",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.689871,23.318418",
+    "PlaceId": "176"
+  },
+  {
+    "Id": "177",
+    "CreatedOn": "2020-12-10 01:03:32.0487164",
+    
+    
+    
+    "Lattitude": "42.6979424",
+    "Longtitude": "23.3284858",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6979424,23.3284858",
+    "PlaceId": "177"
+  },
+  {
+    "Id": "178",
+    "CreatedOn": "2020-12-10 01:03:36.0944565",
+    
+    
+    
+    "Lattitude": "42.6934729",
+    "Longtitude": "23.3525256",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6934729,23.3525256",
+    "PlaceId": "178"
+  },
+  {
+    "Id": "179",
+    "CreatedOn": "2020-12-10 01:03:40.1591530",
+    
+    
+    
+    "Lattitude": "42.6912419",
+    "Longtitude": "23.323111",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6912419,23.323111",
+    "PlaceId": "179"
+  },
+  {
+    "Id": "180",
+    "CreatedOn": "2020-12-10 01:03:44.1886059",
+    
+    
+    
+    "Lattitude": "42.6358878",
+    "Longtitude": "23.3107065",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6358878,23.3107065",
+    "PlaceId": "180"
+  },
+  {
+    "Id": "181",
+    "CreatedOn": "2020-12-10 01:03:48.6453955",
+    
+    
+    
+    "Lattitude": "42.6950698",
+    "Longtitude": "23.3378138",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6950698,23.3378138",
+    "PlaceId": "181"
+  },
+  {
+    "Id": "182",
+    "CreatedOn": "2020-12-10 01:03:52.8593170",
+    
+    
+    
+    "Lattitude": "42.683524",
+    "Longtitude": "23.33711",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.683524,23.33711",
+    "PlaceId": "182"
+  },
+  {
+    "Id": "183",
+    "CreatedOn": "2020-12-10 01:03:57.2770139",
+    
+    
+    
+    "Lattitude": "42.6444994",
+    "Longtitude": "23.3425915",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6444994,23.3425915",
+    "PlaceId": "183"
+  },
+  {
+    "Id": "184",
+    "CreatedOn": "2020-12-10 01:04:01.3876499",
+    
+    
+    
+    "Lattitude": "42.7084706",
+    "Longtitude": "23.2877819",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7084706,23.2877819",
+    "PlaceId": "184"
+  },
+  {
+    "Id": "185",
+    "CreatedOn": "2020-12-10 01:04:05.4601219",
+    
+    
+    
+    "Lattitude": "42.705785",
+    "Longtitude": "23.2938669",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.705785,23.2938669",
+    "PlaceId": "185"
+  },
+  {
+    "Id": "186",
+    "CreatedOn": "2020-12-10 01:04:09.5538406",
+    
+    
+    
+    "Lattitude": "42.7055048",
+    "Longtitude": "23.2940701",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7055048,23.2940701",
+    "PlaceId": "186"
+  },
+  {
+    "Id": "187",
+    "CreatedOn": "2020-12-10 01:04:13.6528967",
+    
+    
+    
+    "Lattitude": "42.6495166",
+    "Longtitude": "23.3441852",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6495166,23.3441852",
+    "PlaceId": "187"
+  },
+  {
+    "Id": "188",
+    "CreatedOn": "2020-12-10 01:04:17.7224500",
+    
+    
+    
+    "Lattitude": "42.6917692",
+    "Longtitude": "23.3536056",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6917692,23.3536056",
+    "PlaceId": "188"
+  },
+  {
+    "Id": "189",
+    "CreatedOn": "2020-12-10 01:04:21.8498379",
+    
+    
+    
+    "Lattitude": "42.70428",
+    "Longtitude": "23.3053544",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.70428,23.3053544",
+    "PlaceId": "189"
+  },
+  {
+    "Id": "190",
+    "CreatedOn": "2020-12-10 01:04:25.9250893",
+    
+    
+    
+    "Lattitude": "42.6950052",
+    "Longtitude": "23.3262241",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6950052,23.3262241",
+    "PlaceId": "190"
+  },
+  {
+    "Id": "191",
+    "CreatedOn": "2020-12-10 01:04:30.4351621",
+    
+    
+    
+    "Lattitude": "42.7359351",
+    "Longtitude": "23.2928114",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7359351,23.2928114",
+    "PlaceId": "191"
+  },
+  {
+    "Id": "192",
+    "CreatedOn": "2020-12-10 01:04:34.5507533",
+    
+    
+    
+    "Lattitude": "42.7073464",
+    "Longtitude": "23.1432373",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7073464,23.1432373",
+    "PlaceId": "192"
+  },
+  {
+    "Id": "193",
+    "CreatedOn": "2020-12-10 01:04:38.7024931",
+    
+    
+    
+    "Lattitude": "42.6783076",
+    "Longtitude": "23.352328",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6783076,23.352328",
+    "PlaceId": "193"
+  },
+  {
+    "Id": "194",
+    "CreatedOn": "2020-12-10 01:04:42.8689465",
+    
+    
+    
+    "Lattitude": "42.6418112",
+    "Longtitude": "23.3736282",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6418112,23.3736282",
+    "PlaceId": "194"
+  },
+  {
+    "Id": "195",
+    "CreatedOn": "2020-12-10 01:04:47.0189650",
+    
+    
+    
+    "Lattitude": "42.6522958",
+    "Longtitude": "23.3457985",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6522958,23.3457985",
+    "PlaceId": "195"
+  },
+  {
+    "Id": "196",
+    "CreatedOn": "2020-12-10 01:04:51.1727286",
+    
+    
+    
+    "Lattitude": "42.6569041",
+    "Longtitude": "23.3582281",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6569041,23.3582281",
+    "PlaceId": "196"
+  },
+  {
+    "Id": "197",
+    "CreatedOn": "2020-12-10 01:04:55.5059503",
+    
+    
+    
+    "Lattitude": "42.6991181",
+    "Longtitude": "23.30235",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6991181,23.30235",
+    "PlaceId": "197"
+  },
+  {
+    "Id": "198",
+    "CreatedOn": "2020-12-10 01:05:00.1299418",
+    
+    
+    
+    "Lattitude": "42.7115442",
+    "Longtitude": "23.3097604",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7115442,23.3097604",
+    "PlaceId": "198"
+  },
+  {
+    "Id": "199",
+    "CreatedOn": "2020-12-10 01:05:04.5936926",
+    
+    
+    
+    "Lattitude": "42.7270631",
+    "Longtitude": "23.2873334",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7270631,23.2873334",
+    "PlaceId": "199"
+  },
+  {
+    "Id": "200",
+    "CreatedOn": "2020-12-10 01:05:08.7504689",
+    
+    
+    
+    "Lattitude": "42.625436",
+    "Longtitude": "23.3740733",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.625436,23.3740733",
+    "PlaceId": "200"
+  },
+  {
+    "Id": "201",
+    "CreatedOn": "2020-12-10 01:05:13.3715549",
+    
+    
+    
+    "Lattitude": "42.6447285",
+    "Longtitude": "23.3358731",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6447285,23.3358731",
+    "PlaceId": "201"
+  },
+  {
+    "Id": "202",
+    "CreatedOn": "2020-12-10 01:05:17.5284175",
+    
+    
+    
+    "Lattitude": "42.6797415",
+    "Longtitude": "23.3104827",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6797415,23.3104827",
+    "PlaceId": "202"
+  },
+  {
+    "Id": "203",
+    "CreatedOn": "2020-12-10 01:05:21.8295472",
+    
+    
+    
+    "Lattitude": "42.7045391",
+    "Longtitude": "23.306191",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7045391,23.306191",
+    "PlaceId": "203"
+  },
+  {
+    "Id": "204",
+    "CreatedOn": "2020-12-10 01:05:26.0175416",
+    
+    
+    
+    "Lattitude": "42.6360852",
+    "Longtitude": "23.3751577",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6360852,23.3751577",
+    "PlaceId": "204"
+  },
+  {
+    "Id": "205",
+    "CreatedOn": "2020-12-10 01:05:30.1924127",
+    
+    
+    
+    "Lattitude": "42.6744576",
+    "Longtitude": "23.311436",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6744576,23.311436",
+    "PlaceId": "205"
+  },
+  {
+    "Id": "206",
+    "CreatedOn": "2020-12-10 01:05:34.4401512",
+    
+    
+    
+    "Lattitude": "42.6806234",
+    "Longtitude": "23.2938169",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6806234,23.2938169",
+    "PlaceId": "206"
+  },
+  {
+    "Id": "207",
+    "CreatedOn": "2020-12-10 01:05:38.6028346",
+    
+    
+    
+    "Lattitude": "42.6528266",
+    "Longtitude": "23.3591783",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6528266,23.3591783",
+    "PlaceId": "207"
+  },
+  {
+    "Id": "208",
+    "CreatedOn": "2020-12-10 01:05:42.8365884",
+    
+    
+    
+    "Lattitude": "42.6965419",
+    "Longtitude": "23.3144626",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6965419,23.3144626",
+    "PlaceId": "208"
+  },
+  {
+    "Id": "209",
+    "CreatedOn": "2020-12-10 01:05:47.0493257",
+    
+    
+    
+    "Lattitude": "42.7257506",
+    "Longtitude": "23.3030859",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7257506,23.3030859",
+    "PlaceId": "209"
+  },
+  {
+    "Id": "210",
+    "CreatedOn": "2020-12-10 01:05:51.2613837",
+    
+    
+    
+    "Lattitude": "42.6936132",
+    "Longtitude": "23.3296478",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6936132,23.3296478",
+    "PlaceId": "210"
+  },
+  {
+    "Id": "211",
+    "CreatedOn": "2020-12-10 01:05:55.9060200",
+    
+    
+    
+    "Lattitude": "42.694136",
+    "Longtitude": "23.328747",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.694136,23.328747",
+    "PlaceId": "211"
+  },
+  {
+    "Id": "212",
+    "CreatedOn": "2020-12-10 01:06:00.1190428",
+    
+    
+    
+    "Lattitude": "42.6691246",
+    "Longtitude": "23.3190816",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6691246,23.3190816",
+    "PlaceId": "212"
+  },
+  {
+    "Id": "213",
+    "CreatedOn": "2020-12-10 01:06:04.8198969",
+    
+    
+    
+    "Lattitude": "42.713105",
+    "Longtitude": "23.2383277",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.713105,23.2383277",
+    "PlaceId": "213"
+  },
+  {
+    "Id": "214",
+    "CreatedOn": "2020-12-10 01:06:09.4305593",
+    
+    
+    
+    "Lattitude": "42.6873812",
+    "Longtitude": "23.3049902",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6873812,23.3049902",
+    "PlaceId": "214"
+  },
+  {
+    "Id": "215",
+    "CreatedOn": "2020-12-10 01:06:13.7248301",
+    
+    
+    
+    "Lattitude": "42.6813166",
+    "Longtitude": "23.3196954",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6813166,23.3196954",
+    "PlaceId": "215"
+  },
+  {
+    "Id": "216",
+    "CreatedOn": "2020-12-10 01:06:17.9817542",
+    
+    
+    
+    "Lattitude": "42.692815",
+    "Longtitude": "23.3431349",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.692815,23.3431349",
+    "PlaceId": "216"
+  },
+  {
+    "Id": "217",
+    "CreatedOn": "2020-12-10 01:06:22.2333814",
+    
+    
+    
+    "Lattitude": "42.6463036",
+    "Longtitude": "23.3403989",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6463036,23.3403989",
+    "PlaceId": "217"
+  },
+  {
+    "Id": "218",
+    "CreatedOn": "2020-12-10 01:06:26.5724307",
+    
+    
+    
+    "Lattitude": "42.7247008",
+    "Longtitude": "23.2606544",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7247008,23.2606544",
+    "PlaceId": "218"
+  },
+  {
+    "Id": "219",
+    "CreatedOn": "2020-12-10 01:06:30.8144301",
+    
+    
+    
+    "Lattitude": "42.6827454",
+    "Longtitude": "23.3236431",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6827454,23.3236431",
+    "PlaceId": "219"
+  },
+  {
+    "Id": "220",
+    "CreatedOn": "2020-12-10 01:06:35.0877470",
+    
+    
+    
+    "Lattitude": "42.7034134",
+    "Longtitude": "23.297792",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7034134,23.297792",
+    "PlaceId": "220"
+  },
+  {
+    "Id": "221",
+    "CreatedOn": "2020-12-10 01:06:39.8068459",
+    
+    
+    
+    "Lattitude": "42.6889829",
+    "Longtitude": "23.3680358",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6889829,23.3680358",
+    "PlaceId": "221"
+  },
+  {
+    "Id": "222",
+    "CreatedOn": "2020-12-10 01:06:44.1301326",
+    
+    
+    
+    "Lattitude": "42.6747575",
+    "Longtitude": "23.30068",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6747575,23.30068",
+    "PlaceId": "222"
+  },
+  {
+    "Id": "223",
+    "CreatedOn": "2020-12-10 01:06:48.4399503",
+    
+    
+    
+    "Lattitude": "42.70907",
+    "Longtitude": "23.29614",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.70907,23.29614",
+    "PlaceId": "223"
+  },
+  {
+    "Id": "224",
+    "CreatedOn": "2020-12-10 01:06:52.8051891",
+    
+    
+    
+    "Lattitude": "42.6633803",
+    "Longtitude": "23.3429368",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6633803,23.3429368",
+    "PlaceId": "224"
+  },
+  {
+    "Id": "225",
+    "CreatedOn": "2020-12-10 01:06:57.3965758",
+    
+    
+    
+    "Lattitude": "42.6345076",
+    "Longtitude": "23.3714458",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6345076,23.3714458",
+    "PlaceId": "225"
+  },
+  {
+    "Id": "226",
+    "CreatedOn": "2020-12-10 01:07:01.7837843",
+    
+    
+    
+    "Lattitude": "42.6777225",
+    "Longtitude": "23.3098571",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6777225,23.3098571",
+    "PlaceId": "226"
+  },
+  {
+    "Id": "227",
+    "CreatedOn": "2020-12-10 01:07:06.1479363",
+    
+    
+    
+    "Lattitude": "42.6892619",
+    "Longtitude": "23.3157311",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6892619,23.3157311",
+    "PlaceId": "227"
+  },
+  {
+    "Id": "228",
+    "CreatedOn": "2020-12-10 01:07:10.7417181",
+    
+    
+    
+    "Lattitude": "42.693729",
+    "Longtitude": "23.337474",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.693729,23.337474",
+    "PlaceId": "228"
+  },
+  {
+    "Id": "229",
+    "CreatedOn": "2020-12-10 01:07:15.2402083",
+    
+    
+    
+    "Lattitude": "42.6902036",
+    "Longtitude": "23.31927",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6902036,23.31927",
+    "PlaceId": "229"
+  },
+  {
+    "Id": "230",
+    "CreatedOn": "2020-12-10 01:07:19.5956573",
+    
+    
+    
+    "Lattitude": "42.6760914",
+    "Longtitude": "23.3312926",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6760914,23.3312926",
+    "PlaceId": "230"
+  },
+  {
+    "Id": "231",
+    "CreatedOn": "2020-12-10 01:07:24.3758490",
+    
+    
+    
+    "Lattitude": "42.7034033",
+    "Longtitude": "23.3053544",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7034033,23.3053544",
+    "PlaceId": "231"
+  },
+  {
+    "Id": "232",
+    "CreatedOn": "2020-12-10 01:07:28.7025096",
+    
+    
+    
+    "Lattitude": "42.6843401",
+    "Longtitude": "23.3267463",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6843401,23.3267463",
+    "PlaceId": "232"
+  },
+  {
+    "Id": "233",
+    "CreatedOn": "2020-12-10 01:07:33.0641517",
+    
+    
+    
+    "Lattitude": "42.6550153",
+    "Longtitude": "23.3429486",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6550153,23.3429486",
+    "PlaceId": "233"
+  },
+  {
+    "Id": "234",
+    "CreatedOn": "2020-12-10 01:07:37.4390568",
+    
+    
+    
+    "Lattitude": "42.6909905",
+    "Longtitude": "23.3177138",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6909905,23.3177138",
+    "PlaceId": "234"
+  },
+  {
+    "Id": "235",
+    "CreatedOn": "2020-12-10 01:07:41.8170120",
+    
+    
+    
+    "Lattitude": "42.693162",
+    "Longtitude": "23.3225071",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.693162,23.3225071",
+    "PlaceId": "235"
+  },
+  {
+    "Id": "236",
+    "CreatedOn": "2020-12-10 01:07:46.1523502",
+    
+    
+    
+    "Lattitude": "42.65228",
+    "Longtitude": "23.3450631",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.65228,23.3450631",
+    "PlaceId": "236"
+  },
+  {
+    "Id": "237",
+    "CreatedOn": "2020-12-10 01:07:50.4886203",
+    
+    
+    
+    "Lattitude": "42.6639836",
+    "Longtitude": "23.2838033",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6639836,23.2838033",
+    "PlaceId": "237"
+  },
+  {
+    "Id": "238",
+    "CreatedOn": "2020-12-10 01:07:54.9258055",
+    
+    
+    
+    "Lattitude": "42.6873544",
+    "Longtitude": "23.3435696",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6873544,23.3435696",
+    "PlaceId": "238"
+  },
+  {
+    "Id": "239",
+    "CreatedOn": "2020-12-10 01:07:59.3645525",
+    
+    
+    
+    "Lattitude": "42.6747296",
+    "Longtitude": "23.3084724",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6747296,23.3084724",
+    "PlaceId": "239"
+  },
+  {
+    "Id": "240",
+    "CreatedOn": "2020-12-10 01:08:03.7221654",
+    
+    
+    
+    "Lattitude": "42.6983888",
+    "Longtitude": "23.3227386",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6983888,23.3227386",
+    "PlaceId": "240"
+  },
+  {
+    "Id": "241",
+    "CreatedOn": "2020-12-10 01:08:08.5780678",
+    
+    
+    
+    "Lattitude": "42.6918771",
+    "Longtitude": "23.3694142",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6918771,23.3694142",
+    "PlaceId": "241"
+  },
+  {
+    "Id": "242",
+    "CreatedOn": "2020-12-10 01:08:12.9840262",
+    
+    
+    
+    "Lattitude": "42.690661",
+    "Longtitude": "23.316603",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.690661,23.316603",
+    "PlaceId": "242"
+  },
+  {
+    "Id": "243",
+    "CreatedOn": "2020-12-10 01:08:17.8676766",
+    
+    
+    
+    "Lattitude": "42.6959458",
+    "Longtitude": "23.3164713",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6959458,23.3164713",
+    "PlaceId": "243"
+  },
+  {
+    "Id": "244",
+    "CreatedOn": "2020-12-10 01:08:22.3120300",
+    
+    
+    
+    "Lattitude": "42.6906667",
+    "Longtitude": "23.3140198",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6906667,23.3140198",
+    "PlaceId": "244"
+  },
+  {
+    "Id": "245",
+    "CreatedOn": "2020-12-10 01:08:26.7153640",
+    
+    
+    
+    "Lattitude": "42.6389751",
+    "Longtitude": "23.3108111",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6389751,23.3108111",
+    "PlaceId": "245"
+  },
+  {
+    "Id": "246",
+    "CreatedOn": "2020-12-10 01:08:31.1475192",
+    
+    
+    
+    "Lattitude": "42.691974",
+    "Longtitude": "23.3202075",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.691974,23.3202075",
+    "PlaceId": "246"
+  },
+  {
+    "Id": "247",
+    "CreatedOn": "2020-12-10 01:08:35.5904684",
+    
+    
+    
+    "Lattitude": "42.6923841",
+    "Longtitude": "23.3070751",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6923841,23.3070751",
+    "PlaceId": "247"
+  },
+  {
+    "Id": "248",
+    "CreatedOn": "2020-12-10 01:08:39.9586692",
+    
+    
+    
+    "Lattitude": "42.6727119",
+    "Longtitude": "23.2983928",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6727119,23.2983928",
+    "PlaceId": "248"
+  },
+  {
+    "Id": "249",
+    "CreatedOn": "2020-12-10 01:08:44.4247652",
+    
+    
+    
+    "Lattitude": "42.6462195",
+    "Longtitude": "23.3404038",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6462195,23.3404038",
+    "PlaceId": "249"
+  },
+  {
+    "Id": "250",
+    "CreatedOn": "2020-12-10 01:08:48.8678239",
+    
+    
+    
+    "Lattitude": "42.7256364",
+    "Longtitude": "23.3056008",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.7256364,23.3056008",
+    "PlaceId": "250"
+  },
+  {
+    "Id": "251",
+    "CreatedOn": "2020-12-10 01:08:53.7108900",
+    
+    
+    
+    "Lattitude": "42.6873839",
+    "Longtitude": "23.3155468",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6873839,23.3155468",
+    "PlaceId": "251"
+  },
+  {
+    "Id": "252",
+    "CreatedOn": "2020-12-10 01:08:58.1352483",
+    
+    
+    
+    "Lattitude": "42.6854683",
+    "Longtitude": "23.3206683",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6854683,23.3206683",
+    "PlaceId": "252"
+  },
+  {
+    "Id": "253",
+    "CreatedOn": "2020-12-10 01:09:02.5288204",
+    
+    
+    
+    "Lattitude": "42.648984",
+    "Longtitude": "23.378082",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.648984,23.378082",
+    "PlaceId": "253"
+  },
+  {
+    "Id": "254",
+    "CreatedOn": "2020-12-10 01:09:07.9544777",
+    
+    
+    
+    "Lattitude": "42.692084",
+    "Longtitude": "23.326273",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.692084,23.326273",
+    "PlaceId": "254"
+  },
+  {
+    "Id": "255",
+    "CreatedOn": "2020-12-10 01:09:13.8036434",
+    
+    
+    
+    "Lattitude": "42.658457",
+    "Longtitude": "23.315942",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.658457,23.315942",
+    "PlaceId": "255"
+  },
+  {
+    "Id": "256",
+    "CreatedOn": "2020-12-10 01:09:19.7795756",
+    
+    
+    
+    "Lattitude": "42.67085",
+    "Longtitude": "23.276818",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.670850,23.276818",
+    "PlaceId": "256"
+  },
+  {
+    "Id": "257",
+    "CreatedOn": "2020-12-10 01:09:25.7132858",
+    
+    
+    
+    "Lattitude": "42.674082",
+    "Longtitude": "23.333901",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.674082,23.333901",
+    "PlaceId": "257"
+  },
+  {
+    "Id": "258",
+    "CreatedOn": "2020-12-10 01:09:31.1728945",
+    
+    
+    
+    "Lattitude": "42.671752",
+    "Longtitude": "23.31826",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.671752,23.31826",
+    "PlaceId": "258"
+  },
+  {
+    "Id": "259",
+    "CreatedOn": "2020-12-10 01:09:36.5872766",
+    
+    
+    
+    "Lattitude": "42.6577172",
+    "Longtitude": "23.3147984",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6577172,23.3147984",
+    "PlaceId": "259"
+  },
+  {
+    "Id": "260",
+    "CreatedOn": "2020-12-10 01:09:42.1011782",
+    
+    
+    
+    "Lattitude": "42.6555913",
+    "Longtitude": "23.3740285",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6555913,23.3740285",
+    "PlaceId": "260"
+  },
+  {
+    "Id": "261",
+    "CreatedOn": "2020-12-10 01:09:48.2260140",
+    
+    
+    
+    "Lattitude": "42.6651188",
+    "Longtitude": "23.3722462",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6651188,23.3722462",
+    "PlaceId": "261"
+  },
+  {
+    "Id": "262",
+    "CreatedOn": "2020-12-10 01:09:53.7075475",
+    
+    
+    
+    "Lattitude": "42.6960277",
+    "Longtitude": "23.3208059",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6960277,23.3208059",
+    "PlaceId": "262"
+  },
+  {
+    "Id": "263",
+    "CreatedOn": "2020-12-10 01:09:59.2574546",
+    
+    
+    
+    "Lattitude": "42.6944644",
+    "Longtitude": "23.3171505",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6944644,23.3171505",
+    "PlaceId": "263"
+  },
+  {
+    "Id": "264",
+    "CreatedOn": "2020-12-10 01:10:04.7547087",
+    
+    
+    
+    "Lattitude": "42.6951638",
+    "Longtitude": "23.3267058",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6951638,23.3267058",
+    "PlaceId": "264"
+  },
+  {
+    "Id": "265",
+    "CreatedOn": "2020-12-10 01:10:10.4850041",
+    
+    
+    
+    "Lattitude": "42.6666791",
+    "Longtitude": "23.2899508",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6666791,23.2899508",
+    "PlaceId": "265"
+  },
+  {
+    "Id": "266",
+    "CreatedOn": "2020-12-10 01:10:16.0874453",
+    
+    
+    
+    "Lattitude": "42.696579",
+    "Longtitude": "23.320546",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.696579,23.320546",
+    "PlaceId": "266"
+  },
+  {
+    "Id": "267",
+    "CreatedOn": "2020-12-10 01:10:22.4710246",
+    
+    
+    
+    "Lattitude": "42.6376498",
+    "Longtitude": "23.3346277",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6376498,23.3346277",
+    "PlaceId": "267"
+  },
+  {
+    "Id": "268",
+    "CreatedOn": "2020-12-10 01:10:28.7547590",
+    
+    
+    
+    "Lattitude": "42.665931",
+    "Longtitude": "23.319723",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.665931,23.319723",
+    "PlaceId": "268"
+  },
+  {
+    "Id": "269",
+    "CreatedOn": "2020-12-10 01:10:34.7505314",
+    
+    
+    
+    "Lattitude": "42.6558832",
+    "Longtitude": "23.2634769",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6558832,23.2634769",
+    "PlaceId": "269"
+  },
+  {
+    "Id": "270",
+    "CreatedOn": "2020-12-10 01:10:40.6235421",
+    
+    
+    
+    "Lattitude": "42.6777785",
+    "Longtitude": "23.3291085",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6777785,23.3291085",
+    "PlaceId": "270"
+  },
+  {
+    "Id": "271",
+    "CreatedOn": "2020-12-10 01:10:47.0621662",
+    
+    
+    
+    "Lattitude": "42.6953042",
+    "Longtitude": "23.3285829",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6953042,23.3285829",
+    "PlaceId": "271"
+  },
+  {
+    "Id": "272",
+    "CreatedOn": "2020-12-10 01:10:52.9527573",
+    
+    
+    
+    "Lattitude": "42.6701768",
+    "Longtitude": "23.2919329",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6701768,23.2919329",
+    "PlaceId": "272"
+  },
+  {
+    "Id": "273",
+    "CreatedOn": "2020-12-10 01:10:58.8443894",
+    
+    
+    
+    "Lattitude": "42.6776043",
+    "Longtitude": "23.2963005",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6776043,23.2963005",
+    "PlaceId": "273"
+  },
+  {
+    "Id": "274",
+    "CreatedOn": "2020-12-10 01:11:04.8930327",
+    
+    
+    
+    "Lattitude": "42.6704185",
+    "Longtitude": "23.328709",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6704185,23.328709",
+    "PlaceId": "274"
+  },
+  {
+    "Id": "275",
+    "CreatedOn": "2020-12-10 01:11:11.4387933",
+    
+    
+    
+    "Lattitude": "42.713837",
+    "Longtitude": "23.264574",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.713837,23.264574",
+    "PlaceId": "275"
+  },
+  {
+    "Id": "276",
+    "CreatedOn": "2020-12-10 01:11:19.3895892",
+    
+    
+    
+    "Lattitude": "42.698341",
+    "Longtitude": "23.308169",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.698341,23.308169",
+    "PlaceId": "276"
+  },
+  {
+    "Id": "277",
+    "CreatedOn": "2020-12-10 01:11:26.9790206",
+    
+    
+    
+    "Lattitude": "42.6574428",
+    "Longtitude": "23.3145477",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.6574428,23.3145477",
+    "PlaceId": "277"
+  },
+  {
+    "Id": "278",
+    "CreatedOn": "2020-12-10 01:11:37.3207449",
+    
+    
+    
+    "Lattitude": "42.670253",
+    "Longtitude": "23.313717",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.670253,23.313717",
+    "PlaceId": "278"
+  },
+  {
+    "Id": "279",
+    "CreatedOn": "2020-12-10 01:11:46.1437986",
+    
+    
+    
+    "Lattitude": "42.672201",
+    "Longtitude": "23.318572",
+    "GoogleAddress": "https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTE&q=42.672201,23.318572",
+    "PlaceId": "279"
+  }
+]

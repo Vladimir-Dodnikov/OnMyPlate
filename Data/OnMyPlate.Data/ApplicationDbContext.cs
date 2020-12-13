@@ -42,6 +42,8 @@
 
         public DbSet<Place> Places { get; set; }
 
+        public DbSet<WorkTime> WorkTimes { get; set; }
+
         // Comments
         public DbSet<Post> Posts { get; set; }
 

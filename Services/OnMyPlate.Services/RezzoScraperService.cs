@@ -92,7 +92,6 @@
                 var address = new Address();
                 address.City = place.Address.City;
                 address.Street = place.Address.Street;
-                address.Neighbourhood = place.Address.Neighbourhood;
                 address.PlaceId = newPlace.Id;
                 await this.addressesRepository.AddAsync(address);
                 await this.addressesRepository.SaveChangesAsync();
