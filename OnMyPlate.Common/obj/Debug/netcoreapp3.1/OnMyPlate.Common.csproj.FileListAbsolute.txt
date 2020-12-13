@@ -1,9 +1,0 @@
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\bin\Debug\netcoreapp3.1\OnMyPlate.Common.deps.json
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\bin\Debug\netcoreapp3.1\OnMyPlate.Common.dll
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\bin\Debug\netcoreapp3.1\OnMyPlate.Common.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.AssemblyInfoInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.AssemblyInfo.cs
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.csproj.CoreCompileInputs.cache
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.dll
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.pdb
-C:\Users\Vladi\Desktop\OnMyPlate\OnMyPlate.Common\obj\Debug\netcoreapp3.1\OnMyPlate.Common.csprojAssemblyReference.cache
