@@ -7,16 +7,16 @@
     using OnMyPlate.Data.Models;
     using OnMyPlate.Data.Models.Places;
 
-    public class AmentityService : IAmentityService
+    public class AmentitiesService : IAmentitiesService
     {
         private readonly IDeletableEntityRepository<Amentity> amentities;
 
-        public AmentityService(IDeletableEntityRepository<Amentity> amentities)
+        public AmentitiesService(IDeletableEntityRepository<Amentity> amentities)
         {
             this.amentities = amentities;
         }
 
-        public IEnumerable<KeyValuePair<int, string>> GetAllAmentitiesAsKeyValuePairs()
+        public IEnumerable<KeyValuePair<string, string>> GetAllAmentitiesAsKeyValuePairs()
         {
             return this.amentities.All().Select(x => new
             {
@@ -25,7 +25,7 @@
             }).ToList()
             .GroupBy(x => x.Name)
             .Select(x => x.First())
-            .Select(s => new KeyValuePair<int, string>(s.Id, s.Name));
+            .Select(s => new KeyValuePair<string, string>(s.Id.ToString(), s.Name));
         }
     }
 }

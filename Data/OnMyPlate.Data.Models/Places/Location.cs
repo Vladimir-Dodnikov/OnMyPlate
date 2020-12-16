@@ -9,11 +9,11 @@
     {
         [Required]
         [MaxLength(GlobalConstants.LocationMaxLength)]
-        public string Lattitude { get; set; }
+        public double Lattitude { get; set; }
 
         [Required]
         [MaxLength(GlobalConstants.LocationMaxLength)]
-        public string Longtitude { get; set; }
+        public double Longtitude { get; set; }
 
         public string GoogleAddress { get; set; }
 

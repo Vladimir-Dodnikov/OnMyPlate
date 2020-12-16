@@ -7,101 +7,90 @@
     var musicTypes = this.Model.MusicTypes.Select(x => new SelectListItem(x.Value, x.Key.ToString()));
 }
 
-    <form method="post" class="col-md-6 offset-md-3"
-          enctype="multipart/form-data">
-        <h1>@this.ViewData["Title"]</h1>
-        <div asp-validation-summary="All" class="text-danger"></div>
-        <div class="form-group">
-            <label asp-for="Name"></label>
-            <input asp-for="Name" class="form-control" />
-            <span asp-validation-for="Name" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Description"></label>
-            <textarea asp-for="Description" class="form-control" rows="5"></textarea>
-            <span asp-validation-for="Description" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="LogoImage"></label>
-            <input asp-for="LogoImage" class="form-control" />
-            <span asp-validation-for="LogoImage" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="WebUrl"></label>
-            <input asp-for="WebUrl" class="form-control" />
-            <span asp-validation-for="WebUrl" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label class="table text-center" asp-for="Location"></label>
-            <label asp-for="Location.Lattitude"></label>
-            <input asp-for="Location.Lattitude" class="form-control" />
-            <label asp-for="Location.Longtitude"></label>
-            <input asp-for="Location.Longtitude" class="form-control" />
-            <label asp-for="Location.GoogleAddress"></label>
-            <input asp-for="Location.GoogleAddress" class="form-control" />
-            <span asp-validation-for="Location" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label class="table text-center" asp-for="Address"></label>
-            <label asp-for="Address.City"></label>
-            <input asp-for="Address.City" class="form-control" />
-            <label asp-for="Address.Street"></label>
-            <input asp-for="Address.Street" class="form-control" />
-            <span asp-validation-for="Address" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label class="table text-center" asp-for="WorkTime"></label>
-            <label asp-for="WorkTime.OpenTime"></label>
-            <input asp-for="WorkTime.OpenTime" class="form-control" />
-            <label asp-for="WorkTime.CloseTime"></label>
-            <input asp-for="WorkTime.CloseTime" class="form-control" />
-            <span asp-validation-for="WorkTime" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Images"></label>
-            <input asp-for="Images" class="form-control" />
-            <span asp-validation-for="Images" class="text-danger"></span>
-        </div>
+<form method="post" class="col-md-6 offset-md-3"
+      enctype="multipart/form-data">
+    <h1>@this.ViewData["Title"]</h1>
+    <div asp-validation-summary="All" class="text-danger" ></div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LogoImage"></label>
+        <input asp-for="LogoImage" class="form-control" />
+        <span asp-validation-for="LogoImage" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="WebUrl"></label>
+        <input asp-for="WebUrl" class="form-control" />
+        <span asp-validation-for="WebUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="table text-center"></label>
+        <label asp-for="Lattitude"></label>
+        <input asp-for="Lattitude" class="form-control" />
+        <span asp-validation-for="Lattitude" class="text-danger" ></span>
+        <label asp-for="Longtitude"></label>
+        <input asp-for="Longtitude" class="form-control" />
+        <span asp-validation-for="Longtitude" class="text-danger"></span>
+        <label asp-for="GoogleAddress"></label>
+        <input asp-for="GoogleAddress" class="form-control" />
+        <span asp-validation-for="GoogleAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="table text-center"></label>
+        <label asp-for="City"></label>
+        <input asp-for="City" class="form-control"/>
+        <span asp-validation-for="City" class="text-danger"></span>
+        <label asp-for="Street"></label>
+        <input asp-for="Street" class="form-control"/>
+        <span asp-validation-for="Street" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="table text-center">Working time</label>
+        <label class="text-center" for="appt" asp-for="OpenTime">Select Open hours:</label>
+        <input asp-for="OpenTime" class="form-control" />
+        <span asp-validation-for="CloseTime" class="text-danger"></span>
+        <label asp-for="CloseTime">Select Close hours:</label>
+        <input asp-for="CloseTime" class="form-control" />
+        <span asp-validation-for="CloseTime" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Images"></label>
+        <input asp-for="Images" class="form-control" />
+        <span asp-validation-for="Images" class="text-danger"></span>
+    </div>
 
-        <div class="form-group">
-            <label asp-for="Amentities"></label>
-            @*<vc:AmentitiesDropDown name="Amentities"></vc:AmentitiesDropDown>*@
-            <select asp-for="Amentities" class="form-control" asp-items="amentityItems"></select>
-            <span asp-validation-for="Amentities" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Cuisines"></label>
-            @*<vc:CuisinesDropDown name="Cuisines"></vc:CuisinesDropDown>*@
-            <select asp-for="Cuisines" class="form-control" asp-items="cuisineItems"></select>
-            <span asp-validation-for="Cuisines" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="PaymentTypes"></label>
-            @*<vc:PaymentTypesDropDown name="PaymentTypes"></vc:PaymentTypesDropDown>*@
-            <select asp-for="PaymentTypes" class="form-control" asp-items="paymentTypes"></select>
-            <span asp-validation-for="PaymentTypes" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="MusicTypes"></label>
-            @*<vc:MusicTypesDropDown name="MusicTypes"></vc:MusicTypesDropDown>*@
-            <select asp-for="MusicTypes" class="form-control" asp-items="musicTypes"></select>
-            <span asp-validation-for="MusicTypes" class="text-danger"></span>
-        </div>
-        <div id="ImagesContainer">
-            <label asp-for="Images"></label>
-            <a class="btn btn-success" onclick="AddMoreImages()">+</a>
-        </div>
-        <input type="submit" class="btn btn-primary" />
-    </form>
+    <div class="form-group">
+        <label asp-for="Amentities"></label>
+        @*<vc:AmentitiesDropDown name="Amentities"></vc:AmentitiesDropDown>*@
+        <select asp-for="Amentities" class="form-control" asp-items="amentityItems"></select>
+        <span asp-validation-for="Amentities" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cuisines"></label>
+        @*<vc:CuisinesDropDown name="Cuisines"></vc:CuisinesDropDown>*@
+        <select asp-for="Cuisines" class="form-control" asp-items="cuisineItems"></select>
+        <span asp-validation-for="Cuisines" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PaymentTypes"></label>
+        @*<vc:PaymentTypesDropDown name="PaymentTypes"></vc:PaymentTypesDropDown>*@
+        <select asp-for="PaymentTypes" class="form-control" asp-items="paymentTypes"></select>
+        <span asp-validation-for="PaymentTypes" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MusicTypes"></label>
+        @*<vc:MusicTypesDropDown name="MusicTypes"></vc:MusicTypesDropDown>*@
+        <select asp-for="MusicTypes" class="form-control" asp-items="musicTypes"></select>
+        <span asp-validation-for="MusicTypes" class="text-danger"></span>
+    </div>
 
-@section Scripts {
-    <script>
-        var imageIndex = 0;
-        function AddMoreImages() {
-            $("#ImagesContainer").
-                append("<div class='form-control'>Name: <input type='text' name='Images[" + imageIndex + "].Name' /> </div>");
-            imageIndex++;
-        }
-    </script>
-}
-
+    <input type="submit" class="btn btn-primary" />
+</form>

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\OnMyPlate.Data.Common\OnMyPlate.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\OnMyPlate.Data.Models\OnMyPlate.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\OnMyPlate.Web.ViewModels\OnMyPlate.Web.ViewModels.csproj" />
     <ProjectReference Include="..\OnMyPlate.Services.Mapping\OnMyPlate.Services.Mapping.csproj" />
   </ItemGroup>
 

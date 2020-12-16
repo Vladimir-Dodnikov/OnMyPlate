@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnMyPlate.Data;
 
 namespace OnMyPlate.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201214205224_CreatorId")]
+    partial class CreatorId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -423,9 +425,9 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("Likes")
                         .HasColumnType("int");
 
-                    b.Property<string>("LogoImageId")
+                    b.Property<string>("LogoImage")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
@@ -582,12 +584,14 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<double>("Lattitude")
-                        .HasColumnType("float")
+                    b.Property<string>("Lattitude")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<double>("Longtitude")
-                        .HasColumnType("float")
+                    b.Property<string>("Longtitude")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
                     b.Property<DateTime?>("ModifiedOn")
@@ -604,36 +608,6 @@ namespace OnMyPlate.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Locations");
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.LogoImage", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("AddedByUserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Extension")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PlaceId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("RemoteImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AddedByUserId");
-
-                    b.ToTable("LogoImages");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Music", b =>
@@ -897,7 +871,7 @@ namespace OnMyPlate.Data.Migrations
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.Image", b =>
                 {
                     b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "AddedByUser")
-                        .WithMany("Images")
+                        .WithMany()
                         .HasForeignKey("AddedByUserId");
 
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
@@ -912,20 +886,6 @@ namespace OnMyPlate.Data.Migrations
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
                         .WithOne("Location")
                         .HasForeignKey("OnMyPlate.Data.Models.Places.Location", "PlaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnMyPlate.Data.Models.Places.LogoImage", b =>
-                {
-                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "AddedByUser")
-                        .WithMany("LogoImages")
-                        .HasForeignKey("AddedByUserId");
-
-                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithOne("LogoImage")
-                        .HasForeignKey("OnMyPlate.Data.Models.Places.LogoImage", "Id")
-                        .HasPrincipalKey("OnMyPlate.Data.Models.Place", "LogoImageId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });

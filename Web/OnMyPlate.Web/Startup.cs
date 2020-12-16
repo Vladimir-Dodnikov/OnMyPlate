@@ -66,10 +66,10 @@
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<IRezzoScraperService, RezzoScraperService>();
-            //services.AddTransient<IPlaceService, PlaceService>();
-            services.AddTransient<IAmentityService, AmentityService>();
-            services.AddTransient<ICuisineService, CuisineService>();
-            services.AddTransient<IPaymentService, PaymentService>();
+            services.AddTransient<IPlacesService, PlacesService>();
+            services.AddTransient<IAmentitiesService, AmentitiesService>();
+            services.AddTransient<ICuisinesService, CuisinesService>();
+            services.AddTransient<IPaymentsService, PaymentsService>();
             services.AddTransient<IMusicService, MusicService>();
         }
 

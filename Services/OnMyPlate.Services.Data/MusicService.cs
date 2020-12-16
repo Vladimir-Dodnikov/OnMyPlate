@@ -15,7 +15,7 @@
             this.musicTypes = musicTypes;
         }
 
-        public IEnumerable<KeyValuePair<int, string>> GetAllMusicTypesAsKeyValuePairs()
+        public IEnumerable<KeyValuePair<string, string>> GetAllMusicTypesAsKeyValuePairs()
         {
             return this.musicTypes.All().Select(x => new
             {
@@ -24,7 +24,7 @@
             }).ToList()
             .GroupBy(x => x.Name)
             .Select(x => x.First())
-            .Select(s => new KeyValuePair<int, string>(s.Id, s.Name));
+            .Select(s => new KeyValuePair<string, string>(s.Id.ToString(), s.Name));
         }
     }
 }

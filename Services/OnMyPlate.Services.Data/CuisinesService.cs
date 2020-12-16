@@ -6,18 +6,17 @@
     using OnMyPlate.Data.Common.Repositories;
     using OnMyPlate.Data.Models;
 
-    public class CuisineService : ICuisineService
+    public class CuisinesService : ICuisinesService
     {
         private readonly IDeletableEntityRepository<Cuisine> cuisines;
 
-        public CuisineService(IDeletableEntityRepository<Cuisine> cuisines)
+        public CuisinesService(IDeletableEntityRepository<Cuisine> cuisines)
         {
             this.cuisines = cuisines;
         }
 
-        public IEnumerable<KeyValuePair<int, string>> GetAllCuisineAsKeyValuePairs()
+        public IEnumerable<KeyValuePair<string, string>> GetAllCuisineAsKeyValuePairs()
         {
-
             return this.cuisines.All().Select(x => new
             {
                 x.Id,
@@ -25,7 +24,7 @@
             }).ToList()
             .GroupBy(x => x.Name)
             .Select(x => x.First())
-            .Select(s => new KeyValuePair<int, string>(s.Id, s.Name));
+            .Select(s => new KeyValuePair<string, string>(s.Id.ToString(), s.Name));
         }
     }
 }

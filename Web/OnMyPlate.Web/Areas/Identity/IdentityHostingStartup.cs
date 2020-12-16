@@ -9,6 +9,7 @@ using OnMyPlate.Data;
 using OnMyPlate.Data.Models;
 
 [assembly: HostingStartup(typeof(OnMyPlate.Web.Areas.Identity.IdentityHostingStartup))]
+
 namespace OnMyPlate.Web.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup

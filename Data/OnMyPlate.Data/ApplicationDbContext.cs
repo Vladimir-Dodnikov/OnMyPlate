@@ -40,6 +40,8 @@
 
         public DbSet<Image> Images { get; set; }
 
+        public DbSet<LogoImage> LogoImages { get; set; }
+
         public DbSet<Place> Places { get; set; }
 
         public DbSet<WorkTime> WorkTimes { get; set; }

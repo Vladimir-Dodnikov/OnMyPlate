@@ -4,6 +4,6 @@
 
     public interface IMusicService
     {
-        IEnumerable<KeyValuePair<int, string>> GetAllMusicTypesAsKeyValuePairs();
+        IEnumerable<KeyValuePair<string, string>> GetAllMusicTypesAsKeyValuePairs();
     }
 }

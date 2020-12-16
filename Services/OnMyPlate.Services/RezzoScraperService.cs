@@ -35,12 +35,14 @@
         private readonly IDeletableEntityRepository<Music> musicRepository;
         private readonly IDeletableEntityRepository<Post> postsRepository;
         private readonly IRepository<Image> imagesRepository;
+        private readonly IRepository<LogoImage> logoImagesRepository;
 
         public RezzoScraperService(
             IDeletableEntityRepository<Place> placesRepository,
             IDeletableEntityRepository<Location> locationsRepository,
             IDeletableEntityRepository<Address> addressesRepository,
             IRepository<Image> imagesRepository,
+            IRepository<LogoImage> logoImagesRepository,
             IDeletableEntityRepository<WorkTime> workTimesRepository,
             IDeletableEntityRepository<Amentity> amentitiesRepository,
             IDeletableEntityRepository<Cuisine> cuisinesRepository,
@@ -52,6 +54,7 @@
             this.locationsRepository = locationsRepository;
             this.addressesRepository = addressesRepository;
             this.imagesRepository = imagesRepository;
+            this.logoImagesRepository = logoImagesRepository;
             this.workTimesRepository = workTimesRepository;
             this.amentitiesRepository = amentitiesRepository;
             this.cuisinesRepository = cuisinesRepository;
@@ -71,11 +74,12 @@
             int addedCount = 0;
             foreach (var place in concurrentBag)
             {
+                var placeId = this.placesRepository.AllAsNoTracking().FirstOrDefault(x => x.Name == place.PlaceName);
+
                 var newPlace = new Place()
                 {
                     Name = place.PlaceName,
                     Description = place.PlaceDescription,
-                    LogoImage = place.LogoImage,
                     WebUrl = place.WebUrl,
                 };
                 await this.placesRepository.AddAsync(newPlace);
@@ -95,6 +99,15 @@
                 address.PlaceId = newPlace.Id;
                 await this.addressesRepository.AddAsync(address);
                 await this.addressesRepository.SaveChangesAsync();
+
+                if (placeId != null)
+                {
+                    var logoImg = new LogoImage();
+                    logoImg.RemoteImageUrl = place.LogoImage.RemoteImageUrl;
+                    logoImg.PlaceId = placeId.Id;
+                    await this.logoImagesRepository.AddAsync(logoImg);
+                    await this.addressesRepository.SaveChangesAsync();
+                }
 
                 var images = place.Images;
                 foreach (var img in images)
@@ -164,7 +177,6 @@
                 }
 
                 await this.postsRepository.SaveChangesAsync();
-
                 if (++addedCount % 10 == 0)
                 {
                     await this.placesRepository.SaveChangesAsync();
@@ -304,8 +316,8 @@
             place.Location.GoogleAddress = googleAddress;
 
             var location = googleAddress.Split("&q=")[1].Split(",");
-            place.Location.Lattitude = location[0];
-            place.Location.Longtitude = location[1];
+            place.Location.Lattitude = double.Parse(location[0]);
+            place.Location.Longtitude = double.Parse(location[1]);
 
             // Get PlaceDescription
             if (document.QuerySelector(".upper > p") == null)
@@ -440,7 +452,9 @@
 
             // Get PlaceLogo
             var placeLogoSrc = document.QuerySelector(".restaurant_logo").GetAttribute("src");
-            place.LogoImage = string.Concat("https://rezzo.bg", placeLogoSrc);
+            var logoImage = new LogoImage();
+            logoImage.RemoteImageUrl = string.Concat("https://rezzo.bg", placeLogoSrc);
+            place.LogoImage = logoImage;
 
             return place;
         }

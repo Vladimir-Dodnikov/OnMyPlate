@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     using OnMyPlate.Common;
     using OnMyPlate.Data.Common.Models;
@@ -26,8 +27,9 @@
         [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
         public string Description { get; set; }
 
-        [Required]
-        public string LogoImage { get; set; }
+        public string LogoImageId { get; set; }
+
+        public LogoImage LogoImage { get; set; }
 
         public int Rating { get; set; }
 
@@ -48,6 +50,10 @@
 
         [Required]
         public WorkTime WorkTime { get; set; }
+
+        public string CreatedByUserId { get; set; }
+
+        public virtual ApplicationUser CreatedByUser { get; set; }
 
         public virtual ICollection<Image> Images { get; set; }
 

@@ -6,16 +6,16 @@
     using OnMyPlate.Data.Common.Repositories;
     using OnMyPlate.Data.Models.Places;
 
-    public class PaymentService : IPaymentService
+    public class PaymentsService : IPaymentsService
     {
         private readonly IDeletableEntityRepository<Payment> payments;
 
-        public PaymentService(IDeletableEntityRepository<Payment> payments)
+        public PaymentsService(IDeletableEntityRepository<Payment> payments)
         {
             this.payments = payments;
         }
 
-        public IEnumerable<KeyValuePair<int, string>> GetAllPaymentTypesAsKeyValuePairs()
+        public IEnumerable<KeyValuePair<string, string>> GetAllPaymentTypesAsKeyValuePairs()
         {
             return this.payments.All().Select(x => new
             {
@@ -24,7 +24,7 @@
             }).ToList()
             .GroupBy(x => x.Name)
             .Select(x => x.First())
-            .Select(s => new KeyValuePair<int, string>(s.Id, s.Name));
+            .Select(s => new KeyValuePair<string, string>(s.Id.ToString(), s.Name));
         }
     }
 }

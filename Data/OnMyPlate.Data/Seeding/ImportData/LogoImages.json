@@ -1,0 +1,2837 @@
+[
+  {
+    "Id": "0033a740-1624-4477-b148-c4fca7ee5a47",
+    "CreatedOn": "2020-12-15 00:36:31.0282009",
+    "ModifiedOn": "NULL",
+    "PlaceId": 187,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16944/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "00bac447-d50c-45c0-a0a8-d1206ba23ab2",
+    "CreatedOn": "2020-12-15 00:36:31.4769365",
+    "ModifiedOn": "NULL",
+    "PlaceId": 256,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1003/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "00c1ac38-bca1-4445-b711-8f32eb6dc178",
+    "CreatedOn": "2020-12-15 00:36:31.2703428",
+    "ModifiedOn": "NULL",
+    "PlaceId": 226,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21702/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "016b4652-4fcc-450c-b41e-3659ad2f3411",
+    "CreatedOn": "2020-12-15 00:25:05.7307350",
+    "ModifiedOn": "NULL",
+    "PlaceId": 5,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/255/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "024a9a76-ff89-48e4-8f68-535f4cdc5726",
+    "CreatedOn": "2020-12-15 00:36:30.2564151",
+    "ModifiedOn": "NULL",
+    "PlaceId": 45,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1871/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "0266b6e4-da46-45be-8e89-dc2884551f22",
+    "CreatedOn": "2020-12-15 00:36:31.3219331",
+    "ModifiedOn": "NULL",
+    "PlaceId": 234,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22306/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "02f5e4d6-ce56-4b8a-9918-af5d0025a974",
+    "CreatedOn": "2020-12-15 00:36:30.1041233",
+    "ModifiedOn": "NULL",
+    "PlaceId": 2,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/65/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "0321a1a5-8868-43af-90df-7e35c354862c",
+    "CreatedOn": "2020-12-15 00:36:30.1281912",
+    "ModifiedOn": "NULL",
+    "PlaceId": 9,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/297/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "03fa5357-ba81-482c-95c7-f699c9079a4f",
+    "CreatedOn": "2020-12-15 00:36:30.3828504",
+    "ModifiedOn": "NULL",
+    "PlaceId": 68,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2631/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "04f29fad-0030-43c8-99e9-2668c3478c31",
+    "CreatedOn": "2020-12-15 00:36:31.3419688",
+    "ModifiedOn": "NULL",
+    "PlaceId": 237,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23161/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "0546789d-f69c-431d-aedf-9de347a6a5d9",
+    "CreatedOn": "2020-12-15 00:36:30.1661717",
+    "ModifiedOn": "NULL",
+    "PlaceId": 23,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/991/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "05c7f75e-d64b-4ce4-840c-5117162e6fd6",
+    "CreatedOn": "2020-12-15 00:36:31.4894808",
+    "ModifiedOn": "NULL",
+    "PlaceId": 258,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4254/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "066b86ef-eb13-4547-9fc5-745c64ee3761",
+    "CreatedOn": "2020-12-15 00:36:30.8854284",
+    "ModifiedOn": "NULL",
+    "PlaceId": 161,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/13755/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "068808a8-b058-4735-9bf8-d9760156bb86",
+    "CreatedOn": "2020-12-14 23:40:06.1352105",
+    "ModifiedOn": "NULL",
+    "PlaceId": 2,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/65/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "07100999-9bd9-4027-b1cc-4d9a716e5548",
+    "CreatedOn": "2020-12-15 00:25:05.7248270",
+    "ModifiedOn": "NULL",
+    "PlaceId": 3,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/140/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "08eff84e-bb87-42ae-a07a-f885c1404ba0",
+    "CreatedOn": "2020-12-15 00:36:30.3671407",
+    "ModifiedOn": "NULL",
+    "PlaceId": 64,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2454/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "0d3f5c1d-2410-43ad-a808-ea0981706981",
+    "CreatedOn": "2020-12-15 00:36:31.6131092",
+    "ModifiedOn": "NULL",
+    "PlaceId": 275,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/71/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "0d5b28ca-fc94-4731-af5f-cf40c457a572",
+    "CreatedOn": "2020-12-15 00:36:30.1462164",
+    "ModifiedOn": "NULL",
+    "PlaceId": 16,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/496/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "11556154-315f-4329-8864-5123746f7d10",
+    "CreatedOn": "2020-12-15 00:36:30.4496488",
+    "ModifiedOn": "NULL",
+    "PlaceId": 86,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3415/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "11d5ccb0-c16f-48e5-ac1b-31df87f200ef",
+    "CreatedOn": "2020-12-15 00:36:31.0009402",
+    "ModifiedOn": "NULL",
+    "PlaceId": 182,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16529/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "121be8a1-f3a4-49c6-a93c-9d3a0e483cb6",
+    "CreatedOn": "2020-12-15 00:36:30.6400102",
+    "ModifiedOn": "NULL",
+    "PlaceId": 120,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4806/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1377f9d1-f5c1-4076-b224-17521e85272f",
+    "CreatedOn": "2020-12-15 00:36:30.7837714",
+    "ModifiedOn": "NULL",
+    "PlaceId": 143,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8730/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "15dbcada-7965-47e5-98cc-d1679ea96934",
+    "CreatedOn": "2020-12-15 00:36:31.1184202",
+    "ModifiedOn": "NULL",
+    "PlaceId": 202,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/19366/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "15eb33ca-e0a4-4524-9494-865366e223ed",
+    "CreatedOn": "2020-12-15 00:36:30.5288999",
+    "ModifiedOn": "NULL",
+    "PlaceId": 103,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3916/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "15f9d5a9-f664-4ff1-b3dd-cf8c21f61826",
+    "CreatedOn": "2020-12-15 00:36:31.4168479",
+    "ModifiedOn": "NULL",
+    "PlaceId": 248,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23872/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "161d0078-535e-4ab3-8811-916631f5c210",
+    "CreatedOn": "2020-12-15 00:27:45.8748199",
+    "ModifiedOn": "NULL",
+    "PlaceId": 1,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/59/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "164cb045-b7b1-4516-a664-2029b71aad25",
+    "CreatedOn": "2020-12-15 00:36:31.2620692",
+    "ModifiedOn": "NULL",
+    "PlaceId": 225,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21631/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "189d91f0-ca1e-43ea-902b-3ce682092b9c",
+    "CreatedOn": "2020-12-15 00:36:30.3262411",
+    "ModifiedOn": "NULL",
+    "PlaceId": 58,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/24739/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "19186809-5aea-4704-b728-63b90e04b69f",
+    "CreatedOn": "2020-12-15 00:36:30.6812020",
+    "ModifiedOn": "NULL",
+    "PlaceId": 127,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5354/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "19271f30-a752-4ac4-99ed-95764a325b81",
+    "CreatedOn": "2020-12-15 00:36:31.2126386",
+    "ModifiedOn": "NULL",
+    "PlaceId": 217,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21215/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1a1f8a02-5466-4b4e-ab0c-65750c1e01d8",
+    "CreatedOn": "2020-12-15 00:36:30.5453870",
+    "ModifiedOn": "NULL",
+    "PlaceId": 106,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3952/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1a997019-f3cb-4abd-a55d-7d7d1d1c4310",
+    "CreatedOn": "2020-12-15 00:36:31.6439790",
+    "ModifiedOn": "NULL",
+    "PlaceId": 279,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/121/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1b2ae675-b588-400e-8d99-037e19061c7e",
+    "CreatedOn": "2020-12-15 00:36:30.5701683",
+    "ModifiedOn": "NULL",
+    "PlaceId": 109,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4162/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1cc11f3d-df23-4f3c-8569-83228de23ffa",
+    "CreatedOn": "2020-12-15 00:36:30.7460147",
+    "ModifiedOn": "NULL",
+    "PlaceId": 139,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8094/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1e723bea-ebe1-4534-8476-10f7fa7db5ed",
+    "CreatedOn": "2020-12-15 00:36:30.1688973",
+    "ModifiedOn": "NULL",
+    "PlaceId": 24,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1040/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1eadf3be-c06e-42ea-9f3a-15f055c757b9",
+    "CreatedOn": "2020-12-15 00:36:31.1288790",
+    "ModifiedOn": "NULL",
+    "PlaceId": 204,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/19626/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "1fd396b0-b6d1-47f0-805b-b66dd0236c39",
+    "CreatedOn": "2020-12-15 00:36:30.2337443",
+    "ModifiedOn": "NULL",
+    "PlaceId": 41,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1648/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2233e010-770c-408f-9734-ee2bc693083e",
+    "CreatedOn": "2020-12-15 00:36:30.4023155",
+    "ModifiedOn": "NULL",
+    "PlaceId": 74,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2817/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "226ac978-9e06-4b52-bc76-caa42051ddd7",
+    "CreatedOn": "2020-12-15 00:36:30.1993149",
+    "ModifiedOn": "NULL",
+    "PlaceId": 33,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1571/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "286771e1-8428-47b1-87f8-9fc3dda4f2ed",
+    "CreatedOn": "2020-12-15 00:36:30.1936244",
+    "ModifiedOn": "NULL",
+    "PlaceId": 32,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1565/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "29ae1007-d5ee-47fe-a227-63a6432ac2b5",
+    "CreatedOn": "2020-12-15 00:36:30.9441098",
+    "ModifiedOn": "NULL",
+    "PlaceId": 171,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14257/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2aa79fc8-6661-45a2-a5cf-bca5a2298111",
+    "CreatedOn": "2020-12-15 00:36:30.6177429",
+    "ModifiedOn": "NULL",
+    "PlaceId": 116,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4474/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2bb46167-de06-4b0e-91d7-c789fa3a8713",
+    "CreatedOn": "2020-12-15 00:36:31.1461735",
+    "ModifiedOn": "NULL",
+    "PlaceId": 207,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/19860/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2d5f86de-1355-42b8-b250-db38e2498a43",
+    "CreatedOn": "2020-12-15 00:36:30.1409250",
+    "ModifiedOn": "NULL",
+    "PlaceId": 14,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/393/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2daf9e97-4f59-4e59-912c-b9b6e47a805e",
+    "CreatedOn": "2020-12-15 00:36:31.5486369",
+    "ModifiedOn": "NULL",
+    "PlaceId": 266,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/85/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2de54021-5f17-4067-8f5a-73a39949d58a",
+    "CreatedOn": "2020-12-15 00:36:31.1778400",
+    "ModifiedOn": "NULL",
+    "PlaceId": 212,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20838/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2e0b60f9-cabc-4506-a8d4-7acdae0c4598",
+    "CreatedOn": "2020-12-15 00:36:30.8690988",
+    "ModifiedOn": "NULL",
+    "PlaceId": 158,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/10886/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "2fbb80ef-839e-4e2d-a1cd-c1039b164c94",
+    "CreatedOn": "2020-12-15 00:36:30.9952012",
+    "ModifiedOn": "NULL",
+    "PlaceId": 181,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16497/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3018b675-3850-4210-93b8-72ba95b3d8f9",
+    "CreatedOn": "2020-12-15 00:36:30.4364930",
+    "ModifiedOn": "NULL",
+    "PlaceId": 84,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3085/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "30af0884-70ad-4808-8d81-4c847fa54175",
+    "CreatedOn": "2020-12-15 00:36:31.4036080",
+    "ModifiedOn": "NULL",
+    "PlaceId": 246,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23756/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "30b19430-6ec0-4c35-8f6f-3a446d41ba21",
+    "CreatedOn": "2020-12-15 00:36:31.0071886",
+    "ModifiedOn": "NULL",
+    "PlaceId": 183,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16573/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "32077539-53c9-475f-bfe6-4d0bb9fae64a",
+    "CreatedOn": "2020-12-15 00:36:30.1890090",
+    "ModifiedOn": "NULL",
+    "PlaceId": 31,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1559/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3236c0dd-8176-4e38-a2b8-98dbf7ba31af",
+    "CreatedOn": "2020-12-15 00:36:30.2462230",
+    "ModifiedOn": "NULL",
+    "PlaceId": 43,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1785/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "32bcb017-7cec-46f2-94b8-7f6366817a98",
+    "CreatedOn": "2020-12-15 00:36:31.0229212",
+    "ModifiedOn": "NULL",
+    "PlaceId": 186,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16820/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "331066f1-4b5f-4cef-bec5-997405ad7a05",
+    "CreatedOn": "2020-12-15 00:36:31.2053986",
+    "ModifiedOn": "NULL",
+    "PlaceId": 216,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21203/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "33968946-7563-4b01-9500-c5ccad7369b6",
+    "CreatedOn": "2020-12-15 00:36:31.2753410",
+    "ModifiedOn": "NULL",
+    "PlaceId": 227,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21759/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3398fbcf-d925-46d1-9ee2-53d8f19f5bcc",
+    "CreatedOn": "2020-12-15 00:36:30.5086081",
+    "ModifiedOn": "NULL",
+    "PlaceId": 99,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3809/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "342dce80-fee9-40b2-b46c-494395d5a1dd",
+    "CreatedOn": "2020-12-15 00:36:31.4633017",
+    "ModifiedOn": "NULL",
+    "PlaceId": 254,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/98/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "34cc7d43-7871-4d8b-beb8-9ce6b5c0df18",
+    "CreatedOn": "2020-12-15 00:36:30.8117724",
+    "ModifiedOn": "NULL",
+    "PlaceId": 148,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8850/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "35e17a71-02d7-48d5-9bfc-9a4beab6b2b3",
+    "CreatedOn": "2020-12-15 00:36:30.3960920",
+    "ModifiedOn": "NULL",
+    "PlaceId": 72,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2746/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3614935a-f6c2-48ce-abbf-8843d78f0192",
+    "CreatedOn": "2020-12-15 00:36:30.8061974",
+    "ModifiedOn": "NULL",
+    "PlaceId": 147,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8769/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3626c2cd-8b0c-4f5f-966f-17143c78fc78",
+    "CreatedOn": "2020-12-15 00:36:30.5843660",
+    "ModifiedOn": "NULL",
+    "PlaceId": 111,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4184/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "370dab9e-b97b-4684-a704-517aa1305482",
+    "CreatedOn": "2020-12-15 00:36:31.4534492",
+    "ModifiedOn": "NULL",
+    "PlaceId": 253,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/91/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "37289703-6eac-4e7a-9d0e-eb4fe0433f82",
+    "CreatedOn": "2020-12-15 00:29:37.1243749",
+    "ModifiedOn": "NULL",
+    "PlaceId": 3,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/140/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "37b42f68-91e6-4d45-b8ee-8ad467c5aaed",
+    "CreatedOn": "2020-12-15 00:36:30.2118282",
+    "ModifiedOn": "NULL",
+    "PlaceId": 36,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1589/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "37dfcd72-2393-43bc-a8b7-2e51ca96b6cf",
+    "CreatedOn": "2020-12-15 00:36:30.4945276",
+    "ModifiedOn": "NULL",
+    "PlaceId": 96,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3697/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "38952c0a-27cd-47ff-b2dd-2fab72cdc03c",
+    "CreatedOn": "2020-12-15 00:36:30.6866941",
+    "ModifiedOn": "NULL",
+    "PlaceId": 128,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5368/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "39352eee-a371-4bc6-a0c0-3369ccf70e73",
+    "CreatedOn": "2020-12-15 00:36:30.4052450",
+    "ModifiedOn": "NULL",
+    "PlaceId": 75,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2845/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "39431d21-75ac-4dcf-bbca-9a4d349c83f5",
+    "CreatedOn": "2020-12-15 00:36:30.2885138",
+    "ModifiedOn": "NULL",
+    "PlaceId": 52,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2113/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3a526586-6cb0-498c-aac4-0f5e1ac209ed",
+    "CreatedOn": "2020-12-15 00:36:30.7408996",
+    "ModifiedOn": "NULL",
+    "PlaceId": 138,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16361/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3b42fcb5-9c37-46ff-8b55-1efba09cebc2",
+    "CreatedOn": "2020-12-15 00:36:30.3113960",
+    "ModifiedOn": "NULL",
+    "PlaceId": 56,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2276/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3c52fe3f-4ab0-42ae-bb79-fb235390eae0",
+    "CreatedOn": "2020-12-15 00:36:30.8340596",
+    "ModifiedOn": "NULL",
+    "PlaceId": 152,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9574/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3ce15dfb-2f14-4028-b649-72ef093346c5",
+    "CreatedOn": "2020-12-14 23:40:06.1520858",
+    "ModifiedOn": "NULL",
+    "PlaceId": 7,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/273/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3d24aa19-7121-48dc-a71f-29b94be419b5",
+    "CreatedOn": "2020-12-15 00:36:31.5687443",
+    "ModifiedOn": "NULL",
+    "PlaceId": 269,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/15090/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3df2e052-3b9c-4654-979e-ed816d2af7e0",
+    "CreatedOn": "2020-12-15 00:36:31.3557455",
+    "ModifiedOn": "NULL",
+    "PlaceId": 239,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23322/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3e7a500f-5d7c-4c93-958e-eb10a04401fa",
+    "CreatedOn": "2020-12-15 00:36:30.9148311",
+    "ModifiedOn": "NULL",
+    "PlaceId": 166,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/11788/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "3fdb675f-2a38-42e1-8fba-039481ea4d0f",
+    "CreatedOn": "2020-12-15 00:36:30.1796400",
+    "ModifiedOn": "NULL",
+    "PlaceId": 28,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1239/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "406b5476-1cb3-4a55-b27a-ac6e43a8fe32",
+    "CreatedOn": "2020-12-15 00:25:05.7280860",
+    "ModifiedOn": "NULL",
+    "PlaceId": 4,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/243/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4085724b-cbfc-4022-a7a1-030e82b7d8f0",
+    "CreatedOn": "2020-12-15 00:36:31.2507307",
+    "ModifiedOn": "NULL",
+    "PlaceId": 223,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21597/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4133af6d-b6ce-48d3-b705-0e1a734df896",
+    "CreatedOn": "2020-12-15 00:36:31.2178694",
+    "ModifiedOn": "NULL",
+    "PlaceId": 218,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21399/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "41914ea0-cc89-4cb7-8cf1-763dc9c6c59a",
+    "CreatedOn": "2020-12-15 00:36:31.0520711",
+    "ModifiedOn": "NULL",
+    "PlaceId": 191,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17474/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "41e02976-c0ed-4d01-835e-341310ca4a31",
+    "CreatedOn": "2020-12-15 00:36:30.4897074",
+    "ModifiedOn": "NULL",
+    "PlaceId": 95,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3690/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "41ea034c-d986-4929-9d28-69f33c559c03",
+    "CreatedOn": "2020-12-15 00:36:30.2214143",
+    "ModifiedOn": "NULL",
+    "PlaceId": 38,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1629/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "41f53d53-b67f-466e-8871-3439bde61618",
+    "CreatedOn": "2020-12-15 00:36:31.3774738",
+    "ModifiedOn": "NULL",
+    "PlaceId": 242,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23458/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "422221ad-cc7a-4ec2-b5e5-736750c53e3f",
+    "CreatedOn": "2020-12-15 00:36:31.5414626",
+    "ModifiedOn": "NULL",
+    "PlaceId": 265,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8575/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "43f22179-b926-4763-b357-e5e6474503db",
+    "CreatedOn": "2020-12-15 00:36:30.7778365",
+    "ModifiedOn": "NULL",
+    "PlaceId": 142,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8656/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "44cd7b98-af0c-44bc-a4f5-6ca5afb995f9",
+    "CreatedOn": "2020-12-15 00:36:30.6303349",
+    "ModifiedOn": "NULL",
+    "PlaceId": 118,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4540/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "44e8711c-b82b-44d6-9d81-f8bc720f3db5",
+    "CreatedOn": "2020-12-15 00:36:30.2715529",
+    "ModifiedOn": "NULL",
+    "PlaceId": 48,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1944/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "45fa6420-89a6-4e6f-bdb5-48336698b9f4",
+    "CreatedOn": "2020-12-15 00:36:30.9696056",
+    "ModifiedOn": "NULL",
+    "PlaceId": 176,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16359/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "46f26d67-e99f-47fd-9099-bdfe94d36198",
+    "CreatedOn": "2020-12-15 00:36:30.3859810",
+    "ModifiedOn": "NULL",
+    "PlaceId": 69,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2648/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4994cce0-c3e4-4c9d-af6c-53b066f28da4",
+    "CreatedOn": "2020-12-15 00:36:31.2950035",
+    "ModifiedOn": "NULL",
+    "PlaceId": 230,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22311/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "49fdc563-04a7-4fae-b599-a627eaec2f9b",
+    "CreatedOn": "2020-12-15 00:36:30.2413770",
+    "ModifiedOn": "NULL",
+    "PlaceId": 42,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1719/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4c923681-af73-4342-9754-c7b2591eaada",
+    "CreatedOn": "2020-12-15 00:36:30.6450179",
+    "ModifiedOn": "NULL",
+    "PlaceId": 121,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4893/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4d215615-f535-4367-b4cd-39e64e59a8d9",
+    "CreatedOn": "2020-12-15 00:36:31.0771297",
+    "ModifiedOn": "NULL",
+    "PlaceId": 195,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18046/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4dd446b9-bd39-495f-b57b-c2da73e2f9c9",
+    "CreatedOn": "2020-12-15 00:36:30.5232229",
+    "ModifiedOn": "NULL",
+    "PlaceId": 102,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3906/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "4e4ac8af-8a33-4e9b-b42b-66ec3c7cf723",
+    "CreatedOn": "2020-12-15 00:36:30.7167879",
+    "ModifiedOn": "NULL",
+    "PlaceId": 133,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/6310/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "50a9f774-2411-4557-87e6-5579bec1e8bc",
+    "CreatedOn": "2020-12-15 00:36:30.2841183",
+    "ModifiedOn": "NULL",
+    "PlaceId": 51,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2070/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5667ddb7-c6cb-44dd-8286-ac7bc341319c",
+    "CreatedOn": "2020-12-15 00:36:30.7504366",
+    "ModifiedOn": "NULL",
+    "PlaceId": 140,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8351/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "56a923f1-34fe-4a11-9dd9-e7bf069bece4",
+    "CreatedOn": "2020-12-15 00:36:30.1224949",
+    "ModifiedOn": "NULL",
+    "PlaceId": 7,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/273/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "56b32aa3-f1ec-4b72-b2c7-ebc5d958ab7e",
+    "CreatedOn": "2020-12-15 00:25:05.7211353",
+    "ModifiedOn": "NULL",
+    "PlaceId": 2,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/65/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "56d78e02-728a-4393-abdc-943b2b88e89b",
+    "CreatedOn": "2020-12-15 00:36:31.3835684",
+    "ModifiedOn": "NULL",
+    "PlaceId": 243,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23615/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "56dabc96-983c-475f-8bb0-41e92d0218ac",
+    "CreatedOn": "2020-12-15 00:36:30.5182434",
+    "ModifiedOn": "NULL",
+    "PlaceId": 101,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3914/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "56f21194-6d52-4d7e-aa66-03b800758e08",
+    "CreatedOn": "2020-12-15 00:36:31.4958882",
+    "ModifiedOn": "NULL",
+    "PlaceId": 259,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/6735/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5728f290-8fa1-45ec-859f-ce81d57a3f5c",
+    "CreatedOn": "2020-12-15 00:27:46.0077302",
+    "ModifiedOn": "NULL",
+    "PlaceId": 5,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/255/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "57555783-5820-4090-bf96-be3981ef0fc3",
+    "CreatedOn": "2020-12-15 00:36:30.3630104",
+    "ModifiedOn": "NULL",
+    "PlaceId": 63,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2448/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "57fd3949-4d7e-4abd-bc31-78c8e1b29064",
+    "CreatedOn": "2020-12-15 00:36:30.3506013",
+    "ModifiedOn": "NULL",
+    "PlaceId": 61,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20018/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5848a4fd-8ff4-49ad-9d2c-4bf66555ba57",
+    "CreatedOn": "2020-12-15 00:36:30.7890334",
+    "ModifiedOn": "NULL",
+    "PlaceId": 144,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/15642/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "59086d72-4647-4f11-8194-f24e3f0f0c98",
+    "CreatedOn": "2020-12-15 00:36:30.7220522",
+    "ModifiedOn": "NULL",
+    "PlaceId": 134,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/6406/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5a6ac34c-8143-4b31-80a9-0ac579ee6c52",
+    "CreatedOn": "2020-12-15 00:36:31.0351098",
+    "ModifiedOn": "NULL",
+    "PlaceId": 188,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17178/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5b178b95-9800-47aa-894c-1798a5ecb822",
+    "CreatedOn": "2020-12-14 23:40:06.1491732",
+    "ModifiedOn": "NULL",
+    "PlaceId": 6,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5b3ab99f-ccdb-45f7-8f59-4c8e6bfe2b3a",
+    "CreatedOn": "2020-12-15 00:36:30.2305125",
+    "ModifiedOn": "NULL",
+    "PlaceId": 40,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1642/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5bb2d9c1-9da7-4acf-844b-9ebe09eaac9d",
+    "CreatedOn": "2020-12-15 00:36:30.1563757",
+    "ModifiedOn": "NULL",
+    "PlaceId": 20,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17491/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5d297322-fb07-445e-96fc-6f9a4135472f",
+    "CreatedOn": "2020-12-15 00:36:30.4243962",
+    "ModifiedOn": "NULL",
+    "PlaceId": 81,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3027/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5d7cf63a-f9b9-4b97-9dfc-74ab5d0d7da5",
+    "CreatedOn": "2020-12-15 00:36:30.8922123",
+    "ModifiedOn": "NULL",
+    "PlaceId": 162,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/10849/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5ec57651-82f0-4e41-bfd5-f617571ecace",
+    "CreatedOn": "2020-12-15 00:36:31.3290764",
+    "ModifiedOn": "NULL",
+    "PlaceId": 235,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22809/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "5ff37622-4017-46cd-a3fd-649089cc9f9f",
+    "CreatedOn": "2020-12-15 00:36:30.2175023",
+    "ModifiedOn": "NULL",
+    "PlaceId": 37,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1595/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "60d57d85-ddeb-4447-a719-bc20c800761c",
+    "CreatedOn": "2020-12-15 00:36:31.3970955",
+    "ModifiedOn": "NULL",
+    "PlaceId": 245,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23731/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "60deb6c9-aa4e-4325-9bf4-54e97a9e2b10",
+    "CreatedOn": "2020-12-15 00:36:30.9263716",
+    "ModifiedOn": "NULL",
+    "PlaceId": 168,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/12785/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "62d8aec4-ca75-41bf-acfc-80f0f6e06828",
+    "CreatedOn": "2020-12-14 23:40:06.1462269",
+    "ModifiedOn": "NULL",
+    "PlaceId": 5,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/255/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "62da05c6-03dd-43f5-b9bf-74eb96902010",
+    "CreatedOn": "2020-12-15 00:36:30.5390416",
+    "ModifiedOn": "NULL",
+    "PlaceId": 105,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3997/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "63d3eb94-611f-46e4-bbfe-0d6185fe9bb2",
+    "CreatedOn": "2020-12-15 00:36:30.1310150",
+    "ModifiedOn": "NULL",
+    "PlaceId": 10,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/315/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "6441bed5-d693-4a8a-a1e4-c405e53eb30d",
+    "CreatedOn": "2020-12-15 00:36:31.3898338",
+    "ModifiedOn": "NULL",
+    "PlaceId": 244,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23631/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "649a24fd-ff85-4507-9f99-277f75fb82db",
+    "CreatedOn": "2020-12-15 00:36:30.3055286",
+    "ModifiedOn": "NULL",
+    "PlaceId": 55,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2221/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "64e1ba92-d410-4904-9e3e-e268e91cf0d0",
+    "CreatedOn": "2020-12-15 00:36:30.1363462",
+    "ModifiedOn": "NULL",
+    "PlaceId": 12,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/357/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "66b7b7d0-091f-447e-b855-7bec9e5ac45b",
+    "CreatedOn": "2020-12-14 23:40:06.1389820",
+    "ModifiedOn": "NULL",
+    "PlaceId": 3,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/140/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "6b8597c2-3732-48e3-a03b-6f515e3d3b1a",
+    "CreatedOn": "2020-12-15 00:36:31.1893289",
+    "ModifiedOn": "NULL",
+    "PlaceId": 214,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21051/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "6f4ac99c-bd89-4e70-b5ee-a6480d7739c1",
+    "CreatedOn": "2020-12-15 00:36:31.3079538",
+    "ModifiedOn": "NULL",
+    "PlaceId": 232,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22164/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "70274ca1-b844-401f-b566-83b90143a829",
+    "CreatedOn": "2020-12-15 00:36:30.7101933",
+    "ModifiedOn": "NULL",
+    "PlaceId": 132,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5831/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7029b6cb-3efa-43e9-ac44-76523e4b089d",
+    "CreatedOn": "2020-12-15 00:36:30.6240162",
+    "ModifiedOn": "NULL",
+    "PlaceId": 117,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4533/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "70305f7e-a050-4ce4-b6ab-2bdebe1e4888",
+    "CreatedOn": "2020-12-15 00:36:30.9807639",
+    "ModifiedOn": "NULL",
+    "PlaceId": 178,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16109/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "70732357-969f-49f3-a061-65517f2c19c0",
+    "CreatedOn": "2020-12-15 00:36:30.3921608",
+    "ModifiedOn": "NULL",
+    "PlaceId": 71,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2735/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7080def9-2c27-4fdb-b0e3-6894d5e89bd2",
+    "CreatedOn": "2020-12-15 00:36:31.2424583",
+    "ModifiedOn": "NULL",
+    "PlaceId": 222,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21565/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "70d9848c-1f79-4de0-9cee-ec06640d4b10",
+    "CreatedOn": "2020-12-15 00:36:30.8288816",
+    "ModifiedOn": "NULL",
+    "PlaceId": 151,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8990/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7185a8db-3b78-44e4-a5bf-f9741dab7112",
+    "CreatedOn": "2020-12-15 00:36:31.5110989",
+    "ModifiedOn": "NULL",
+    "PlaceId": 261,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16726/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7387f734-e0eb-4f18-b533-4e609ea15ccb",
+    "CreatedOn": "2020-12-14 23:40:06.0096635",
+    "ModifiedOn": "NULL",
+    "PlaceId": 1,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/59/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7499749c-235b-4f96-af9c-7ab85391584c",
+    "CreatedOn": "2020-12-15 00:36:31.5543299",
+    "ModifiedOn": "NULL",
+    "PlaceId": 267,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/7841/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "75b82e43-9766-4808-86c7-7c07109b1b75",
+    "CreatedOn": "2020-12-15 00:36:30.6118297",
+    "ModifiedOn": "NULL",
+    "PlaceId": 115,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4450/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "75bc6a0c-e040-463a-b2ab-a4c5014b13c5",
+    "CreatedOn": "2020-12-15 00:36:31.5264326",
+    "ModifiedOn": "NULL",
+    "PlaceId": 263,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22996/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "75c0a89f-887d-4322-98ce-d97efa1c783f",
+    "CreatedOn": "2020-12-15 00:36:30.1100946",
+    "ModifiedOn": "NULL",
+    "PlaceId": 3,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/140/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "767ede8d-dc91-4e76-8ffc-5ad9cbe57e90",
+    "CreatedOn": "2020-12-15 00:36:30.4864601",
+    "ModifiedOn": "NULL",
+    "PlaceId": 94,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3683/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "76f39843-813d-43a2-853b-3494c325eb2d",
+    "CreatedOn": "2020-12-15 00:36:31.1013903",
+    "ModifiedOn": "NULL",
+    "PlaceId": 199,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18532/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7778354f-c231-42dd-9a2d-625c2b88d853",
+    "CreatedOn": "2020-12-15 00:36:31.5996091",
+    "ModifiedOn": "NULL",
+    "PlaceId": 273,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9779/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "77a47b43-b226-491a-81b9-c5ffb7d22421",
+    "CreatedOn": "2020-12-15 00:27:46.0020994",
+    "ModifiedOn": "NULL",
+    "PlaceId": 3,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/140/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "77c8251c-336b-446e-8b67-b8de4445432c",
+    "CreatedOn": "2020-12-15 00:36:31.0584832",
+    "ModifiedOn": "NULL",
+    "PlaceId": 192,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17727/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "784da1ea-a8b0-4a2d-a4fd-26a776954d49",
+    "CreatedOn": "2020-12-15 00:29:37.1275196",
+    "ModifiedOn": "NULL",
+    "PlaceId": 4,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/243/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "79168ce4-00e7-4830-9daa-64fddecdf88d",
+    "CreatedOn": "2020-12-15 00:36:30.6923911",
+    "ModifiedOn": "NULL",
+    "PlaceId": 129,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5538/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "79291bc7-daf4-4ac8-9576-3f8832427113",
+    "CreatedOn": "2020-12-15 00:36:30.7353455",
+    "ModifiedOn": "NULL",
+    "PlaceId": 137,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/7898/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7952e627-bc7f-46d1-a66d-78bd92cd227f",
+    "CreatedOn": "2020-12-15 00:36:30.1436334",
+    "ModifiedOn": "NULL",
+    "PlaceId": 15,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/490/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "79e672ab-855d-495b-8a96-8e63243f110e",
+    "CreatedOn": "2020-12-15 00:27:46.0165346",
+    "ModifiedOn": "NULL",
+    "PlaceId": 8,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/285/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7c22e648-0f74-42ab-b6df-2104a7a4e5ec",
+    "CreatedOn": "2020-12-15 00:36:30.1486978",
+    "ModifiedOn": "NULL",
+    "PlaceId": 17,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/520/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7c62a331-118d-4d08-8290-0b4bada81013",
+    "CreatedOn": "2020-12-15 00:36:30.6357693",
+    "ModifiedOn": "NULL",
+    "PlaceId": 119,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4622/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7c8a8789-a17b-441f-b775-3a3fdafa6b1f",
+    "CreatedOn": "2020-12-15 00:36:31.5015074",
+    "ModifiedOn": "NULL",
+    "PlaceId": 260,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9394/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7d1c2b99-5a3a-4fa1-9f2d-d6dd2e398e70",
+    "CreatedOn": "2020-12-15 00:36:30.1137633",
+    "ModifiedOn": "NULL",
+    "PlaceId": 4,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/243/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7dc5c07b-a6b4-40b7-abc7-a715562d3645",
+    "CreatedOn": "2020-12-15 00:36:30.1536132",
+    "ModifiedOn": "NULL",
+    "PlaceId": 19,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/617/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7def7988-c4a6-4985-bb67-5a0a8b23b2ef",
+    "CreatedOn": "2020-12-15 00:36:30.6701856",
+    "ModifiedOn": "NULL",
+    "PlaceId": 125,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5158/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7e5ad569-15fb-46e2-a586-543313e63bc1",
+    "CreatedOn": "2020-12-15 00:36:31.2806462",
+    "ModifiedOn": "NULL",
+    "PlaceId": 228,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21918/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7e7f2007-540d-49ee-8ebe-6b076562a986",
+    "CreatedOn": "2020-12-15 00:36:30.8232038",
+    "ModifiedOn": "NULL",
+    "PlaceId": 150,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8973/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7ed67c4a-d4ed-422c-a123-c9221f5e6fe6",
+    "CreatedOn": "2020-12-15 00:36:31.0709847",
+    "ModifiedOn": "NULL",
+    "PlaceId": 194,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17816/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7ef56033-7c4a-4a8b-92a6-eded7688b8e9",
+    "CreatedOn": "2020-12-15 00:36:31.0883628",
+    "ModifiedOn": "NULL",
+    "PlaceId": 197,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18201/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "7f927fd9-f850-474b-98fa-c038a58c97cf",
+    "CreatedOn": "2020-12-15 00:25:05.7334463",
+    "ModifiedOn": "NULL",
+    "PlaceId": 6,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8047be9e-362a-419d-9972-3e1f52992516",
+    "CreatedOn": "2020-12-15 00:36:29.9733261",
+    "ModifiedOn": "NULL",
+    "PlaceId": 1,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/59/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "80e08ebe-5c90-4401-b76a-5009f5e478ae",
+    "CreatedOn": "2020-12-15 00:36:31.6209248",
+    "ModifiedOn": "NULL",
+    "PlaceId": 276,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/79/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "815d95cf-07fc-4144-a55f-5cf19e9502ce",
+    "CreatedOn": "2020-12-15 00:36:31.5914981",
+    "ModifiedOn": "NULL",
+    "PlaceId": 272,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3845/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8193a52c-8006-49af-aeaa-bc563984ae97",
+    "CreatedOn": "2020-12-15 00:36:31.3157135",
+    "ModifiedOn": "NULL",
+    "PlaceId": 233,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22152/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "81dd8d32-29f4-4fb5-9a1c-d1ac522ee4aa",
+    "CreatedOn": "2020-12-15 00:36:30.1851653",
+    "ModifiedOn": "NULL",
+    "PlaceId": 30,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1535/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "82edaaca-af7f-4b98-93f1-862cdc57eeb6",
+    "CreatedOn": "2020-12-15 00:36:30.5038625",
+    "ModifiedOn": "NULL",
+    "PlaceId": 98,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3796/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "84259409-5e82-4f3c-80c9-fa1f6e658717",
+    "CreatedOn": "2020-12-15 00:25:05.7385527",
+    "ModifiedOn": "NULL",
+    "PlaceId": 7,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/273/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "845df380-b42b-455b-ac6d-767da3578cec",
+    "CreatedOn": "2020-12-15 00:36:30.8572108",
+    "ModifiedOn": "NULL",
+    "PlaceId": 156,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/11960/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "853a9775-7c62-4f13-8ebb-64dd0c1748c2",
+    "CreatedOn": "2020-12-15 00:36:30.5335142",
+    "ModifiedOn": "NULL",
+    "PlaceId": 104,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3931/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "85488576-633f-4642-b9c9-8da6decad89e",
+    "CreatedOn": "2020-12-15 00:36:30.8744744",
+    "ModifiedOn": "NULL",
+    "PlaceId": 159,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9761/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "85b6f970-ada4-4548-abee-8c6f629b84d5",
+    "CreatedOn": "2020-12-15 00:27:45.9977368",
+    "ModifiedOn": "NULL",
+    "PlaceId": 2,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/65/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8721bdc0-52ef-4ae8-a549-5709e28a02e9",
+    "CreatedOn": "2020-12-15 00:25:05.5982748",
+    "ModifiedOn": "NULL",
+    "PlaceId": 1,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/59/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "872a1e57-9816-4782-9cb0-8123fafca45d",
+    "CreatedOn": "2020-12-15 00:36:31.5604985",
+    "ModifiedOn": "NULL",
+    "PlaceId": 268,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20027/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "880fe2eb-0107-447e-8657-04409b5464dc",
+    "CreatedOn": "2020-12-15 00:36:31.6063777",
+    "ModifiedOn": "NULL",
+    "PlaceId": 274,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22539/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8865897d-d78c-41f5-9793-e1c9585b2846",
+    "CreatedOn": "2020-12-15 00:36:31.2375655",
+    "ModifiedOn": "NULL",
+    "PlaceId": 221,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21571/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "88ff9eb1-7cba-4c5d-89f8-e029a375d051",
+    "CreatedOn": "2020-12-15 00:27:46.0135887",
+    "ModifiedOn": "NULL",
+    "PlaceId": 7,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/273/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "89b976bb-315a-4224-91e5-bef0c1518060",
+    "CreatedOn": "2020-12-15 00:36:30.4115346",
+    "ModifiedOn": "NULL",
+    "PlaceId": 77,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2853/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "89c4ec87-c6a0-4d91-b44a-3a1736eecad5",
+    "CreatedOn": "2020-12-15 00:36:30.6050392",
+    "ModifiedOn": "NULL",
+    "PlaceId": 114,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4428/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8a00423a-7d39-4afd-8024-e601f8b48832",
+    "CreatedOn": "2020-12-15 00:36:31.1354790",
+    "ModifiedOn": "NULL",
+    "PlaceId": 205,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20056/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8b455f01-b955-43c2-b21f-09b2718f6d79",
+    "CreatedOn": "2020-12-15 00:36:30.1738234",
+    "ModifiedOn": "NULL",
+    "PlaceId": 26,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1143/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8b65f016-afa3-4fcf-ac0a-21e450092c86",
+    "CreatedOn": "2020-12-15 00:36:30.9200278",
+    "ModifiedOn": "NULL",
+    "PlaceId": 167,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/13024/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8dfedcaa-2ba1-4c59-ba51-f3720db2a14e",
+    "CreatedOn": "2020-12-15 00:36:30.1825389",
+    "ModifiedOn": "NULL",
+    "PlaceId": 29,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1483/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8e78489d-0373-43a4-8839-3d02f0a9d512",
+    "CreatedOn": "2020-12-15 00:36:30.5545756",
+    "ModifiedOn": "NULL",
+    "PlaceId": 107,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4027/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8ec2c48b-f54f-4a08-a4d7-d218816b7a08",
+    "CreatedOn": "2020-12-15 00:36:31.1508718",
+    "ModifiedOn": "NULL",
+    "PlaceId": 208,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20194/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8f3c1916-8820-4378-8666-bc75fe4cfeaf",
+    "CreatedOn": "2020-12-15 00:36:30.9559498",
+    "ModifiedOn": "NULL",
+    "PlaceId": 173,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14542/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "8f47dffb-1b27-45d6-9584-84a47bfb1f47",
+    "CreatedOn": "2020-12-15 00:36:30.5987910",
+    "ModifiedOn": "NULL",
+    "PlaceId": 113,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4345/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9093d67a-e885-4624-9728-6b866efaec9a",
+    "CreatedOn": "2020-12-15 00:36:30.4213883",
+    "ModifiedOn": "NULL",
+    "PlaceId": 80,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2990/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9306fb1f-7050-4337-8f50-0d032fb54a5c",
+    "CreatedOn": "2020-12-15 00:36:30.5136747",
+    "ModifiedOn": "NULL",
+    "PlaceId": 100,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3852/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9402e217-aee4-485b-8f14-a75e98ea0ab8",
+    "CreatedOn": "2020-12-15 00:36:30.2609196",
+    "ModifiedOn": "NULL",
+    "PlaceId": 46,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1896/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "945824a0-4115-446d-a18e-a3d835438cfa",
+    "CreatedOn": "2020-12-15 00:36:30.2933102",
+    "ModifiedOn": "NULL",
+    "PlaceId": 53,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/15962/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9463cd07-c05f-4623-af5c-3c680b5988b4",
+    "CreatedOn": "2020-12-15 00:36:31.3010486",
+    "ModifiedOn": "NULL",
+    "PlaceId": 231,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22101/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "94e0a036-cb2b-4b5b-a825-38bee8dd5e77",
+    "CreatedOn": "2020-12-15 00:36:30.3365479",
+    "ModifiedOn": "NULL",
+    "PlaceId": 59,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2355/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "95b0c761-888b-4290-9ee1-cb1e12c7f517",
+    "CreatedOn": "2020-12-15 00:25:05.7420149",
+    "ModifiedOn": "NULL",
+    "PlaceId": 8,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/285/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "96115cf3-d592-4044-be4a-af999d6d9e1c",
+    "CreatedOn": "2020-12-15 00:36:31.4831429",
+    "ModifiedOn": "NULL",
+    "PlaceId": 257,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21543/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "970debbe-ad22-44ea-af00-49dcb57e69e5",
+    "CreatedOn": "2020-12-15 00:36:30.1713401",
+    "ModifiedOn": "NULL",
+    "PlaceId": 25,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1124/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "97c85890-d0c5-4fdb-9e6e-41a0dbed3176",
+    "CreatedOn": "2020-12-15 00:36:31.3707398",
+    "ModifiedOn": "NULL",
+    "PlaceId": 241,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23377/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "98718e61-d883-4c0e-a06b-f0b43b9f565e",
+    "CreatedOn": "2020-12-15 00:36:31.0465786",
+    "ModifiedOn": "NULL",
+    "PlaceId": 190,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17445/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "993725ee-e889-437b-b063-1f547fb417fd",
+    "CreatedOn": "2020-12-15 00:36:30.3007815",
+    "ModifiedOn": "NULL",
+    "PlaceId": 54,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2137/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9bacbb2c-2306-49e6-851b-ec68645cdec9",
+    "CreatedOn": "2020-12-15 00:36:30.9386083",
+    "ModifiedOn": "NULL",
+    "PlaceId": 170,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14118/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9c336034-3344-4721-acc1-f857d715876a",
+    "CreatedOn": "2020-12-15 00:36:30.4151376",
+    "ModifiedOn": "NULL",
+    "PlaceId": 78,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2934/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9c494295-0f61-4095-b0c3-8ce5b70c7740",
+    "CreatedOn": "2020-12-15 00:36:31.6287894",
+    "ModifiedOn": "NULL",
+    "PlaceId": 277,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2532/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9cabfe5e-702f-497c-9535-8a77e4adb647",
+    "CreatedOn": "2020-12-15 00:36:31.0940091",
+    "ModifiedOn": "NULL",
+    "PlaceId": 198,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18316/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9cf44bf2-32fc-44da-9dfa-1931c135b2c6",
+    "CreatedOn": "2020-12-15 00:36:30.9091953",
+    "ModifiedOn": "NULL",
+    "PlaceId": 165,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/11305/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9d70b16c-3269-4c23-82da-6f08bc92cc97",
+    "CreatedOn": "2020-12-15 00:36:30.1250054",
+    "ModifiedOn": "NULL",
+    "PlaceId": 8,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/285/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9de7e30f-a6b8-4e7c-b8d3-f7c476d7c721",
+    "CreatedOn": "2020-12-15 00:36:30.2655819",
+    "ModifiedOn": "NULL",
+    "PlaceId": 47,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1928/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "9ed35c1c-2f56-47bd-bdf8-298a3c752a46",
+    "CreatedOn": "2020-12-15 00:36:31.1826046",
+    "ModifiedOn": "NULL",
+    "PlaceId": 213,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20959/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a10b63fa-14e1-4f41-ad68-f2ac6a71a859",
+    "CreatedOn": "2020-12-15 00:36:31.4102061",
+    "ModifiedOn": "NULL",
+    "PlaceId": 247,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23767/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a128d677-c289-4cc6-b2d5-ef6f24f11a41",
+    "CreatedOn": "2020-12-15 00:36:31.0407609",
+    "ModifiedOn": "NULL",
+    "PlaceId": 189,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a1b6d93d-6ba3-4f90-b65c-33adce0947f4",
+    "CreatedOn": "2020-12-15 00:36:30.1610519",
+    "ModifiedOn": "NULL",
+    "PlaceId": 21,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/932/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a2e2141a-b075-4164-82ed-9f4e69ad2051",
+    "CreatedOn": "2020-12-15 00:36:30.9857183",
+    "ModifiedOn": "NULL",
+    "PlaceId": 179,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16360/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a2f0a703-3642-42d2-a8d8-b66ee6c17d85",
+    "CreatedOn": "2020-12-15 00:36:30.3791454",
+    "ModifiedOn": "NULL",
+    "PlaceId": 67,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2610/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a3e5d131-ab44-419d-ae06-122cc71f137a",
+    "CreatedOn": "2020-12-15 00:36:31.1058587",
+    "ModifiedOn": "NULL",
+    "PlaceId": 200,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18879/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a3fba6e4-9b2d-4004-885d-037a425624bf",
+    "CreatedOn": "2020-12-15 00:36:30.4285129",
+    "ModifiedOn": "NULL",
+    "PlaceId": 82,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3163/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a49a4b86-f444-4e2d-98a8-92c85d9b5fe9",
+    "CreatedOn": "2020-12-15 00:36:30.1331434",
+    "ModifiedOn": "NULL",
+    "PlaceId": 11,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/351/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a55d2608-6e63-42c0-9799-c6a4d7071777",
+    "CreatedOn": "2020-12-15 00:36:31.1408988",
+    "ModifiedOn": "NULL",
+    "PlaceId": 206,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/19837/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a7102beb-0161-40cb-9e1b-b8a617c60c20",
+    "CreatedOn": "2020-12-15 00:36:31.2883606",
+    "ModifiedOn": "NULL",
+    "PlaceId": 229,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21926/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a7e555c3-7ba4-4306-add2-a955ec428d56",
+    "CreatedOn": "2020-12-15 00:36:30.7312428",
+    "ModifiedOn": "NULL",
+    "PlaceId": 136,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9877/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a8c41e03-b8ff-42ff-8280-4f5b6b1b6a3a",
+    "CreatedOn": "2020-12-15 00:36:30.3889973",
+    "ModifiedOn": "NULL",
+    "PlaceId": 70,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2657/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a901122d-e38f-4c7c-a3a0-fde7170156bd",
+    "CreatedOn": "2020-12-15 00:36:30.9610600",
+    "ModifiedOn": "NULL",
+    "PlaceId": 174,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14810/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "a97b114f-a053-41c0-b977-24268dbba620",
+    "CreatedOn": "2020-12-15 00:36:31.6369128",
+    "ModifiedOn": "NULL",
+    "PlaceId": 278,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/28/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "aa0aa4f0-5c17-4b64-9780-6c8d0c5120cf",
+    "CreatedOn": "2020-12-15 00:36:31.3355185",
+    "ModifiedOn": "NULL",
+    "PlaceId": 236,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/22991/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "aa4eceb2-ddec-459f-aa11-90a84f465add",
+    "CreatedOn": "2020-12-15 00:36:30.1167952",
+    "ModifiedOn": "NULL",
+    "PlaceId": 5,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/255/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ad630f51-5fa3-4958-b225-139db6b5e214",
+    "CreatedOn": "2020-12-15 00:27:46.0201501",
+    "ModifiedOn": "NULL",
+    "PlaceId": 9,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/297/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "adf188ae-23c9-457d-b4fc-f680d85a02f9",
+    "CreatedOn": "2020-12-15 00:27:46.0108824",
+    "ModifiedOn": "NULL",
+    "PlaceId": 6,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "af8d8059-1f63-4121-91d6-055edae2b8ba",
+    "CreatedOn": "2020-12-15 00:36:30.7955080",
+    "ModifiedOn": "NULL",
+    "PlaceId": 145,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8749/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b036d966-9e30-4006-95ab-d9d0bfe93eac",
+    "CreatedOn": "2020-12-15 00:36:30.7263628",
+    "ModifiedOn": "NULL",
+    "PlaceId": 135,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/6918/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b04f7a78-83bd-4776-874d-7095ba4b2882",
+    "CreatedOn": "2020-12-15 00:36:30.3752133",
+    "ModifiedOn": "NULL",
+    "PlaceId": 66,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/7781/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b09353c5-395a-4a7e-9549-f0928fbace3b",
+    "CreatedOn": "2020-12-15 00:29:37.1385492",
+    "ModifiedOn": "NULL",
+    "PlaceId": 8,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/285/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b09e88c3-7f59-494a-94e2-c984f56f3c44",
+    "CreatedOn": "2020-12-15 00:36:30.4637048",
+    "ModifiedOn": "NULL",
+    "PlaceId": 89,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3505/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b14580a0-78ae-4aa5-8940-8ae590b2cf47",
+    "CreatedOn": "2020-12-15 00:36:31.2329161",
+    "ModifiedOn": "NULL",
+    "PlaceId": 220,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21462/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b1d11d76-d7e9-4ed1-a8cc-85121a8828d0",
+    "CreatedOn": "2020-12-15 00:36:30.5000195",
+    "ModifiedOn": "NULL",
+    "PlaceId": 97,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3788/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b2f42d76-fbc1-4e12-827c-6256c002a730",
+    "CreatedOn": "2020-12-15 00:36:30.4718060",
+    "ModifiedOn": "NULL",
+    "PlaceId": 91,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16210/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b32a5c11-7729-40ff-a587-6e3c9bb7b690",
+    "CreatedOn": "2020-12-15 00:36:30.4434619",
+    "ModifiedOn": "NULL",
+    "PlaceId": 85,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14119/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b3c89967-966f-46c6-928f-321302b0cd97",
+    "CreatedOn": "2020-12-15 00:36:30.5626940",
+    "ModifiedOn": "NULL",
+    "PlaceId": 108,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4062/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b49170b1-31f1-42ba-bc45-2c662aa18310",
+    "CreatedOn": "2020-12-15 00:36:30.9040315",
+    "ModifiedOn": "NULL",
+    "PlaceId": 164,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/10956/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b4c3baf2-fbf9-40f6-ad91-f9cf34ffa99a",
+    "CreatedOn": "2020-12-15 00:36:30.8010949",
+    "ModifiedOn": "NULL",
+    "PlaceId": 146,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8755/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b61d7306-7d7d-4d55-a3dc-1c64f5e10869",
+    "CreatedOn": "2020-12-15 00:36:30.9330502",
+    "ModifiedOn": "NULL",
+    "PlaceId": 169,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/13068/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b6824ef9-1564-4c1f-a054-b2ef49e57621",
+    "CreatedOn": "2020-12-15 00:36:30.1636303",
+    "ModifiedOn": "NULL",
+    "PlaceId": 22,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/968/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b6a154ab-8260-4f24-b62d-9cd0fc93253e",
+    "CreatedOn": "2020-12-15 00:36:30.6575756",
+    "ModifiedOn": "NULL",
+    "PlaceId": 123,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5033/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b6e7c7dd-8abf-4062-911b-d28e13384a51",
+    "CreatedOn": "2020-12-15 00:36:31.0183802",
+    "ModifiedOn": "NULL",
+    "PlaceId": 185,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16817/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b725ded8-c796-4eb3-9027-7e8ce32b9766",
+    "CreatedOn": "2020-12-15 00:36:30.8981589",
+    "ModifiedOn": "NULL",
+    "PlaceId": 163,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/10859/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b76859d3-fe62-48a3-a7f5-c06b1bfdb245",
+    "CreatedOn": "2020-12-15 00:36:31.2254826",
+    "ModifiedOn": "NULL",
+    "PlaceId": 219,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21407/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "b89fc3d8-17b2-46b3-8004-eead8bdc5429",
+    "CreatedOn": "2020-12-15 00:36:31.1702237",
+    "ModifiedOn": "NULL",
+    "PlaceId": 211,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20987/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ba79c18f-dbfd-4f48-b6b6-f10c35bd7aee",
+    "CreatedOn": "2020-12-15 00:29:37.1421060",
+    "ModifiedOn": "NULL",
+    "PlaceId": 9,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/297/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bbccd0ac-5582-46a1-b68f-52581638f535",
+    "CreatedOn": "2020-12-15 00:36:30.9900104",
+    "ModifiedOn": "NULL",
+    "PlaceId": 180,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16368/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bbe2e905-edfa-4125-8e4a-a62aa33021c1",
+    "CreatedOn": "2020-12-15 00:36:31.5775932",
+    "ModifiedOn": "NULL",
+    "PlaceId": 270,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2809/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bc422b9f-c580-4a59-a022-959dbe0d1164",
+    "CreatedOn": "2020-12-15 00:36:30.1762770",
+    "ModifiedOn": "NULL",
+    "PlaceId": 27,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1150/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bc60d644-0936-4962-b99b-6946d019cab0",
+    "CreatedOn": "2020-12-15 00:36:30.4823840",
+    "ModifiedOn": "NULL",
+    "PlaceId": 93,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3649/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bd166386-2edf-489a-9a0d-ce2a215b934a",
+    "CreatedOn": "2020-12-14 23:40:06.1589708",
+    "ModifiedOn": "NULL",
+    "PlaceId": 9,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/297/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bd71aead-45a6-477f-b176-028f0365cac8",
+    "CreatedOn": "2020-12-15 00:29:37.1209211",
+    "ModifiedOn": "NULL",
+    "PlaceId": 2,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/65/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "bf016f9a-3a21-46a7-9398-8a4cc4c6e238",
+    "CreatedOn": "2020-12-15 00:36:31.4388363",
+    "ModifiedOn": "NULL",
+    "PlaceId": 251,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/24264/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c15ef0fd-c66d-4922-8d8a-c8770fcbda3a",
+    "CreatedOn": "2020-12-14 23:40:06.1425283",
+    "ModifiedOn": "NULL",
+    "PlaceId": 4,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/243/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c1805f0d-094b-4142-8ebd-75e020582656",
+    "CreatedOn": "2020-12-15 00:36:30.1512932",
+    "ModifiedOn": "NULL",
+    "PlaceId": 18,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/526/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c2cdcce3-3bc1-4776-bf09-b24d8390632f",
+    "CreatedOn": "2020-12-15 00:36:30.6502708",
+    "ModifiedOn": "NULL",
+    "PlaceId": 122,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4951/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c5b77776-97ef-47bc-961a-367c2cc1edf8",
+    "CreatedOn": "2020-12-15 00:36:31.3628617",
+    "ModifiedOn": "NULL",
+    "PlaceId": 240,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23335/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c70c8676-2879-4473-beee-e2b5af5c7cc7",
+    "CreatedOn": "2020-12-15 00:36:30.7038469",
+    "ModifiedOn": "NULL",
+    "PlaceId": 131,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5676/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c741b71e-adcb-4e92-a9e5-115c02491489",
+    "CreatedOn": "2020-12-15 00:36:31.1634666",
+    "ModifiedOn": "NULL",
+    "PlaceId": 210,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20812/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c87ff847-a85a-4ded-b703-c3d59926ebcf",
+    "CreatedOn": "2020-12-15 00:36:31.1578420",
+    "ModifiedOn": "NULL",
+    "PlaceId": 209,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20282/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c8c172a5-f940-40eb-b7bd-10f39f951a3e",
+    "CreatedOn": "2020-12-15 00:36:31.4325845",
+    "ModifiedOn": "NULL",
+    "PlaceId": 250,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23897/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "c9262ddc-9457-40f3-84cb-156541f5dd6c",
+    "CreatedOn": "2020-12-15 00:36:31.2568500",
+    "ModifiedOn": "NULL",
+    "PlaceId": 224,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21620/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ca4b0195-0799-43a1-a990-d8a16b513896",
+    "CreatedOn": "2020-12-15 00:36:31.1136756",
+    "ModifiedOn": "NULL",
+    "PlaceId": 201,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18963/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "cab0df80-0fe1-488c-b27c-d765b81bb5a4",
+    "CreatedOn": "2020-12-15 00:36:30.8461534",
+    "ModifiedOn": "NULL",
+    "PlaceId": 154,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9383/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "cba15f74-fd1a-492b-be7a-8c5e723d1d34",
+    "CreatedOn": "2020-12-15 00:36:30.8635517",
+    "ModifiedOn": "NULL",
+    "PlaceId": 157,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9514/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "cbdac92d-695f-460d-86e5-adbee68a2ac9",
+    "CreatedOn": "2020-12-15 00:36:31.1978082",
+    "ModifiedOn": "NULL",
+    "PlaceId": 215,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/21163/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "cd35b16f-e5b2-4e6e-870e-d9767880320e",
+    "CreatedOn": "2020-12-15 00:36:31.4455141",
+    "ModifiedOn": "NULL",
+    "PlaceId": 252,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/24287/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "cdf80b69-9840-4e11-9bc8-84bae3d11f77",
+    "CreatedOn": "2020-12-15 00:29:37.1330190",
+    "ModifiedOn": "NULL",
+    "PlaceId": 6,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d023b53d-dd14-4380-90a7-5300e48e2ca6",
+    "CreatedOn": "2020-12-15 00:36:30.5910743",
+    "ModifiedOn": "NULL",
+    "PlaceId": 112,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/13450/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d10a56eb-4b22-4178-8b70-2933a3825f6b",
+    "CreatedOn": "2020-12-15 00:36:30.2070547",
+    "ModifiedOn": "NULL",
+    "PlaceId": 35,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1584/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d1f83374-1919-48e0-9d71-a0e218ab125d",
+    "CreatedOn": "2020-12-15 00:36:30.2748645",
+    "ModifiedOn": "NULL",
+    "PlaceId": 49,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2007/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d2d50369-f8e8-4325-90d1-5baaf2a874a2",
+    "CreatedOn": "2020-12-15 00:36:31.3491365",
+    "ModifiedOn": "NULL",
+    "PlaceId": 238,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23171/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d4cc4b55-7ccc-4f88-9694-2b5b4e2e0c3a",
+    "CreatedOn": "2020-12-15 00:36:30.4678818",
+    "ModifiedOn": "NULL",
+    "PlaceId": 90,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3519/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d5b929d8-5bba-49f2-9036-7d1951c09885",
+    "CreatedOn": "2020-12-15 00:36:30.3555868",
+    "ModifiedOn": "NULL",
+    "PlaceId": 62,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2441/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d6be7ce4-6f79-45cf-b283-a6cf16111671",
+    "CreatedOn": "2020-12-15 00:36:30.7724592",
+    "ModifiedOn": "NULL",
+    "PlaceId": 141,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23772/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d7b66d7f-19e8-4cbd-a629-123691c4e20e",
+    "CreatedOn": "2020-12-15 00:36:30.4769336",
+    "ModifiedOn": "NULL",
+    "PlaceId": 92,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23630/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d81f596d-1d61-469a-8705-4ba1ecd3d055",
+    "CreatedOn": "2020-12-15 00:36:30.4326180",
+    "ModifiedOn": "NULL",
+    "PlaceId": 83,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3077/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "d9af6c01-9aba-492e-ac04-597fb8959f84",
+    "CreatedOn": "2020-12-15 00:36:31.0651510",
+    "ModifiedOn": "NULL",
+    "PlaceId": 193,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/17720/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "daed6ca1-78b6-4330-b43b-0cf1c3550b27",
+    "CreatedOn": "2020-12-15 00:25:05.7453646",
+    "ModifiedOn": "NULL",
+    "PlaceId": 9,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/297/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "dc97d4ce-fb3d-4c40-9efd-47e4a4d27e10",
+    "CreatedOn": "2020-12-15 00:36:30.4081041",
+    "ModifiedOn": "NULL",
+    "PlaceId": 76,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2852/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "de1b58be-1211-4948-a938-4cbd467247b4",
+    "CreatedOn": "2020-12-15 00:36:30.9494486",
+    "ModifiedOn": "NULL",
+    "PlaceId": 172,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14269/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "df702948-04d5-4068-9748-39f15195a817",
+    "CreatedOn": "2020-12-15 00:36:30.1197086",
+    "ModifiedOn": "NULL",
+    "PlaceId": 6,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/261/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e0dba402-88d8-4a1d-8f9b-297f319299b2",
+    "CreatedOn": "2020-12-15 00:36:30.3439231",
+    "ModifiedOn": "NULL",
+    "PlaceId": 60,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2361/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e12321cb-ac1c-414b-9f32-a6c7de1415dc",
+    "CreatedOn": "2020-12-15 00:36:31.0137822",
+    "ModifiedOn": "NULL",
+    "PlaceId": 184,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/16784/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e1387f24-41cb-422d-bdc8-42ef52935bad",
+    "CreatedOn": "2020-12-15 00:36:30.3992962",
+    "ModifiedOn": "NULL",
+    "PlaceId": 73,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2759/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e2295cb7-0973-4678-b682-5981b5aa1612",
+    "CreatedOn": "2020-12-15 00:36:31.4693365",
+    "ModifiedOn": "NULL",
+    "PlaceId": 255,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/333/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e32fee18-ac75-45c9-b90a-4cac8851ae30",
+    "CreatedOn": "2020-12-15 00:36:30.6640097",
+    "ModifiedOn": "NULL",
+    "PlaceId": 124,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5056/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e47b794e-21b4-4b0d-8e5e-864582aae583",
+    "CreatedOn": "2020-12-15 00:29:37.1304982",
+    "ModifiedOn": "NULL",
+    "PlaceId": 5,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/255/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e4f7e7e2-58c5-4dc3-959e-69c334c391a0",
+    "CreatedOn": "2020-12-15 00:29:37.1358607",
+    "ModifiedOn": "NULL",
+    "PlaceId": 7,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/273/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e7545688-9148-4ab5-ac38-0d724448c490",
+    "CreatedOn": "2020-12-14 23:40:06.1558888",
+    "ModifiedOn": "NULL",
+    "PlaceId": 8,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/285/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e7758c57-d055-4659-b4f4-138a698e96c0",
+    "CreatedOn": "2020-12-15 00:36:31.5195090",
+    "ModifiedOn": "NULL",
+    "PlaceId": 262,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18823/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e808fe92-a735-4696-9ce6-c1c67c13c4c5",
+    "CreatedOn": "2020-12-15 00:27:46.0053505",
+    "ModifiedOn": "NULL",
+    "PlaceId": 4,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/243/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e9e96e1a-ea0e-4a09-8e99-c3fc7fe53ac0",
+    "CreatedOn": "2020-12-15 00:36:30.3174185",
+    "ModifiedOn": "NULL",
+    "PlaceId": 57,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2301/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "e9f59c75-5797-4c54-8ed2-567031b29f58",
+    "CreatedOn": "2020-12-15 00:36:31.5342988",
+    "ModifiedOn": "NULL",
+    "PlaceId": 264,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/20306/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ea29313b-09c4-4244-b45b-be0ded47168f",
+    "CreatedOn": "2020-12-15 00:36:30.1389681",
+    "ModifiedOn": "NULL",
+    "PlaceId": 13,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/381/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "edfe6deb-555c-4da0-884d-7420abcb8365",
+    "CreatedOn": "2020-12-15 00:36:31.4255424",
+    "ModifiedOn": "NULL",
+    "PlaceId": 249,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/23859/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ee0c8bf7-0d14-4568-88c8-a403697a22c8",
+    "CreatedOn": "2020-12-15 00:36:30.4585448",
+    "ModifiedOn": "NULL",
+    "PlaceId": 88,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3467/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "ef8a0eb8-61ed-46df-9357-c88ae95c9ec8",
+    "CreatedOn": "2020-12-15 00:36:31.1227719",
+    "ModifiedOn": "NULL",
+    "PlaceId": 203,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/19450/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "efd87b90-ebb9-4cbc-b23b-056ea85d7855",
+    "CreatedOn": "2020-12-15 00:36:30.8398749",
+    "ModifiedOn": "NULL",
+    "PlaceId": 153,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9136/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "efe6ded0-f20e-4d82-bb21-7aa1447ecc15",
+    "CreatedOn": "2020-12-15 00:36:30.4539568",
+    "ModifiedOn": "NULL",
+    "PlaceId": 87,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/3451/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f0609f0b-7cce-441f-b7aa-e0ed5ddf57fb",
+    "CreatedOn": "2020-12-15 00:36:30.4183685",
+    "ModifiedOn": "NULL",
+    "PlaceId": 79,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2977/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f153960c-d8f4-4c2c-86a3-5c3543cc2d99",
+    "CreatedOn": "2020-12-15 00:36:30.5775435",
+    "ModifiedOn": "NULL",
+    "PlaceId": 110,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/4171/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f30cb27b-5813-4ce0-bf75-2405ca1061c3",
+    "CreatedOn": "2020-12-15 00:36:30.8175662",
+    "ModifiedOn": "NULL",
+    "PlaceId": 149,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/8927/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f315545e-34ea-41ec-9314-a471f302b9ca",
+    "CreatedOn": "2020-12-15 00:36:31.5840505",
+    "ModifiedOn": "NULL",
+    "PlaceId": 271,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9094/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f3548bb6-0b5d-4234-9e79-f94c2e3a67c4",
+    "CreatedOn": "2020-12-15 00:36:30.8798969",
+    "ModifiedOn": "NULL",
+    "PlaceId": 160,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9836/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f4c2066e-9a97-4061-abf7-5547d7309339",
+    "CreatedOn": "2020-12-15 00:36:30.9655335",
+    "ModifiedOn": "NULL",
+    "PlaceId": 175,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/14957/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f5cc4761-8435-4d64-8420-7814e6c99d81",
+    "CreatedOn": "2020-12-15 00:36:30.2253661",
+    "ModifiedOn": "NULL",
+    "PlaceId": 39,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1637/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f5e4cea1-8251-4fe0-b435-d79f10ec90b5",
+    "CreatedOn": "2020-12-15 00:36:30.3721238",
+    "ModifiedOn": "NULL",
+    "PlaceId": 65,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2583/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f70fd38d-4c16-43df-a4f8-51b7d0e2adc2",
+    "CreatedOn": "2020-12-15 00:36:30.6760043",
+    "ModifiedOn": "NULL",
+    "PlaceId": 126,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5336/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f7118598-606e-468f-88c3-c043e9573da6",
+    "CreatedOn": "2020-12-15 00:36:30.2520285",
+    "ModifiedOn": "NULL",
+    "PlaceId": 44,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1797/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f757eb29-7221-4c49-ad1e-6b4526028d9e",
+    "CreatedOn": "2020-12-15 00:36:31.0824399",
+    "ModifiedOn": "NULL",
+    "PlaceId": 196,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/18157/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f91eb241-20ad-4dc4-b80c-b9b365e21ebb",
+    "CreatedOn": "2020-12-15 00:36:30.8520561",
+    "ModifiedOn": "NULL",
+    "PlaceId": 155,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/9568/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "f97cfbc2-46bb-49d5-9150-90636fb74058",
+    "CreatedOn": "2020-12-15 00:36:30.9745282",
+    "ModifiedOn": "NULL",
+    "PlaceId": 177,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/15926/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "fa5b044c-a051-4d89-8037-32549ed39f04",
+    "CreatedOn": "2020-12-15 00:36:30.2025289",
+    "ModifiedOn": "NULL",
+    "PlaceId": 34,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/1577/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "fd994e98-3bc0-4827-aa41-fb1c7d78a182",
+    "CreatedOn": "2020-12-15 00:36:30.2797798",
+    "ModifiedOn": "NULL",
+    "PlaceId": 50,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/2065/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "fe130b3e-757e-4546-8496-412f417b3b4c",
+    "CreatedOn": "2020-12-15 00:29:36.9961847",
+    "ModifiedOn": "NULL",
+    "PlaceId": 1,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/59/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  },
+  {
+    "Id": "fffa47f8-698d-4f41-9edb-013474b53fd0",
+    "CreatedOn": "2020-12-15 00:36:30.6983938",
+    "ModifiedOn": "NULL",
+    "PlaceId": 130,
+    "Extension": "NULL",
+    "RemoteImageUrl": "https://rezzo.bg/files/images/5557/fit_120_80.jpg",
+    "AddedByUserId": "NULL"
+  }
+]

@@ -30,7 +30,7 @@
 
         public string PlaceDescription { get; set; }
 
-        public string LogoImage { get; set; }
+        public LogoImage LogoImage { get; set; }
 
         public string WebUrl { get; set; }
 

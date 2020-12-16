@@ -1,5 +1,6 @@
 ﻿namespace OnMyPlate.Web.ViewModels.PlacesViewModel
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.Web.Mvc;
@@ -8,7 +9,7 @@
     using OnMyPlate.Common;
     using OnMyPlate.Data.Models.Places;
 
-    public class CreatePlaceInputModel : Image
+    public class CreatePlaceInputModel
     {
         [Required]
         [StringLength(GlobalConstants.PlaceNameMaxLength, ErrorMessage ="The Name of the Place should be between 2 and 100 charactes.", MinimumLength =2)]
@@ -25,26 +26,39 @@
 
         [Required]
         [Display(Name = "Enter original web address")]
+        [StringLength(30, ErrorMessage = "Please enter a valid web address!", MinimumLength = 8)]
         public string WebUrl { get; set; }
 
         [Required]
-        [StringLength(GlobalConstants.LocationMaxLength, ErrorMessage = "Coordinates shoul be between 5 and 10 integers! example: Latitude: 45.225, Longtitude: 22.548", MinimumLength = 5)]
-        public Location Location { get; set; }
+        public double Lattitude { get; set; }
 
         [Required]
-        public Address Address { get; set; }
+        public double Longtitude { get; set; }
+
+        [DataType(DataType.Url)]
+        public string GoogleAddress { get; set; }
 
         [Required]
-        public WorkTime WorkTime { get; set; }
+        [StringLength(GlobalConstants.CityMaxLength, ErrorMessage ="Name of the city shoulde be between 2 and 30 characte")]
+        public string City { get; set; }
+
+        [Required]
+        public string Street { get; set; }
+
+        [Required]
+        public TimeSpan OpenTime { get; set; }
+
+        [Required]
+        public TimeSpan CloseTime { get; set; }
 
         public virtual ICollection<IFormFile> Images { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<int, string>> Amentities { get; set; }
+        public virtual IEnumerable<KeyValuePair<string, string>> Amentities { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<int, string>> Cuisines { get; set; }
+        public virtual IEnumerable<KeyValuePair<string, string>> Cuisines { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<int, string>> PaymentTypes { get; set; }
+        public virtual IEnumerable<KeyValuePair<string, string>> PaymentTypes { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<int, string>> MusicTypes { get; set; }
+        public virtual IEnumerable<KeyValuePair<string, string>> MusicTypes { get; set; }
     }
 }

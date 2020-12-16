@@ -7,8 +7,8 @@
     using OnMyPlate.Common;
     using OnMyPlate.Services;
 
-    [Authorize]
-    [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+    //[Authorize]
+    //[Authorize(Roles = GlobalConstants.AdministratorRoleName)]
     public class GatherPlacesController : BaseController
     {
         private readonly IRezzoScraperService rezzoScraperService;

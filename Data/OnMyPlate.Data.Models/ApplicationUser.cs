@@ -9,6 +9,7 @@ namespace OnMyPlate.Data.Models
     using OnMyPlate.Common;
     using OnMyPlate.Data.Common.Models;
     using OnMyPlate.Data.Models.Comments;
+    using OnMyPlate.Data.Models.Places;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -50,6 +51,10 @@ namespace OnMyPlate.Data.Models
         public bool IsDeleted { get; set; }
 
         public DateTime? DeletedOn { get; set; }
+
+        public virtual ICollection<LogoImage> LogoImages { get; set; }
+
+        public virtual ICollection<Image> Images { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
 

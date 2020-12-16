@@ -9,8 +9,6 @@
 
     public class GatherRezzoIdsService
     {
-        private const string BaseUrl = "https://recepti.gotvach.bg/r-{0}";
-
         private static async Task Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
