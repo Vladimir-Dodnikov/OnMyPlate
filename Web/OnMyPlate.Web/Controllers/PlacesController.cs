@@ -64,7 +64,11 @@
 
             try
             {
-                await this.placesService.CreateAsync(input, userId, $"{this.environment.WebRootPath}/images");
+                var selectedAmentities = this.Request.Form["Amentities"].ToArray();
+                var selectedCuisineTypes = this.Request.Form["Cuisines"].ToArray();
+                var selectedPaymentTypes = this.Request.Form["PaymentTypes"].ToArray();
+                var selectedMusicTypes = this.Request.Form["MusicTypes"].ToArray();
+                await this.placesService.CreateAsync(input, userId, selectedAmentities, selectedCuisineTypes, selectedMusicTypes, selectedPaymentTypes, $"{this.environment.WebRootPath}/images");
             }
             catch (Exception ex)
             {

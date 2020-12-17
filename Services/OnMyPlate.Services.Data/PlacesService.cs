@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Collections.Specialized;
     using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
@@ -49,7 +50,7 @@
             this.musicRepository = musicRepository;
         }
 
-        public async Task CreateAsync(CreatePlaceInputModel input, string userId, string imagePath)
+        public async Task CreateAsync(CreatePlaceInputModel input, string userId, string[] selectedAmentities, string[] selectedCuisineTypes, string[] selectedMusicTypes, string[] selectedPaymentTypes, string imagePath)
         {
             var place = new Place
             {
@@ -70,12 +71,10 @@
             await this.SavePlaceLogoImage(input, userId, imagePath, place);
             await this.SavePlaceImages(input, userId, imagePath, place);
 
-            await this.CreatePlaceAmentities(input, place);
-            await this.CreatePlaceCuisineTypes(input, place);
-            await this.CreatePlacePaymentTypes(input, place);
-            await this.CreatePlaceMusicTypes(input, place);
-
-            await this.placesRepository.SaveChangesAsync();
+            await this.CreatePlaceAmentities(input, place, selectedAmentities);
+            await this.CreatePlaceCuisineTypes(input, place, selectedCuisineTypes);
+            await this.CreatePlacePaymentTypes(input, place, selectedPaymentTypes);
+            await this.CreatePlaceMusicTypes(input, place, selectedMusicTypes);
         }
 
         private async Task CreatePlaceLocations(CreatePlaceInputModel input, Place place)
@@ -109,8 +108,8 @@
         {
             var workTime = new WorkTime()
             {
-                OpenTime = input.OpenTime,
-                CloseTime = input.CloseTime,
+                OpenTime = TimeSpan.FromHours(double.Parse(input.OpenTime)),
+                CloseTime = TimeSpan.FromHours(double.Parse(input.CloseTime)),
                 PlaceId = place.Id,
             };
 
@@ -144,7 +143,6 @@
             await this.logoImagesRepository.AddAsync(logoImg);
             await this.logoImagesRepository.SaveChangesAsync();
 
-            place.LogoImageId = logoImg.Id;
         }
 
         private async Task SavePlaceImages(CreatePlaceInputModel input, string userId, string imagePath, Place place)
@@ -173,12 +171,17 @@
             }
         }
 
-        private async Task CreatePlaceAmentities(CreatePlaceInputModel input, Place place)
+        private async Task CreatePlaceAmentities(CreatePlaceInputModel input, Place place, string[] selectedAmentities)
         {
             var amentityDb = new Amentity();
-            foreach (var amentity in input.Amentities)
+            foreach (var amentity in selectedAmentities)
             {
-                amentityDb.Name = amentity.Value;
+                if (string.IsNullOrWhiteSpace(amentity))
+                {
+                    continue;
+                }
+
+                amentityDb.Name = amentity;
                 amentityDb.PlaceId = place.Id;
                 await this.amentitiesRepository.AddAsync(amentityDb);
             }
@@ -186,12 +189,17 @@
             await this.amentitiesRepository.SaveChangesAsync();
         }
 
-        private async Task CreatePlaceCuisineTypes(CreatePlaceInputModel input, Place place)
+        private async Task CreatePlaceCuisineTypes(CreatePlaceInputModel input, Place place, string[] selectedCuisineTypes)
         {
             var cuisineDb = new Cuisine();
-            foreach (var cuisine in input.Cuisines)
+            foreach (var cuisine in selectedCuisineTypes)
             {
-                cuisineDb.Name = cuisine.Value;
+                if (string.IsNullOrWhiteSpace(cuisine))
+                {
+                    continue;
+                }
+
+                cuisineDb.Name = cuisine;
                 cuisineDb.PlaceId = place.Id;
                 await this.cuisinesRepository.AddAsync(cuisineDb);
             }
@@ -199,12 +207,17 @@
             await this.cuisinesRepository.SaveChangesAsync();
         }
 
-        private async Task CreatePlacePaymentTypes(CreatePlaceInputModel input, Place place)
+        private async Task CreatePlacePaymentTypes(CreatePlaceInputModel input, Place place, string[] selectedPaymentTypes)
         {
             var paymentDb = new Payment();
-            foreach (var payment in input.PaymentTypes)
+            foreach (var payment in selectedPaymentTypes)
             {
-                paymentDb.Name = payment.Value;
+                if (string.IsNullOrWhiteSpace(payment))
+                {
+                    continue;
+                }
+
+                paymentDb.Name = payment;
                 paymentDb.PlaceId = place.Id;
                 if (!this.paymentsRepository.AllAsNoTracking().Any(x => x.PlaceId == paymentDb.PlaceId))
                 {
@@ -215,12 +228,17 @@
             await this.paymentsRepository.SaveChangesAsync();
         }
 
-        private async Task CreatePlaceMusicTypes(CreatePlaceInputModel input, Place place)
+        private async Task CreatePlaceMusicTypes(CreatePlaceInputModel input, Place place, string[] selectedMusicTypes)
         {
             var musicType = new Music();
-            foreach (var music in input.MusicTypes)
+            foreach (var music in selectedMusicTypes)
             {
-                musicType.Name = music.Value;
+                if (string.IsNullOrWhiteSpace(music))
+                {
+                    continue;
+                }
+
+                musicType.Name = music;
                 musicType.PlaceId = place.Id;
                 await this.musicRepository.AddAsync(musicType);
             }

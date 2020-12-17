@@ -6,6 +6,6 @@
 
     public interface IPlacesService
     {
-        Task CreateAsync(CreatePlaceInputModel input, string userId, string imagePath);
+        Task CreateAsync(CreatePlaceInputModel input, string userId, string[] selectedAmentities, string[] selectedCuisineTypes, string[] selectedMusicTypes, string[] selectedPaymentTypes, string imagePath);
     }
 }

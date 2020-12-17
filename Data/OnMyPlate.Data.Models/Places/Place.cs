@@ -16,6 +16,7 @@
             this.Cuisines = new HashSet<Cuisine>();
             this.Posts = new HashSet<Post>();
             this.Images = new HashSet<Image>();
+            this.LogoImages = new HashSet<LogoImage>();
             this.MusicTypes = new HashSet<Music>();
         }
 
@@ -26,10 +27,6 @@
         [Required]
         [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
         public string Description { get; set; }
-
-        public string LogoImageId { get; set; }
-
-        public LogoImage LogoImage { get; set; }
 
         public int Rating { get; set; }
 
@@ -56,6 +53,8 @@
         public virtual ApplicationUser CreatedByUser { get; set; }
 
         public virtual ICollection<Image> Images { get; set; }
+
+        public virtual ICollection<LogoImage> LogoImages { get; set; }
 
         public virtual ICollection<Amentity> Amentities { get; set; }
 

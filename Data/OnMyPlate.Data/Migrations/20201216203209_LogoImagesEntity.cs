@@ -3,15 +3,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OnMyPlate.Data.Migrations
 {
-    public partial class LogoImagesAndPrincipalKey : Migration
+    public partial class LogoImagesEntity : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "LogoImageId",
-                table: "Places",
-                nullable: false,
-                defaultValue: "");
+            migrationBuilder.DropColumn(
+                name: "LogoImage",
+                table: "Places");
 
             migrationBuilder.AlterColumn<double>(
                 name: "Longtitude",
@@ -30,11 +28,6 @@ namespace OnMyPlate.Data.Migrations
                 oldClrType: typeof(string),
                 oldType: "nvarchar(50)",
                 oldMaxLength: 50);
-
-            migrationBuilder.AddUniqueConstraint(
-                name: "AK_Places_LogoImageId",
-                table: "Places",
-                column: "LogoImageId");
 
             migrationBuilder.CreateTable(
                 name: "LogoImages",
@@ -58,10 +51,10 @@ namespace OnMyPlate.Data.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_LogoImages_Places_Id",
-                        column: x => x.Id,
+                        name: "FK_LogoImages_Places_PlaceId",
+                        column: x => x.PlaceId,
                         principalTable: "Places",
-                        principalColumn: "LogoImageId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -69,20 +62,17 @@ namespace OnMyPlate.Data.Migrations
                 name: "IX_LogoImages_AddedByUserId",
                 table: "LogoImages",
                 column: "AddedByUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LogoImages_PlaceId",
+                table: "LogoImages",
+                column: "PlaceId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "LogoImages");
-
-            migrationBuilder.DropUniqueConstraint(
-                name: "AK_Places_LogoImageId",
-                table: "Places");
-
-            migrationBuilder.DropColumn(
-                name: "LogoImageId",
-                table: "Places");
 
             migrationBuilder.AddColumn<string>(
                 name: "LogoImage",

@@ -10,8 +10,8 @@ using OnMyPlate.Data;
 namespace OnMyPlate.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201216193451_LogoImagesAndPrincipalKey")]
-    partial class LogoImagesAndPrincipalKey
+    [Migration("20201216203209_LogoImagesEntity")]
+    partial class LogoImagesEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -425,10 +425,6 @@ namespace OnMyPlate.Data.Migrations
                     b.Property<int>("Likes")
                         .HasColumnType("int");
 
-                    b.Property<string>("LogoImageId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
@@ -634,6 +630,8 @@ namespace OnMyPlate.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AddedByUserId");
+
+                    b.HasIndex("PlaceId");
 
                     b.ToTable("LogoImages");
                 });
@@ -925,9 +923,8 @@ namespace OnMyPlate.Data.Migrations
                         .HasForeignKey("AddedByUserId");
 
                     b.HasOne("OnMyPlate.Data.Models.Place", "Place")
-                        .WithOne("LogoImage")
-                        .HasForeignKey("OnMyPlate.Data.Models.Places.LogoImage", "Id")
-                        .HasPrincipalKey("OnMyPlate.Data.Models.Place", "LogoImageId")
+                        .WithMany("LogoImages")
+                        .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });

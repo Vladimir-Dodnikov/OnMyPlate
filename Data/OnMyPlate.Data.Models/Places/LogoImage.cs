@@ -13,7 +13,6 @@
             this.Id = Guid.NewGuid().ToString();
         }
 
-        [ForeignKey("Places")]
         public int PlaceId { get; set; }
 
         public Place Place { get; set; }

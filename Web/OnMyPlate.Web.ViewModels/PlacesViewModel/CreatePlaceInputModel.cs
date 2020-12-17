@@ -46,10 +46,12 @@
         public string Street { get; set; }
 
         [Required]
-        public TimeSpan OpenTime { get; set; }
+        public string OpenTime { get; set; }
 
         [Required]
-        public TimeSpan CloseTime { get; set; }
+        public string CloseTime { get; set; }
+
+        public int AmentityId { get; set; }
 
         public virtual ICollection<IFormFile> Images { get; set; }
 

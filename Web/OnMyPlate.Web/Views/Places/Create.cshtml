@@ -1,10 +1,10 @@
 ﻿@model OnMyPlate.Web.ViewModels.PlacesViewModel.CreatePlaceInputModel
 @{
     this.ViewData["Title"] = "Add new Place";
-    var amentityItems = this.Model.Amentities.Select(x => new SelectListItem(x.Value, x.Key.ToString()));
-    var cuisineItems = this.Model.Cuisines.Select(x => new SelectListItem(x.Value, x.Key.ToString()));
-    var paymentTypes = this.Model.PaymentTypes.Select(x => new SelectListItem(x.Value, x.Key.ToString()));
-    var musicTypes = this.Model.MusicTypes.Select(x => new SelectListItem(x.Value, x.Key.ToString()));
+    var amentityItems = this.Model.Amentities.Select(x => new SelectListItem(x.Value, x.Value.ToString()));
+    var cuisineItems = this.Model.Cuisines.Select(x => new SelectListItem(x.Value, x.Value.ToString()));
+    var paymentTypes = this.Model.PaymentTypes.Select(x => new SelectListItem(x.Value, x.Value.ToString()));
+    var musicTypes = this.Model.MusicTypes.Select(x => new SelectListItem(x.Value, x.Value.ToString()));
 }
 
 <form method="post" class="col-md-6 offset-md-3"
@@ -23,7 +23,7 @@
     </div>
     <div class="form-group">
         <label asp-for="LogoImage"></label>
-        <input asp-for="LogoImage" class="form-control" />
+        <input asp-for="LogoImage" class="form-control" data-provide="datepicker" data-date-autoclose="true" data-date-format="yyyy-mm-dd"/>
         <span asp-validation-for="LogoImage" class="text-danger"></span>
     </div>
     <div class="form-group">
@@ -55,10 +55,10 @@
     <div class="form-group">
         <label class="table text-center">Working time</label>
         <label class="text-center" for="appt" asp-for="OpenTime">Select Open hours:</label>
-        <input asp-for="OpenTime" class="form-control" />
+        <input asp-for="OpenTime" class="form-control" asp-format="{HH:mm}" />
         <span asp-validation-for="CloseTime" class="text-danger"></span>
         <label asp-for="CloseTime">Select Close hours:</label>
-        <input asp-for="CloseTime" class="form-control" />
+        <input asp-for="CloseTime" class="form-control" asp-format="{HH:mm}" />
         <span asp-validation-for="CloseTime" class="text-danger"></span>
     </div>
     <div class="form-group">
@@ -76,7 +76,7 @@
     <div class="form-group">
         <label asp-for="Cuisines"></label>
         @*<vc:CuisinesDropDown name="Cuisines"></vc:CuisinesDropDown>*@
-        <select asp-for="Cuisines" class="form-control" asp-items="cuisineItems"></select>
+        <select asp-for="Cuisines" class="form-control" asp-items="cuisineItems" ></select>
         <span asp-validation-for="Cuisines" class="text-danger"></span>
     </div>
     <div class="form-group">
