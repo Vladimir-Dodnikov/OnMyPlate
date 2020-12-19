@@ -1,0 +1,1437 @@
+.offer_holder {
+    margin-bottom: 50px;
+}
+
+.step-0 .offer_holder {
+    margin-bottom: 0px;
+}
+
+.offer_holder .left_top {
+    width: 390px;
+    margin-right: 12px;
+    float: left;
+    position: relative;
+}
+
+.offer_holder .left_top .desc_box {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-bottom: 7px;
+}
+
+.offer_holder .left_top .desc_box table {
+    font-family: open_sansregular;
+    color: #9e9e9e;
+    font-size: 13px;
+    margin-left: 52px;
+    margin-bottom: 10px;
+}
+
+.offer_holder .left_top .desc_box table td {
+    position: relative;
+}
+
+.offer_holder .left_top .desc_box table .text {
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    top: 3px;
+    padding-right: 13px;
+}
+
+.offer_holder .left_top .desc_box table .price {
+    text-align: left;
+    font-family: open_sansregular;
+    color: #9e9e9e;
+    font-size: 15px;
+}
+
+.offer_holder .left_top .desc_box table .price .old_price_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.offer_holder .select_items {
+    width: 83px;
+    margin-left: 85px;
+    height: 31px;
+    float: left;
+    margin-right: 10px;
+}
+
+.offer_holder .bootstrap-select.btn-group .dropdown-menu {
+    width: 83px;
+}
+
+.offer_holder .btn {
+    height: 31px;
+}
+
+.offer_holder .add_to_cart {
+    width: 114px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #ff800c;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: open_sanslight;
+    display: block;
+    line-height: 31px;
+    padding-left: 13px;
+    float: left;
+    background-image: url(../images/offer/cart.png);
+    background-position: 93% 50%;
+    background-repeat: no-repeat;
+}
+
+.offer_holder .desc_box .total_sold {
+    font-family: open_sansregular;
+    font-size: 10px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.offer_holder .left_top .desc_box table .price b {
+    font-size: 21px;
+}
+
+.offer_holder .left_top .desc_box table .big_row .text {
+    font-size: 18px;
+    color: #6c6c6c;
+    position: relative;
+    top: 11px;
+}
+
+.offer_holder .left_top .desc_box table .big_row .price {
+    font-family: open_sansregular;
+    font-size: 25px;
+    color: #ed1c24;
+    position: relative;
+    letter-spacing: -1px;
+    top: 4px;
+}
+
+.offer_holder .left_top .desc_box table .big_row .price b {
+    font-family: open_sansbold;
+    font-size: 38px;
+    letter-spacing: -2px;
+}
+
+.offer_holder .left_top .desc_box h1 {
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #363539;
+    font-family: open_sanscondensed_light;
+    letter-spacing: -1px;
+    text-indent: 0;
+    width: 319px;
+    height: 83px;
+    overflow: hidden;
+    margin-left: 26px;
+    padding-top: 21px;
+    line-height: 32px;
+    position: relative;
+}
+
+.offer_holder .left_top .rest_box {
+    width: 100%;
+    /*height: 110px;*/
+    height: auto;
+    background-color: white;
+    padding-bottom: 13px;
+}
+
+.offer_holder .left_top .rest_box .rest_info {
+    min-height: 110px;
+}
+
+.offer_holder .left_top .rest_box .rest_info .upper {
+    margin-bottom: 0;
+}
+
+.offer_holder .right_top {
+    width: 585px;
+    float: left;
+    position: relative;
+}
+
+.offer_holder .right_top .offer_image {
+    width: 100%;
+}
+
+.offer_holder .right_top .purchased {
+    background-color: #ed1c24;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 4px;
+    font-family: open_sansregular;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 111px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.offer_holder .right_top .discount {
+    background: #fbfbfb;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiZmJmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlM2U0ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #fbfbfb 0%, #e3e4e4 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #e3e4e4));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fbfbfb 0%, #e3e4e4 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fbfbfb 0%, #e3e4e4 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fbfbfb 0%, #e3e4e4 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fbfbfb 0%, #e3e4e4 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#e3e4e4', GradientType=0);
+    /* IE6-8 */
+    color: white;
+    position: absolute;
+    top: 51px;
+    right: 15px;
+    border-radius: 4px;
+    font-family: open_sansregular;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    width: 111px;
+    height: 83px;
+    text-align: center;
+    color: #ed1c24;
+}
+
+.offer_holder .right_top .discount span {
+    position: relative;
+    top: 13px;
+}
+
+.offer_holder .right_top .discount b {
+    font-size: 42px;
+    font-family: open_sansbold;
+    display: block;
+    letter-spacing: -2px;
+}
+
+.offer_holder .offer_desc {
+    float: left;
+    background-color: white;
+    width: 500px;
+    margin-right: 10px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #404041;
+    line-height: 19px;
+    margin-bottom: 48px;
+}
+
+.offer_holder .offer_desc h2 {
+    color: #2d2d2d;
+    font-family: open_sanslight;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 46px;
+    padding-left: 27px;
+}
+
+.offer_holder .offer_terms {
+    float: left;
+    background-color: white;
+    width: 476px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #404041;
+    line-height: 19px;
+    margin-bottom: 48px;
+}
+
+.offer_holder .offer_desc span.offer-span,
+.offer_holder .offer_terms span.offer-span {
+    padding-left: 29px;
+    padding-right: 18px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.offer_holder .offer_terms h2 {
+    color: #2d2d2d;
+    font-family: open_sanslight;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 46px;
+    padding-left: 27px;
+}
+
+.offer_holder .offers_carousel_wrapper h2 {
+    font-size: 40px;
+    color: #656565;
+    font-family: open_sanslight;
+    letter-spacing: -3px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.offer_holder .offers_carousel_holder {
+    height: 417px;
+    width: 98%;
+    background-color: #dadada;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 18px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.43) inset;
+    background-image: url(../images/offer/bottom_gradient.png);
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    position: relative;
+    padding-top: 15px;
+    z-index: 1;
+}
+
+.offer_holder .offers_carousel_holder .navigation {
+    position: absolute;
+    top: 37%;
+    display: block;
+    width: 50px;
+    height: 92px;
+    z-index: 10;
+    background-position: top center;
+}
+
+.offer_holder .offers_carousel_holder .navigation:hover {
+    /* background-position: bottom center; */
+    background-position: top center;
+}
+
+.offer_holder .offers_carousel_holder .prev_offer {
+    left: -45px;
+    background-image: url(../images/restaurant_view/left_arrow.png);
+    background-position: bottom center;
+}
+
+.offer_holder .offers_carousel_holder .next_offer {
+    right: -45px;
+    background-image: url(../images/restaurant_view/right_arrow.png);
+    background-position: bottom center;
+}
+
+.offer_holder #offers_carousel,
+.offer_holder #offers_carousel_profile {
+    /*width: 963px;*/
+    margin: 0px auto;
+}
+
+.offer_holder #offers_carousel_profile h2.section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #8C8C8C;
+}
+
+.offer_holder #offers_carousel .offer,
+.offer_holder #offers_carousel_profile .offer {
+    height: 347px;
+    background-color: white;
+    width: 229px;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+.offer_holder #offers_carousel_profile .offer {
+    height: 385px;
+}
+
+.offer_holder #offers_carousel .offer .offer_image_small,
+.offer_holder #offers_carousel_profile .offer .offer_image_small {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.offer_holder #offers_carousel .offer h3,
+.offer_holder #offers_carousel_profile .offer h3 {
+    font-family: open_sanscondensed_light;
+    color: #363539;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.offer_holder #offers_carousel .offer .price,
+.offer_holder #offers_carousel_profile .offer .price {
+    margin-left: 11px;
+    /*margin-top: 25px;*/
+    margin-top: 61px;
+}
+
+.offer_holder #offers_carousel .offer .price .text,
+.offer_holder #offers_carousel_profile .offer .price .text {
+    font-family: open_sansregular;
+    font-size: 15px;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    display: none;
+}
+
+.offer_holder #offers_carousel .offer .price .new_price,
+.offer_holder #offers_carousel_profile .offer .price .new_price {
+    color: #ed1c24;
+    text-transform: uppercase;
+    font-family: open_sansregular;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.offer_holder #offers_carousel .offer .price .new_price b,
+.offer_holder #offers_carousel_profile .offer .price .new_price b {
+    font-family: open_sansbold;
+    font-size: 26px;
+}
+
+.offer_holder #offers_carousel .offer .price .old_price,
+.offer_holder #offers_carousel_profile .offer .price .old_price {
+    position: relative;
+    font-family: open_sansregular;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    width: 69px;
+    display: inline-block;
+    text-align: right;
+}
+
+.offer_holder #offers_carousel .offer .price .old_price i,
+.offer_holder #offers_carousel_profile .offer .price .old_price i {
+    display: none;
+}
+
+.offer_holder #offers_carousel .offer .price .old_price b,
+.offer_holder #offers_carousel_profile .offer .price .old_price b {
+    font-size: 14px;
+}
+
+.offer_holder #offers_carousel .offer .price .old_price img,
+.offer_holder #offers_carousel_profile .offer .price .old_price img {
+    position: absolute;
+    top: 1px;
+    left: 22px;
+    width: 36px;
+}
+
+.offer_holder #offers_carousel .offer .view_offer,
+.offer_holder #offers_carousel_profile .offer .view_offer,
+.offer_holder #offers_carousel_profile .offer .booking-offer {
+    background-color: #2094e5;
+    height: 31px;
+    border-radius: 4px;
+    line-height: 31px;
+    font-family: open_sanslight;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../images/restorant_box_button_arrow.png);
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.offer_holder #offers_carousel_profile .offer .booking-offer {
+    background-color: #ed1c24;
+    font-size: 12px;
+}
+
+.offer_holder .select_items_mini {
+    width: 101px;
+    height: 31px;
+    float: left;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+.offer_holder .add_to_cart_mini {
+    width: 101px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #ff800c;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: open_sanslight;
+    display: block;
+    line-height: 31px;
+    padding-left: 13px;
+    float: left;
+    background-image: url(../images/offer/cart.png);
+    background-position: 93% 50%;
+    background-repeat: no-repeat;
+}
+
+.offers_carousel_holder .owl-wrapper-outer {
+    /*overflow-y: visible!important;
+	height:540px;
+	position: absolute;*/
+}
+
+.offers_carousel_holder .total_sold_mini,
+#offers_carousel_profile .total_sold_mini {
+    font-family: open_sansregular;
+    font-size: 10px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+
+.offers_carousel_holder ul[role="menu"] {
+    max-height: 190px !important;
+}
+
+.offers_carousel_holder .offer .purchased,
+#offers_carousel_profile .offer .purchased {
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    background-color: #ed1c24;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    font-family: open_sansregular;
+    font-size: 11px;
+    text-transform: uppercase;
+    z-index: 1;
+    top: -4px;
+    right: -4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.62);
+}
+
+.offers_carousel_holder .owl-item {
+    float: left;
+}
+
+.offers_carousel_wrapper .bottom_text {
+    font-family: open_sansregular;
+    color: #363539;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    left: 80px;
+    /*z-index: -1;*/
+}
+
+.offers_carousel_wrapper .reservate_button_voucher {
+    width: 214px;
+    height: 31px;
+    background-color: #ed1c24;
+    text-align: center;
+    line-height: 31px;
+    color: white;
+    font-family: open_sanslight;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    background-image: url(../images/restorant_box_button_arrow.png);
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+    right: 96px;
+}
+
+div#middle_offer_number {
+    display: block;
+    margin: 0 auto 4px;
+    position: relative;
+    width: 550px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+#middle_offer_number .offer_row {
+    margin-bottom: 21px;
+    position: relative;
+}
+
+#middle_offer_number .offer_row .offer_labels {
+    position: absolute;
+    color: white;
+    top: -15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#middle_offer_number .offer_row .offer_labels .label1 {
+    display: block;
+    width: 76%;
+    float: left;
+}
+
+#middle_offer_number .offer_row .offer_labels .label2 {}
+
+#middle_offer_number .offer_row .delete_offer {
+    position: absolute;
+    right: -37px;
+    top: 0;
+    display: none;
+}
+
+.step-0 .add_offer {
+    display: block;
+    width: 186px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #ff800c;
+    color: white;
+    font-family: open_sanslight;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: 9px;
+    line-height: 20px;
+    margin-left: 289px;
+    background-image: url(../images/offer/plus.png);
+    background-position: 96% 37%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -10px;
+}
+
+.middle_restaurant_view .head_filter #middle_offer_number button.btn {
+    width: 210px;
+    height: 31px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #e4e4e4;
+}
+
+.middle_restaurant_view .head_filter #middle_offer_number button.btn .filter-option {
+    color: #656565;
+    font-family: open_sanslight;
+    font-size: 18px;
+    left: 39px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    top: 2px;
+    z-index: 1;
+}
+
+.middle_restaurant_view .head_filter #middle_offer_number .label {
+    background-image: url("../images/small_people.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 17px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    width: 19px;
+    z-index: 5;
+}
+
+.middle_restaurant_view .head_filter #middle_offer_number button.btn .caret {
+    display: block;
+}
+
+.step-0 .middle_restaurant_view .head_filter {
+    min-height: 85px;
+}
+
+.step-0 h2 {
+    font-size: 20px !important;
+    width: 274px;
+    position: relative;
+    top: -8px;
+}
+
+.step-0 .middle_restaurant_view .head_filter #middle_seats_number {
+    width: 550px;
+}
+
+.step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(1) button.btn {
+    width: 386px !important;
+    margin-right: 26px;
+}
+
+.step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(1) .open {
+    width: 386px !important;
+}
+
+.step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(2) button.btn {
+    width: 128px !important;
+}
+
+.step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(2) .dropdown-menu {
+    width: 76px !important;
+}
+
+.step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(2) .filter-option {
+    left: 12px !important;
+}
+
+.offer_holder #offers_carousel .offer .dropdown-menu,
+.offer_holder #offers_carousel_profile .offer .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+}
+
+ul.tab-boxes li a#vaucher {
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: white;
+    background: #2195e7;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxOTVlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMjc5Y2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #2195e7 0%, #0279cc 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2195e7), color-stop(100%, #0279cc));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2195e7 0%, #0279cc 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2195e7 0%, #0279cc 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2195e7 0%, #0279cc 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #2195e7 0%, #0279cc 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2195e7', endColorstr='#0279cc', GradientType=0);
+    /* IE6-8 */
+}
+
+ul.tab-boxes li a#vaucher i {
+    width: 155px;
+    display: block;
+}
+
+ul.tab-boxes li a#vaucher i {
+    margin-top: 2px;
+}
+
+ul.tab-boxes li.active a#vaucher {
+    background: none !important;
+    background-color: #DADADA !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.09) inset;
+    height: 125px;
+    z-index: 2;
+}
+
+ul.tab-boxes li.active a#vaucher i {
+    color: #2094E5;
+}
+
+.rest_box .link-button-wrapper {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.red_link_button_menu {
+    width: 130px !important;
+}
+
+.rest_box .red_link_button {
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 110px;
+    text-align: center;
+    display: inline-block;
+}
+
+.offers_carousel_holder .three-quarters {
+    position: absolute;
+    right: 50%;
+    margin-right: -322.5px;
+    top: 50%;
+    margin-top: -110px;
+    width: 400px;
+    height: auto;
+}
+
+.offers_carousel_holder .two-quarters {
+    position: absolute;
+    right: 50%;
+    margin-right: -396.5px;
+    top: 50%;
+    margin-top: -86px;
+    width: 300px;
+    height: auto;
+}
+
+.offers_carousel_holder .quarter {
+    position: absolute;
+    right: 50%;
+    margin-right: -485px;
+    top: 50%;
+    margin-top: -76.5px;
+    width: 252px;
+    transform: rotate(270deg);
+}
+
+.offers_carousel_holder .big-quarter {
+    position: absolute;
+    right: 50%;
+    margin-right: -245.5px;
+    top: 50%;
+    margin-top: -110px;
+}
+
+.offers_carousel_holder .hidden-quarter {
+    display: none;
+}
+
+.desc_box h2.offer-unavailable {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: red;
+}
+
+.offer .offer-link-wraper {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media(min-width: 1024px) {
+    .restaurant_carousel_down .offer {
+        height: 391px !important;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1217px) {
+    .offers_carousel_wrapper .three-quarters,
+    .offers_carousel_holder .three-quarters {
+        position: absolute;
+        right: 50%;
+        margin-right: -322.5px;
+        top: 50%;
+        margin-top: -110px;
+        width: 400px;
+        height: auto;
+    }
+    .offers_carousel_wrapper .two-quarters,
+    .offers_carousel_holder .two-quarters {
+        right: 50%;
+        margin-right: -430px;
+        top: 50%;
+        margin-top: -76.5px;
+        width: 252px;
+        transform: rotate(270deg);
+    }
+    .offers_carousel_wrapper .quarter,
+    .offers_carousel_holder .quarter {
+        display: none;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1100px) {
+    .offer_holder .offers_carousel_holder {
+        margin: 0px auto;
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    .offer_holder #offers_carousel,
+    .offer_holder #offers_carousel_profile {
+        width: 95%;
+    }
+    .offer_holder .offers_carousel_wrapper h2 {
+        margin-left: 52px;
+    }
+}
+
+@media(min-width:900px) and (max-width:1000px) {
+    .offers_carousel_wrapper .three-quarters,
+    .offers_carousel_holder .three-quarters {
+        position: absolute;
+        right: 50%;
+        margin-right: -322.5px;
+        top: 50%;
+        margin-top: -110px;
+        width: 400px;
+        height: auto;
+    }
+    .offers_carousel_wrapper .two-quarters,
+    .offers_carousel_holder .two-quarters {
+        right: 50%;
+        margin-right: -370px;
+        top: 50%;
+        margin-top: -76.5px;
+        width: 252px;
+        transform: rotate(270deg);
+    }
+    .offers_carousel_wrapper .quarter,
+    .offers_carousel_holder .quarter {
+        display: none;
+    }
+    .down-restaurant-holder .offer {
+        height: 391px !important;
+    }
+}
+
+@media(max-width:1000px) {
+    .offer_holder .left_top {
+        width: 100%;
+    }
+    .offer_holder .right_top {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .offer_holder .offer_desc {
+        width: 100%;
+    }
+    .offer_holder .offer_terms {
+        width: 100%;
+    }
+    .offer_holder #offers_carousel,
+    .offer_holder #offers_carousel_profile {
+        width: 100%;
+    }
+    .down-restaurant-holder #offers_carousel {
+        width: 100%;
+    }
+    .offer_holder .left_top .desc_box h1 {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .offer_holder .left_top .desc_box table {
+        margin: 0px auto;
+    }
+    .select_add_wrap {
+        margin: 0px auto;
+        width: 369px;
+        margin-top: 10px;
+    }
+    .offer_desc {
+        height: inherit !important;
+    }
+    .offer_terms {
+        height: inherit !important;
+    }
+    .offer_holder #offers_carousel .offer,
+    .offer_holder #offers_carousel_profile .offer {
+        float: none;
+        margin: 0px auto;
+    }
+    .offers_carousel_wrapper .bottom_text {
+        left: 10px;
+        font-size: 10px;
+    }
+    .offers_carousel_wrapper .reservate_button {
+        width: 150px;
+        right: 10px;
+    }
+    .step-0 h2 {
+        width: 100%;
+        margin-bottom: 16px;
+        top: 0;
+        margin-top: 6px;
+    }
+}
+
+@media(max-width:900px) {
+    .offer_holder .offers_carousel_holder {
+        height: auto;
+        background: none;
+        box-shadow: inherit;
+        border: none;
+    }
+    .offer-percent-holder-home {
+        display: none;
+    }
+    .offers_carousel_holder .logo-empty {
+        display: none;
+    }
+    .offers_carousel_wrapper .owl-carousel {
+        display: block !important;
+    }
+    .offer .offer-link-wraper {
+        display: none;
+    }
+    /*	.down-restaurant-holder .owl-carousel{
+		display: inherit;
+	}*/
+    .offers_carousel_wrapper .navigation {
+        display: none !important;
+    }
+    .offers_carousel_holder .total_sold_mini,
+    #offers_carousel_profile .total_sold_mini {
+        display: none;
+    }
+    .offers_carousel_wrapper .bottom_text {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .offers_carousel_wrapper .reservate_button {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+    .offer_holder #offers_carousel .offer h3,
+    .offer_holder #offers_carousel_profile .offer h3 {
+        position: relative;
+        width: 59%;
+    }
+    #offers_carousel_profile .view_offer {
+        bottom: 6px;
+        right: 6px !important;
+        top: inherit !important;
+        width: 95% !important;
+    }
+    .offers_carousel_wrapper .quarter,
+    .offers_carousel_wrapper .two-quarters,
+    .offers_carousel_wrapper .three-quarters,
+    .offers_carousel_holder .quarter,
+    .offers_carousel_holder .two-quarters,
+    .offers_carousel_holder .three-quarters {
+        display: none;
+    }
+    #offers_carousel_profile .offer .purchased {
+        left: 9px !important;
+        top: inherit !important;
+        bottom: 9px !important;
+        width: 43% !important;
+        box-shadow: none !important;
+        height: 31px !important;
+    }
+    #offers_carousel_profile .view_offer {
+        width: 48% !important;
+    }
+    .offers_carousel_wrapper .reservate_button_voucher {
+        position: relative;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0px auto;
+        margin-top: 23px;
+    }
+}
+
+@media(max-width: 900px) and (min-width: 768px) {
+    .offer_holder #offers_carousel .offer,
+    .offer_holder #offers_carousel_profile .offer {
+        width: 360px;
+        float: left;
+        height: 225px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .offer_holder #offers_carousel .offer .offer_image_small,
+    .offer_holder #offers_carousel_profile .offer .offer_image_small {
+        width: 128px;
+        float: left;
+    }
+    .offer_holder #offers_carousel .offer h3,
+    .offer_holder #offers_carousel_profile .offer h3 {
+        float: left;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .offer_holder #offers_carousel .offer .price,
+    .offer_holder #offers_carousel_profile .offer .price {
+        margin-left: 6px;
+        float: left;
+        width: 196px;
+        margin-top: 0;
+    }
+    .offer_holder #offers_carousel .offer .price .text,
+    .offer_holder #offers_carousel_profile .offer .price .text {
+        font-size: 12px;
+    }
+    .offer_holder #offers_carousel .offer .view_offer,
+    .offer_holder #offers_carousel_profile .offer .view_offer {
+        float: left;
+        width: 191px;
+        position: absolute;
+        top: 103px;
+        right: 6px;
+        text-align: left;
+        padding-left: 13px;
+    }
+    .down-restaurant-holder .offer .view_offer {
+        top: inherit !important;
+        bottom: 38px;
+    }
+    .down-restaurant-holder .add_to_cart_mini {
+        top: inherit !important;
+        bottom: 5px;
+    }
+    .offer_holder .add_to_cart_mini {
+        position: absolute;
+        width: 192px;
+        right: 6px;
+        top: 144px;
+        text-align: left;
+    }
+    .offer_holder .select_items_mini {
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        width: 147px;
+    }
+    .offers_carousel_holder .offer .purchased,
+    #offers_carousel_profile .offer .purchased {
+        left: 9px;
+        top: inherit;
+        bottom: 41px;
+        width: 149px;
+        box-shadow: none;
+        height: 31px;
+    }
+    .offer_holder #offers_carousel_profile .offer .booking-offer {
+        position: absolute;
+        bottom: 47px;
+        width: 95%;
+    }
+    .offer_holder .select_items_mini {
+        bottom: 5px;
+    }
+    ul.tab-boxes li.active a#vaucher {
+        height: 109px;
+    }
+}
+
+@media(max-width: 768px) {
+    .step-0 h2 {
+        width: 75%;
+    }
+    .offer_holder #offers_carousel .offer {
+        height: 180px;
+    }
+    .offer_holder #offers_carousel_profile .offer {
+        height: 220px !important;
+    }
+    .offer_holder #offers_carousel_profile .used {
+        height: 155px !important;
+    }
+    .offer_holder #offers_carousel_profile .expired {
+        height: 135px !important;
+    }
+    .offer_holder #offers_carousel_profile .unpaid {
+        height: 136px !important;
+    }
+    .offer_holder #offers_carousel_profile .offer .booking-offer {
+        position: absolute;
+        bottom: 47px;
+        width: 48%;
+        right: 7px;
+        text-align: left;
+        padding-left: 12px;
+    }
+    div#middle_offer_number {
+        width: 98%;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.47);
+        border-radius: 0;
+    }
+    .step-0 .btn-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .step-0 .add_offer {
+        margin: 0px auto;
+        top: -10px;
+    }
+    .step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(1) button.btn {
+        width: 98% !important;
+    }
+    .step-0 .middle_restaurant_view .head_filter .btn-group:nth-of-type(2) .mobile-device {
+        /*width: 25%!important;*/
+        width: 100% !important;
+    }
+    div#middle_offer_number {
+        width: 100%;
+    }
+    #middle_offer_number .offer_row .delete_offer {
+        right: 5px;
+        top: 38px;
+    }
+    .offer_holder #offers_carousel .offer,
+    .offer_holder #offers_carousel_profile .offer {
+        width: 100%;
+        float: none;
+        height: 230px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.54);
+    }
+    .down-restaurant-holder #offers_carousel .offer {
+        width: 100%;
+        float: none;
+        height: 215px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.54);
+    }
+    .offer_holder #offers_carousel .offer .offer_image_small,
+    .offer_holder #offers_carousel_profile .offer .offer_image_small {
+        width: 128px;
+        float: left;
+        margin-bottom: 4px;
+    }
+    .offer_holder #offers_carousel .offer h3,
+    .offer_holder #offers_carousel_profile .offer h3 {
+        float: left;
+        font-size: 17px;
+        margin-left: 5px;
+        font-size: 17px;
+        width: 47%;
+        position: relative;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .offer_holder #offers_carousel .offer .price,
+    .offer_holder #offers_carousel_profile .offer .price {
+        margin-left: 6px;
+        float: left;
+        width: 196px;
+        margin-top: 0;
+        width: 47%;
+    }
+    .offer_holder #offers_carousel .offer .price .new_price b,
+    .offer_holder #offers_carousel_profile .offer .price .new_price b {
+        font-size: 21px;
+    }
+    .offer_holder #offers_carousel .offer .price .old_price b,
+    .offer_holder #offers_carousel_profile .offer .price .old_price b {
+        font-size: 12px;
+    }
+    .offer_holder #offers_carousel .offer .price .old_price img,
+    .offer_holder #offers_carousel_profile .offer .price .old_price img {
+        width: 30px;
+        left: 78px;
+    }
+    .offer_holder #offers_carousel .offer .price .text,
+    .offer_holder #offers_carousel_profile .offer .price .text {
+        font-size: 12px;
+    }
+    .offer_holder #offers_carousel .offer .view_offer,
+    .offer_holder #offers_carousel_profile .offer .view_offer {
+        float: left;
+        width: 49%;
+        position: absolute;
+        top: 103px;
+        right: 6px;
+        text-align: left;
+        padding-left: 13px;
+        font-size: 13px;
+    }
+    .offer_holder .add_to_cart_mini {
+        position: absolute;
+        width: 49%;
+        right: 6px;
+        top: 144px;
+        text-align: left;
+        font-size: 13px;
+    }
+    .offer_holder .select_items_mini {
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        width: 45%;
+    }
+    .restaurant_carousel_down .select_items_mini {
+        bottom: 7px;
+    }
+    .restaurant_carousel_down .add_to_cart_mini {
+        top: 144px;
+    }
+    .offers_carousel_holder .offer .purchased {
+        left: 9px;
+        top: inherit;
+        bottom: 41px;
+        width: 45%;
+        box-shadow: none;
+        height: 31px;
+    }
+    .offers_carousel_holder #offers_carousel .offer .view_offer {
+        top: 172px;
+    }
+    .offer_holder #offers_carousel .offer .price .old_price,
+    .offer_holder #offers_carousel_profile .offer .price .old_price {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .offer_holder #offers_carousel .offer .price .old_price i,
+    .offer_holder #offers_carousel_profile .offer .price .old_price i {
+        display: inline;
+        font-style: normal;
+        text-transform: initial;
+        margin-right: 3px;
+    }
+    .offer_holder .mobile-device {
+        width: 100%;
+    }
+    #middle_offer_number .offer_row .offer_labels .label1 {
+        width: 100%;
+    }
+    #middle_offer_number .offer_row .offer_labels .label2 {
+        bottom: -50px;
+        position: absolute;
+        left: 0;
+    }
+}
+
+@media(min-width:501px) and (max-width:767px) {
+    div#middle_offer_number {
+        width: 98%;
+        margin-left: 10px;
+    }
+    #middle_offer_number .offer_row .delete_offer {
+        right: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .offer_holder .left_top .rest_box {
+        /*eight: inherit;*/
+        height: auto;
+        padding-bottom: 13px;
+    }
+    .offer_holder .right_top .purchased {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        width: 49%;
+        float: left;
+    }
+    .offer_holder .right_top .discount {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 48%;
+        height: 28px;
+        float: left;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    .offer_holder .right_top .discount span {
+        font-size: 11px;
+        top: 0;
+    }
+    .offer_holder .right_top .discount b {
+        font-size: 14px;
+        display: inline;
+        margin-left: 2px;
+        font-family: open_sansregular;
+        letter-spacing: 0;
+    }
+    .offer_holder #offers_carousel_profile .restaurant-title {
+        bottom: 101px;
+        left: 0;
+        margin-top: 15px;
+        position: absolute;
+    }
+    .offer_holder #offers_carousel_profile .unpaid .restaurant-title {
+        bottom: 5px;
+    }
+    .offer_holder #offers_carousel_profile .expire-date {
+        bottom: 84px;
+        display: block;
+        font-size: 11px;
+        margin-left: 11px;
+        position: absolute;
+        text-transform: uppercase;
+    }
+    .offer_holder #offers_carousel_profile .offer .booking-offer {
+        width: 48%;
+        font-size: 10px;
+        background-image: none;
+    }
+    .offer_holder #offers_carousel_profile .used {
+        padding-bottom: 40px;
+    }
+    .offer_holder #offers_carousel_profile .used .restaurant-title {
+        bottom: 21px;
+        left: 0;
+        position: absolute;
+    }
+    .offer_holder #offers_carousel_profile .used .expire-date {
+        position: absolute;
+        bottom: 7px;
+        left: 7px;
+    }
+    .offer_holder #offers_carousel_profile .used .used-date {
+        bottom: 6px;
+        left: 1px;
+        position: absolute;
+    }
+}
+
+@media(max-width:400px) {
+    .select_add_wrap {
+        width: 210px !important;
+    }
+    .offer_holder .select_items {
+        margin-left: 0;
+    }
+    .rest_box .red_link_button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .red_link_button_menu {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 666px) {
+    ul.tab-boxes li a#vaucher {
+        color: #555457;
+    }
+    ul.tab-boxes li a#vaucher i {
+        width: inherit;
+    }
+    .steps .heading_box b {
+        display: none;
+    }
+}

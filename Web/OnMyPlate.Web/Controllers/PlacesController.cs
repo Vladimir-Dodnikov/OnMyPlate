@@ -86,5 +86,26 @@
             // TODO: Redirect to PlacesPage
             return this.Redirect("/");
         }
+
+        // Recipes/All/8
+        public IActionResult All(int id = 1)
+        {
+            //if (id <= 0)
+            //{
+            //    return this.NotFound();
+            //}
+
+            //const int ItemsPerPage = 12;
+            //var viewModel = new RecipesListViewModel
+            //{
+            //    ItemsPerPage = ItemsPerPage,
+            //    PageNumber = id,
+            //    RecipesCount = this.recipesService.GetCount(),
+            //    Recipes = this.recipesService.GetAll<RecipeInListViewModel>(id, ItemsPerPage),
+            //};
+            //return this.View(viewModel);
+
+            return this.View();
+        }
     }
 }

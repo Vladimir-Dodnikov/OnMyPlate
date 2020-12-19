@@ -7,30 +7,43 @@
     <title>@this.ViewData["Title"] - @GlobalConstants.SystemName</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/css/site.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/offer.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/styleMin.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/font-awesome/fonts/fontawesome-webfont.woff2" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/fonts/OpenSans-CondLight-webfont.woff" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/fonts/opensans-light-webfont.woff" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/fonts/open_sans-webfont.woff" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/fonts/Roboto-Regular-webfont.woff" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/fonts/RobotoCondensed-Regular-webfont.woff2" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">@GlobalConstants.SystemName</a>
+        <nav class="header navbar navbar-expand-sm navbar-light bg-danger border-bottom box-shadow mb-3">
+            <div id="mask"></div>
+            <div id="mask2"></div>
+            <div class="container header_container">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/assets/images/OnMyPlate-Logo.png" class="header__logo__item" />
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navbar-header d-sm-inline-flex flex-sm-row-reverse header__container__inner">
                     <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 text-uppercase choose_city_and_restaurants">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Places" asp-action="Create">Create Place</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="Create">Create Place</a>
                             </li>
                         }
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="All">All Places</a>
                         </li>
                     </ul>
                 </div>
@@ -38,16 +51,41 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="middle middle_search">
+        <img src="/assets/images/slide_upper_border.png" class="header_bottom_border" alt="header bottom border">
         <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
-            @this.RenderBody()
-        </main>
+        <div class="container no-padding container__fix text__altered" style="margin-top: 30px;">
+            <main role="main" class="pb-3 main-container preloader__minH">
+                <div class="search__bar__navigation">
+                    <div class="sub_tabs">
+                        <a href="javascript:;" data-subtabhash="popular" class="subtablinks popular active">popular</a>
+                        <a href="javascript:;" data-subtabhash="new" class="subtablinks new">newest</a>
+                        <a href="javascript:;" data-subtabhash="biggest-promo" class="subtablinks biggest_promo">highest discounts</a>
+                        <a href="javascript:;" data-subtabhash="quick-res" class="subtablinks quick_res">quick reservations<span id="smaller_text"> (15-45min)</span></a>
+                    </div>
+                </div>
+                @this.RenderBody()
+            </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer">
+        <div class="content_wrapper">
+            <div class="shell upper_footer">
+                <div class="footer-section col-sm-6 col-2">
+                    <div class="footer_links">
+                        <a class="footer_social_links fb footer_fb" target="_blank" href="https://www.facebook.com/vladi.dodnikov"></a>
+                        <a class="footer_social_links instagram_page footer_instagram" target="_blank" href="https://www.instagram.com/vladi_dodnikov/"></a>
+                        <a class="footer_social_links softuni footer_softuni" target="_blank" href="https://softuni.bg"></a>
+                        <a class="footer_social_links linkdIn" target="_blank" href="https://www.linkedin.com/company/rezzo/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section col-sm-6 col-2">
+                    &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -55,8 +93,15 @@
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
     <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" asp-append-version="true"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
-    <script src="~/js/site.min.js" asp-append-version="true"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/dist/jsMin.js" asp-append-version="true"></script>
+    <script src="~/assets/js/locale/en.js" asp-append-version="true"></script>
+    <script src="~/assets/js/jquery-1.8.3.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/jquery.ba-bbq.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/jquery.cookie.js" asp-append-version="true"></script>
+    <script src="~/assets/js/jquery.validationEngine-en.js" asp-append-version="true"></script>
+    <script src="~/assets/js/home.js" asp-append-version="true"></script>
     @await this.RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

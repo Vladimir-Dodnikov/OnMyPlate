@@ -1,0 +1,99 @@
+﻿@*@model OnMyPlate.Web.ViewModels.Recipes.RecipesListViewModel*@
+@{
+    //this.ViewData["Title"] = "All Places, page " + Model.PageNumber;
+}
+
+@*@if (this.TempData.ContainsKey("Message"))
+    {
+        <div class="alert alert-success">@this.TempData["Message"]</div>
+    }*@
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 restaurant_info_">
+        <div class="loader_wrapper" id="preloader_search" style="display: none;">
+            <div class="loader__inner">
+                <div class="loader">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="restaurant-wrapper">
+            @for (int i = 0; i < 12; i++)
+            {
+                <div class="rest-new" data-bootstro-content="When you choose a restaurant from the list, you can click on it and you will be redirected to its page where you can make your reservation. <button class='btn btn-primary btn-mini bootstro_end'>End Tutorial</button>" data-bootstro-nextbuttontext="Next step" data-bootstro-prevbuttontext="Previos step" data-bootstro-finishbuttontext="I got it! Close it!" data-bootstro-width="500px">
+
+                    <a href="/en/r/v/1790/mr-pizza-vaptsarov" class="restaurant-more search_restaurant_more">
+                    </a><div class="rest__inner">
+                        <a href="/en/r/v/1790/mr-pizza-vaptsarov" class="restaurant-more search_restaurant_more">
+                            <div class="features" data-key="13"></div>
+
+                            <header class="rest__head">
+                                <h3 class="rest__title">Mr. Pizza Vaptsarov</h3>
+                            </header><!-- /.rest__head -->
+
+                            <figure class="rest__image">
+                                <img class="" src="/files/images/20025/fit_314_228.jpg" alt="restaurant-image">
+
+
+                                <div class="rest__image__exclusive">
+                                </div><!-- /.rest__image__exclusive -->
+                                <div class="rest__discount">
+                                    <div class="rest__discount__halfcircle no_tables">
+                                        <div class="promo_text">
+                                            <span class="promo_normal_text">no tables</span>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.rest__discount -->
+                                <!-- delivery_btn -->
+                            </figure><!-- /.rest__image -->
+
+                        </a><div class="rest__content">
+                            <a href="/en/r/v/1790/mr-pizza-vaptsarov" class="restaurant-more search_restaurant_more">
+                            </a><div class="rest__info">
+                                <a href="/en/r/v/1790/mr-pizza-vaptsarov" class="restaurant-more search_restaurant_more">
+                                    <div class="rest__rating">
+                                        <div class="rating">
+                                            <div class="rating_mask rating_mask_white" alt="rating mask" style="width:90px;"></div>
+                                        </div>
+                                    </div><!-- /.rest__rating -->
+                                    <div class="address">
+                                        <span class="food_type">European</span>
+                                        <span class="neighbourhood">Lozenets</span>
+                                        <span class="price_range last">From 20 lv. to 30 lv.</span>
+                                        <span class="destination" style="display:none;"></span>
+                                    </div>
+                                </a><div class="restaurant_mobile_buttons">
+                                    <a href="/en/r/v/1790/mr-pizza-vaptsarov" class="restaurant-more search_restaurant_more">
+                                    </a><a href="/en/r/v/1790/mr-pizza-vaptsarov" class="av_btn reserveNow">RESERVE <i class="fa fa-caret-right"></i> </a><!-- /.more -->
+                                </div><!-- /.restaurant_mobile_buttons -->
+                            </div><!-- /.rest__info -->
+                        </div><!-- /.rest__content -->
+
+
+                    </div><!-- /.rest__inner -->
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
+@*<h1>@this.ViewData["Title"]</h1>
+    <hr />
+    <div class="row">
+        @foreach (var recipe in this.Model.Recipes)
+        {
+            <div class="media col-md-4">
+                <img src="@recipe.ImageUrl" width="100" class="mr-3 img-responsive">
+                <div class="media-body">
+                    <h5 class="mt-0"><a asp-action="ById" asp-route-id="@recipe.Id">@recipe.Name</a></h5>
+                    @recipe.CategoryName
+                </div>
+            </div>
+        }
+    </div>
+    <hr />*@
+@*<partial name="_PagingPartial" model="@Model" />*@
