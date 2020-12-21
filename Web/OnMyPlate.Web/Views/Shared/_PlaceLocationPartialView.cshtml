@@ -1,0 +1,7 @@
+﻿@model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
+
+<div class="restaurant__location__map">
+
+    <iframe width="835" height="206" frameborder="0" style="border:0; width: 100%;" src=@($"https://www.google.com/maps/embed/v1/place?key=AIzaSyB6a2MFVneZ0UXjzQmklYb2gHU6d3ASxTEq={Model.Location.Lattitude},{Model.Location.Longtitude}") allowfullscreen="">
+    </iframe>
+</div>

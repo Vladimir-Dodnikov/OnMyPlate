@@ -1,13 +1,10 @@
-﻿namespace OnMyPlate.Web.ViewModels.PlacesViewModel
+﻿namespace OnMyPlate.Web.ViewModels.Places
 {
-    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.Web.Mvc;
 
     using Microsoft.AspNetCore.Http;
     using OnMyPlate.Common;
-    using OnMyPlate.Data.Models.Places;
 
     public class CreatePlaceInputModel
     {
@@ -53,14 +50,14 @@
 
         public int AmentityId { get; set; }
 
-        public virtual ICollection<IFormFile> Images { get; set; }
+        public ICollection<IFormFile> Images { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<string, string>> Amentities { get; set; }
+        public IEnumerable<KeyValuePair<string, string>> Amentities { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<string, string>> Cuisines { get; set; }
+        public IEnumerable<KeyValuePair<string, string>> Cuisines { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<string, string>> PaymentTypes { get; set; }
+        public IEnumerable<KeyValuePair<string, string>> PaymentTypes { get; set; }
 
-        public virtual IEnumerable<KeyValuePair<string, string>> MusicTypes { get; set; }
+        public IEnumerable<KeyValuePair<string, string>> MusicTypes { get; set; }
     }
 }

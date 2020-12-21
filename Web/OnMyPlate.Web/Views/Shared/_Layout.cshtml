@@ -18,21 +18,34 @@
     <link href="~/assets/fonts/RobotoCondensed-Regular-webfont.woff2" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
+    <div class="loader_wrapper" id="preloader" style="display:none;">
+        <div class="loader__inner">
+            <div class="loader">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+    </div>
+    <div id="mask"></div>
+    <div id="mask2"></div>
     <header>
         <nav class="header navbar navbar-expand-sm navbar-light bg-danger border-bottom box-shadow mb-3">
-            <div id="mask"></div>
-            <div id="mask2"></div>
-            <div class="container header_container">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/assets/images/OnMyPlate-Logo.png" class="header__logo__item" />
-                </a>
+            <div class="container header_container ">
+                <div>
+                    <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/assets/images/OnMyPlate-Logo.png" class="header__logo__item" />
+                    </a>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-header d-sm-inline-flex flex-sm-row-reverse header__container__inner">
                     <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1 text-uppercase choose_city_and_restaurants">
+                    <ul class="navbar-nav mr-auto flex-grow-1 text-uppercase choose_city_and_restaurants">
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -51,43 +64,11 @@
         </nav>
     </header>
 
-    <div class="middle middle_search">
-        <img src="/assets/images/slide_upper_border.png" class="header_bottom_border" alt="header bottom border">
-        <partial name="_CookieConsentPartial" />
-        <div class="container no-padding container__fix text__altered" style="margin-top: 30px;">
-            <main role="main" class="pb-3 main-container preloader__minH">
-                <div class="search__bar__navigation">
-                    <div class="sub_tabs">
-                        <a href="javascript:;" data-subtabhash="popular" class="subtablinks popular active">popular</a>
-                        <a href="javascript:;" data-subtabhash="new" class="subtablinks new">newest</a>
-                        <a href="javascript:;" data-subtabhash="biggest-promo" class="subtablinks biggest_promo">highest discounts</a>
-                        <a href="javascript:;" data-subtabhash="quick-res" class="subtablinks quick_res">quick reservations<span id="smaller_text"> (15-45min)</span></a>
-                    </div>
-                </div>
-                @this.RenderBody()
-            </main>
-        </div>
-    </div>
+    <partial name="_CookieConsentPartial" />
 
-    <footer class="border-top footer">
-        <div class="content_wrapper">
-            <div class="shell upper_footer">
-                <div class="footer-section col-sm-6 col-2">
-                    <div class="footer_links">
-                        <a class="footer_social_links fb footer_fb" target="_blank" href="https://www.facebook.com/vladi.dodnikov"></a>
-                        <a class="footer_social_links instagram_page footer_instagram" target="_blank" href="https://www.instagram.com/vladi_dodnikov/"></a>
-                        <a class="footer_social_links softuni footer_softuni" target="_blank" href="https://softuni.bg"></a>
-                        <a class="footer_social_links linkdIn" target="_blank" href="https://www.linkedin.com/company/rezzo/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-section col-sm-6 col-2">
-                    &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @this.RenderBody()
+
+    <partial name="_FooterPartialView" />
 
     <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>

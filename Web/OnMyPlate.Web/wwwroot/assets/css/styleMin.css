@@ -12179,7 +12179,7 @@ header.wrapper {
 }
 
 .middle .content_wrapper {
-    padding-top: 13px
+    padding-top: 0px
 }
 
 .middle-container-upper h2 {
@@ -13088,16 +13088,16 @@ h2.filter-restaurant-heading {
 }
 
 .restaurant_basic_info .middle span.food_type {
-    background-image: url(../images/restaurant_view/small_utensils_dark.png);
+    background-image: url(../images/small_utensils.png);
     background-position: 2px center
 }
 
 .restaurant_basic_info .middle span.neibhourhood {
-    background-image: url(../images/restaurant_view/small_home_dark.png)
+    background-image: url(../images/small_home.png)
 }
 
 .restaurant_basic_info .middle span.price {
-    background-image: url(../images/restaurant_view/small_barcode.png);
+    background-image: url(../images/small_barcode.png);
     background-size: auto 13px;
     background-position: 1px center
 }
@@ -13283,7 +13283,7 @@ h2.filter-restaurant-heading {
 
 @media(min-width:1000px) and (max-width:1190px) {
     .middle_restaurant_view {
-        width: 91%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto
     }
@@ -15243,7 +15243,7 @@ p.comment_message {
 }
 
 .music_filter {
-    background-image: url(/assets/images/small_white_music.png)
+    background-image: url(/assets/images/small_music_dark.png)
 }
 
 .neighbourhood_filter {
@@ -15346,11 +15346,11 @@ p.comment_message {
 .footer {
     background-image: url(../images/background-rep-head.gif);
     background-repeat: repeat;
-    min-height: 100px;
+    min-height: 160px;
     padding-top: 5px;
     overflow: hidden;
-    padding-bottom: 5px;
-    overflow: visible;
+    padding-bottom: 0px;
+    overflow: hidden;
     position: relative;
     z-index: 1;
     transform: translate3d(0, 0, 0)
@@ -15402,7 +15402,7 @@ p.comment_message {
 .footer_social_links.softuni {
     width: 42px;
     height: 42px;
-    border-radius: 50%;
+    border-radius: 0%;
     text-align: center;
     line-height: 40px;
     display: inline-block;
@@ -15909,7 +15909,7 @@ a.chat_button:hover {
         margin-top: 10px
     }
     .middle_view_restaurant .container {
-        width: 92% !important
+        width: auto
     }
     .celebration-info-text {
         padding-left: 22px !important;
@@ -18174,8 +18174,8 @@ a.chat_button:hover {
     right: 180px;
     top: 77px;
     overflow: hidden;
-    padding-top: 0;
-    padding-bottom: 0
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .bootstro_end {
@@ -23997,7 +23997,7 @@ video.lazy-hidden {
 }
 
 .footer-section ul {
-    margin-top: 40px
+    margin-top: 0px
 }
 
 .footer-section li {
@@ -24393,6 +24393,10 @@ video.lazy-hidden {
 
 .restaurant_slideshow_holder.restaurant_slideshow_holder_up {
     overflow: hidden
+}
+.restaurant_slideshow_holder.restaurant_slideshow_holder_up {
+    float: none;
+    margin: 0 auto;
 }
 
 .middle_bottom_background {
@@ -25631,7 +25635,7 @@ label {
 
 #slideshow_holder .content_wrapper {
     position: absolute;
-    bottom: 10px;
+    bottom: 60px;
     margin: 0 auto;
     width: 100%;
     z-index: 1;
@@ -27393,6 +27397,9 @@ input[type=number]::-webkit-outer-spin-button {
         float: none;
         margin: 0 auto
     }
+    .restaurant_slideshow owl-carousel owl-theme{
+
+    }
     .restaurant_location {
         float: none !important;
         width: 100%
@@ -27906,7 +27913,7 @@ input[type=number]::-webkit-outer-spin-button {
         float: none
     }
     .footer {
-        min-height: auto;
+        min-height: 10px;
         padding-bottom: 0
     }
     .footer-left-holder {
@@ -30592,7 +30599,7 @@ input[type=number]::-webkit-outer-spin-button {
         float: none
     }
     .footer {
-        min-height: auto;
+        min-height: 10px;
         padding-bottom: 0
     }
     .footer-left-holder {
@@ -37081,7 +37088,7 @@ input[type=number]::-webkit-outer-spin-button {
         right: 15px
     }
     .middle .content_wrapper {
-        padding-top: 1vw
+        padding-top: 13px;
     }
 }
 

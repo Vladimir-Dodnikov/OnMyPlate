@@ -8,7 +8,7 @@
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc;
     using OnMyPlate.Services.Data;
-    using OnMyPlate.Web.ViewModels.PlacesViewModel;
+    using OnMyPlate.Web.ViewModels.Places;
 
     public class PlacesController : Controller
     {
@@ -87,25 +87,28 @@
             return this.Redirect("/");
         }
 
-        // Recipes/All/8
-        public IActionResult All(int id = 1)
+        public IActionResult Popular()
         {
-            //if (id <= 0)
-            //{
-            //    return this.NotFound();
-            //}
+            var viewModel = new PlacesInListViewModel
+            {
+                Places = this.placesService.GetPopular<PlaceViewModel>(),
+            };
+            return this.View(viewModel);
+        }
 
-            //const int ItemsPerPage = 12;
-            //var viewModel = new RecipesListViewModel
-            //{
-            //    ItemsPerPage = ItemsPerPage,
-            //    PageNumber = id,
-            //    RecipesCount = this.recipesService.GetCount(),
-            //    Recipes = this.recipesService.GetAll<RecipeInListViewModel>(id, ItemsPerPage),
-            //};
-            //return this.View(viewModel);
+        public IActionResult All()
+        {
+            var viewModel = new PlacesInListViewModel
+            {
+                Places = this.placesService.GetAll<PlaceViewModel>(),
+            };
+            return this.View(viewModel);
+        }
 
-            return this.View();
+        public IActionResult ById(int id)
+        {
+            var place = this.placesService.GetById<PlaceViewModel>(id);
+            return this.View(place);
         }
     }
 }

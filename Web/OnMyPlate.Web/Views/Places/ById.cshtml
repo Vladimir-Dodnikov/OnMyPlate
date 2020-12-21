@@ -1,0 +1,163 @@
+﻿@using OnMyPlate.Common
+@model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
+@{
+    this.ViewData["Title"] = Model.Name;
+    var lastComment = this.Model.Posts.OrderByDescending(x => x.Date).First();
+}
+<div class="middle middle_view_restaurant">
+    <div class="middle_bottom_background">
+        <img src="/assets/images/slide_upper_border.png" class="header_bottom_border" alt="header bottom border" />
+        <div class="content_wrapper">
+            @*Second Navigation Bar*@
+            <div class="container no-padding" style="position: relative;">
+                <div class="inner_page_btn_wrapper view_restaurant">
+                    <a href="javascript:;" class="back_button back_button_up move-left-back-buton"><img src="/assets/images/white_arrow_left.png" width="8" ;="" alt="left_arrow"><span>Back</span></a>
+                    <a href="javascript:;" class="add_to_favourites _restaurant responsive_fav">Add to favourites</a>
+                </div>
+
+                <partial name="_HiddenPartialView">
+
+                    <div class="left_container">
+                        <div class="upper_restaurant_view">
+
+                            <div class="restaurant_basic_info bootstro " data-bootstro-step="0" data-bootstro-placement="right" data-bootstro-prevbuttontext="Previos step" data-bootstro-content="Тук ще откриете основната информация и галерията.  Налична карта с опция за указания от Вашето местоположение. По-долу ще откриете повече информация за обекта, коментари и потребителски оценки." data-bootstro-nextbuttontext="Next step" data-bootstro-finishbuttontext="" data-bootstro-width="600px">
+
+                                <div class="upper ">
+                                    <img src="@Model.LogoImages.FirstOrDefault().RemoteImageUrl" class="restaurant_logo" alt="Logo">
+                                    <a href="javascript:;" class="add_to_favourites _restaurant desktop_fav">Add to favourites</a>
+                                    <a href="javascript:;" class="remove_from_favourites">Remove from favourites</a>
+
+                                    <div class="upper_right_part">
+                                        <h1>@Model.Name</h1>
+                                        <span>@Model.Address.Street <i style="font-style: normal;">@Model.Address.City</i> </span>
+                                        <span class="from-me" style="display:none;font-weight:bold"></span>
+                                        <div class="rating_hold">
+                                            <div class="rating">
+                                                <div class="rating_mask rating_mask_white" alt="rating mask" style="width:85px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="middle">
+                                    <span class="food_type">
+                                        <b>Cuisine: </b>@string.Join(", ", Model.Cuisines.Select(x => x.Name).ToList())
+                                    </span>
+                                    @if (Model.MusicTypes != null)
+                                    {
+                                        <span class="music_type">
+                                            <b>Music: </b>@string.Join(", ", Model.MusicTypes.Select(x => x.Name).ToList())
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="music_type">
+                                            <b>Music: </b> No information
+                                        </span>
+                                    }
+                                    <span class="neibhourhood"><b>Location: </b>:&nbsp;Malinova Dolina</span>
+                                    <span class="price"><b>Average bill: </b>:&nbsp;From 20 lv. to 30 lv. / person</span>
+                                    <i style="font-size:11px;">(the prices are examplary)</i>
+                                    @*TODO Add Neibourhood and Average Bill in MVC*@
+                                    @*<span class="neibhourhood"><b>Location</b>:&nbsp;Malinova Dolina</span>*@
+                                    @*<span class="price"><b>Average bill</b>:&nbsp;From 20 lv. to 30 lv. / person</span>
+                                        <i style="font-size:11px;">(the prices are examplary)</i>*@
+                                </div>
+
+                                <div class="last_comment">
+                                    <h2>Last comment</h2>
+                                    <div class="rating_hold">
+                                        @string.Join(" ", lastComment.Author.FirstName, lastComment.Author.LastName)
+                                        <div class="rating">
+                                            <div class="rating_mask rating_mask_white" alt="rating mask" style="width:100px;"></div>
+                                        </div>
+                                    </div>
+                                    <span class="comment">
+                                        @lastComment.SanitizedPostDescription
+                                    </span>
+                                    <a href="javascript:;" name="see_more_comment" class="see_more_comment">See more</a>
+                                </div>
+                            </div>
+
+                            <div class="restaurant_slideshow_holder restaurant_slideshow_holder_up">
+                                <div class="restaurant_slideshow owl-carousel owl-theme" style="opacity: 1; display:block;">
+                                    <div class="owl-wrapper-outer">
+                                        <div class="owl-wrapper" style="width: 3448px; left: 0px; display: block; transition: all 400ms ease 0s; transform: translate3d(-1293px, 0px, 0px);">
+                                            @foreach (var img in Model.Images)
+                                            {
+                                                <div class="owl-item" style="width: 431px;">
+                                                    <div class="big_image">
+                                                        <img src="@img.RemoteImageUrl" alt="">
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="owl-controls clickable">
+                                        <div class="owl-pagination">
+                                            @foreach (var img in Model.Images)
+                                            {
+                                                <div class="owl-page">
+                                                    <span class="red_border"></span>
+                                                    <img src="@img.RemoteImageUrl" alt="image thumb" width="101px">
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <partial name="_PlaceLocationPartialView" />
+
+                        <div class="bottom_restaurant_view">
+                            <div class="left_part">
+                                <h2>About "@Model.Name"</h2>
+                                <div class="upper">@Model.SanitizedDescription</div>
+                                
+                                <div class="bottom">
+                                    <div class="links">
+                                        <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
+                                    </div>
+                                    <div class="additional_info">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="left">Additional options:</td>
+                                                    <td>
+                                                        @string.Join(", ", Model.Amentities.Select(x => x.Name).ToList())
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="left">Types of payment:</td>
+                                                    <td>
+                                                        @string.Join(", ", Model.PaymentTypes.Select(x => x.Name).ToList())
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="left">Working Time:</td>
+                                                    <td class="toogle_worktime">
+                                                        <div class="time">
+                                                            @Model.WorkTime.OpenTime : @Model.WorkTime.CloseTime
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <partial name="_PlaceCommentsPartialView" />
+                    </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

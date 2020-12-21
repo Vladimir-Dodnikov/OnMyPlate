@@ -10,7 +10,8 @@
     using OnMyPlate.Data.Common.Repositories;
     using OnMyPlate.Data.Models;
     using OnMyPlate.Data.Models.Places;
-    using OnMyPlate.Web.ViewModels.PlacesViewModel;
+    using OnMyPlate.Services.Mapping;
+    using OnMyPlate.Web.ViewModels.Places;
 
     public class PlacesService : IPlacesService
     {
@@ -244,6 +245,30 @@
             }
 
             await this.musicRepository.SaveChangesAsync();
+        }
+
+        public T GetById<T>(int id)
+        {
+            var place = this.placesRepository.AllAsNoTracking()
+               .Where(x => x.Id == id)
+               .To<T>().FirstOrDefault();
+
+            return place;
+        }
+
+        public IEnumerable<T> GetPopular<T>()
+        {
+            var places = this.placesRepository.AllAsNoTracking()
+                .OrderByDescending(x => x.Likes)
+                .Take(8)
+                .To<T>().ToList();
+            return places;
+        }
+
+        public IEnumerable<T> GetAll<T>()
+        {
+            var places = this.placesRepository.AllAsNoTracking().To<T>().ToList();
+            return places;
         }
     }
 }
