@@ -20,7 +20,7 @@
 
             JsonSerializer serializer = new JsonSerializer();
             var posts = new List<Post>();
-            using (FileStream s = File.Open(@"Posts.json", FileMode.Open))
+            using (FileStream s = File.Open(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Posts.json", FileMode.Open))
             using (StreamReader sr = new StreamReader(s))
             using (JsonReader reader = new JsonTextReader(sr))
             {

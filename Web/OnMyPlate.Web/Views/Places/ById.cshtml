@@ -11,12 +11,9 @@
             @*Second Navigation Bar*@
             <div class="container no-padding" style="position: relative;">
                 <div class="inner_page_btn_wrapper view_restaurant">
-                    <a href="javascript:;" class="back_button back_button_up move-left-back-buton"><img src="/assets/images/white_arrow_left.png" width="8" ;="" alt="left_arrow"><span>Back</span></a>
-                    <a href="javascript:;" class="add_to_favourites _restaurant responsive_fav">Add to favourites</a>
+                    <a href="/Home/Index" class="back_button back_button_up move-left-back-buton"><img src="/assets/images/white_arrow_left.png" width="8" ;="" alt="left_arrow"><span>Back</span></a>
+                    <a href="javascript:;" class="add_to_favourites _restaurant responsive_fav">Like this Place</a>
                 </div>
-
-                <partial name="_HiddenPartialView">
-
                     <div class="left_container">
                         <div class="upper_restaurant_view">
 
@@ -79,11 +76,11 @@
                                     <a href="javascript:;" name="see_more_comment" class="see_more_comment">See more</a>
                                 </div>
                             </div>
-
                             <div class="restaurant_slideshow_holder restaurant_slideshow_holder_up">
                                 <div class="restaurant_slideshow owl-carousel owl-theme" style="opacity: 1; display:block;">
+
                                     <div class="owl-wrapper-outer">
-                                        <div class="owl-wrapper" style="width: 3448px; left: 0px; display: block; transition: all 400ms ease 0s; transform: translate3d(-1293px, 0px, 0px);">
+                                        <div class="owl-wrapper" style="width: 3448px; left: 0px; display: block;">
                                             @foreach (var img in Model.Images)
                                             {
                                                 <div class="owl-item" style="width: 431px;">
@@ -94,14 +91,25 @@
                                             }
                                         </div>
                                     </div>
+
                                     <div class="owl-controls clickable">
                                         <div class="owl-pagination">
                                             @foreach (var img in Model.Images)
                                             {
-                                                <div class="owl-page">
-                                                    <span class="red_border"></span>
-                                                    <img src="@img.RemoteImageUrl" alt="image thumb" width="101px">
-                                                </div>
+                                                @if (Model.Images.Last() == img)
+                                                {
+                                                    <div class="owl-page last">
+                                                        <span class="red_border"></span>
+                                                        <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="owl-page">
+                                                        <span class="red_border"></span>
+                                                        <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
+                                                    </div>
+                                                }
                                             }
                                         </div>
                                     </div>
@@ -110,51 +118,11 @@
                             <div class="clear"></div>
                         </div>
 
-                        <partial name="_PlaceLocationPartialView" />
+                        <partial name="_PlaceLocationPartial" />
 
-                        <div class="bottom_restaurant_view">
-                            <div class="left_part">
-                                <h2>About "@Model.Name"</h2>
-                                <div class="upper">@Model.SanitizedDescription</div>
-                                
-                                <div class="bottom">
-                                    <div class="links">
-                                        <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
-                                    </div>
-                                    <div class="additional_info">
-                                        <table>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="left">Additional options:</td>
-                                                    <td>
-                                                        @string.Join(", ", Model.Amentities.Select(x => x.Name).ToList())
-                                                    </td>
-                                                </tr>
+                        <partial name="_AboutPlacePartial" />
 
-                                                <tr>
-                                                    <td class="left">Types of payment:</td>
-                                                    <td>
-                                                        @string.Join(", ", Model.PaymentTypes.Select(x => x.Name).ToList())
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="left">Working Time:</td>
-                                                    <td class="toogle_worktime">
-                                                        <div class="time">
-                                                            @Model.WorkTime.OpenTime : @Model.WorkTime.CloseTime
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-
-                        <partial name="_PlaceCommentsPartialView" />
+                        <partial name="_PlaceCommentsPartial" />
                     </div>
             </div>
         </div>

@@ -20,7 +20,7 @@
             }
 
             var users = new List<ApplicationUser>();
-            using (StreamReader r = new StreamReader(@"Users1.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Users1.json"))
             {
                 string json = r.ReadToEnd();
                 users = JsonConvert.DeserializeObject<List<ApplicationUser>>(json);
@@ -31,7 +31,7 @@
                 await dbContext.Users.AddAsync(user);
             }
 
-            using (StreamReader r = new StreamReader(@"Users2.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Users2.json"))
             {
                 string json = r.ReadToEnd();
                 users = JsonConvert.DeserializeObject<List<ApplicationUser>>(json);
@@ -42,7 +42,7 @@
                 await dbContext.Users.AddAsync(user);
             }
 
-            using (StreamReader r = new StreamReader(@"Users3.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Users3.json"))
             {
                 string json = r.ReadToEnd();
                 users = JsonConvert.DeserializeObject<List<ApplicationUser>>(json);

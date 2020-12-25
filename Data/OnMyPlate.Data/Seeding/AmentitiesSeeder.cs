@@ -19,7 +19,7 @@
             }
 
             var amentities = new List<Amentity>();
-            using (StreamReader r = new StreamReader(@"Amentities.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Amentities.json"))
             {
                 string json = r.ReadToEnd();
                 amentities = JsonConvert.DeserializeObject<List<Amentity>>(json);

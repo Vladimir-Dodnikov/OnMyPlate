@@ -1,96 +1,100 @@
 ﻿@model OnMyPlate.Web.ViewModels.Places.PlacesInListViewModel
 @{
-    this.ViewData["Title"] = "Show All Places";
+    this.ViewData["Title"] = "Show All Places, page " + Model.PageNumber;
+    var i = 1;
 }
 
 @if (this.TempData.ContainsKey("Message"))
 {
     <div class="alert alert-success">@this.TempData["Message"]</div>
 }
-<div class="search__bar__navigation">
-    <div class="sub_tabs">
-        <a href="Places/Popular" data-subtabhash="popular" class="subtablinks popular active">popular</a>
-        <a href="javascript:;" data-subtabhash="new" class="subtablinks new">newest</a>
-        <a href="javascript:;" data-subtabhash="biggest-promo" class="subtablinks biggest_promo">highest discounts</a>
-        <a href="javascript:;" data-subtabhash="quick-res" class="subtablinks quick_res">quick reservations</a>
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12 restaurant_info_">
-        <div class="loader_wrapper" id="preloader_search" style="display: none;">
-            <div class="loader__inner">
-                <div class="loader">
-                    <div class="rect1"></div>
-                    <div class="rect2"></div>
-                    <div class="rect3"></div>
-                    <div class="rect4"></div>
-                    <div class="rect5"></div>
+<div class="middle middle_search">
+    <img src="/assets/images/slide_upper_border.png" class="header_bottom_border" alt="header bottom border">
+    <div class="content_wrapper">
+        <div class="container no-padding container__fix text__altered" style="margin-top:30px;">
+            <div class="main-container preloader__minH">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 restaurant_info_">
+                        <div class="loader_wrapper" id="preloader_search" style="display: none;">
+                            <div class="loader__inner">
+                                <div class="loader">
+                                    <div class="rect1"></div>
+                                    <div class="rect2"></div>
+                                    <div class="rect3"></div>
+                                    <div class="rect4"></div>
+                                    <div class="rect5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-wrapper">
+                            @foreach (var place in Model.Places)
+                            {
+                                <div class="rest-new" data-bootstro-content="When you choose a restaurant from the list, you can click on it and you will be redirected to its page where you can make your reservation. <button class='btn btn-primary btn-mini bootstro_end'>End Tutorial</button>" data-bootstro-nextbuttontext="Next step" data-bootstro-prevbuttontext="Previos step" data-bootstro-finishbuttontext="I got it! Close it!" data-bootstro-width="500px">
+                                    <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="nav-link restaurant-more search_restaurant_more">
+                                    </a>
+                                    <div class="rest__inner">
+                                        <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
+                                            <div class="features" data-key="@i"></div>
+
+                                            <header class="rest__head">
+                                                <h3 class="rest__title">@place.Name</h3>
+                                            </header><!-- /.rest__head -->
+
+                                            <figure class="rest__image">
+                                                <img class="rest__image" src="@place.Images.FirstOrDefault().RemoteImageUrl" alt="restaurant-image" />
+
+                                                @*<div class="rest__image__exclusive">
+                                                    <img class="rest__image_blur" src="/assets/images/exclusive.png" alt="exclusive">
+                                                </div>*@<!-- /.rest__image__exclusive -->
+                                                <div class="rest__discount">
+                                                    <div class="rest__discount__halfcircle no_tables">
+                                                        <div class="promo_text">
+                                                            <span class="promo_normal_text">no tables</span>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.rest__discount -->
+                                            </figure><!-- /.rest__image -->
+
+                                        </a>
+                                        <div class="rest__content">
+                                            <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
+                                            </a>
+                                            <div class="rest__info">
+                                                <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
+                                                    <div class="rest__rating">
+                                                        <div class="rating">
+                                                            <div class="rating_mask rating_mask_white" alt="rating mask" style="width:90px;"></div>
+                                                        </div>
+                                                    </div><!-- /.rest__rating -->
+
+                                                    <div class="address">
+                                                        <span class="food_type">
+                                                            <b>Food: </b>@place.Cuisines.Select(x => x.Name).FirstOrDefault()
+                                                        </span>
+                                                        <span class="neighbourhood"><b>Location: </b>@place.Address.City</span>
+                                                        @if (place.MusicTypes.Any(x=>x.Name != string.Empty))
+                                                        {
+                                                            <span class="music_type">
+                                                                <b>Music: </b> @place.MusicTypes.Select(x => x.Name).FirstOrDefault()
+                                                            </span>
+                                                        }
+                                                    </div>
+                                                </a>
+                                            </div><!-- /.rest__info -->
+                                        </div><!-- /.rest__content -->
+                                    </div><!-- /.rest__inner -->
+                                </div>
+                                i++;
+                            }
+                        </div>
+                        <div id="map_canvas"></div>
+                    </div>
                 </div>
+                <div id="loader"></div>
+                <div class="clear"></div>
             </div>
         </div>
-        <div class="restaurant-wrapper">
-            @foreach (var place in Model.Places)
-            {
-                <div class="rest-new" data-bootstro-content="When you choose a restaurant from the list, you can click on it and you will be redirected to its page where you can make your reservation. <button class='btn btn-primary btn-mini bootstro_end'>End Tutorial</button>" data-bootstro-nextbuttontext="Next step" data-bootstro-prevbuttontext="Previos step" data-bootstro-finishbuttontext="I got it! Close it!" data-bootstro-width="500px">
-
-                    <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
-                    </a>
-                    <div class="rest__inner">
-                        <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
-                            <div class="features" data-key="13"></div>
-
-                            <header class="rest__head">
-                                <h3 class="rest__title">@place.Name</h3>
-                            </header><!-- /.rest__head -->
-
-                            <figure class="rest__image">
-                                <img class="" src="@place.LogoImages.FirstOrDefault().RemoteImageUrl" alt="restaurant-image" />
-
-                                <div class="rest__image__exclusive">
-                                </div><!-- /.rest__image__exclusive -->
-
-                                <div class="rest__discount">
-                                    <div class="rest__discount__halfcircle no_tables">
-                                        <div class="promo_text">
-                                            <span class="promo_normal_text">no tables</span>
-                                        </div>
-                                    </div>
-                                </div><!-- /.rest__discount -->
-                            </figure><!-- /.rest__image -->
-
-                        </a>
-                        <div class="rest__content">
-                            <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
-                            </a>
-                            <div class="rest__info">
-                                <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
-                                    <div class="rest__rating">
-                                        <div class="rating">
-                                            <div class="rating_mask rating_mask_white" alt="rating mask" style="width:90px;"></div>
-                                        </div>
-                                    </div><!-- /.rest__rating -->
-
-                                    <div class="address">
-                                        <span class="food_type">
-                                            @foreach (var food in place.Cuisines)
-                                            {<small>@food</small>}
-                                        </span>
-                                        <span class="neighbourhood">@place.Address.City</span>
-                                        @if (place.MusicTypes != null)
-                                        {
-                                            <span class="music_type">
-                                                <b>Music</b>@foreach (var music in place.MusicTypes)
-                                                {<small>@music</small>}
-                                            </span>
-                                        }
-                                    </div>
-                                </a>
-                            </div><!-- /.rest__info -->
-                        </div><!-- /.rest__content -->
-                    </div><!-- /.rest__inner -->
-                </div>
-            }
-        </div>
     </div>
 </div>
+<partial name="_PagingPartial" model="@Model" />

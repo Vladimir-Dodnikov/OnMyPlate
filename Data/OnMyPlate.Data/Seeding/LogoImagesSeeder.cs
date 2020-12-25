@@ -19,7 +19,7 @@
             }
 
             var logoImages = new List<LogoImage>();
-            using (StreamReader r = new StreamReader(@"LogoImages.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\LogoImages.json"))
             {
                 string json = r.ReadToEnd();
                 logoImages = JsonConvert.DeserializeObject<List<LogoImage>>(json);

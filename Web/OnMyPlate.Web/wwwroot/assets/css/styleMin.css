@@ -23750,6 +23750,17 @@ video.lazy-hidden {
     font-size: 16px
 }
 
+.subtablink {
+    width: 24%;
+    float: left;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-color: #626262;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
 .choose_voucher_type_button,
 .home_tabs .tablinks {
     background-color: #f3f3f3;
@@ -23938,7 +23949,7 @@ video.lazy-hidden {
 }
 
 .subtablinks.popular {
-    background-image: url(/assets/images/icons_offers/7_2.png)
+    background-image: url(/assets/images/icons_offers/7_1.png)
 }
 
 .subtablinks.popular.active,
@@ -23965,7 +23976,7 @@ video.lazy-hidden {
 }
 
 .subtablinks.quick_res {
-    background-image: url(/assets/images/clock_gray_new.png);
+    background-image: url(/assets/images/clock_white_new.png);
     justify-content: flex-end;
     padding-right: 20px
 }

@@ -20,7 +20,7 @@
             }
 
             var workTimes = new List<WorkTime>();
-            using (StreamReader r = new StreamReader(@"WorkTimes.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\WorkTimes.json"))
             {
                 string json = r.ReadToEnd();
                 workTimes = JsonConvert.DeserializeObject<List<WorkTime>>(json);

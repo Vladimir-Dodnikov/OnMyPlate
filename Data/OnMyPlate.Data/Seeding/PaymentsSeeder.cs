@@ -19,7 +19,7 @@
             }
 
             var payments = new List<Payment>();
-            using (StreamReader r = new StreamReader(@"Payments.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Payments.json"))
             {
                 string json = r.ReadToEnd();
                 payments = JsonConvert.DeserializeObject<List<Payment>>(json);

@@ -1,12 +1,14 @@
 ﻿namespace OnMyPlate.Web.Controllers
 {
     using System;
+    using System.Linq;
     using System.Security.Claims;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc;
+    using OnMyPlate.Common;
     using OnMyPlate.Services.Data;
     using OnMyPlate.Web.ViewModels.Places;
 
@@ -87,20 +89,57 @@
             return this.Redirect("/");
         }
 
-        public IActionResult Popular()
+        public IActionResult Newest(int id = 1)
         {
-            var viewModel = new PlacesInListViewModel
+            if (id <= 0)
             {
-                Places = this.placesService.GetPopular<PlaceViewModel>(),
+                return this.NotFound();
+            }
+
+            var viewModel = new PlacesInListViewModel()
+            {
+                ItemsPerPage = GlobalConstants.ItemsPerPage,
+                PageNumber = id,
+                PlacesCount = this.placesService.GetCount(),
+                Places = this.placesService.GetAll<PlaceViewModel>(id, GlobalConstants.ItemsPerPage)
+                .OrderByDescending(x => x.CreatedByUserId)
+                .Where(x => x.LogoImages.FirstOrDefault() != null),
             };
-            return this.View(viewModel);
+            return this.View("All", viewModel);
         }
 
-        public IActionResult All()
+        public IActionResult Popular(int id = 1)
         {
+            if (id <= 0)
+            {
+                return this.NotFound();
+            }
+
+            var viewModel = new PlacesInListViewModel()
+            {
+                ItemsPerPage = GlobalConstants.ItemsPerPage,
+                PageNumber = id,
+                PlacesCount = this.placesService.GetCount(),
+                Places = this.placesService.GetAll<PlaceViewModel>(id, GlobalConstants.ItemsPerPage)
+                .OrderByDescending(x => x.Likes),
+            };
+
+            return this.View("All", viewModel);
+        }
+
+        public IActionResult All(int id = 1)
+        {
+            if (id <= 0)
+            {
+                return this.NotFound();
+            }
+
             var viewModel = new PlacesInListViewModel
             {
-                Places = this.placesService.GetAll<PlaceViewModel>(),
+                ItemsPerPage = GlobalConstants.ItemsPerPage,
+                PageNumber = id,
+                PlacesCount = this.placesService.GetCount(),
+                Places = this.placesService.GetAll<PlaceViewModel>(id, GlobalConstants.ItemsPerPage),
             };
             return this.View(viewModel);
         }

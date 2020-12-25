@@ -137,7 +137,7 @@
             {
                 PlaceId = place.Id,
                 Extension = extensionLogoImage,
-                RemoteImageUrl = logoImage.FileName,
+                RemoteImageUrl = Path.GetFullPath(logoImage.ToString()),
                 AddedByUserId = userId,
             };
 
@@ -256,18 +256,34 @@
             return place;
         }
 
-        public IEnumerable<T> GetPopular<T>()
+        public int GetCount()
+        {
+            return this.placesRepository.All().Count();
+        }
+
+        public IEnumerable<T> GetRandom<T>(int count)
+        {
+            return this.placesRepository.All()
+                .OrderBy(x => Guid.NewGuid())
+                .Take(count)
+                .To<T>().ToList();
+        }
+
+        public IEnumerable<T> GetAllPopular<T>()
         {
             var places = this.placesRepository.AllAsNoTracking()
                 .OrderByDescending(x => x.Likes)
-                .Take(8)
                 .To<T>().ToList();
             return places;
         }
 
-        public IEnumerable<T> GetAll<T>()
+        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 12)
         {
-            var places = this.placesRepository.AllAsNoTracking().To<T>().ToList();
+            var places = this.placesRepository.AllAsNoTracking()
+                .Where(x => x.LogoImages.FirstOrDefault() != null)
+                .OrderByDescending(x => x.Id)
+                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
+                .To<T>().ToList();
             return places;
         }
     }

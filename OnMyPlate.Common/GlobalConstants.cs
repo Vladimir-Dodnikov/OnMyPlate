@@ -6,6 +6,8 @@
 
         public const string AdministratorRoleName = "Administrator";
 
+        public const int ItemsPerPage = 10;
+
         public const int AmentityMaxLength = 100;
 
         public const int CuisineMaxLength = 40;

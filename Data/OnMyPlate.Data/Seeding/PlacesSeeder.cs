@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Data.OleDb;
     using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
@@ -19,19 +20,19 @@
                 return;
             }
 
-            var places = new List<Place>();
-            using (StreamReader r = new StreamReader(@"Places.json"))
+            string sqlConnectionString = @"Server=.;Database=OnMyPlate;Trusted_Connection=yes;MultipleActiveResultSets=true;Provider=SQLNCLI11.0";
+
+            string script = "";
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\CreateOnMyPlateDB.txt"))
             {
-                string json = r.ReadToEnd();
-                places = JsonConvert.DeserializeObject<List<Place>>(json);
+                script = r.ReadToEnd();
             }
 
-            foreach (var place in places)
-            {
-                await dbContext.Places.AddAsync(place);
-            }
-
-            await dbContext.SaveChangesAsync();
+            OleDbConnection connection = new OleDbConnection(sqlConnectionString);
+            connection.Open();
+            OleDbCommand sqlCommand = new OleDbCommand(script, connection);
+            sqlCommand.CommandTimeout = 10800;
+            sqlCommand.ExecuteNonQuery();
         }
     }
 }

@@ -5,17 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@this.ViewData["Title"] - @GlobalConstants.SystemName</title>
-    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
-    <link href="~/css/site.min.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+
     <link href="~/assets/css/offer.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/assets/css/styleMin.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/venues/style.css" rel="stylesheet" type="text/css" asp-append-version="true">
+    <link href="~/assets/css/offer.css?rev=2373" rel="stylesheet" type="text/css" asp-append-version="true">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/font-awesome/fonts/fontawesome-webfont.woff2" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/fonts/OpenSans-CondLight-webfont.woff" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/fonts/opensans-light-webfont.woff" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/fonts/open_sans-webfont.woff" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/fonts/Roboto-Regular-webfont.woff" rel="stylesheet" asp-append-version="true" />
-    <link href="~/assets/fonts/RobotoCondensed-Regular-webfont.woff2" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
     <div class="loader_wrapper" id="preloader" style="display:none;">
@@ -31,58 +29,71 @@
     </div>
     <div id="mask"></div>
     <div id="mask2"></div>
-    <header>
-        <nav class="header navbar navbar-expand-sm navbar-light bg-danger border-bottom box-shadow mb-3">
-            <div class="container header_container ">
-                <div>
-                    <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">
-                        <img src="~/assets/images/OnMyPlate-Logo.png" class="header__logo__item" />
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-header d-sm-inline-flex flex-sm-row-reverse header__container__inner">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav mr-auto flex-grow-1 text-uppercase choose_city_and_restaurants">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        @if (User.Identity.IsAuthenticated)
-                        {
+    <div class="upper upper_redesign">
+        <header>
+            <nav class="header navbar navbar-expand-sm navbar-light bg-danger border-bottom box-shadow mb-3">
+                <div class="container header_container ">
+                    <div>
+                        <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">
+                            <img src="~/assets/images/OnMyPlate-Logo.png" style="width:65px;height:65px;" />
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-header d-sm-inline-flex flex-sm-row-reverse header__container__inner">
+                        <partial name="_LoginPartial" />
+                        <ul class="navbar-nav mr-auto flex-grow-1 text-uppercase choose_city_and_restaurants">
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="Create">Create Place</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
-                        }
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="All">All Places</a>
-                        </li>
-                    </ul>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="Create">Create Place</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Places" asp-action="All">All Places</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
+
+    <div class="search__bar__navigation">
+        <div class="sub_tabs">
+            <a href="/Places/Popular" data-subtabhash="popular" class="subtablink popular active">popular</a>
+            <a href="/Places/Newest" data-subtabhash="new" class="subtablink new">newest</a>
+            <a href="javascript:;" data-subtabhash="biggest-promo" class=" subtablink biggest_promo">highest discounts</a>
+            <a href="javascript:;" data-subtabhash="quick-res" class="subtablink quick_res">quick reservations</a>
+        </div>
+    </div>
 
     <partial name="_CookieConsentPartial" />
 
     @this.RenderBody()
 
-    <partial name="_FooterPartialView" />
+    <partial name="_FooterPartial" />
 
     <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" asp-append-version="true"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="~/js/site.min.js" asp-append-version="true"></script>
-    <script src="~/assets/js/dist/jsMin.js" asp-append-version="true"></script>
-    <script src="~/assets/js/locale/en.js" asp-append-version="true"></script>
+
     <script src="~/assets/js/jquery-1.8.3.min.js" asp-append-version="true"></script>
     <script src="~/assets/js/jquery.ba-bbq.min.js" asp-append-version="true"></script>
     <script src="~/assets/js/jquery.cookie.js" asp-append-version="true"></script>
-    <script src="~/assets/js/jquery.validationEngine-en.js" asp-append-version="true"></script>
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" asp-append-version="true"></script>
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/dist/jsMin.js" asp-append-version="true"></script>
+    <script src="~/assets/js/locale/en.js" asp-append-version="true"></script>
     <script src="~/assets/js/home.js" asp-append-version="true"></script>
+    @*<script src="~/assets/js/jquery.validationEngine-en.js" asp-append-version="true"></script>*@
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.3/js/bootstrap-select.min.js"></script>
+    <script src="~/js/site.js"></script>
     @await this.RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

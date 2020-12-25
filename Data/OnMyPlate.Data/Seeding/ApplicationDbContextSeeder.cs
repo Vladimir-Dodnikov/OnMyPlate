@@ -27,16 +27,16 @@
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
-                              new AspNetUsersSeeder(),
+                              //new AspNetUsersSeeder(),
                               new PlacesSeeder(),
-                              new AddressesSeeder(),
-                              new AmentitiesSeeder(),
-                              new CuisinesSeeder(),
-                              new ImagesSeeder(),
-                              new LocationsSeeder(),
-                              new PaymentsSeeder(),
-                              new PostsSeeder(),
-                              new WorkTimesSeeder(),
+                              //new AddressesSeeder(),
+                              //new AmentitiesSeeder(),
+                              //new CuisinesSeeder(),
+                              //new ImagesSeeder(),
+                              //new LocationsSeeder(),
+                              //new PaymentsSeeder(),
+                              //new PostsSeeder(),
+                              //new WorkTimesSeeder(),
                           };
 
             foreach (var seeder in seeders)

@@ -20,7 +20,7 @@
             }
 
             var cuisines = new List<Cuisine>();
-            using (StreamReader r = new StreamReader(@"Cuisines.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Cuisines.json"))
             {
                 string json = r.ReadToEnd();
                 cuisines = JsonConvert.DeserializeObject<List<Cuisine>>(json);

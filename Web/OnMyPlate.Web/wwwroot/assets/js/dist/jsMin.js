@@ -104,6 +104,7 @@
         afterPrint: null
     }
 }(jQuery);
+
 ! function(e) {
     if (!e.hasInitialised) {
         var t = {
@@ -664,6 +665,7 @@
         }, e.utils = t, e.hasInitialised = !0, window.cookieconsent = e
     }
 }(window.cookieconsent || {});
+
 ! function(e, a, t) {
     var l, r, o = "placeholder" in a.createElement("input"),
         d = "placeholder" in a.createElement("textarea"),
@@ -744,6 +746,7 @@
         })
     }))
 }(this, document, jQuery);
+
 (function() {
     var t, i, e;
     t = jQuery, e = function() {
@@ -845,6 +848,7 @@
         return t = new e, new i(t)
     })
 }).call(this);
+
 ! function(e) {
     "use strict";
     var t = {
@@ -1630,6 +1634,7 @@
         e.validationEngine.defaults.promptPosition = t.isRTL() ? "topLeft" : "topRight"
     })
 }(jQuery);
+
 ! function(e, t, o, n) {
     var a = "lazyLoadXT",
         r = "lazied",
@@ -1775,6 +1780,7 @@ function(e) {
         }), i && this.load()
     })
 }(window.jQuery || window.Zepto || window.$);
+
 window.onerror = function(t, e, a) {}, window.console && console.log || (console = {
     log: function() {},
     debug: function() {},
@@ -1782,6 +1788,7 @@ window.onerror = function(t, e, a) {}, window.console && console.log || (console
     warn: function() {},
     error: function() {}
 }), window.onload = function() {};
+
 var onImgLoad = function(t, e) {
     $(t).each(function() {
         this.complete || $(this).height() > 0 ? e.apply(this) : $(this).on("load", function() {
@@ -1924,10 +1931,13 @@ function openLoginPop() {
 function moveNonFixedPopup() {
     centerPopup($(document).scrollTop() + $(window).height() / 2 - $(".window").outerHeight() / 2)
 }
+
 $(document).keypress(function(t) {
     t.keyCode ? t.keyCode : t.which;
     $("#login_dialog").is(":visible")
-}), $(document).ready(function() {
+}), 
+
+$(document).ready(function() {
     $(window).width();
     $("html").hasClass("no-fixed") && moveNonFixedPopup();
 
@@ -2022,9 +2032,12 @@ $(document).keypress(function(t) {
     });
     var e = document.getElementById("header_video");
     e && e.play()
-}), $(window).scroll(function() {
+}), 
+
+$(window).scroll(function() {
     $("html").hasClass("no-fixed") && (setTimeout(function() {}, 1e3), moveNonFixedPopup())
 });
+
 var windowWidth = $(window).width();
 
 function openPreloader() {
@@ -2111,11 +2124,13 @@ function removeNewlines(t) {
 function alignDivsHeight(t, e) {
     $(window).width() > 500 ? (rightbox_height = e.height(), t.css("height", rightbox_height + "px")) : t.css("height", "310px")
 }
+
 $(window).resize(function() {
     $(window).width() != windowWidth && (windowWidth = $(window).width(), centerPopup()), $(".restaurant_box").each(function() {
         leftbox = $(this).find(".restaurant_outer .left_part"), rightbox = $(this).find(".restaurant_outer .right_part"), rightbox.height() > 399 && alignDivsHeight(leftbox, rightbox)
     }), scrollOrNot()
-}), $(".filter-restaurant a").bind("click touchstart", function() {
+}), 
+$(".filter-restaurant a").bind("click touchstart", function() {
     if (!$(this).hasClass("unactive") && ($(this).hasClass("popular_restaurants") && changeSRC(), 1 != $(this).hasClass("active"))) {
         var t = $(this).attr("class").split(" ");
         $(".filter-restaurant a").each(function() {
@@ -2126,44 +2141,58 @@ $(window).resize(function() {
         var e = $(".down-restaurant-holder ." + t[0] + " .owl-item").length;
         0 == e && $(".down-restaurant-holder .logo-empty").attr("class", "logo-empty big-quarter"), 1 == e && $(".down-restaurant-holder .logo-empty").attr("class", "logo-empty three-quarters"), 2 == e && $(".down-restaurant-holder .logo-empty").attr("class", "logo-empty two-quarters"), 3 == e && $(".down-restaurant-holder .logo-empty").attr("class", "logo-empty quarter"), e > 3 && $(".down-restaurant-holder .logo-empty").attr("class", "logo-empty hidden-quarter"), $(".down-restaurant-holder ." + t).fadeIn(350)
     }
-}), $(document).on("click", ".close_notification_bar", function() {
-    $(".notification_bar").slideUp(), $(".header").css("paddingTop", "7px")
-}), $(document).on("change", "#select_language", function() {
+}), 
+$(document).on("click", ".close_notification_bar", function() {
+    $(".notification_bar").slideUp(), 
+    $(".header").css("paddingTop", "7px")
+}), 
+$(document).on("change", "#select_language", function() {
     var t = this.value;
     window.location.href = "bg" == t ? "/" : "/" + t
-}), $(".filter_head").click(function(t) {
+}), 
+$(".filter_head").click(function(t) {
     if (!$(this).hasClass("clear-filter")) {
         var e = $(this).find("img.filter_head_arrow").attr("src");
         e = "/assets/images/white_arrow_down.png" == e ? "/assets/images/white_arrow_up.png" : "/assets/images/white_arrow_down.png", $(this).find("img.filter_head_arrow").attr("src", e), $(this).next(".filter_body").slideToggle(600), $(this).next(".filter_wrapper").slideToggle(600)
     }
-}), $(document).click(function() {
+}), 
+$(document).click(function() {
     $(".day_popup button.back").trigger("click")
-}), $(document).on("click", ".day_popup", function(t) {
+}), 
+$(document).on("click", ".day_popup", function(t) {
     t.stopPropagation()
-}), $(document).on("click", ".day_popup button.back", function(t) {
+}), 
+$(document).on("click", ".day_popup button.back", function(t) {
     t.stopPropagation(), $(".opened_day_box .day_box_small").each(function() {
         $(this).find(".day_popup").length && $(this).find(".day_popup").remove(), $(this).hasClass("expired") || $(this).hasClass("no-tables") || $(this).find("span.transparent_overlay").fadeOut(100)
     })
-}), $(".give_rating a").hover(function() {
+}), 
+$(".give_rating a").hover(function() {
     var t = /(iPad|iPhone|iPod)/g.test(navigator.userAgent),
         e = $(this).attr("id").split("_")[2],
         a = 0;
     1 == e ? a = 20 : 2 == e ? a = 40 : 3 == e ? a = 60 : 4 == e ? a = 80 : 5 == e && (a = 100), $(this).parent().hasClass("has_rating") || $(this).parent().find(".rating_mask").css("width", a + "px"), 1 == t && $(this).trigger("click")
 }, function() {
     $(this).parent().hasClass("has_rating") || $(this).parent().find(".rating_mask").css("width", "0px")
-}), $(".give_rating a").bind("click", function() {
+}), 
+$(".give_rating a").bind("click", function() {
     $(this).parent().parent().find(".change_rating").fadeIn();
     var t = $(this).attr("id").split("_")[2];
     $(this).parent().hasClass("has_rating") || ($(this).parent().parent().parent().find(".comment_rating").val(t), $(this).parent().addClass("has_rating"))
-}), $(".change_rating").bind("click", function() {
+}), 
+$(".change_rating").bind("click", function() {
     $(this).fadeOut(), $(this).parent().find(".rating_mask").css("width", "0px"), $(this).parent().find(".give_rating").removeClass("has_rating")
-}), $(".login_link").bind("click", function(t) {
+}),
+$(".login_link").bind("click", function(t) {
     window.popupScrollTop = $(window).scrollTop(), centerPopup(), t.preventDefault(), $("#mask").fadeTo(250, .56), $(".error_message").html(""), $("#login_dialog").fadeIn(250)
-}), $(".city_popup_link").bind("click", function(t) {
+}), 
+$(".city_popup_link").bind("click", function(t) {
     window.popupScrollTop = $(window).scrollTop(), centerPopup(), t.preventDefault(), $("#mask").fadeTo(250, .56), $("#city_popup").fadeIn(250)
-}), $(".forgotten_password_link").bind("click", function(t) {
+}), 
+$(".forgotten_password_link").bind("click", function(t) {
     window.popupScrollTop = $(window).scrollTop(), centerPopup(), t.preventDefault(), $("#mask").fadeTo(250, .56), $("#login_dialog").fadeOut(250), $(".error_message").html(""), $("#forgotten_popup").fadeIn(250)
-}), $(document).on("click", ".window .close-pop, .window .close-mail-collector", function(t) {
+}), 
+$(document).on("click", ".window .close-pop, .window .close-mail-collector", function(t) {
     t.preventDefault(), $("#mask").hide(), $.each($(".window"), function(t, e) {
         $(this).is(":visible") && $(this).fadeOut(250, function() {
             $("#common_msg").css({
@@ -2174,23 +2203,27 @@ $(window).resize(function() {
         "overflow-x:": "hidden",
         "overflow-y": "visible"
     }), $(window).scrollTop(window.popupScrollTop))
-}), $("#mask").click(function(t) {
+}), 
+$("#mask").click(function(t) {
     $(this).hide(), $.each($(".window"), function(t, e) {
         $(this).is(":visible") && $(this).fadeOut(1e3), $(this).hasClass("reload") && location.reload(!0)
     }), t.preventDefault()
-}), $(".open_textarea").click(function() {
+}), 
+$(".open_textarea").click(function() {
     var t = $(this).parent().parent().find(".left_part"),
         e = $(this).parent();
     $(this).fadeOut(200, function() {
         $(this).parent().find(".add_comment_holder").fadeIn(200), alignDivsHeight(t, e)
     })
-}), $(".add_comment_button").click(function() {
+}), 
+$(".add_comment_button").click(function() {
     var t = $(this).parent().parent().parent().find(".left_part"),
         e = $(this).parent().parent();
     $(this).parent().fadeOut(200, function() {
         $(this).parent().find("p.comment_message").fadeIn(200), alignDivsHeight(t, e)
     })
-}), $(".restaurant .more_button_holder a").hover(function() {
+}), 
+$(".restaurant .more_button_holder a").hover(function() {
     TweenLite.to($(this), .35, {
         paddingLeft: "10px",
         ease: Back.easeOut.config(2)
@@ -2200,7 +2233,8 @@ $(window).resize(function() {
         paddingLeft: "0px",
         ease: Back.easeOut.config(2)
     })
-}), isMobile2() || ($(".upper-restaurant-info h3.restaurant-heading").hover(function() {
+}), 
+isMobile2() || ($(".upper-restaurant-info h3.restaurant-heading").hover(function() {
     var t = $(this).parent().parent().find("a.restaurant-more");
     TweenLite.to(t, .35, {
         paddingLeft: "10px",
@@ -2212,10 +2246,12 @@ $(window).resize(function() {
         paddingLeft: "0px",
         ease: Back.easeOut.config(2)
     })
-}), $(".upper-restaurant-info h3.restaurant-heading").click(function() {
+}),
+$(".upper-restaurant-info h3.restaurant-heading").click(function() {
     var t = $(this).parent().parent().find("a.restaurant-more");
     $(".filter_body").length > 0 ? $(this).parent().parent().find("a.restaurant-more").click() : $(location).attr("href", t.attr("href"))
-}), $(".restaurant .restaurant-image, .restaurant .link-wrapper, .logo_box .link-wrapper").hover(function() {
+}), 
+$(".restaurant .restaurant-image, .restaurant .link-wrapper, .logo_box .link-wrapper").hover(function() {
     var t = $(this).parent().find("a.restaurant-more");
     TweenLite.to(t, .35, {
         paddingLeft: "10px",
@@ -2227,12 +2263,15 @@ $(window).resize(function() {
         paddingLeft: "0px",
         ease: Back.easeOut.config(2)
     })
-}), $(".restaurant .restaurant-image").click(function() {
+}), 
+$(".restaurant .restaurant-image").click(function() {
     var t = $(this).parent().find("a.restaurant-more");
     $(".filter_body").length > 0 ? $(this).parent().find("a.restaurant-more").click() : $(location).attr("href", t.attr("href"))
-})), $(".modal_popup_open").click(function() {
+})), 
+$(".modal_popup_open").click(function() {
     openModalDialog($(this).attr("data-header"), $(this).attr("data-message"), $(this).attr("data-button1-text"), $(this).attr("data-button1-function"), $(this).attr("data-button1-params"), $(this).attr("data-button2-text"), $(this).attr("data-button2-function"), $(this).attr("data-button2-params"))
 });
+
 ! function(e, a) {
     "object" == typeof exports && "undefined" != typeof module ? module.exports = a() : "function" == typeof define && define.amd ? define(a) : e.moment = a()
 }(this, function() {
@@ -2300,6 +2339,7 @@ $(window).resize(function() {
             weekdayMismatch: !1
         }), e._pf
     }
+
     var l = Array.prototype.some ? Array.prototype.some : function(e) {
         for (var a = Object(this), t = a.length >>> 0, s = 0; s < t; s++)
             if (s in a && e.call(this, a[s], s, a)) return !0;
@@ -2446,6 +2486,7 @@ $(window).resize(function() {
             n = a - s.length;
         return (e >= 0 ? t ? "+" : "" : "-") + Math.pow(10, Math.max(0, n)).toString().substr(1) + s
     }
+
     var N = /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,
         C = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,
         I = {},
@@ -2534,6 +2575,7 @@ $(window).resize(function() {
     function Ye(e, a, t) {
         null != a && i(he, e) && he[e](a, t._a, t, e)
     }
+
     var ye = 0,
         fe = 1,
         pe = 2,
@@ -2569,6 +2611,7 @@ $(window).resize(function() {
         var n = t._locale.monthsParse(e, s, t._strict);
         null != n ? a[fe] = n : u(t).invalidMonth = e
     });
+
     var be = /D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/,
         je = "January_February_March_April_May_June_July_August_September_October_November_December".split("_");
     var xe = "Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec".split("_");
@@ -17169,6 +17212,7 @@ var enabled_dates = [];
                 })
             },
             buildPagination: function() {
+                console.log("Mitko")
                 var i = this;
                 i.paginationWrapper = t('<div class="owl-pagination"/>'), i.owlControls.append(i.paginationWrapper), i.paginationWrapper.on("touchend.owlControls mouseup.owlControls", ".owl-page", function(s) {
                     s.preventDefault(), Number(t(this).data("owl-page")) !== i.currentItem && i.goTo(Number(t(this).data("owl-page")), !0)
@@ -17186,6 +17230,7 @@ var enabled_dates = [];
                 this.checkPagination()
             },
             checkPagination: function() {
+                console.log("Test Mitko");
                 var i = this;
                 if (!1 === i.options.pagination) return !1;
                 i.paginationWrapper.find(".owl-page").each(function() {
@@ -19798,7 +19843,7 @@ $(document).on("click", ".closeCollectPop", function() {
         method: "POST"
     }).appendTo(document.body).submit()) : window.location.href = my_destination
 }), window.map_center = {
-    city: [city_lat, city_long, city_zoom]
+    city: [city_lat , city_long , 12]
 };
 var map2, my_position = {},
     my_position_cookie = $.cookie(city + "_my_position");

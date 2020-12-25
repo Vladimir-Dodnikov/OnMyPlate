@@ -1,0 +1,44 @@
+﻿@model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
+
+<div class="bottom_restaurant_view">
+    <div class="left_part">
+        <h2>About "@Model.Name"</h2>
+        <div class="upper">@Model.SanitizedDescription</div>
+
+        <div class="bottom">
+            <div class="links">
+                <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
+                <a href=@($"/Edit/ById{44}") class="red_link_button" target="_blank">Edit Place Information</a>
+            </div>
+            <div class="additional_info">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="left">Additional options:</td>
+                            <td>
+                                @string.Join(", ", Model.Amentities.Select(x => x.Name).ToList())
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="left">Types of payment:</td>
+                            <td>
+                                @string.Join(", ", Model.PaymentTypes.Select(x => x.Name).ToList())
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="left">Working Time:</td>
+                            <td class="toogle_worktime">
+                                <div class="time">
+                                    @Model.WorkTime.OpenTime : @Model.WorkTime.CloseTime
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>

@@ -1,11 +1,15 @@
 ﻿namespace OnMyPlate.Web.Controllers
 {
+    using System.Data;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Data.SqlClient;
     using OnMyPlate.Common;
+    using OnMyPlate.Data;
     using OnMyPlate.Services;
+    using System.IO;
 
     //[Authorize]
     //[Authorize(Roles = GlobalConstants.AdministratorRoleName)]
@@ -25,7 +29,7 @@
 
         public async Task<IActionResult> Add()
         {
-            await this.rezzoScraperService.ImportPlacesAsync();
+            //await this.rezzoScraperService.ImportPlacesAsync();
 
             return this.View();
         }

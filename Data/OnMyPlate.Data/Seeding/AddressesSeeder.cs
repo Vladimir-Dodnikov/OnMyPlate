@@ -19,7 +19,7 @@
             }
 
             var addresses = new List<Address>();
-            using (StreamReader r = new StreamReader(@"Addresses.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Addresses.json"))
             {
                 string json = r.ReadToEnd();
                 addresses = JsonConvert.DeserializeObject<List<Address>>(json);

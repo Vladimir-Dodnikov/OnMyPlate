@@ -19,7 +19,7 @@
             }
 
             var images = new List<Image>();
-            using (StreamReader r = new StreamReader(@"Images.json"))
+            using (StreamReader r = new StreamReader(@"..\..\Data\OnMyPlate.Data\Seeding\ImportData\Images.json"))
             {
                 string json = r.ReadToEnd();
                 images = JsonConvert.DeserializeObject<List<Image>>(json);

@@ -11,8 +11,12 @@
 
         T GetById<T>(int id);
 
-        IEnumerable<T> GetPopular<T>();
+        int GetCount();
 
-        IEnumerable<T> GetAll<T>();
+        IEnumerable<T> GetRandom<T>(int count);
+
+        IEnumerable<T> GetAllPopular<T>();
+
+        IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 12);
     }
 }
