@@ -5,5 +5,7 @@
     public interface IAmentitiesService
     {
         IEnumerable<KeyValuePair<string, string>> GetAllAmentitiesAsKeyValuePairs();
+
+        int GetCounts();
     }
 }

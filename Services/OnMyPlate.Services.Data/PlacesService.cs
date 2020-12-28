@@ -78,6 +78,46 @@
             await this.CreatePlaceMusicTypes(input, place, selectedMusicTypes);
         }
 
+        public T GetById<T>(int id)
+        {
+            var place = this.placesRepository.AllAsNoTracking()
+               .Where(x => x.Id == id)
+               .To<T>().FirstOrDefault();
+
+            return place;
+        }
+
+        public int GetCount()
+        {
+            return this.placesRepository.All().Count();
+        }
+
+        public IEnumerable<T> GetRandom<T>(int count)
+        {
+            return this.placesRepository.All()
+                .OrderBy(x => Guid.NewGuid())
+                .Take(count)
+                .To<T>().ToList();
+        }
+
+        public IEnumerable<T> GetAllPopular<T>()
+        {
+            var places = this.placesRepository.AllAsNoTracking()
+                .OrderByDescending(x => x.Likes)
+                .To<T>().ToList();
+            return places;
+        }
+
+        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 12)
+        {
+            var places = this.placesRepository.AllAsNoTracking()
+                .Where(x => x.LogoImages.FirstOrDefault() != null)
+                .OrderByDescending(x => x.Id)
+                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
+                .To<T>().ToList();
+            return places;
+        }
+
         private async Task CreatePlaceLocations(CreatePlaceInputModel input, Place place)
         {
             var location = new Location()
@@ -245,46 +285,6 @@
             }
 
             await this.musicRepository.SaveChangesAsync();
-        }
-
-        public T GetById<T>(int id)
-        {
-            var place = this.placesRepository.AllAsNoTracking()
-               .Where(x => x.Id == id)
-               .To<T>().FirstOrDefault();
-
-            return place;
-        }
-
-        public int GetCount()
-        {
-            return this.placesRepository.All().Count();
-        }
-
-        public IEnumerable<T> GetRandom<T>(int count)
-        {
-            return this.placesRepository.All()
-                .OrderBy(x => Guid.NewGuid())
-                .Take(count)
-                .To<T>().ToList();
-        }
-
-        public IEnumerable<T> GetAllPopular<T>()
-        {
-            var places = this.placesRepository.AllAsNoTracking()
-                .OrderByDescending(x => x.Likes)
-                .To<T>().ToList();
-            return places;
-        }
-
-        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 12)
-        {
-            var places = this.placesRepository.AllAsNoTracking()
-                .Where(x => x.LogoImages.FirstOrDefault() != null)
-                .OrderByDescending(x => x.Id)
-                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
-                .To<T>().ToList();
-            return places;
         }
     }
 }

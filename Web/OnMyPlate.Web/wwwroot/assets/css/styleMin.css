@@ -12654,7 +12654,7 @@ h2.filter-restaurant-heading {
 }
 
 .rating_white {
-    background-image: url(../images/white_stars.png)
+    background-image: url(/assets/images/white_stars.png)
 }
 
 .rating_background {
@@ -23678,9 +23678,9 @@ video.lazy-hidden {
 .content_wrapper {
     margin: 0 auto;
     display: block;
-    max-width: 1200px;
+    max-width: 1300px;
     position: relative;
-    font-family: open_sanslight
+    font-family: open_sansregular
 }
 
 .middle-container-upper.row,
@@ -23976,9 +23976,7 @@ video.lazy-hidden {
 }
 
 .subtablinks.quick_res {
-    background-image: url(/assets/images/clock_white_new.png);
-    justify-content: flex-end;
-    padding-right: 20px
+    background-image: url(/assets/images/clock_gray_new.png);
 }
 
 @media(max-width:902px) {

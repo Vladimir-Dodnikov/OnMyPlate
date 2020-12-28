@@ -431,9 +431,6 @@ namespace OnMyPlate.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
-                    b.Property<int>("Rating")
-                        .HasColumnType("int");
-
                     b.Property<int>("VisitsCount")
                         .HasColumnType("int");
 
@@ -704,6 +701,37 @@ namespace OnMyPlate.Data.Migrations
                     b.ToTable("Payments");
                 });
 
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Vote", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PlaceId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<byte>("Value")
+                        .HasColumnType("tinyint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlaceId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Votes");
+                });
+
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>
                 {
                     b.Property<int>("Id")
@@ -943,6 +971,19 @@ namespace OnMyPlate.Data.Migrations
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("OnMyPlate.Data.Models.Places.Vote", b =>
+                {
+                    b.HasOne("OnMyPlate.Data.Models.Place", "Place")
+                        .WithMany("Votes")
+                        .HasForeignKey("PlaceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("OnMyPlate.Data.Models.ApplicationUser", "User")
+                        .WithMany("Votes")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("OnMyPlate.Data.Models.Places.WorkTime", b =>

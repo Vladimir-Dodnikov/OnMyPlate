@@ -26,5 +26,10 @@
             .Select(x => x.First())
             .Select(s => new KeyValuePair<string, string>(s.Id.ToString(), s.Name));
         }
+
+        public int GetCounts()
+        {
+            return this.cuisines.All().ToList().GroupBy(x => x.Name).Select(x => x.First()).Count();
+        }
     }
 }

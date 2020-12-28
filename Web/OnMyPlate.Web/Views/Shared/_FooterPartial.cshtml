@@ -4,6 +4,7 @@
     <div class="content_wrapper">
         <div class="shell">
             <div class="upper_footer">
+
                 <div class="footer-left-holder">
                     <div class="footer-section col-sm-3 col-12">
                         <div class="footer_links">
@@ -16,27 +17,32 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="footer-section col-sm-3 col-12">
                     <span>About OnMyPlate</span>
                     <ul>
-                        <li><a href="/en/about" target="_blank">What is OnMyPlate</a></li>
-                        <li><a href="/en/contacts" target="_blank">Contacts</a></li>
+                        <li><a asp-controller="About" asp-action="Index" target="_blank">What is OnMyPlate?</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-section col-sm-3 col-12">
                     <span>For clients</span>
                     <ul>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Privacy" target="_blank">&copy; @DateTime.Now.Year - @GlobalConstants.SystemName Privacy</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Privacy" target="_blank">&copy; @DateTime.Now.Year - @GlobalConstants.SystemName Privacy</a>
+                        </li>
                     </ul>
                 </div>
+
                 <div class="footer-section col-sm-3 col-12">
-                    <span>For Place's Owners</span>
+                    <span>Enterpreneurs</span>
                     <ul>
-                        <li><a href="/en/presentation" target="_blank" >How OnMyPlate is helping your business</a></li>
-                        <li><a href="/en/for_restaurants" target="_blank"></a></li>
+                        <li><a asp-controller="About" asp-action="Index" target="_blank" >How OnMyPlate is helping your business?</a>
+                        </li>
                     </ul>
                 </div>
+
                 <div class="clear"></div>
+
             </div>
         </div>
     </div>

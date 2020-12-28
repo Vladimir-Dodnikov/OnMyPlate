@@ -3,7 +3,7 @@
     using OnMyPlate.Data.Models;
     using OnMyPlate.Services.Mapping;
 
-    public class CuisinesVieModel : IMapFrom<Cuisine>
+    public class CuisinesViewModel : IMapFrom<Cuisine>
     {
         public string Name { get; set; }
 

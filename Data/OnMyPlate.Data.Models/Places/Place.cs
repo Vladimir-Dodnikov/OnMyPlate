@@ -18,6 +18,7 @@
             this.Images = new HashSet<Image>();
             this.LogoImages = new HashSet<LogoImage>();
             this.MusicTypes = new HashSet<Music>();
+            this.Votes = new HashSet<Vote>();
         }
 
         [Required]
@@ -27,8 +28,6 @@
         [Required]
         [MaxLength(GlobalConstants.PlaceDescriptionMaxLength)]
         public string Description { get; set; }
-
-        public int Rating { get; set; }
 
         public int VisitsCount { get; set; }
 
@@ -65,5 +64,7 @@
         public virtual ICollection<Music> MusicTypes { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
+
+        public virtual ICollection<Vote> Votes { get; set; }
     }
 }

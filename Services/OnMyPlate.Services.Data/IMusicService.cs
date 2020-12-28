@@ -5,5 +5,7 @@
     public interface IMusicService
     {
         IEnumerable<KeyValuePair<string, string>> GetAllMusicTypesAsKeyValuePairs();
+
+        int GetCounts();
     }
 }

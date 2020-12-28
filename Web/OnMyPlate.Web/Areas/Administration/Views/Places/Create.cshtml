@@ -1,0 +1,84 @@
+﻿@model OnMyPlate.Data.Models.Place
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="content_wrapper">
+    <h1 class="text-md-center">Create</h1>
+
+    <h4 class="text-md-center">Place</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="VisitsCount" class="control-label"></label>
+                    <input asp-for="VisitsCount" class="form-control" />
+                    <span asp-validation-for="VisitsCount" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Likes" class="control-label"></label>
+                    <input asp-for="Likes" class="form-control" />
+                    <span asp-validation-for="Likes" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Dislikes" class="control-label"></label>
+                    <input asp-for="Dislikes" class="form-control" />
+                    <span asp-validation-for="Dislikes" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="WebUrl" class="control-label"></label>
+                    <input asp-for="WebUrl" class="form-control" />
+                    <span asp-validation-for="WebUrl" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreatedByUserId" class="control-label"></label>
+                    <select asp-for="CreatedByUserId" class="form-control" asp-items="ViewBag.CreatedByUserId"></select>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="IsDeleted" /> @Html.DisplayNameFor(model => model.IsDeleted)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DeletedOn" class="control-label"></label>
+                    <input asp-for="DeletedOn" class="form-control" />
+                    <span asp-validation-for="DeletedOn" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreatedOn" class="control-label"></label>
+                    <input asp-for="CreatedOn" class="form-control" />
+                    <span asp-validation-for="CreatedOn" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ModifiedOn" class="control-label"></label>
+                    <input asp-for="ModifiedOn" class="form-control" />
+                    <span asp-validation-for="ModifiedOn" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="text-md-center">
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

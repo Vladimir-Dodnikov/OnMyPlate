@@ -1,9 +1,73 @@
 ﻿@using OnMyPlate.Common
+@using OnMyPlate.Data.Models
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@model OnMyPlate.Web.ViewModels.Home.IndexViewModel
 @{
     this.ViewData["Title"] = "Home Page";
+    var i = 1;
 }
+<div class="middle middle_view_restaurant">
+    <h1 class="display-4 text-center">Welcome to @GlobalConstants.SystemName!</h1>
+    <div class="middle_bottom_background">
+        <div class="row">
+            @foreach (var place in this.Model.RandomPlaces)
+            {
+                <div class="rest-new">
+                    <div class="rest__inner">
+                        @if (this.SignInManager.IsSignedIn(this.User))
+                        {
+                            <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
+                                <div class="features" data-key="@i"></div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+                                <header class="rest__head">
+                                    <h3 class="rest__title">@place.Name</h3>
+                                </header><!-- /.rest__head -->
+
+                                <figure class="rest__image">
+                                    <img class="rest__image" src="@place.ImageUrl" alt="restaurant-image" />
+                                </figure><!-- /.rest__image -->
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-area="Identity" asp-page="/Account/Register" class="restaurant-more search_restaurant_more">
+                                <div class="features" data-key="@i"></div>
+                                <header class="rest__head">
+                                    <h3 class="rest__title">@place.Name</h3>
+                                </header><!-- /.rest__head -->
+
+                                <figure class="rest__image">
+                                    <img class="rest__image" src="@place.ImageUrl" alt="restaurant-image" />
+                                </figure><!-- /.rest__image -->
+                            </a>
+                        }
+                        <div class="rest__content">
+                            <div class="rest__info">
+                                <div class="address">
+                                    <span class="food_type">
+                                        <b>Food: </b>@place.Cuisines.Select(x => x.Name).FirstOrDefault()
+                                    </span>
+                                    <span class="neighbourhood"><b>Location: </b>@place.Address.City</span>
+                                </div>
+                            </div><!-- /.rest__info -->
+                        </div><!-- /.rest__content -->
+                    </div><!-- /.rest__inner -->
+                </div>
+                i++;
+            }
+        </div>
+    </div>
+    <div class="list-group text-center">
+        <p>We have:</p>
+        <ul class="list-group text-center list-group-item-heading">
+            <li class="list-group-item bg-info">Places: @Model.PlacesCount</li>
+            <li class="list-group-item bg-light">Amentities: @Model.AmentitiesCount</li>
+            <li class="list-group-item bg-info">Cuisines: @Model.CuisinesCount</li>
+            <li class="list-group-item bg-light">Payment Types: @Model.PaymentTypesCount</li>
+            <li class="list-group-item bg-info">Music Types: @Model.MusicTypesCount</li>
+            <li class="list-group-item bg-light">Total Votes: @Model.VotesCount</li>
+        </ul>
+    </div>
 </div>

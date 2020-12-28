@@ -1,6 +1,7 @@
 ﻿namespace OnMyPlate.Web.Controllers
 {
     using System.Data;
+    using System.IO;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
@@ -9,10 +10,9 @@
     using OnMyPlate.Common;
     using OnMyPlate.Data;
     using OnMyPlate.Services;
-    using System.IO;
 
-    //[Authorize]
-    //[Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+    [Authorize]
+    [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
     public class GatherPlacesController : BaseController
     {
         private readonly IRezzoScraperService rezzoScraperService;

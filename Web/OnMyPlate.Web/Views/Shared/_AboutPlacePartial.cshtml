@@ -1,4 +1,5 @@
-﻿@model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
+﻿@using OnMyPlate.Common 
+@model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
 
 <div class="bottom_restaurant_view">
     <div class="left_part">
@@ -8,7 +9,14 @@
         <div class="bottom">
             <div class="links">
                 <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
-                <a href=@($"/Edit/ById{44}") class="red_link_button" target="_blank">Edit Place Information</a>
+                @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
+                {
+                    <a asp-controller="Places" asp-action="Edit" class="red_link_button" target="_blank">Edit Place Information</a>
+                }
+                else
+                {
+                    <a asp-controller="Places" asp-action="ById" asp-route-id="@Model.Id" class="red_link_button" target="_blank">Edit Place Information</a>
+                }
             </div>
             <div class="additional_info">
                 <table>

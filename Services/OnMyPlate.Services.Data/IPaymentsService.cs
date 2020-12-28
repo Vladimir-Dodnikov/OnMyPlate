@@ -5,5 +5,7 @@
     public interface IPaymentsService
     {
         IEnumerable<KeyValuePair<string, string>> GetAllPaymentTypesAsKeyValuePairs();
+
+        int GetCounts();
     }
 }

@@ -2,9 +2,10 @@
 @model OnMyPlate.Web.ViewModels.Places.PlaceViewModel
 @{
     this.ViewData["Title"] = Model.Name;
-    var lastComment = this.Model.Posts.OrderByDescending(x => x.Date).First();
+    var lastComment = this.Model.Posts.OrderByDescending(x => x.Date).FirstOrDefault();
 }
 <div class="middle middle_view_restaurant">
+
     <div class="middle_bottom_background">
         <img src="/assets/images/slide_upper_border.png" class="header_bottom_border" alt="header bottom border" />
         <div class="content_wrapper">
@@ -14,54 +15,61 @@
                     <a href="/Home/Index" class="back_button back_button_up move-left-back-buton"><img src="/assets/images/white_arrow_left.png" width="8" ;="" alt="left_arrow"><span>Back</span></a>
                     <a href="javascript:;" class="add_to_favourites _restaurant responsive_fav">Like this Place</a>
                 </div>
-                    <div class="left_container">
-                        <div class="upper_restaurant_view">
+                <div class="left_container">
+                    <div class="upper_restaurant_view">
 
-                            <div class="restaurant_basic_info bootstro " data-bootstro-step="0" data-bootstro-placement="right" data-bootstro-prevbuttontext="Previos step" data-bootstro-content="Тук ще откриете основната информация и галерията.  Налична карта с опция за указания от Вашето местоположение. По-долу ще откриете повече информация за обекта, коментари и потребителски оценки." data-bootstro-nextbuttontext="Next step" data-bootstro-finishbuttontext="" data-bootstro-width="600px">
+                        <div class="restaurant_basic_info bootstro " data-bootstro-step="0" data-bootstro-placement="right" data-bootstro-prevbuttontext="Previos step" data-bootstro-content="Тук ще откриете основната информация и галерията.  Налична карта с опция за указания от Вашето местоположение. По-долу ще откриете повече информация за обекта, коментари и потребителски оценки." data-bootstro-nextbuttontext="Next step" data-bootstro-finishbuttontext="" data-bootstro-width="600px">
 
-                                <div class="upper ">
-                                    <img src="@Model.LogoImages.FirstOrDefault().RemoteImageUrl" class="restaurant_logo" alt="Logo">
-                                    <a href="javascript:;" class="add_to_favourites _restaurant desktop_fav">Add to favourites</a>
-                                    <a href="javascript:;" class="remove_from_favourites">Remove from favourites</a>
+                            <div class="upper ">
+                                <img src="@Model.LogoImages.FirstOrDefault().RemoteImageUrl" class="restaurant_logo" alt="Logo">
+                                <a href="javascript:;" class="add_to_favourites _restaurant desktop_fav">Add to favourites</a>
+                                <a href="javascript:;" class="remove_from_favourites">Remove from favourites</a>
 
-                                    <div class="upper_right_part">
-                                        <h1>@Model.Name</h1>
-                                        <span>@Model.Address.Street <i style="font-style: normal;">@Model.Address.City</i> </span>
-                                        <span class="from-me" style="display:none;font-weight:bold"></span>
-                                        <div class="rating_hold">
-                                            <div class="rating">
-                                                <div class="rating_mask rating_mask_white" alt="rating mask" style="width:85px;"></div>
-                                            </div>
-                                        </div>
+                                <div class="upper_right_part">
+                                    <h1>@Model.Name</h1>
+                                    <span>@Model.Address.Street <i style="font-style: normal;">@Model.Address.City</i> </span>
+                                    <span class="from-me" style="display:none;font-weight:bold"></span>
+                                    <div class="row text-center">
+                                        <fieldset class="card-body text-center" style="width:89.4px;">
+                                            <label class="star-fill" data-vote="1"><i class="fas fa-star" style="color:orange"></i></label>
+                                            <label class="star-fill" data-vote="2"><i class="fas fa-star" style="color:orange"></i></label>
+                                            <label class="star-fill" data-vote="3"><i class="fas fa-star" style="color:orange"></i></label>
+                                            <label class="star-fill" data-vote="4"><i class="fas fa-star" style="color:orange"></i></label>
+                                            <label class="star-fill" data-vote="5"><i class="fas fa-star" style="color:orange"></i></label>
+                                            <label><label id="averageVoteValue">@Model.AverageVoting</label><label> / 5</label> </label>
+                                        </fieldset>
                                     </div>
-
                                 </div>
 
-                                <div class="middle">
-                                    <span class="food_type">
-                                        <b>Cuisine: </b>@string.Join(", ", Model.Cuisines.Select(x => x.Name).ToList())
+                            </div>
+
+                            <div class="middle">
+                                <span class="food_type">
+                                    <b>Cuisine: </b>@string.Join(", ", Model.Cuisines.Select(x => x.Name).ToList())
+                                </span>
+                                @if (Model.MusicTypes != null)
+                                {
+                                    <span class="music_type">
+                                        <b>Music: </b>@string.Join(", ", Model.MusicTypes.Select(x => x.Name).ToList())
                                     </span>
-                                    @if (Model.MusicTypes != null)
-                                    {
-                                        <span class="music_type">
-                                            <b>Music: </b>@string.Join(", ", Model.MusicTypes.Select(x => x.Name).ToList())
-                                        </span>
-                                    }
-                                    else
-                                    {
-                                        <span class="music_type">
-                                            <b>Music: </b> No information
-                                        </span>
-                                    }
-                                    <span class="neibhourhood"><b>Location: </b>:&nbsp;Malinova Dolina</span>
-                                    <span class="price"><b>Average bill: </b>:&nbsp;From 20 lv. to 30 lv. / person</span>
-                                    <i style="font-size:11px;">(the prices are examplary)</i>
-                                    @*TODO Add Neibourhood and Average Bill in MVC*@
-                                    @*<span class="neibhourhood"><b>Location</b>:&nbsp;Malinova Dolina</span>*@
-                                    @*<span class="price"><b>Average bill</b>:&nbsp;From 20 lv. to 30 lv. / person</span>
-                                        <i style="font-size:11px;">(the prices are examplary)</i>*@
-                                </div>
+                                }
+                                else
+                                {
+                                    <span class="music_type">
+                                        <b>Music: </b> No information
+                                    </span>
+                                }
+                                <span class="neibhourhood"><b>Location: </b>:&nbsp;Malinova Dolina</span>
+                                <span class="price"><b>Average bill: </b>:&nbsp;From 20 lv. to 30 lv. / person</span>
+                                <i style="font-size:11px;">(the prices are examplary)</i>
+                                @*TODO Add Neibourhood and Average Bill in MVC*@
+                                @*<span class="neibhourhood"><b>Location</b>:&nbsp;Malinova Dolina</span>*@
+                                @*<span class="price"><b>Average bill</b>:&nbsp;From 20 lv. to 30 lv. / person</span>
+                                    <i style="font-size:11px;">(the prices are examplary)</i>*@
+                            </div>
 
+                            @if (lastComment != null)
+                            {
                                 <div class="last_comment">
                                     <h2>Last comment</h2>
                                     <div class="rating_hold">
@@ -75,57 +83,90 @@
                                     </span>
                                     <a href="javascript:;" name="see_more_comment" class="see_more_comment">See more</a>
                                 </div>
-                            </div>
-                            <div class="restaurant_slideshow_holder restaurant_slideshow_holder_up">
-                                <div class="restaurant_slideshow owl-carousel owl-theme" style="opacity: 1; display:block;">
+                            }
+                            else
+                            {
+                                <div class="last_comment">
+                                    <h2>Last comment</h2>
+                                    <span>No comments yet!</span>
+                                </div>
+                            }
+                        </div>
+                        <div class="restaurant_slideshow_holder restaurant_slideshow_holder_up">
+                            <div class="restaurant_slideshow owl-carousel owl-theme" style="opacity: 1; display:block;">
 
-                                    <div class="owl-wrapper-outer">
-                                        <div class="owl-wrapper" style="width: 3448px; left: 0px; display: block;">
-                                            @foreach (var img in Model.Images)
+                                <div class="owl-wrapper-outer">
+                                    <div class="owl-wrapper" style="width: 3448px; left: 0px; display: block;">
+                                        @foreach (var img in Model.Images)
+                                        {
+                                            <div class="owl-item" style="width: 431px;">
+                                                <div class="big_image">
+                                                    <img src="@img.RemoteImageUrl" alt="">
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="owl-controls clickable">
+                                    <div class="owl-pagination">
+                                        @foreach (var img in Model.Images)
+                                        {
+                                            @if (Model.Images.Last() == img)
                                             {
-                                                <div class="owl-item" style="width: 431px;">
-                                                    <div class="big_image">
-                                                        <img src="@img.RemoteImageUrl" alt="">
-                                                    </div>
+                                                <div class="owl-page last">
+                                                    <span class="red_border"></span>
+                                                    <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
                                                 </div>
                                             }
-                                        </div>
-                                    </div>
-
-                                    <div class="owl-controls clickable">
-                                        <div class="owl-pagination">
-                                            @foreach (var img in Model.Images)
+                                            else
                                             {
-                                                @if (Model.Images.Last() == img)
-                                                {
-                                                    <div class="owl-page last">
-                                                        <span class="red_border"></span>
-                                                        <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
-                                                    </div>
-                                                }
-                                                else
-                                                {
-                                                    <div class="owl-page">
-                                                        <span class="red_border"></span>
-                                                        <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
-                                                    </div>
-                                                }
+                                                <div class="owl-page">
+                                                    <span class="red_border"></span>
+                                                    <img src="@img.RemoteImageUrl" alt="image thumb" style="width: 101px;">
+                                                </div>
                                             }
-                                        </div>
+                                        }
                                     </div>
                                 </div>
                             </div>
-                            <div class="clear"></div>
                         </div>
-
-                        <partial name="_PlaceLocationPartial" />
-
-                        <partial name="_AboutPlacePartial" />
-
-                        <partial name="_PlaceCommentsPartial" />
+                        <div class="clear"></div>
                     </div>
+
+                    <partial name="_PlaceLocationPartial" />
+
+                    <partial name="_AboutPlacePartial" />
+                    
+                    <partial name="_PlaceCommentsPartial" />
+                </div>
             </div>
         </div>
         <div class="clear"></div>
     </div>
 </div>
+<form method="post" id="antiForgeryForm"></form>
+@section Scripts {
+    <script>
+        $("label[data-vote]").each(function (el) {
+            $(this).click(function () {
+                var value = $(this).attr("data-vote");
+                var placeId = @Model.Id;
+                var antiForgeryToken = $('#antiForgeryForm input[name=__RequestVerificationToken]').val();
+                var data = { placeId: placeId, value: Number(value) };
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Votes",
+                    data: JSON.stringify(data),
+                    headers: {
+                        'X-CSRF-TOKEN': antiForgeryToken
+                    },
+                    success: function (data) {
+                        $('#averageVoteValue').html(data.averageVote.toFixed(1));
+                    },
+                    contentType: 'application/json',
+                });
+            })
+        });
+    </script>
+}

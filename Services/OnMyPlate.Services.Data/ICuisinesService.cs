@@ -5,5 +5,7 @@
     public interface ICuisinesService
     {
         IEnumerable<KeyValuePair<string, string>> GetAllCuisineAsKeyValuePairs();
+
+        int GetCounts();
     }
 }
