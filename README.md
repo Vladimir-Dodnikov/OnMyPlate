@@ -5,11 +5,11 @@ OnMyPlate is a restaurant platform of the latest generation. With OnMyPlate you 
 OnMyPlate is a kind of startup B2B platform!
 
 # 🛠 Built with: #
-* .NET Core 3.1
-* ASP.NET Core 3.1
-* ASP.NET Core WebAPI 3.1
-* Entity Framework Core 3.1
-* MyTested.AspNetCore.Mvc
-* AutoMapper
+* [.NET Core 3.1](https://github.com/dotnet/core)
+* [ASP.NET Core 3.1](https://github.com/dotnet/aspnetcore)
+* [ASP.NET Core WebAPI 3.1](https://github.com/dotnet/aspnetcore)
+* [Entity Framework Core 3.1](https://github.com/dotnet/efcore)
+* [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc)
+* [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 
 
