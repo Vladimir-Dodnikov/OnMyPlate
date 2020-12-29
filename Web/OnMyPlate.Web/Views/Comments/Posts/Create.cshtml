@@ -1,0 +1,83 @@
+﻿@using OnMyPlate.Common
+@model OnMyPlate.Web.ViewModels.Comments.Posts.PostCreateInputModel
+@{
+    ViewData["Title"] = "Create New Post";
+}
+
+<div class="container">
+    <div class="tt-wrapper-inner">
+        <br />
+        <h1 class="tt-title-border">
+            @ViewData["Title"]
+        </h1>
+        <form class="form-default form-create-topic" asp-action="Create">
+            <div asp-validation-summary="All"></div>
+            <div class="form-group">
+                <label asp-for="PostDescription">Post Title</label>
+                <div class="tt-value-wrapper">
+                    <input asp-for="PostDescription"
+                           type="text"
+                           class="form-control"
+                           id="inputTopicTitle"
+                           placeholder="Subject of your post"
+                           onkeyup="changeRemainingLength()" />
+                    <span id="remainingLength" class="tt-value-input">@GlobalConstants.MessageContentMaxLength</span>
+                    <span asp-validation-for="PostDescription"></span>
+                </div>
+                <div class="tt-note">Describe your post well, while keeping the subject as short as possible.</div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author">Author Information</label>
+                <input id="post-type" value="@Model.AuhtorId" asp-for="AuhtorId" type="radio" hidden />
+                <span asp-validation-for="Author"></span>
+            </div>
+            <div class="pt-editor">
+                <h6 class="pt-title">Post Description</h6>
+                <div class="form-group">
+                    <textarea id="customTextArea" asp-for="PostDescription" placeholder="Lets get started"></textarea>
+                    <span asp-validation-for="PostDescription"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="PlaceId">Place Id</label>
+                            <select asp-for="PlaceId" id="input-category">
+                                    <option value="@Model.PlaceId">@Model.Place.Name</option>
+                            </select>
+                            <span asp-validation-for="PlaceId"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto ml-md-auto">
+                        <button type="submit" class="btn btn-secondary btn-width-lg">Create Post</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function changeRemainingLength() {
+            var value = $('#inputTopicTitle').val();
+            $('#remainingLength').html(@GlobalConstants.MessageContentMaxLength - value.length);
+        }
+        var $select = $('#input-category').selectize({
+            create: false,
+            sortField: 'text',
+            placeholder: 'Please select...'
+        });
+        $select.each(function () {
+            $(this)[0].selectize.clear(true);
+        });
+        $('#input-tags').selectize({
+            plugins: ['remove_button'],
+            delimiter: ',',
+            persist: false,
+            create: false
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}
