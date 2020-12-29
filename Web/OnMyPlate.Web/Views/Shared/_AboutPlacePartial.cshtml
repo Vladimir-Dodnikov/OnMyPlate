@@ -10,7 +10,7 @@
             <div class="links">
                 <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
                 <div class="single-meta">
-                    <form method="post" asp-action="SendToEmail" asp-route-id="@Model.Id">
+                    <form method="post" asp-controller="Places" asp-action="SendToEmail" asp-route-id="@Model.Id">
                         <button class="btn btn-warning red_link_button">Send to my email</button>
                     </form>
                 </div>

@@ -192,7 +192,7 @@
             html.AppendLine($"<h1>{place.Name}</h1>");
             html.AppendLine($"<h3>{place.Description}</h3>");
             html.AppendLine($"<img src=\"{place.Images.FirstOrDefault().RemoteImageUrl}\" />");
-            await this.emailSender.SendEmailAsync("onmyplate@onmyplate.com", "OnMyPlate", "povime4686@aranelab.com", place.Name, html.ToString());
+            await this.emailSender.SendEmailAsync("onmyplate@onmyplate.com", "OnMyPlate", "nabel87782@chomagor.com", place.Name, html.ToString());
             return this.RedirectToAction(nameof(this.ById), new { id });
         }
     }
