@@ -12,4 +12,10 @@ OnMyPlate is a kind of startup B2B platform!
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc)
 * [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 
+#### Admin ####
+e-mail: admin@abv.bg
+password: admin@abv.bg
 
+#### User ####
+e-mail: admin2@abv.bg
+password: 123456
