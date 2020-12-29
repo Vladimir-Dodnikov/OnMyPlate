@@ -3,13 +3,16 @@
     using System;
     using System.Linq;
     using System.Security.Claims;
+    using System.Text;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Hosting;
+
     using Microsoft.AspNetCore.Mvc;
     using OnMyPlate.Common;
     using OnMyPlate.Services.Data;
+    using OnMyPlate.Services.Messaging;
     using OnMyPlate.Web.ViewModels.Places;
 
     public class PlacesController : Controller
@@ -20,6 +23,7 @@
         private readonly IMusicService musicService;
         private readonly IPlacesService placesService;
         private readonly IWebHostEnvironment environment;
+        private readonly IEmailSender emailSender;
 
         public PlacesController(
             IAmentitiesService amentityService,
@@ -27,7 +31,8 @@
             IPaymentsService paymentsService,
             IMusicService musicService,
             IPlacesService placesService,
-            IWebHostEnvironment environment)
+            IWebHostEnvironment environment,
+            IEmailSender emailSender)
         {
             this.amentityService = amentityService;
             this.cuisineService = cuisineService;
@@ -35,6 +40,7 @@
             this.musicService = musicService;
             this.placesService = placesService;
             this.environment = environment;
+            this.emailSender = emailSender;
             this.paymentsService = paymentsService;
         }
 
@@ -176,6 +182,18 @@
         {
             var place = this.placesService.GetById<PlaceViewModel>(id);
             return this.View(place);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SendToEmail(int id)
+        {
+            var place = this.placesService.GetById<PlaceViewModel>(id);
+            var html = new StringBuilder();
+            html.AppendLine($"<h1>{place.Name}</h1>");
+            html.AppendLine($"<h3>{place.Description}</h3>");
+            html.AppendLine($"<img src=\"{place.Images.FirstOrDefault().RemoteImageUrl}\" />");
+            await this.emailSender.SendEmailAsync("onmyplate@onmyplate.com", "OnMyPlate", "povime4686@aranelab.com", place.Name, html.ToString());
+            return this.RedirectToAction(nameof(this.ById), new { id });
         }
     }
 }

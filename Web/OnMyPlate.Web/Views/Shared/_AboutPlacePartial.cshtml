@@ -9,6 +9,11 @@
         <div class="bottom">
             <div class="links">
                 <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
+                <div class="single-meta">
+                    <form method="post" asp-action="SendToEmail" asp-route-id="@Model.Id">
+                        <button class="btn btn-warning red_link_button">Send to my email</button>
+                    </form>
+                </div>
                 @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
                 {
                     <a asp-controller="Places" asp-action="Edit" asp-route-id="@Model.Id" class="red_link_button" target="_blank">Edit Place Information</a>
@@ -16,6 +21,7 @@
                 else
                 {
                     <a asp-controller="Places" asp-action="ById" asp-route-id="@Model.Id" class="red_link_button" target="_blank">Edit Place Information</a>
+                   
                 }
             </div>
             <div class="additional_info">
