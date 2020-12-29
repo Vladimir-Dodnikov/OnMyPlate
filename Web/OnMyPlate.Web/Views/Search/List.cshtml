@@ -1,0 +1,30 @@
+﻿@model OnMyPlate.Web.ViewModels.Search.ListViewModel
+
+@{
+    ViewData["Title"] = "Search result";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+@if (!Model.Places.Any())
+{
+    <p>Nothing found.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var place in this.Model.Places)
+        {
+            <div class="card col-md-3">
+                <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="restaurant-more search_restaurant_more">
+                    <img class="card-img-top" src="@place.Images.FirstOrDefault().RemoteImageUrl" alt="@place.Name" />
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@place.Name</h5>
+                    <p class="card-text">@place.Name</p>
+                    <a asp-controller="Places" asp-action="ById" asp-route-id="@place.Id" class="btn btn-primary">Go to place!</a>
+                </div>
+            </div>
+        }
+    </div>
+}

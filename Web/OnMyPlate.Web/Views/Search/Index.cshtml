@@ -1,0 +1,24 @@
+﻿@model OnMyPlate.Web.ViewModels.Search.SearchIndexViewModel
+@{
+    ViewData["Title"] = "Search place by Cuisine Type";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="List" method="get">
+    <div class="row">
+        @foreach (var cuisine in Model.Cuisines)
+        {
+            <div class="col-1 text-center">
+                <input id="ingredient_@cuisine.Key"
+                       type="checkbox"
+                       name="Cuisines"
+                       value="@cuisine.Value"
+                       class="form-control" />
+                <label for="ingredient_@cuisine.Key">@cuisine.Value</label>
+            </div>
+        }
+    </div>
+
+    <button class="btn btn-primary">Search</button>
+</form>

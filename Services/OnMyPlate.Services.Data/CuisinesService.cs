@@ -5,19 +5,24 @@
 
     using OnMyPlate.Data.Common.Repositories;
     using OnMyPlate.Data.Models;
+    using OnMyPlate.Services.Mapping;
 
     public class CuisinesService : ICuisinesService
     {
-        private readonly IDeletableEntityRepository<Cuisine> cuisines;
+        private readonly IDeletableEntityRepository<Cuisine> cuisinesRepository;
+        private readonly IDeletableEntityRepository<Place> placesRepository;
 
-        public CuisinesService(IDeletableEntityRepository<Cuisine> cuisines)
+        public CuisinesService(
+            IDeletableEntityRepository<Cuisine> cuisinesRepository,
+            IDeletableEntityRepository<Place> placesRepository)
         {
-            this.cuisines = cuisines;
+            this.cuisinesRepository = cuisinesRepository;
+            this.placesRepository = placesRepository;
         }
 
         public IEnumerable<KeyValuePair<string, string>> GetAllCuisineAsKeyValuePairs()
         {
-            return this.cuisines.All().Select(x => new
+            return this.cuisinesRepository.All().Select(x => new
             {
                 x.Id,
                 x.Name,
@@ -29,7 +34,15 @@
 
         public int GetCounts()
         {
-            return this.cuisines.All().ToList().GroupBy(x => x.Name).Select(x => x.First()).Count();
+            return this.cuisinesRepository.All().ToList().GroupBy(x => x.Name).Select(x => x.First()).Count();
+        }
+
+        public IEnumerable<T> GetAllPopular<T>()
+        {
+            return this.cuisinesRepository.All()
+                .Where(x => x.Place.Id >= 5)
+                .OrderByDescending(x => x.PlaceId)
+                .To<T>().ToList();
         }
     }
 }

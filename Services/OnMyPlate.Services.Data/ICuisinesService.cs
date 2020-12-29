@@ -7,5 +7,7 @@
         IEnumerable<KeyValuePair<string, string>> GetAllCuisineAsKeyValuePairs();
 
         int GetCounts();
+
+        IEnumerable<T> GetAllPopular<T>();
     }
 }

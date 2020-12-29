@@ -78,6 +78,41 @@
             await this.CreatePlaceMusicTypes(input, place, selectedMusicTypes);
         }
 
+        public async Task UpdateAsync(int id, PlaceViewModel input)
+        {
+            var place = this.placesRepository.All().FirstOrDefault(x => x.Id == id);
+            place.Name = input.Name;
+            place.Description = input.Description;
+            place.WebUrl = input.WebUrl;
+            place.Location.Lattitude = input.Location.Lattitude;
+            place.Location.Longtitude = input.Location.Longtitude;
+            place.Location.GoogleAddress = input.Location.GoogleAddress;
+            place.Address.City = input.Address.City;
+            place.Address.Street = input.Address.Street;
+            place.WorkTime.OpenTime = input.WorkTime.OpenTime;
+            place.WorkTime.CloseTime = input.WorkTime.CloseTime;
+
+            await this.placesRepository.SaveChangesAsync();
+        }
+
+        public IEnumerable<T> GetByCusines<T>(IEnumerable<string> cuisines)
+        {
+            var query = this.placesRepository.All().AsQueryable();
+            foreach (var item in cuisines)
+            {
+                query = query.Where(x => x.Cuisines.Any(i => i.Name == item));
+            }
+
+            return query.To<T>().ToList();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var place = this.placesRepository.All().FirstOrDefault(x => x.Id == id);
+            this.placesRepository.Delete(place);
+            await this.placesRepository.SaveChangesAsync();
+        }
+
         public T GetById<T>(int id)
         {
             var place = this.placesRepository.AllAsNoTracking()

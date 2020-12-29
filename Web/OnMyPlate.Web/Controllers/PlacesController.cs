@@ -83,10 +83,38 @@
                 return this.View(input);
             }
 
-            this.TempData["Message"] = "Recipe added successfully.";
+            this.TempData["Message"] = "Place added successfully.";
 
             // TODO: Redirect to PlacesPage
             return this.Redirect("/");
+        }
+
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public IActionResult Edit(int id)
+        {
+            var inputModel = this.placesService.GetById<PlaceViewModel>(id);
+            return this.View(inputModel);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public async Task<IActionResult> Edit(int id, PlaceViewModel input)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                return this.View(input);
+            }
+
+            await this.placesService.UpdateAsync(id, input);
+            return this.RedirectToAction(nameof(this.ById), new { id });
+        }
+
+        [HttpPost]
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await this.placesService.DeleteAsync(id);
+            return this.RedirectToAction(nameof(this.All));
         }
 
         public IActionResult Newest(int id = 1)

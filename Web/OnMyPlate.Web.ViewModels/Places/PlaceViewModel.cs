@@ -12,6 +12,13 @@
 
     public class PlaceViewModel : IMapFrom<Place>, IHaveCustomMappings
     {
+        public PlaceViewModel()
+        {
+            this.Location = new LocationViewModel();
+            this.Address = new AddressViewModel();
+            this.WorkTime = new WorkTimeViewModel();
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }

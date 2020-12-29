@@ -11,7 +11,7 @@
                 <a href=@(Model.WebUrl) class="red_link_button" target="_blank">Web page</a>
                 @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
                 {
-                    <a asp-controller="Places" asp-action="Edit" class="red_link_button" target="_blank">Edit Place Information</a>
+                    <a asp-controller="Places" asp-action="Edit" asp-route-id="@Model.Id" class="red_link_button" target="_blank">Edit Place Information</a>
                 }
                 else
                 {
